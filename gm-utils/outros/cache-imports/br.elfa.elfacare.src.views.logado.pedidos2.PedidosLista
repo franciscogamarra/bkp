@@ -1,0 +1,14 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.nicks.Tx
+br.elfa.elfacare.src.state.AppState
+br.elfa.elfacare.src.views.logado.pedidos2.Pedido
+br.elfa.elfacare.src.views.logado.pedidos2.PedidoRes
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsulta
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaParams
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P1
+html.div
+react.support.ReactNode
+src.commom.utils.object.Null
+src.commom.utils.string.StringBeforeFirst

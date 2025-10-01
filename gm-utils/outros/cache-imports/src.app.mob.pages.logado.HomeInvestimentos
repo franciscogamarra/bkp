@@ -1,0 +1,15 @@
+gm.utils.lambda.P0
+libs.fontAwesome.FaIcons
+react.support.ReactNode
+src.app.mob.acoes.NavegacaoLogado
+src.app.mob.components.botoes.BotaoCinza
+src.app.mob.pages.Page
+src.app.mob.partes.investimento.ExtratoResumidoDeInvestimentosView
+src.app.mob.state.Tema
+src.app.react.consts.enums.Color
+src.app.react.consts.enums.TextAlign
+src.app.react.utils.Border
+src.react.Frag
+src.web.Div
+src.web.Span
+support.interfaces.PaginaLogado

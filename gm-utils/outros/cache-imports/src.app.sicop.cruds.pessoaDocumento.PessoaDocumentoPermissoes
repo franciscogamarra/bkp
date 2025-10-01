@@ -1,0 +1,5 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.fc.components.Permissoes
+src.app.sicop.cruds.pessoaDocumento.PessoaDocumentoApi
+src.react.padrao.Api

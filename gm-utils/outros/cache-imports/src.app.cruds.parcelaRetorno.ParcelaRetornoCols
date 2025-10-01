@@ -1,0 +1,13 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.cruds.parcelaRetorno.ParcelaRetorno
+src.app.cruds.parcelaRetorno.ParcelaRetornoConsulta
+src.app.react.consts.enums.TextAlign
+src.app.react.utils.UDouble
+src.app.react.utils.UIdText
+src.app.react.utils.UInteger
+src.app.react.utils.UMoney
+src.commom.utils.array.ArrayLst
+src.fc.components.consulta.IGetCols
+src.fc.components.tabela.Coluna

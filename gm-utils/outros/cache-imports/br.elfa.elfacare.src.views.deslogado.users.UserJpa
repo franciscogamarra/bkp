@@ -1,0 +1,8 @@
+br.elfa.elfacare.src.back.mock.ObjetoJpa
+br.elfa.elfacare.src.views.deslogado.users.UserJson
+br.elfa.elfacare.src.views.logado.clients.mock.ClientDao
+br.elfa.elfacare.src.views.logado.clients.mock.ClientJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+src.app.react.utils.UEmail
+src.commom.utils.comum.Randomico

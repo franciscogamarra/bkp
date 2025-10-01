@@ -1,0 +1,6 @@
+js.annotations.NoAuto
+src.app.fc.components.EntityFront
+src.app.gerador.cruds.tbColuna.TbColuna
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.UJson

@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2Campos
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2Cols
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2Consulta
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2Edit
+src.app.consolidate.cruds.cieloRegistro2.CieloRegistro2Permissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

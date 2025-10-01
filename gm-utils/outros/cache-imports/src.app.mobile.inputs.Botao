@@ -1,0 +1,13 @@
+gm.utils.lambda.P0
+js.Js
+libs.react_native.Text
+react.support.ReactNode
+react.support.anotacoes.Auto
+react.support.anotacoes.NoProps
+src.app.components.Touchable
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Border
+src.app.react.utils.Style
+src.commom.utils.object.Null
+src.mobile.components.Vw

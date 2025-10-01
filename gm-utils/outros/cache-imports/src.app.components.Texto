@@ -1,0 +1,6 @@
+libs.react_native.Text
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Style

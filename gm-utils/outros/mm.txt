@@ -1,0 +1,85 @@
+import org.modelmapper.Converter;
+import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeMap;
+import org.modelmapper.spi.MappingContext;
+import javax.enterprise.context.ApplicationScoped;
+import java.lang.reflect.Field;
+import java.util.Arrays;
+
+@ApplicationScoped
+public class ModelMapperConfig {
+    private final ModelMapper modelMapper;
+
+    public ModelMapperConfig() {
+        modelMapper = new ModelMapper();
+
+        Converter<DataDto, String> dataConverter = new Converter<DataDto, String>() {
+            @Override
+            public String convert(MappingContext<DataDto, String> context) {
+                DataDto dataDto = context.getSource();
+                return String.format("%02d/%02d/%04d", dataDto.getDia(), dataDto.getMes(), dataDto.getAno());
+            }
+        };
+
+        // Registra um conversor personalizado para cada atributo do tipo DataDto em qualquer nível da hierarquia de objetos
+        registerDataDtoConverter(modelMapper, dataConverter);
+    }
+
+    public ModelMapper getModelMapper() {
+        return modelMapper;
+    }
+
+    private void registerDataDtoConverter(ModelMapper modelMapper, Converter<DataDto, String> dataConverter) {
+        modelMapper.getConfiguration().getConverters().add(dataConverter);
+
+        modelMapper.getConfiguration().setPropertyCondition((mappingContext) -> {
+            Object source = mappingContext.getSource();
+            return source != null && !(source instanceof String);
+        });
+
+        modelMapper.getConfiguration().setAmbiguityIgnored(true);
+
+        modelMapper.getConfiguration().getConverters().add(new Converter<Object, Object>() {
+            @Override
+            public Object convert(MappingContext<Object, Object> context) {
+                if (context.getDestinationType().equals(String.class) && context.getSourceType().equals(DataDto.class)) {
+                    return dataConverter.convert((MappingContext<DataDto, String>) context);
+                }
+                return context.getSource();
+            }
+        });
+
+        modelMapper.validate();
+
+        for (Field field : getAllFields(modelMapper.getTypeMapStore().getMergedTypes())) {
+            if (DataDto.class.isAssignableFrom(field.getType())) {
+                TypeMap<?, ?> typeMap = modelMapper.getTypeMap(field.getGenericType(), String.class);
+                if (typeMap == null) {
+                    typeMap = modelMapper.createTypeMap(field.getGenericType(), String.class);
+                }
+                typeMap.addMappings(mapper -> {
+                    mapper.using(dataConverter).map(field.getName(), context -> context.getSource() != null ? context.getSource() : new DataDto());
+                });
+            }
+        }
+    }
+
+    private static Field[] getAllFields(Class<?> clazz) {
+        if (clazz == null) {
+            return new Field[0];
+        }
+        return concat(clazz.getDeclaredFields(), getAllFields(clazz.getSuperclass()));
+    }
+
+    private static <T> T[] concat(T[] a, T[] b) {
+        int aLen = a.length;
+        int bLen = b.length;
+
+        @SuppressWarnings("unchecked")
+        T[] c = (T[]) java.lang.reflect.Array.newInstance(a.getClass().getComponentType(), aLen + bLen);
+        System.arraycopy(a, 0, c, 0, aLen);
+        System.arraycopy(b, 0, c, aLen, bLen);
+
+        return c;
+    }
+}

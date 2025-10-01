@@ -1,0 +1,8 @@
+br.elfa.elfacare.src.views.logado.patient.mock.PatientJson
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.DrugDetalheJson
+br.elfa.elfacare.src.views.logado.prescriptions.PrescriptionJson
+br.elfa.elfacare.src.views.logado.tratamentos.TreatmentSimpleJson
+gm.utils.anotacoes.Ignorar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.TypeJs
+js.array.Array

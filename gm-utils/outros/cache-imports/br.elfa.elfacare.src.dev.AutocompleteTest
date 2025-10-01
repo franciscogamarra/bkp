@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.input.OurInput
+br.elfa.elfacare.src.comps.input.OurInputItem
+exec.ts.infra.FC
+exec.ts.infra.StateProp
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+react.support.ReactNode
+src.commom.utils.array.Itens

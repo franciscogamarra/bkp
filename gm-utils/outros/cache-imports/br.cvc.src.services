@@ -1,0 +1,5 @@
+br.cvc.Transpilar
+br.cvc.src.apiBase
+br.cvc.src.mock.ApiMock
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.NaoConverter

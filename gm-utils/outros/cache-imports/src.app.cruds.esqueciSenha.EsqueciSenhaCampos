@@ -1,0 +1,16 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.auto.esqueciSenha.EsqueciSenhaCamposAbstract
+src.app.cruds.esqueciSenha.EnviarEmailTo
+src.app.cruds.esqueciSenha.EsqueciSenha
+src.app.cruds.esqueciSenha.EsqueciSenhaTo
+src.app.cruds.mudarSenha.MudarSenha
+src.app.cruds.mudarSenha.MudarSenhaCampos
+src.app.react.campos.support.VBoolean
+src.app.react.campos.support.VString
+src.fc.login.EfetuarLogin
+src.fc.login.Logado
+src.fc.login.Usuario
+src.fc.login.esqueciSenha.ShowModalEsqueciSenhaCadastrar
+src.fc.login.esqueciSenha.ShowModalEsqueciSenhaCodigo
+src.fc.login.esqueciSenha.ShowModalEsqueciSenhaEmail

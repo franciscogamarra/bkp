@@ -1,0 +1,4 @@
+br.Transpilar
+br.sipeagro001.src.views.deslogado.users.UserDao
+br.sipeagro001.src.views.deslogado.users.UserJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

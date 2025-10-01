@@ -1,0 +1,7 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.ItemInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.components.utils.tiposInvestimentosGrid.Tipo
+br.sicoob.src.app.shared.utils.Utils
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty

@@ -1,0 +1,17 @@
+br.elfa.elfacare.Transpilar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.classes.UClass
+gm.utils.exception.NaoImplementadoException
+gm.utils.reflection.Atributo
+gm.utils.reflection.Atributos
+gm.utils.reflection.Atributos
+gm.utils.string.ListString
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.string.StringRight
+src.commom.utils.string.StringTrim
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora
+src.commom.utils.tempo.Hora

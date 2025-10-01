@@ -1,0 +1,11 @@
+src.commom.utils.array.Itens
+src.commom.utils.string.StringBox
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringPrimeiraMaiuscula
+src.commom.utils.string.StringRepete
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringTrim

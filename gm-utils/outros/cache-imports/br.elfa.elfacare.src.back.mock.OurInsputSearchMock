@@ -1,0 +1,13 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.MockPaginacao
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.Aleatorio
+gm.utils.comum.UNomeProprio
+gm.utils.string.ListString
+js.array.Array
+src.commom.utils.array.Itens
+src.commom.utils.idText.UidText
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos

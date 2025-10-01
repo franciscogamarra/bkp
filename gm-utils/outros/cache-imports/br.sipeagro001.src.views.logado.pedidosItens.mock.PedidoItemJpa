@@ -1,0 +1,15 @@
+br.sipeagro001.src.back.mock.ObjetoJpa
+br.sipeagro001.src.views.logado.clients.mock.ClientJpa
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoDao
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoJpa
+br.sipeagro001.src.views.logado.patient.mock.PatientJpa
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoDao
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoJpa
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemJson
+br.sipeagro001.src.views.logado.status.mock.StatusDao
+br.sipeagro001.src.views.logado.status.mock.StatusJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.anotacoes.ManterDaquiPraBaixo
+js.Js
+src.commom.utils.comum.Randomico
+src.commom.utils.tempo.Data

@@ -1,0 +1,6 @@
+app.components.views.common.URedux
+olds.reducers.ReducerBox
+olds.reducers.ReducerCredito
+olds.reducers.ReducerDocumento
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct

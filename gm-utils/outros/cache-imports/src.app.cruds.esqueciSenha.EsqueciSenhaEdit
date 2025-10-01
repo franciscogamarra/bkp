@@ -1,0 +1,5 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.auto.esqueciSenha.EsqueciSenhaEditAbstract
+src.fc.login.EfetuarLogout
+src.fc.login.esqueciSenha.ShowModalEsqueciSenhaCadastrar

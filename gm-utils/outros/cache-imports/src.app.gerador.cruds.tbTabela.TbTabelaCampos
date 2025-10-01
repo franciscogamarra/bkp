@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.gerador.cruds.tbTabela.TbTabelaCamposAbstract
+src.commom.utils.array.ArrayLst
+src.commom.utils.integer.IntegerIs
+src.commom.utils.string.StringCases
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringCorretorOrtografico
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringPrimeiraMaiuscula

@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.cruds.contrato.Contrato
+src.app.cruds.contrato.ContratoConsulta
+src.app.react.consts.enums.TextAlign
+src.app.react.utils.UIdText
+src.commom.utils.array.ArrayLst
+src.fc.components.consulta.IGetCols
+src.fc.components.tabela.Coluna

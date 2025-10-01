@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.cieloRegistro6.CieloRegistro6
+src.app.cruds.cieloRegistro6.CieloRegistro6Campos
+src.app.cruds.cieloRegistro6.CieloRegistro6Cols
+src.app.cruds.cieloRegistro6.CieloRegistro6Consulta
+src.app.cruds.cieloRegistro6.CieloRegistro6Edit
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela

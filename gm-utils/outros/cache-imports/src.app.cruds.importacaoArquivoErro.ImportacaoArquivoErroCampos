@@ -1,0 +1,15 @@
+js.UNative
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.cruds.importacaoArquivoErro.ImportacaoArquivoErro
+src.app.cruds.importacaoArquivoErro.ImportacaoArquivoErroConsulta
+src.app.cruds.importacaoArquivoErro.ImportacaoArquivoErroUtils
+src.app.react.campos.support.VFk
+src.app.react.campos.support.VInteger
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringParse
+src.fc.components.EntityCampos
+src.fc.components.campoAlterado.CampoAlterado

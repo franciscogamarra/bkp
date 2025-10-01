@@ -1,0 +1,8 @@
+js.promise.Promise
+js.promise.Response
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.fc.services.FcAxios
+src.web.padrao.outros.VariaveisDeAmbiente
+src.notec.apis.TaxasViewService
+src.react.padrao.Api

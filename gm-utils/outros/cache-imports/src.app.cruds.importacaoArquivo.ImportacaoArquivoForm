@@ -1,0 +1,15 @@
+html.a
+html.p
+libs.antd.Col
+libs.antd.Row
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.cruds.importacaoArquivo.ImportacaoArquivo
+src.app.cruds.importacaoArquivo.ImportacaoArquivoEdit
+src.app.cruds.importacaoArquivo.ImportacaoArquivoUtils
+src.app.react.utils.Style
+src.commom.utils.idText.IdText
+src.fc.components.FcBotao
+src.fc.components.GroupCard
+src.fc.outros.ConfiguracaoProjeto
+src.react.Frag

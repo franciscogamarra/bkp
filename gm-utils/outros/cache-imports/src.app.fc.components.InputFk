@@ -1,0 +1,16 @@
+libs.antd.icons.PlayCircleTwoTone
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.antd.form.FormItemInput
+src.antd.form.FormItemSelect
+src.app.fc.components.EntityCampos
+src.app.fc.components.IconNovo
+src.app.fc.components.Permissoes
+src.app.fc.components.fk.VCampoFk
+src.app.react.components.CDI
+src.app.react.components.Context
+src.app.react.components.SuperComponent
+src.app.react.utils.Style
+src.commom.utils.array.ArrayLst
+src.commom.utils.string.StringCompare
+src.web.Div

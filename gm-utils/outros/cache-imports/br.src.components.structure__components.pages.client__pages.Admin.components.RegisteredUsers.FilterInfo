@@ -1,0 +1,13 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.Tx
+br.src.components.structure__components.pages.client__pages.Admin.components.RegisteredUsers.RegisteredUsers
+br.src.components.structure__components.shared.buttons.OurButton
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropInt
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.div
+react.support.ReactNode

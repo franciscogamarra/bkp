@@ -1,0 +1,9 @@
+br.Transpilar
+br.sipeagro001.src.dominios.produtos.EstruturaCampoProdutoNome
+br.sipeagro001.src.dominios.produtos.ProdutoEstruturaDto
+br.sipeagro001.src.support.estrutura.Estrutura
+br.sipeagro001.src.support.estrutura.EstruturaAba
+br.sipeagro001.src.support.estrutura.EstruturaCampo
+br.sipeagro001.src.support.estrutura.EstruturaCampoDto
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.string.StringCompare

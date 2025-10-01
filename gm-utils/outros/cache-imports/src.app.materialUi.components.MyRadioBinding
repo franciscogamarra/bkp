@@ -1,0 +1,8 @@
+libs.materialUi.core.FormControlLabel
+libs.materialUi.core.Grid
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.campos.support.VList
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.GridNumber
+src.commom.utils.idText.IdText

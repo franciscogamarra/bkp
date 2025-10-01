@@ -1,0 +1,4 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoDao
+br.elfa.elfacare.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

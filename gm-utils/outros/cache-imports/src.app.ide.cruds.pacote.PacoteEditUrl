@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.ide.cruds.pacote.PacoteCampos
+src.app.ide.cruds.pacote.PacoteEdit
+src.app.ide.cruds.pacote.PacotePermissoes

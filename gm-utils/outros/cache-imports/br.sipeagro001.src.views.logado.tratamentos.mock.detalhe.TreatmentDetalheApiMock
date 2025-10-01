@@ -1,0 +1,11 @@
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoDao
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoJpa
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemDao
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemJpa
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoDao
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoJpa
+br.sipeagro001.src.views.logado.tratamentos.mock.detalhe.OperatorJson
+br.sipeagro001.src.views.logado.tratamentos.mock.detalhe.TreatmentDetalheHistoryJson
+br.sipeagro001.src.views.logado.tratamentos.mock.detalhe.TreatmentDetalheJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array

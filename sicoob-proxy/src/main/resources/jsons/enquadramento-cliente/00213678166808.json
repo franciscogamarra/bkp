@@ -1,0 +1,110 @@
+{
+    "id": 4,
+    "valorReceitaOperacionalBruta": 9892592.80,
+    "dataReferenciaReceitaOperacionalBruta": "2020-12-29T02:00:00.000+0000",
+    "empresarioIdividual": false,
+    "numeroCRNTRC": "003035200",
+    "dataAtualizacao": "2024-12-02T14:02:33.267+0000",
+    "idUsuario": "fabioo0001_00",
+    "porteEmpresa": {
+        "codigoPorteEmpresa": 1,
+        "descricaoPorteEmpresa": "Média Empresa I",
+        "valorMinimoFaturamento": 4800000.01,
+        "valorMaximoFaturamento": 90000000.00,
+        "className": "PorteEmpresaDTO"
+    },
+    "caracterizacaoCapitalSocial": {
+        "codigoCaracterizacaoCapitalSocial": 4,
+        "descricaoCaracterizacaoCapitalSocial": "Empresa brasileira sem participação estrangeira",
+        "className": "CaracterizacaoCapitalSocialDTO"
+    },
+    "indicadorReceitaOperacionalBruta": {
+        "codigoIndicadorReceitaOperacionalBruta": 1,
+        "descricaoIndicadorReceiraOperacionalBruta": "Efetiva",
+        "className": "IndicadorReceitaOperacionalBrutaDTO"
+    },
+    "idPessoa": 5658025,
+    "pessoaCapes": {
+        "idPessoa": 5658025,
+        "numCpfCnpj": "00213678166808",
+        "nomeCompleto": "Pessoa Jurídica 7447418",
+        "idInstituicao": 1,
+        "className": "PessoaCapesDTO"
+    },
+    "controleFundoAtivoPrivado": false,
+    "existemPropostasLiberadasComAnoIgualOuMaiorAoAnoDaRob": false,
+    "existemPropostasLiberadasComAnoIgualOuMaiorAoAnoDaRobGrupo": false,
+    "historico": [
+        {
+            "id": 4,
+            "insercao": "02/12/2024 12:01:20",
+            "de": {
+                "idPessoa": 5658025,
+                "empresarioIndividual": "Não",
+                "crntrc": "003035200",
+                "usuario": "fabioo0001_00",
+                "caracterizacaoCapitalSocial": "4 - Empresa brasileira sem participação estrangeira",
+                "controleFundoAtivoPrivado": "Não",
+                "dataAtualizacao": "30/10/2024 13:00:16",
+                "receitaOperacionalBruta": {
+                    "indicador": "1 - Efetiva",
+                    "valor": "R$ 9.892.592,80",
+                    "dataReferencia": "29/12/2020",
+                    "porteEmpresa": "1 - Média Empresa I - R$ 4.800.000,01 até R$ 90.000.000,00"
+                }
+            },
+            "para": {
+                "idPessoa": 5658025,
+                "empresarioIndividual": "Não",
+                "crntrc": "003035200",
+                "usuario": "fabioo0001_00",
+                "caracterizacaoCapitalSocial": "4 - Empresa brasileira sem participação estrangeira",
+                "controleFundoAtivoPrivado": "Não",
+                "dataAtualizacao": "02/12/2024 12:01:15",
+                "receitaOperacionalBruta": {
+                    "indicador": "1 - Efetiva",
+                    "valor": "R$ 98.925.928,00",
+                    "dataReferencia": "29/12/2020",
+                    "porteEmpresa": "6 - Média Empresa II - R$ 90.000.000,01 até R$ 300.000.000,00"
+                }
+            },
+            "propostasAfetadas": []
+        },
+        {
+            "id": 5,
+            "insercao": "02/12/2024 12:02:36",
+            "de": {
+                "idPessoa": 5658025,
+                "empresarioIndividual": "Não",
+                "crntrc": "003035200",
+                "usuario": "fabioo0001_00",
+                "caracterizacaoCapitalSocial": "4 - Empresa brasileira sem participação estrangeira",
+                "controleFundoAtivoPrivado": "Não",
+                "dataAtualizacao": "02/12/2024 12:01:15",
+                "receitaOperacionalBruta": {
+                    "indicador": "1 - Efetiva",
+                    "valor": "R$ 98.925.928,00",
+                    "dataReferencia": "29/12/2020",
+                    "porteEmpresa": "6 - Média Empresa II - R$ 90.000.000,01 até R$ 300.000.000,00"
+                }
+            },
+            "para": {
+                "idPessoa": 5658025,
+                "empresarioIndividual": "Não",
+                "crntrc": "003035200",
+                "usuario": "fabioo0001_00",
+                "caracterizacaoCapitalSocial": "4 - Empresa brasileira sem participação estrangeira",
+                "controleFundoAtivoPrivado": "Não",
+                "dataAtualizacao": "02/12/2024 12:02:33",
+                "receitaOperacionalBruta": {
+                    "indicador": "1 - Efetiva",
+                    "valor": "R$ 9.892.592,80",
+                    "dataReferencia": "29/12/2020",
+                    "porteEmpresa": "1 - Média Empresa I - R$ 4.800.000,01 até R$ 90.000.000,00"
+                }
+            },
+            "propostasAfetadas": []
+        }
+    ],
+    "className": "EnquadramentoClienteDTO"
+}

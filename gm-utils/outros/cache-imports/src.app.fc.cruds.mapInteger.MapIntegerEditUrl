@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.fc.cruds.mapInteger.MapIntegerCampos
+src.app.fc.cruds.mapInteger.MapIntegerEdit
+src.app.fc.cruds.mapInteger.MapIntegerPermissoes

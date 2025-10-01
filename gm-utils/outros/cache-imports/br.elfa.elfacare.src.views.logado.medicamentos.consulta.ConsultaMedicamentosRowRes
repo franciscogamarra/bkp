@@ -1,0 +1,8 @@
+br.elfa.elfacare.outros.reqObjs.GerarJson
+br.elfa.elfacare.src.back.mock.MockRowRes
+gm.languages.ts.javaToTs.annotacoes.Any
+gm.utils.comum.Aleatorio
+js.annotations.NaoConverter
+js.annotations.Support
+src.commom.utils.idText.UidText
+src.commom.utils.string.StringRemoveAcentos

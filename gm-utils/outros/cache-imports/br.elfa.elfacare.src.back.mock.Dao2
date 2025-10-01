@@ -1,0 +1,11 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.MockPaginacao
+br.elfa.elfacare.src.back.mock.ObjetoJpa
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+src.commom.utils.array.Itens
+src.commom.utils.comum.Random
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

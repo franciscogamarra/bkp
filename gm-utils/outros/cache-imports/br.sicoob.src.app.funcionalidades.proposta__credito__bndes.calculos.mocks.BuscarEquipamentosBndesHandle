@@ -1,0 +1,11 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.Num
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.EquipamentosLegados
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.FabricantesLegados
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AdicionaEquipamentosComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.BuscarEquipamentosBndesComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.EquipamentoLegado
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.FabricanteLegado
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+js.Js

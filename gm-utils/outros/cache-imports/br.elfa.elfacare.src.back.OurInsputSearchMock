@@ -1,0 +1,13 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.outros.reqObjs.OurInputSearchReq
+br.elfa.elfacare.outros.reqObjs.OurInputSearchRes
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.Aleatorio
+gm.utils.comum.UNomeProprio
+gm.utils.string.ListString
+src.commom.utils.array.Itens
+src.commom.utils.idText.UidText
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringLike
+src.commom.utils.string.StringRemoveAcentos

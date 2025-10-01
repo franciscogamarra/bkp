@@ -1,0 +1,361 @@
+{
+        "id": 10013,
+        "descricao": "10011 - 12 emprestimo finame",
+        "produtoBndes": 7,
+        "linhaBndes": 301,
+        "taxaJurosBasica": 10,
+        "taxaJurosRisco": 10,
+        "sigla": "13",
+        "siglaPrograma": "13",
+        "programaTipoInvestimentos": [
+            {
+                "bolTipoExclusivo": false,
+                "bolDescItemObrigatorio": false,
+                "bolHabilitaEventoProducao": false
+            }
+        ],
+        "bolExigeItemInvestimento": true,
+        "bolEnviaQtdEmpregado": false,
+        "bolHabilitaCadastroPl": false,
+        "prazosLimitesSolicitacaoPL": [
+            {
+                "id": 2,
+                "prazoLimiteDia": 90,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            },
+            {
+                "id": 3,
+                "prazoLimiteDia": 120,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            }
+        ],
+        "prazosTotaisOperacao": [
+            {
+                "id": 1,
+                "sigla": "TFB_36",
+                "descricao": "Até 36 meses",
+                "prazoTotalMes": 36,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 3,
+                "sigla": "TFB_84",
+                "descricao": "Acima de 60 até 84 meses",
+                "prazoTotalMes": 84,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 2,
+                "sigla": "TFB_60",
+                "descricao": "Acima de 36 até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 5,
+                "sigla": "TFBD24",
+                "descricao": "Até 24 meses",
+                "prazoTotalMes": 24,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "sigla": "TFBD120",
+                "descricao": "Acima de 72 meses até 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "sigla": "TFBD72",
+                "descricao": "Acima de 24 até 72 meses",
+                "prazoTotalMes": 72,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            }
+        ],
+        "tipoEventos": [
+            {
+                "id": 3,
+                "descricao": "Homologação de Financiamento"
+            }
+        ],
+        "taxaJurosRiscoMax": 10,
+        "taxaJurosRiscoMin": 10,
+        "bolHabilitaEnvioPlataformaCredito": false,
+        "bolLicencaDispensaAmb": false,
+        "bolLicencaAmbItemDiverso": false,
+        "bolLicencaAmbExcecao": false,
+        "condicaoOperacional": {
+            "id": 168,
+            "descricao": "CDD Agro 2018/09",
+            "codigo": 375,
+            "className": "CondicaoOperacionalDTO"
+        },
+        "paramInfoComplementarAgricola": {
+            "id": 281,
+            "bolHabilitaQtdAnimais": false,
+            "bolHabilitaEspecieFlorestal": false,
+            "bolHabilitaAreaASerPlantada": false,
+            "bolHabilitaDataPrimeiroCorte": false,
+            "bolHabilitaDataTerminoColheita": true,
+            "bolHabilitaProdutoPgpaf": false,
+            "bolEnviaFaseFinanciamento": true,
+            "className": "ParamInfoComplementarAgricolaDTO"
+        },
+        "bolExigeDataEmissaoCartaFianca": false,
+        "bolFinalidadeLiberacao": false,
+        "bolFinalidadeLiberacaoExcecao": false,
+        "tiposEnquadramentoOperacao": [],
+        "bolExigePrazoFinanciamento": false,
+        "bolHabilitaEnvioBndes": true,
+        "bolExcecaoCalculoJuros": true,
+        "percCustoPreFixado": 12.34,
+        "taxaJurosBasicaMax": 100,
+        "taxaJurosBasicaMin": 0.01,
+        "idProdutoBndesOnline": 22500,
+        "valorMaximoMutuario": 1300,
+        "percMaximoFinanciamento": 50,
+        "idModalidadeProduto": 30,
+        "idOrigemRecursoOpCred": 10002,
+        "bolAlteraPrazoCarencia": false,
+        "bolAlteraPrazoTotal": false,
+        "bolSisbr30": true,
+        "bolIsentoIof": false,
+        "bolAliquotaZeroIof": false,
+        "bolAliquotaAdicionalIof": false,
+        "bolAliquotaNormalIof": false,
+        "bolAnoBissexto": false,
+        "bolPrazoAmortizacaoNaoMultiplo": false,
+        "prazoOperacao": 12,
+        "prazoCarencia": 13,
+        "bolCprBndes": false,
+        "bolEnvioSicorSemMatriculaEmpreendCapes": false,
+        "bolProjetoColetivo": false,
+        "bolEncargosExigivel": false,
+        "bolExecEncExigivel": false,
+        "programaCustosFinanceiro": [
+            {
+                "id": 1265,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementar": "Taxa Fixa do BNDES - TFB",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1266,
+                "custoFinanceiro": {
+                    "id": 1008,
+                    "descCustoFinanceiro": "SELIC",
+                    "indiceBndes": {
+                        "id": 49,
+                        "descricao": "TAXA SELIC D-2 (015)",
+                        "className": "IndiceBndesDTO"
+                    },
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1267,
+                "custoFinanceiro": {
+                    "id": 1028,
+                    "descCustoFinanceiro": "TCR Pós",
+                    "descComplementar": "taxa pós-fixada (aplicável aos Prog. Agropecuários)",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1268,
+                "custoFinanceiro": {
+                    "id": 1003,
+                    "descCustoFinanceiro": "US$",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1269,
+                "custoFinanceiro": {
+                    "id": 1024,
+                    "descCustoFinanceiro": "Custo Fixo",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1270,
+                "custoFinanceiro": {
+                    "id": 1004,
+                    "descCustoFinanceiro": "Cesta - UMBNDES",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1271,
+                "custoFinanceiro": {
+                    "id": 1019,
+                    "descCustoFinanceiro": "URTJLP 365/366",
+                    "descComplementar": "custo equalizável (aplicável aos Programas Agropecuários)",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1272,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementar": "taxa fixa do BNDES em dólares americanos",
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR",
+                        "className": "IndiceBndesDTO"
+                    },
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1273,
+                "custoFinanceiro": {
+                    "id": 1025,
+                    "descCustoFinanceiro": "TLP",
+                    "indiceBndes": {
+                        "id": 46,
+                        "descricao": "IPCA TXD00236",
+                        "className": "IndiceBndesDTO"
+                    },
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            }
+        ],
+        "programaPeriodicidades": [
+            {
+                "id": 2730,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 2731,
+                "periodicidadeAmortizacao": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 2732,
+                "periodicidadeAmortizacao": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 2733,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 2734,
+                "periodicidadeAmortizacao": {
+                    "codigo": 17,
+                    "descricao": "Quadrimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 17,
+                    "descricao": "Quadrimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            }
+        ],
+        "className": "ProgramaBndesDTO"
+    }

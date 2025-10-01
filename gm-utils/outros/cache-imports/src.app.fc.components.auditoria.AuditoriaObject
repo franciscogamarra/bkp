@@ -1,0 +1,11 @@
+js.UNative
+js.array.Array
+src.app.fc.components.EntityCampos
+src.app.fc.components.Id
+src.app.fc.components.ResultadoConsulta
+src.app.fc.components.VSubList
+src.app.fc.components.auditoria.AuditoriaItem
+src.app.fc.components.campoAlterado.CampoAlterado
+src.app.react.campos.support.VBoolean
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null

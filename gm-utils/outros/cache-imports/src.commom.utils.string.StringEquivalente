@@ -1,0 +1,3 @@
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.string.StringTrim

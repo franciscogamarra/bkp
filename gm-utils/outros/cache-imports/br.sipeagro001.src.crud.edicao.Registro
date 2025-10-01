@@ -1,0 +1,13 @@
+br.Transpilar
+br.sipeagro001.src.comps.input.OurInputItem
+br.sipeagro001.src.dev.DevLog
+br.sipeagro001.src.support.estrutura.Estrutura
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampo
+br.sipeagro001.src.support.estrutura.filtro.ConsultaPaginadaFiltros
+br.sipeagro001.src.support.estrutura.filtro.EstruturaCampoFiltro
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.outros.ObjJson
+js.support.JSON
+src.commom.utils.comum.JsMap
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty

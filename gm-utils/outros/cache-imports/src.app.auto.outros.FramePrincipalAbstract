@@ -1,0 +1,15 @@
+js.array.Array
+libs.antd.icons.LineChartOutlined
+libs.antd.icons.TeamOutlined
+libs.react_router_dom.Route
+libs.react_router_dom.Switch
+react.support.ReactNode
+src.app.auto.outros.PermissoesMenu
+src.app.cruds.conciliacao.ConciliacaoFormConsulta
+src.app.cruds.contrato.ContratoFormConsulta
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoFormConsulta
+src.app.cruds.importacao.ImportacaoFormConsulta
+src.app.cruds.importacaoArquivo.ImportacaoArquivoFormConsulta
+src.app.cruds.tipoDeEquipamento.TipoDeEquipamentoFormConsulta
+src.app.cruds.venda.VendaFormConsulta
+src.fc.components.FramePrincipalBase

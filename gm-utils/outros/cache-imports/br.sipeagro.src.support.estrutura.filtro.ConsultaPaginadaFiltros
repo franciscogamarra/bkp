@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro.src.comps.Consts
+br.sipeagro.src.support.estrutura.Estrutura
+br.sipeagro.src.support.estrutura.campo.EstruturaCampo
+br.sipeagro.src.support.estrutura.filtro.ConsultaPaginadaFiltrosCampoDto
+br.sipeagro.src.support.estrutura.filtro.ConsultaPaginadaFiltrosDto
+br.sipeagro.src.support.estrutura.filtro.EstruturaCampoFiltro
+br.sipeagro.src.support.estrutura.filtro.OrderByDto
+br.sipeagro.src.support.estrutura.retornos.ConsultaPaginadaResultado
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.JSON
+src.commom.utils.array.Itens
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmptyPlus

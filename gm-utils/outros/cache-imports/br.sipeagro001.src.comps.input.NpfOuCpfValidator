@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro001.src.comps.input.CpfValidator
+br.sipeagro001.src.comps.input.InputValidator
+br.sipeagro001.src.comps.input.NpfValidator
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.types.inputType.InputTypeValue
+html.types.inputType.InputTypeValues
+src.commom.utils.cp.UCpf
+src.commom.utils.integer.IntegerIs
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringTrim
+src.commom.utils.string.ValidadorNomePessoaFisica

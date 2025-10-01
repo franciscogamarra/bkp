@@ -1,0 +1,15 @@
+br.Transpilar
+br.sipeagro.libs.pdfmake.build.PdfMake
+br.sipeagro.libs.pdfmake.build.VfsFonts
+br.sipeagro.libs.pdfmake.interfaces.TDocumentDefinitions
+br.sipeagro.src.assets.govbr_svg
+br.sipeagro.src.comps.OurButton
+br.sipeagro.src.support.auth.Auth
+br.sipeagro.src.utils.pdf.PdfItem
+br.sipeagro.src.utils.pdf.PdfStyles
+br.sipeagro.src.utils.pdf.interfaces.ContentImage
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+js.array.Array
+react.support.ReactNode
+src.commom.utils.tempo.DataHora

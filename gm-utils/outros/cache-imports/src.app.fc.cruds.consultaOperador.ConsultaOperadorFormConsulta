@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.consultaOperador.ConsultaOperador
+src.app.fc.cruds.consultaOperador.ConsultaOperadorCampos
+src.app.fc.cruds.consultaOperador.ConsultaOperadorCols
+src.app.fc.cruds.consultaOperador.ConsultaOperadorConsulta
+src.app.fc.cruds.consultaOperador.ConsultaOperadorEdit
+src.app.fc.cruds.consultaOperador.ConsultaOperadorPermissoes
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

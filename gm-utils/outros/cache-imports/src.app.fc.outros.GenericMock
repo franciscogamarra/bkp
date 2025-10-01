@@ -1,0 +1,9 @@
+js.map.Map
+src.app.fc.components.ResultadoConsulta
+src.app.fc.components.SearchServiceParams
+src.app.fc.outros.EntityMock
+src.app.react.utils.GetText
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null
+src.commom.utils.string.StringLike

@@ -1,0 +1,9 @@
+br.Transpilar
+br.sipeagro.src.assets.govbr_svg
+br.sipeagro.srcx.comps.LogoX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.img
+react.support.ReactNode

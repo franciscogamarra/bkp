@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.vendaProblema.VendaProblema
+src.app.consolidate.cruds.vendaProblema.VendaProblemaCampos
+src.app.consolidate.cruds.vendaProblema.VendaProblemaCols
+src.app.consolidate.cruds.vendaProblema.VendaProblemaConsulta
+src.app.consolidate.cruds.vendaProblema.VendaProblemaEdit
+src.app.consolidate.cruds.vendaProblema.VendaProblemaPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

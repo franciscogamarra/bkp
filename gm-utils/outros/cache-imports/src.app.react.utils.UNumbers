@@ -1,0 +1,13 @@
+js.Js
+src.app.react.utils.UConstantes
+src.commom.utils.array.Itens
+src.commom.utils.integer.IntegerIs
+src.commom.utils.string.StringAfterFirst
+src.commom.utils.string.StringBeforeFirst
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringRight
+src.commom.utils.string.StringSplit

@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro001.src.Singletons
+br.sipeagro001.src.dominios.entidadeCampos.EntidadeCampoEstrutura
+br.sipeagro001.src.dominios.entidades.EntidadeEstrutura
+br.sipeagro001.src.dominios.estabelecimentos.EstabelecimentoEstrutura
+br.sipeagro001.src.dominios.naturezaDeSolicitacoes.NaturezaDeSolicitacaoEstrutura
+br.sipeagro001.src.dominios.produtos.ProdutoEstrutura
+br.sipeagro001.src.dominios.solicitacoes.SolicitacaoEstrutura
+br.sipeagro001.src.dominios.usuarios.UsuarioEstrutura
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

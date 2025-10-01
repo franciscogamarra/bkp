@@ -1,0 +1,13 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.comps.inputSearchs.OurInputSearch
+br.sipeagro001.src.dominios.pessoafisica.PessoaFisicaManager
+br.sipeagro001.srcx.views.logado.patient.PatientSelectX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+exec.ts.infra.StateInt
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+react.support.ReactNode
+src.commom.utils.cp.UCpf
+src.commom.utils.idText.UidText

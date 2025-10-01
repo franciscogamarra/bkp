@@ -1,0 +1,12 @@
+libs.expo.icons.AntDesign
+libs.expo.icons.ExpoIcon
+libs.expo.icons.FontAwesome
+libs.expo.icons.Ionicons
+libs.expo.icons.MaterialIcons
+react.project.infra.StyleResult
+react.support.ReactNode
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.react.components.ReactClass
+src.app.react.utils.Style
+src.mobile.tema.Tema

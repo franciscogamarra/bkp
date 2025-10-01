@@ -1,0 +1,16 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.alerts.Alert
+br.elfa.elfacare.src.comps.alerts.AlertItem
+br.elfa.elfacare.src.state.AppState
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.StateBoolean
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.Print
+js.Js
+js.array.Array
+libs.materialUi.core.SlideProps
+libs.materialUi.core.Snackbar
+libs.materialUi.core.SnackbarAnchorOrigin
+react.support.ReactNode

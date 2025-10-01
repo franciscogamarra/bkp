@@ -1,0 +1,227 @@
+{
+        "id": 2473,
+        "descricao": "FINAME - BK AQUISIÇÃO E COMERCIALIZAÇÃO",
+        "produtoBndes": 7,
+        "linhaBndes": 301,
+        "taxaJurosBasica": 0.9500,
+        "taxaJurosRisco": 3.5000,
+        "sigla": "DC3,5 - BK AQUISICAO E COMERCIALIZACAO - BAIXO CARBONO (TFB)",
+        "siglaPrograma": "BK AQUISICAO E COMERCIALIZACAO BAIXO CARBONO",
+        "programaTipoInvestimentos": [
+            {
+                "bolTipoExclusivo": false,
+                "bolDescItemObrigatorio": false,
+                "bolHabilitaEventoProducao": false
+            },
+            {
+                "bolTipoExclusivo": false,
+                "bolDescItemObrigatorio": false,
+                "bolHabilitaEventoProducao": false
+            }
+        ],
+        "bolExigeItemInvestimento": true,
+        "bolEnviaQtdEmpregado": false,
+        "bolHabilitaCadastroPl": true,
+        "prazosLimitesSolicitacaoPL": [
+            {
+                "id": 2,
+                "prazoLimiteDia": 90,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            }
+        ],
+        "prazosTotaisOperacao": [
+            {
+                "id": 1,
+                "sigla": "TFB_36",
+                "descricao": "Até 36 meses",
+                "prazoTotalMes": 36,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 4,
+                "sigla": "TFB_120",
+                "descricao": "Acima de 84 a 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 3,
+                "sigla": "TFB_84",
+                "descricao": "Acima de 60 até 84 meses",
+                "prazoTotalMes": 84,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 2,
+                "sigla": "TFB_60",
+                "descricao": "Acima de 36 até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            }
+        ],
+        "tipoEventos": [
+            {
+                "id": 9,
+                "descricao": "Homologação de Contratação"
+            }
+        ],
+        "taxaJurosRiscoMax": 3.5000,
+        "taxaJurosRiscoMin": 3.5000,
+        "taxaJurosRiscoPadrao": 3.5000,
+        "bolHabilitaEnvioPlataformaCredito": true,
+        "bolLicencaDispensaAmb": true,
+        "bolLicencaAmbItemDiverso": false,
+        "bolLicencaAmbExcecao": false,
+        "custoFinanceiro": {
+            "id": 1026,
+            "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+            "descComplementar": "Taxa Fixa do BNDES - TFB",
+            "className": "CustoFinanceiroDTO"
+        },
+        "condicaoOperacional": {
+            "id": 176,
+            "descricao": "PO2020/01",
+            "codigo": 393,
+            "className": "CondicaoOperacionalDTO"
+        },
+        "bolExigeDataEmissaoCartaFianca": true,
+        "bolFinalidadeLiberacao": false,
+        "bolFinalidadeLiberacaoExcecao": true,
+        "tiposEnquadramentoOperacao": [],
+        "bolExigePrazoFinanciamento": false,
+        "bolHabilitaEnvioBndes": true,
+        "bolExcecaoCalculoJuros": false,
+        "taxaJurosBasicaMax": 0.9500,
+        "taxaJurosBasicaMin": 0.9500,
+        "idProdutoBndesOnline": 22500,
+        "valorMaximoMutuario": 20000000.00,
+        "percMaximoFinanciamento": 100.0000,
+        "idModalidadeProduto": 390,
+        "idOrigemRecursoOpCred": 5,
+        "bolAlteraPrazoCarencia": true,
+        "bolAlteraPrazoTotal": true,
+        "bolSisbr30": true,
+        "bolIsentoIof": false,
+        "bolAliquotaZeroIof": true,
+        "bolAliquotaAdicionalIof": false,
+        "bolAliquotaNormalIof": false,
+        "bolAnoBissexto": true,
+        "bolPrazoAmortizacaoNaoMultiplo": false,
+        "prazoOperacao": 120,
+        "prazoCarencia": 12,
+        "bolCprBndes": false,
+        "bolEnvioSicorSemMatriculaEmpreendCapes": false,
+        "bolProjetoColetivo": false,
+        "bolEncargosExigivel": true,
+        "bolExecEncExigivel": false,
+        "programaCustosFinanceiro": [
+            {
+                "id": 275,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementar": "Taxa Fixa do BNDES - TFB",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            }
+        ],
+        "programaPeriodicidades": [
+            {
+                "id": 1250,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 1251,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 1247,
+                "periodicidadeAmortizacao": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 1248,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 1249,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            }
+        ],
+        "className": "ProgramaBndesDTO"
+    }

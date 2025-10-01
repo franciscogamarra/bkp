@@ -1,0 +1,7 @@
+gm.utils.lambda.FT
+gm.utils.lambda.FVoidT
+gm.utils.lambda.FVoidTT
+src.commom.utils.comum.Box
+src.fc.components.ObjetoComId
+src.fc.components.VServiceList
+src.fc.services.FcAxios

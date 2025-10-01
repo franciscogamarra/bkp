@@ -1,0 +1,12 @@
+html.a
+libs.antd.icons.PaperClipOutlined
+react.project.infra.StyleResult
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.antd.form.FormItemInput
+src.app.fc.components.EntityCampos
+src.app.fc.components.Permissoes
+src.app.fc.components.arquivo.ArquivoSelecionado
+src.app.fc.components.arquivo.VCampoArquivo
+src.app.react.components.SuperComponent
+src.app.react.utils.Style

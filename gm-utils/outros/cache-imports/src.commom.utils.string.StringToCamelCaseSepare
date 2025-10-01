@@ -1,0 +1,12 @@
+gm.utils.comum.SystemPrint
+src.commom.utils.array.Itens
+src.commom.utils.string.StringBox
+src.commom.utils.string.StringColocarAcentos
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringPrimeiraMaiuscula
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringSepararPalavras
+src.commom.utils.string.StringTrim
+src.commom.utils.string.ValidadorNomeProprio

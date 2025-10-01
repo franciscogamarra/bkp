@@ -1,0 +1,11 @@
+br.Transpilar
+br.libs.Consts
+br.libs.formatCpfOrCnpj
+br.libs.userService.AdminService
+br.src.mock.jsons.AdminServiceJson
+br.src.mock.jsons.CnpjJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+js.promise.Promise
+src.commom.utils.comum.PromiseBuilder
+src.commom.utils.object.Null

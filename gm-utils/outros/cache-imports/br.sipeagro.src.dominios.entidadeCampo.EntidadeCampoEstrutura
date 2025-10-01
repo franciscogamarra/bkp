@@ -1,0 +1,15 @@
+br.sipeagro.src.comps.input.OurInputItem
+br.sipeagro.src.crud.edicao.Registro
+br.sipeagro.src.dominios.aba.AbaEstrutura
+br.sipeagro.src.dominios.entidadeCampo.EntidadeCampoEstruturaDto
+br.sipeagro.src.enums.tipoCampo.TipoCampo
+br.sipeagro.src.support.estrutura.Estrutura
+br.sipeagro.src.support.estrutura.campo.EstruturaCampo
+br.sipeagro.src.support.estrutura.filtro.ConsultaPaginadaFiltros
+br.sipeagro.src.support.estrutura.filtro.EstruturaCampoFiltro
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Error
+js.outros.ObjJson
+src.app.react.utils.UBoolean
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmptyPlus

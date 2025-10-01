@@ -1,0 +1,15 @@
+js.UNative
+js.annotations.NoAuto
+js.array.Array
+react.support.anotacoes.Component
+src.app.cruds.consultaOperador.ConsultaOperadorConstantes
+src.app.cruds.usuarioPerfil.UsuarioPerfil
+src.app.cruds.usuarioPerfil.UsuarioPerfilUtils
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.fc.components.ResultadoConsulta
+src.fc.components.VConsultaList
+src.fc.components.consulta.CampoConsultaBoolean
+src.fc.components.consulta.CampoConsultaFk
+src.fc.components.consulta.Consulta
+src.fc.components.consulta.SeparacaoDeGrupo

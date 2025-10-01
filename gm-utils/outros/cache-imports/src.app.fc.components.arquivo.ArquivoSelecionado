@@ -1,0 +1,11 @@
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.fc.components.Permissoes
+src.app.fc.components.arquivo.VCampoArquivo
+src.app.fc.cruds.arquivo.Arquivo
+src.app.fc.cruds.arquivo.ArquivoApi
+src.app.fc.cruds.arquivo.ArquivoCampos
+src.app.fc.cruds.arquivo.ArquivoPermissoes
+src.app.fc.cruds.arquivo.ArquivoUtils
+src.app.react.campos.support.Wrapper
+src.commom.utils.object.Equals

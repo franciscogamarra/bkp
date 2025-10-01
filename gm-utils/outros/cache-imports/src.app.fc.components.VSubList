@@ -1,0 +1,8 @@
+gm.utils.lambda.FT
+gm.utils.lambda.FVoidT
+gm.utils.lambda.FVoidTT
+js.promise.Promise
+js.promise.Response
+src.app.fc.components.ObjetoComId
+src.app.fc.components.VServiceList
+src.app.react.campos.support.VInteger

@@ -1,0 +1,15 @@
+js.Js
+js.outros.Date
+libs.expo.Constants
+libs.expo.ExpoConstantsBase
+libs.react_native.Dimensions
+libs.react_native.Platform
+libs.react_native.StatusBar
+libs.support.Dimension
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.react.utils.Style
+src.app.react.utils.UCommons
+src.commom.utils.integer.IntegerCompare
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmptyPlus

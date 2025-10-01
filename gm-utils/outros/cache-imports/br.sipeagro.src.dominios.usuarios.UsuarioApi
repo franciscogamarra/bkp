@@ -1,0 +1,6 @@
+br.Transpilar
+br.sipeagro.src.dominios.usuarios.Usuario
+br.sipeagro.src.dominios.usuarios.UsuarioDto
+br.sipeagro.src.support.ApiManager
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise

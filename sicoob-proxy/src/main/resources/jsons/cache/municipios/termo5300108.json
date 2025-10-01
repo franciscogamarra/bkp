@@ -1,0 +1,6 @@
+[ {
+	"codigoMunicipio" : 5300108,
+	"descricaoMunicipio" : "BRASILIA",
+	"siglaUf" : "DF",
+	"className" : "MunicipioDTO"
+} ]

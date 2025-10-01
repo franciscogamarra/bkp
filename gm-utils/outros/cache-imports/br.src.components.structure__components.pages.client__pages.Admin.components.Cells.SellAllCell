@@ -1,0 +1,14 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.CellText
+br.srcx.components.structure__components.pages.client__pages.Admin.components.Cells.SellAllCellX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropInt
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.div
+html.span
+libs.react.Fragment
+react.support.ReactNode

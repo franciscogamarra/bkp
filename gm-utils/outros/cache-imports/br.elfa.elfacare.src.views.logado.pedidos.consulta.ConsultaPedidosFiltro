@@ -1,0 +1,13 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.auth.Auth
+br.elfa.elfacare.src.views.logado.clients.consulta.ConsultaClientesRow
+br.elfa.elfacare.src.views.logado.pedidos.consulta.ConsultaPedidosRow
+br.elfa.elfacare.src.views.logado.pedidos.consulta.DataField
+br.elfa.elfacare.src.views.logado.status.mock.StatusDao
+br.elfa.elfacare.src.views.logado.status.mock.StatusJpa
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroBase
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaCol
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaParamsDados
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.tempo.Data

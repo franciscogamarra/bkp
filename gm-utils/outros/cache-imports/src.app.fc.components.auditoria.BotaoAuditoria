@@ -1,0 +1,10 @@
+libs.antd.icons.AuditOutlined
+react.project.infra.StyleResult
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.fc.components.EntityCampos
+src.app.fc.components.Permissoes
+src.app.fc.components.comentarios.Comentarios
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Style

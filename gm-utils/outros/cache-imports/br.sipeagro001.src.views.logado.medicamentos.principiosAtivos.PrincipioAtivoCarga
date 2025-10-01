@@ -1,0 +1,4 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoDao
+br.sipeagro001.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

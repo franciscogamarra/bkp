@@ -1,0 +1,6 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.drugClass.DrugClassDao
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoDao
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoJpa
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoDao
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

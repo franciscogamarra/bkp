@@ -1,0 +1,17 @@
+gm.utils.anotacoes.Ignorar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+js.support.console
+src.app.react.utils.UConstantes
+src.app.react.utils.UInteger
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringAfterFirst
+src.commom.utils.string.StringBeforeFirst
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringParse
+src.commom.utils.string.StringRepete

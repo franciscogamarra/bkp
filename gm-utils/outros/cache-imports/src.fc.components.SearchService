@@ -1,0 +1,10 @@
+gm.utils.lambda.FT
+gm.utils.lambda.FVoidT
+js.UNative
+js.map.Map
+js.promise.Response
+src.app.react.campos.support.ISeachService
+src.app.react.components.CdiObj
+src.fc.components.ResultadoConsulta
+src.fc.components.SearchServiceParams
+src.fc.services.FcAxios

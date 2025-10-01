@@ -1,0 +1,5 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.views.logado.statusPedido.mock.StatusPedidoJpa
+br.sipeagro001.src.views.logado.statusPedido.mock.StatusPedidoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

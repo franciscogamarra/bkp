@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<financiamentoRetorno
+	xmlns="https://ws.bndes.gov.br/apa/xsd">
+	<informacao>
+		<numeroProtocolo>9460660</numeroProtocolo>
+		<dataProtocolo>2025-06-04T04:26:26.837</dataProtocolo>
+	</informacao>
+	<erro>
+		<codigo>307</codigo>
+		<descricao>As condições dessa solicitação não serão consideradas em
+			futuras reapresentações da mesma proposta. Por favor, corrija os
+			erros apontados e a envie novamente.</descricao>
+	</erro>
+	<erro>
+		<codigo>998</codigo>
+		<descricao>(DSV) Erro interno não esperado: "null" </descricao>
+	</erro>
+	<status>REJEITADA</status>
+</financiamentoRetorno>

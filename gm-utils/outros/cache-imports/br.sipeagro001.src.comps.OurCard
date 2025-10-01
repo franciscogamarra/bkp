@@ -1,0 +1,15 @@
+br.Transpilar
+br.sipeagro001.outros.myTheme.ThemeColors
+br.sipeagro001.outros.myTheme.tokens
+br.sipeagro001.src.comps.Consts
+br.sipeagro001.srcx.comps.OurCardX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.mui.Box
+libs.materialUi.styles.Theme
+libs.materialUi.styles.useTheme
+react.support.ReactNode

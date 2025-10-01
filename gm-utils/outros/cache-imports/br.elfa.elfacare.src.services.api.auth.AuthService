@@ -1,0 +1,8 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.api
+exec.ts.infra.FX
+gm.languages.ts.javaToTs.annotacoes.ImportStatic
+gm.languages.ts.javaToTs.ojs
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.NaoConverter
+js.promise.Promise

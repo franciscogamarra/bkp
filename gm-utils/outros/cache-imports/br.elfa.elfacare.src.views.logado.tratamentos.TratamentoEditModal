@@ -1,0 +1,11 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.tratamentos.TratamentoEdit
+br.elfa.elfacare.src.views.modais.ModalItem
+br.elfa.elfacare.src.views.modais.OurModal
+br.elfa.elfacare.srcx.views.logado.tratamentos.TratamentoEditModalX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+react.support.ReactNode

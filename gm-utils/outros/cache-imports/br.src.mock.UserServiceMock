@@ -1,0 +1,10 @@
+br.Transpilar
+br.src.mock.ServiceMock
+br.src.mock.jsons.NameValueJson
+br.src.mock.jsons.UserGetJson
+br.src.mock.jsons.UserJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+js.promise.Promise
+libs.axios.AxiosResponse
+src.commom.utils.string.StringCompare

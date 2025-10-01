@@ -1,0 +1,11 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.back.mock.MockPaginacao
+br.sipeagro001.src.views.logado.pessoafisica.mock.PessoaFisicaJpa
+br.sipeagro001.src.views.logado.pessoafisica.mock.PessoaFisicaJson
+br.sipeagro001.src.views.logado.telaConsulta.FiltroReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.cp.UCpf
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

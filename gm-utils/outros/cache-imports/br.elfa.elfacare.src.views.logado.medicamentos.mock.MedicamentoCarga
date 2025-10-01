@@ -1,0 +1,10 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga0
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga1
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga2
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga3
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga4
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoCarga5
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoDao
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoCarga
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

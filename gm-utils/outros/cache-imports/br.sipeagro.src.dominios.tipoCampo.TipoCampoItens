@@ -1,0 +1,8 @@
+br.Transpilar
+br.sipeagro.src.comps.input.OurInputItem
+br.sipeagro.src.support.estrutura.campo.TipoDeCampo
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+src.commom.utils.array.Itens
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringExtraiId

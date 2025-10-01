@@ -1,0 +1,6 @@
+src.app.fc.components.EntityCampos
+src.app.react.campos.support.ISeachService
+src.app.react.campos.support.VFk
+src.app.react.components.Context
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null

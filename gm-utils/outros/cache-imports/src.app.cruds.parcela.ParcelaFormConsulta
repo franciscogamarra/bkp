@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.parcela.Parcela
+src.app.cruds.parcela.ParcelaCampos
+src.app.cruds.parcela.ParcelaCols
+src.app.cruds.parcela.ParcelaConsulta
+src.app.cruds.parcela.ParcelaEdit
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela

@@ -1,0 +1,5 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.statusPedido.mock.StatusPedidoJpa
+br.elfa.elfacare.src.views.logado.statusPedido.mock.StatusPedidoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

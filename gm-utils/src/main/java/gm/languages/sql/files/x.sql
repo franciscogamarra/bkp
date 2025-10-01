@@ -1,0 +1,3690 @@
+CreateOrAlter[create or alter(11791,2,0,0)]
+<Procedure(193)>
+	NaoClassificada[dbo(196,0,0,1)]
+Ponto[.(198,0,0,0)]
+	NaoClassificada[BAIXA_DO_DCO(200,0,0,0)]
+VarReference[@GERACAO(207,1,0,4)]
+	NaoClassificada[SMALLDATETIME(209,0,0,1)]
+Virgula[,(210,0,0,0)]
+VarReference[@DATADCO(216,1,0,4)]
+	NaoClassificada[SMALLDATETIME(218,0,0,1)]
+Virgula[,(219,0,0,0)]
+VarDeclaration[@BANCO Char[CHAR(3)(227,0,0,1)](11827,1,0,4)]
+Virgula[,(231,0,0,0)]
+VarDeclaration[@ID_RESPONSAVEL Tipo[INT](11828,1,0,4)]
+Virgula[,(240,0,0,0)]
+VarDeclaration[@INSCRICAO_IN Tipo[INT](11829,1,0,4)]
+Igual[=(250,0,0,1)]
+Null[NULL(252,0,0,1)]
+<As(254)>
+SetNoCountOn[SET NOCOUNT ON(11807,2,0,1)]
+PontoEVirgula[;(12078,0,0,0)]
+<Declare(266)>
+VarDeclaration[@PROPOSTA Tipo[INT](11830,1,0,1)]
+Virgula[,(272,0,0,0)]
+VarDeclaration[@PROPOSTADEBITO Tipo[INT](11831,1,0,1)]
+Virgula[,(278,0,0,0)]
+VarDeclaration[@PROPOSTACAPITAL Tipo[INT](11832,1,0,1)]
+Virgula[,(284,0,0,0)]
+VarDeclaration[@INSCRICAO Tipo[INT](11833,1,0,1)]
+Virgula[,(290,0,0,0)]
+VarDeclaration[@INSCRICAO_TITULAR Tipo[INT](11834,1,0,1)]
+Virgula[,(296,0,0,0)]
+VarDeclaration[@INSCRICAOAVALISTA Tipo[INT](11835,1,0,1)]
+Virgula[,(302,0,0,0)]
+VarDeclaration[@PARCELAS Tipo[INT](11836,1,0,1)]
+Virgula[,(308,0,0,0)]
+VarDeclaration[@PARCELASRESTANTES Tipo[INT](11837,1,0,1)]
+Virgula[,(314,0,0,0)]
+VarDeclaration[@NOVAPARCELA Tipo[INT](11838,1,0,1)]
+Virgula[,(320,0,0,0)]
+VarDeclaration[@DIAS Tipo[INT](11839,1,0,1)]
+Virgula[,(326,0,0,0)]
+VarDeclaration[@PRODUTO Char[CHAR(1)(331,0,0,1)](11840,1,0,1)]
+Virgula[,(337,0,0,0)]
+VarDeclaration[@CPF_AVALISTA Char[CHAR(14)(342,0,0,1)](11841,1,0,1)]
+Virgula[,(348,0,0,0)]
+VarDeclaration[@RESPONSAVEL Char[CHAR(10)(353,0,0,1)](11842,1,0,1)]
+Virgula[,(359,0,0,0)]
+VarDeclaration[@QUEDA Char[CHAR(2)(364,0,0,1)](11843,1,0,1)]
+Virgula[,(370,0,0,0)]
+VarDeclaration[@COD_MOVIM Char[CHAR(3)(375,0,0,1)](11844,1,0,1)]
+Virgula[,(381,0,0,0)]
+VarDeclaration[@DESC_OCORRENCIA Char[CHAR(100)(386,0,0,1)](11845,1,0,1)]
+Virgula[,(390,0,0,0)]
+VarDeclaration[@TOTAL Tipo[MONEY](11846,2,0,1)]
+Virgula[,(397,0,0,0)]
+VarDeclaration[@SALDO Tipo[MONEY](11847,1,0,1)]
+Virgula[,(403,0,0,0)]
+VarDeclaration[@IR Tipo[MONEY](11848,1,0,1)]
+Virgula[,(409,0,0,0)]
+VarDeclaration[@SALDODIVIDA Tipo[MONEY](11849,1,0,1)]
+Virgula[,(415,0,0,0)]
+VarDeclaration[@VALOR Tipo[MONEY](11850,1,0,1)]
+Virgula[,(421,0,0,0)]
+VarDeclaration[@SALDOCD Tipo[MONEY](11851,1,0,1)]
+Virgula[,(427,0,0,0)]
+VarDeclaration[@SALDOCAR Tipo[MONEY](11852,1,0,1)]
+Virgula[,(433,0,0,0)]
+VarDeclaration[@SALDODIS Tipo[MONEY](11853,1,0,1)]
+Virgula[,(439,0,0,0)]
+VarDeclaration[@JUROS Tipo[MONEY](11854,1,0,1)]
+Virgula[,(445,0,0,0)]
+VarDeclaration[@VALORCAPITAL Tipo[MONEY](11855,1,0,1)]
+Virgula[,(451,0,0,0)]
+VarDeclaration[@MONTANTE Tipo[MONEY](11856,1,0,1)]
+Virgula[,(457,0,0,0)]
+VarDeclaration[@VALORATUAL Tipo[MONEY](11857,1,0,1)]
+Virgula[,(463,0,0,0)]
+VarDeclaration[@SALDOATUAL Tipo[MONEY](11858,1,0,1)]
+Virgula[,(469,0,0,0)]
+VarDeclaration[@SALDOPROP Tipo[MONEY](11859,1,0,1)]
+Virgula[,(475,0,0,0)]
+VarDeclaration[@VALORESTORNO Tipo[MONEY](11860,1,0,1)]
+Virgula[,(481,0,0,0)]
+VarDeclaration[@VALORDEPOSITO Tipo[MONEY](11861,1,0,1)]
+Virgula[,(487,0,0,0)]
+VarReference[@DATAATUAL(490,1,0,1)]
+	NaoClassificada[SMALLDATETIME(492,0,0,1)]
+Virgula[,(493,0,0,0)]
+VarReference[@DATAEMP(496,1,0,1)]
+	NaoClassificada[SMALLDATETIME(498,0,0,1)]
+Virgula[,(499,0,0,0)]
+VarReference[@DATAMOVIM(502,1,0,1)]
+	NaoClassificada[SMALLDATETIME(504,0,0,1)]
+Virgula[,(505,0,0,0)]
+VarReference[@DATACARENCIA(508,1,0,1)]
+	NaoClassificada[SMALLDATETIME(510,0,0,1)]
+Virgula[,(511,0,0,0)]
+VarDeclaration[@CONCILIADO Char[CHAR(1)(516,0,0,1)](11862,1,0,1)]
+Virgula[,(520,0,0,0)]
+VarDeclaration[@SALDO_REMANECENTE Tipo[MONEY](11863,1,0,1)]
+Virgula[,(526,0,0,0)]
+VarDeclaration[@FKAGENDARECEBIMENTO Tipo[INT](11864,1,0,1)]
+Virgula[,(532,0,0,0)]
+VarDeclaration[@TIPORECEBIMENTO Tipo[INT](11865,1,0,1)]
+Virgula[,(538,0,0,0)]
+VarDeclaration[@IS_CONVERSAO_13 Tipo[BIT](11866,1,0,1)]
+PontoEVirgula[;(12126,0,0,0)]
+<Declare(547)>
+VarDeclaration[@ID_SESSAO_TRASACAO_LIBERACAO Tipo[INT](11867,1,0,1)]
+Virgula[,(553,0,0,0)]
+VarDeclaration[@CCAR1 Char[CHAR(224)(558,0,0,1)](11868,1,0,1)]
+Virgula[,(562,0,0,0)]
+VarDeclaration[@CCAR2 Char[CHAR(210)(567,0,0,1)](11869,1,0,1)]
+Virgula[,(571,0,0,0)]
+VarDeclaration[@CCAR12 Char[CHAR(224)(576,0,0,1)](11870,1,0,1)]
+Virgula[,(580,0,0,0)]
+VarDeclaration[@CCAR22 Char[CHAR(210)(585,0,0,1)](11871,1,0,1)]
+Virgula[,(589,0,0,0)]
+VarDeclaration[@CCAR13 Char[CHAR(224)(594,0,0,1)](11872,1,0,1)]
+Virgula[,(598,0,0,0)]
+VarDeclaration[@CCAR23 Char[CHAR(210)(603,0,0,1)](11873,1,0,1)]
+Virgula[,(607,0,0,0)]
+VarDeclaration[@CANAL Varchar[VARCHAR(20)(612,0,0,1)](11874,1,0,1)]
+Virgula[,(616,0,0,0)]
+VarDeclaration[@QRYRESULT Char[CHAR(1)(621,0,0,1)](11875,1,0,1)]
+Virgula[,(625,0,0,0)]
+VarDeclaration[@ID_AGRUPAMENTO Tipo[INT](11876,1,0,1)]
+Virgula[,(631,0,0,0)]
+VarDeclaration[@ID_TIPO_TRANSACAO Tipo[INT](11877,1,0,1)]
+Virgula[,(637,0,0,0)]
+VarDeclaration[@PROPAMORTIZA Tipo[INT](11878,1,0,1)]
+Virgula[,(643,0,0,0)]
+VarDeclaration[@VALOR_LANCADO Tipo[MONEY](11879,1,0,1)]
+Virgula[,(649,0,0,0)]
+VarDeclaration[@PROPOSTAP Tipo[INT](11880,1,0,1)]
+Virgula[,(655,0,0,0)]
+VarReference[@DATA_FIM_TRANSACAO(658,1,0,1)]
+	NaoClassificada[SMALLDATETIME(660,0,0,1)]
+Virgula[,(661,0,0,0)]
+VarDeclaration[@SEQUENCIAL_DCO_AMORTIZADO Tipo[INT](11881,1,0,1)]
+Virgula[,(667,0,0,0)]
+VarDeclaration[@ERROMSG Varchar[VARCHAR(50)(672,0,0,1)](11882,1,0,1)]
+<Exec(679)>
+	NaoClassificada[ONLYDATE(681,0,0,1)]
+VarReference[@DATAATUAL(683,0,0,1)]
+	NaoClassificada[OUTPUT(685,0,0,1)]
+<Select(689)>
+VarReference[@RESPONSAVEL(692,1,0,1)]
+Igual[=(694,0,0,1)]
+	NaoClassificada[NOME_OPERADOR(696,0,0,1)]
+<From(699)>
+DataSet[OPERADOR with(nolock)(11949,0,0,1)]
+<Where(708)>
+	NaoClassificada[COD_OPERADOR(710,0,0,1)]
+Igual[=(712,0,0,1)]
+VarReference[@ID_RESPONSAVEL(714,0,0,1)]
+<Select(718)>
+	NaoClassificada[P(721,1,0,1)]
+Ponto[.(722,0,0,0)]
+Asterisco[*(723,0,0,0)]
+Virgula[,(724,0,0,0)]
+StringLiteral['N'(11136,1,0,1)]
+<As(731)>
+	NaoClassificada[ATUALIZA(733,0,0,1)]
+<Into(736)>
+VarReference[#TMP_DCO1(738,0,0,1)]
+<From(741)>
+DataSet[DCO P with(nolock)(11950,0,0,1)]
+<Where(758)>
+Coluna[P.DATA_COBRANCA(11985,0,0,1)]
+Igual[=(764,0,0,1)]
+VarReference[@DATADCO(766,0,0,1)]
+<And(769)>
+Coluna[P.DATA_GERACAO(11986,0,0,1)]
+Igual[=(775,0,0,1)]
+VarReference[@GERACAO(777,0,0,1)]
+<And(780)>
+Coluna[P.BANCO(11987,0,0,1)]
+Igual[=(786,0,0,1)]
+VarReference[@BANCO(788,0,0,1)]
+<And(791)>
+Coluna[P.INSCRICAO(11988,0,0,1)]
+Igual[=(797,0,0,1)]
+	NaoClassificada[ISNULL(799,0,0,1)]
+AbreParenteses[((800,0,0,0)]
+VarReference[@INSCRICAO_IN(801,0,0,0)]
+Virgula[,(802,0,0,0)]
+	NaoClassificada[P(804,0,0,1)]
+Ponto[.(805,0,0,0)]
+	NaoClassificada[INSCRICAO(806,0,0,0)]
+)
+<And(829)>
+Coluna[P.Queda(11989,0,0,1)]
+Diferente[<>(11821,0,0,1)]
+StringLiteral['NG'(11140,0,0,1)]
+<Create(844)>
+	NaoClassificada[CLUSTERED(846,0,0,1)]
+	NaoClassificada[INDEX(848,0,0,1)]
+	NaoClassificada[IX_SEQUENCIAL(851,0,0,1)]
+<On(854)>
+	NaoClassificada[dbo(857,0,0,1)]
+Ponto[.(859,0,0,0)]
+VarReference[#TMP_DCO1(861,0,0,0)]
+AbreParenteses[((865,1,0,1)]
+	NaoClassificada[Sequencial(869,1,0,1)]
+<Asc(872)>
+)
+<With(876)>
+AbreParenteses[((878,0,0,1)]
+	NaoClassificada[PAD_INDEX(879,0,0,0)]
+Igual[=(881,0,0,1)]
+<On(883)>
+Virgula[,(884,0,0,0)]
+	NaoClassificada[STATISTICS_NORECOMPUTE(886,0,0,1)]
+Igual[=(888,0,0,1)]
+<Off(890)>
+Virgula[,(891,0,0,0)]
+	NaoClassificada[SORT_IN_TEMPDB(893,0,0,1)]
+Igual[=(895,0,0,1)]
+<Off(897)>
+Virgula[,(898,0,0,0)]
+	NaoClassificada[DROP_EXISTING(900,0,0,1)]
+Igual[=(902,0,0,1)]
+<Off(904)>
+Virgula[,(905,0,0,0)]
+	NaoClassificada[ONLINE(907,0,0,1)]
+Igual[=(909,0,0,1)]
+<Off(911)>
+Virgula[,(912,0,0,0)]
+	NaoClassificada[ALLOW_ROW_LOCKS(914,0,0,1)]
+Igual[=(916,0,0,1)]
+<On(918)>
+Virgula[,(919,0,0,0)]
+	NaoClassificada[ALLOW_PAGE_LOCKS(921,0,0,1)]
+Igual[=(923,0,0,1)]
+<On(925)>
+Virgula[,(926,0,0,0)]
+	NaoClassificada[FILLFACTOR(928,0,0,1)]
+Igual[=(930,0,0,1)]
+InteiroLiteral[95(932,0,0,1)]
+)
+<Create(937)>
+	NaoClassificada[NONCLUSTERED(939,0,0,1)]
+	NaoClassificada[INDEX(941,0,0,1)]
+	NaoClassificada[IX_INSCRICAO(944,0,0,1)]
+<On(947)>
+	NaoClassificada[dbo(950,0,0,1)]
+Ponto[.(952,0,0,0)]
+VarReference[#TMP_DCO1(954,0,0,0)]
+AbreParenteses[((958,1,0,1)]
+	NaoClassificada[INSCRICAO(962,1,0,1)]
+<Asc(965)>
+)
+<With(969)>
+AbreParenteses[((971,0,0,1)]
+	NaoClassificada[PAD_INDEX(972,0,0,0)]
+Igual[=(974,0,0,1)]
+<On(976)>
+Virgula[,(977,0,0,0)]
+	NaoClassificada[STATISTICS_NORECOMPUTE(979,0,0,1)]
+Igual[=(981,0,0,1)]
+<Off(983)>
+Virgula[,(984,0,0,0)]
+	NaoClassificada[SORT_IN_TEMPDB(986,0,0,1)]
+Igual[=(988,0,0,1)]
+<Off(990)>
+Virgula[,(991,0,0,0)]
+	NaoClassificada[DROP_EXISTING(993,0,0,1)]
+Igual[=(995,0,0,1)]
+<Off(997)>
+Virgula[,(998,0,0,0)]
+	NaoClassificada[ONLINE(1000,0,0,1)]
+Igual[=(1002,0,0,1)]
+<Off(1004)>
+Virgula[,(1005,0,0,0)]
+	NaoClassificada[ALLOW_ROW_LOCKS(1007,0,0,1)]
+Igual[=(1009,0,0,1)]
+<On(1011)>
+Virgula[,(1012,0,0,0)]
+	NaoClassificada[ALLOW_PAGE_LOCKS(1014,0,0,1)]
+Igual[=(1016,0,0,1)]
+<On(1018)>
+Virgula[,(1019,0,0,0)]
+	NaoClassificada[FILLFACTOR(1021,0,0,1)]
+Igual[=(1023,0,0,1)]
+InteiroLiteral[95(1025,0,0,1)]
+)
+<End of <Select(689)>>
+<End of <Select(718)>>
+<Update(1067)>
+VarReference[#TMP_DCO1(1069,0,0,1)]
+<Set(1072)>
+	NaoClassificada[PROCESSADO(1074,0,0,1)]
+Igual[=(1076,0,0,1)]
+StringLiteral['S'(11144,0,0,1)]
+Virgula[,(1081,0,0,0)]
+	NaoClassificada[ATUALIZA(1083,0,0,1)]
+Igual[=(1085,0,0,1)]
+StringLiteral['S'(11146,0,0,1)]
+<From(1092)>
+DataSet[VarReference[#TMP_DCO1(1094,0,0,0)] D(11951,0,0,1)]
+<Where(1099)>
+Coluna[D.DATA_GERACAO(11990,0,0,1)]
+Igual[=(1105,0,0,1)]
+VarReference[@GERACAO(1107,0,0,1)]
+<And(1110)>
+Coluna[D.DATA_COBRANCA(11991,0,0,1)]
+Igual[=(1116,0,0,1)]
+VarReference[@DATADCO(1118,0,0,1)]
+<And(1121)>
+Coluna[D.BANCO(11992,0,0,1)]
+Igual[=(1126,0,0,1)]
+VarReference[@BANCO(1127,0,0,1)]
+<And(1130)>
+	NaoClassificada[D(1132,0,0,1)]
+Ponto[.(1133,0,0,0)]
+	NaoClassificada[DATA_VOLTA(1134,0,0,0)]
+IsNotNull[IS NOT NULL(11796,0,0,1)]
+<And(1143)>
+Coluna[D.SALDO_DCO(11993,0,0,1)]
+Igual[=(1149,0,0,1)]
+InteiroLiteral[0(1151,0,0,1)]
+<And(1154)>
+	NaoClassificada[D(1156,0,0,1)]
+Ponto[.(1157,0,0,0)]
+	NaoClassificada[PROCESSADO(1158,0,0,0)]
+IsNull[IS NULL(11793,0,0,1)]
+<And(1165)>
+Coluna[D.QUEDA(11994,0,0,1)]
+Diferente[<>(11822,0,0,1)]
+StringLiteral['00'(11148,0,0,1)]
+<Update(1180)>
+	NaoClassificada[DCO(1182,0,0,1)]
+<Set(1185)>
+	NaoClassificada[PROCESSADO(1187,0,0,1)]
+Igual[=(1189,0,0,1)]
+	NaoClassificada[T(1191,0,0,1)]
+Ponto[.(1192,0,0,0)]
+	NaoClassificada[PROCESSADO(1193,0,0,0)]
+Virgula[,(1194,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(1197,1,0,1)]
+Igual[=(1199,0,0,1)]
+InteiroLiteral[4(1201,0,0,1)]
+Virgula[,(1202,0,0,0)]
+	NaoClassificada[Data_Processamento(1205,1,0,1)]
+Igual[=(1207,0,0,1)]
+VarReference[@DATAATUAL(1209,0,0,1)]
+<From(1212)>
+DataSet[DCO D with(nolock) /*gm*/(11952,0,0,1)]
+<InnerJoin(11772)>
+DataSet[VarReference[#TMP_DCO1(1223,0,0,0)] T(11953,0,0,1)]
+<On(1227)>
+Coluna[T.SEQUENCIAL(11995,0,0,1)]
+Igual[=(1233,0,0,1)]
+Coluna[D.SEQUENCIAL(12020,0,0,1)]
+<And(1239)>
+Coluna[T.ATUALIZA(11996,0,0,1)]
+Igual[=(1245,0,0,1)]
+StringLiteral['S'(11150,0,0,1)]
+<Update(1253)>
+VarReference[#TMP_DCO1(1255,0,0,1)]
+<Set(1258)>
+	NaoClassificada[ATUALIZA(1260,0,0,1)]
+Igual[=(1262,0,0,1)]
+StringLiteral['P'(11152,0,0,1)]
+<Where(1269)>
+	NaoClassificada[ATUALIZA(1271,0,0,1)]
+Igual[=(1273,0,0,1)]
+StringLiteral['S'(11154,0,0,1)]
+<Create(1281)>
+Tipo[TABLE]
+VarReference[#TRANSACAO(1285,0,0,1)]
+AbreParenteses[((1287,0,0,1)]
+	NaoClassificada[ID_AGRUPAMENTO(1290,1,0,1)]
+Tipo[INT]
+Virgula[,(1293,0,0,0)]
+	NaoClassificada[PROPOSTA(1296,1,0,1)]
+Tipo[INT]
+<Not(1300)>
+Null[NULL(1302,0,0,1)]
+Virgula[,(1303,0,0,0)]
+	NaoClassificada[INSCRICAO(1306,1,0,1)]
+Tipo[INT]
+<Not(1310)>
+Null[NULL(1312,0,0,1)]
+Virgula[,(1313,0,0,0)]
+	NaoClassificada[VALOR(1316,1,0,1)]
+Tipo[MONEY]
+<Not(1320)>
+Null[NULL(1322,0,0,1)]
+Virgula[,(1323,0,0,0)]
+	NaoClassificada[QUEDA(1326,1,0,1)]
+Char[CHAR(2)(1328,0,0,1)]
+Virgula[,(1332,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(1335,1,0,1)]
+Tipo[INT]
+Virgula[,(1338,0,0,0)]
+	NaoClassificada[PROPAMORTIZA(1341,1,0,1)]
+Tipo[INT]
+Virgula[,(1344,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(1347,1,0,1)]
+Tipo[INT]
+)
+PontoEVirgula[;(12079,0,0,0)]
+<Declare(1356)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL Tipo[INT](11883,0,0,1)]
+PontoEVirgula[;(12127,0,0,0)]
+<Declare(1363)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_E Tipo[INT](11884,0,0,1)]
+PontoEVirgula[;(12128,0,0,0)]
+<Declare(1370)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_V Tipo[INT](11885,0,0,1)]
+PontoEVirgula[;(12129,0,0,0)]
+<Declare(1377)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_G Tipo[INT](11886,0,0,1)]
+PontoEVirgula[;(12130,0,0,0)]
+<Declare(1384)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_B Tipo[INT](11887,0,0,1)]
+PontoEVirgula[;(12131,0,0,0)]
+<Declare(1391)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_J Tipo[INT](11888,0,0,1)]
+PontoEVirgula[;(12132,0,0,0)]
+<Declare(1398)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_I Tipo[INT](11889,0,0,1)]
+PontoEVirgula[;(12133,0,0,0)]
+<Declare(1405)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_Q Tipo[INT](11890,0,0,1)]
+PontoEVirgula[;(12134,0,0,0)]
+<Declare(1412)>
+VarDeclaration[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_H Tipo[INT](11891,0,0,1)]
+PontoEVirgula[;(12135,0,0,0)]
+<Declare(1419)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_E Tipo[INT](11892,0,0,1)]
+PontoEVirgula[;(12136,0,0,0)]
+<Declare(1426)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_V Tipo[INT](11893,0,0,1)]
+PontoEVirgula[;(12137,0,0,0)]
+<Declare(1433)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_G Tipo[INT](11894,0,0,1)]
+PontoEVirgula[;(12138,0,0,0)]
+<Declare(1440)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_B Tipo[INT](11895,0,0,1)]
+PontoEVirgula[;(12139,0,0,0)]
+<Declare(1447)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_S Tipo[INT](11896,0,0,1)]
+PontoEVirgula[;(12140,0,0,0)]
+<Declare(1454)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_M Tipo[INT](11897,0,0,1)]
+PontoEVirgula[;(12141,0,0,0)]
+<Declare(1461)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_J Tipo[INT](11898,0,0,1)]
+PontoEVirgula[;(12142,0,0,0)]
+<Declare(1468)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_I Tipo[INT](11899,0,0,1)]
+PontoEVirgula[;(12143,0,0,0)]
+<Declare(1475)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_T Tipo[INT](11900,0,0,1)]
+PontoEVirgula[;(12144,0,0,0)]
+<Declare(1482)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_Q Tipo[INT](11901,0,0,1)]
+PontoEVirgula[;(12145,0,0,0)]
+<Declare(1489)>
+VarDeclaration[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_H Tipo[INT](11902,0,0,1)]
+PontoEVirgula[;(12146,0,0,0)]
+<Declare(1497)>
+VarDeclaration[@GERAR_FORTE_60 Tipo[INT](11903,0,0,1)]
+PontoEVirgula[;(12147,0,0,0)]
+<Declare(1504)>
+VarDeclaration[@DIA_COBRANCA Tipo[INT](11904,0,0,1)]
+PontoEVirgula[;(12148,0,0,0)]
+<Declare(1511)>
+VarDeclaration[@IS_POSSUI_DEBDEVOLVIDO Tipo[BIT](11905,0,0,1)]
+PontoEVirgula[;(12087,0,0,0)]
+<Set(1519)>
+VarReference[@GERAR_FORTE_60(1521,0,0,1)]
+Igual[=(1523,0,0,1)]
+InteiroLiteral[-1(1526,0,0,1)]
+<Set(1581)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_E(1583,0,0,1)]
+Igual[=(1585,0,0,1)]
+InteiroLiteral[241(1587,0,0,1)]
+<Set(1590)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_I(1592,0,0,1)]
+Igual[=(1594,0,0,1)]
+InteiroLiteral[242(1596,0,0,1)]
+<Set(1599)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_B(1601,0,0,1)]
+Igual[=(1603,0,0,1)]
+InteiroLiteral[243(1605,0,0,1)]
+<Set(1608)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_G(1610,0,0,1)]
+Igual[=(1612,0,0,1)]
+InteiroLiteral[244(1614,0,0,1)]
+<Set(1617)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_J(1619,0,0,1)]
+Igual[=(1621,0,0,1)]
+InteiroLiteral[245(1623,0,0,1)]
+<Set(1626)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_V(1628,0,0,1)]
+Igual[=(1630,0,0,1)]
+InteiroLiteral[246(1632,0,0,1)]
+<Set(1635)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_Q(1637,0,0,1)]
+Igual[=(1639,0,0,1)]
+InteiroLiteral[497(1641,0,0,1)]
+<Set(1644)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_H(1646,0,0,1)]
+Igual[=(1648,0,0,1)]
+InteiroLiteral[248(1650,0,0,1)]
+<Set(1654)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_E(1656,0,0,1)]
+Igual[=(1658,0,0,1)]
+InteiroLiteral[251(1660,0,0,1)]
+<Set(1663)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_V(1665,0,0,1)]
+Igual[=(1667,0,0,1)]
+InteiroLiteral[256(1669,0,0,1)]
+<Set(1672)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_G(1674,0,0,1)]
+Igual[=(1676,0,0,1)]
+InteiroLiteral[254(1678,0,0,1)]
+<Set(1681)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_B(1683,0,0,1)]
+Igual[=(1685,0,0,1)]
+InteiroLiteral[253(1687,0,0,1)]
+<Set(1690)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_S(1692,0,0,1)]
+Igual[=(1694,0,0,1)]
+InteiroLiteral[0(1696,0,0,1)]
+<Set(1699)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_M(1701,0,0,1)]
+Igual[=(1703,0,0,1)]
+InteiroLiteral[0(1705,0,0,1)]
+<Set(1708)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_J(1710,0,0,1)]
+Igual[=(1712,0,0,1)]
+InteiroLiteral[255(1714,0,0,1)]
+<Set(1717)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_I(1719,0,0,1)]
+Igual[=(1721,0,0,1)]
+InteiroLiteral[252(1723,0,0,1)]
+<Set(1726)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_T(1728,0,0,1)]
+Igual[=(1730,0,0,1)]
+InteiroLiteral[0(1732,0,0,1)]
+<Set(1735)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_Q(1737,0,0,1)]
+Igual[=(1739,0,0,1)]
+InteiroLiteral[519(1741,0,0,1)]
+<Set(1744)>
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_H(1746,0,0,1)]
+Igual[=(1748,0,0,1)]
+InteiroLiteral[532(1750,0,0,1)]
+PontoEVirgula[;(12080,0,0,0)]
+<Declare(1754)>
+VarDeclaration[@ID_SESSAO Tipo[INT](11906,0,0,1)]
+PontoEVirgula[;(12149,0,0,0)]
+<Declare(1761)>
+VarDeclaration[@ESTACAO_TRABALHO Varchar[VARCHAR(50)(1765,0,0,1)](11907,0,0,1)]
+<Exec(1771)>
+	NaoClassificada[ONLYDATE(1773,0,0,1)]
+VarReference[@DATAATUAL(1775,0,0,1)]
+	NaoClassificada[OUTPUT(1777,0,0,1)]
+<Set(1781)>
+VarReference[@ID_AGRUPAMENTO(1783,0,0,1)]
+Igual[=(1785,0,0,1)]
+InteiroLiteral[1(1787,0,0,1)]
+<Set(1790)>
+VarReference[@CANAL(1792,0,0,1)]
+Igual[=(1794,0,0,1)]
+StringLiteral['VSICOP'(11158,0,0,1)]
+<Set(1801)>
+VarReference[@QRYRESULT(1803,0,0,1)]
+Igual[=(1805,0,0,1)]
+StringLiteral['N'(11160,0,0,1)]
+<Set(1812)>
+VarReference[@ESTACAO_TRABALHO(1814,0,0,1)]
+Igual[=(1816,0,0,1)]
+	NaoClassificada[SUSER_SNAME(1818,0,0,1)]
+AbreParenteses[((1819,0,0,0)]
+)
+<Select(1824)>
+VarReference[@CONCILIADO(1826,0,0,1)]
+Igual[=(1827,0,0,1)]
+StringLiteral['N'(11162,0,0,1)]
+<End of <Select(1824)>>
+PontoEVirgula[;(12081,0,0,0)]
+<Declare(1894)>
+	NaoClassificada[C(1896,0,0,1)]
+<Cursor(1898)>
+<FastForward(1900)>
+<For(1902)>
+<Select(1905)>
+	NaoClassificada[D(1908,1,0,1)]
+Ponto[.(1909,0,0,0)]
+	NaoClassificada[SEQUENCIAL(1910,0,0,0)]
+Virgula[,(1911,0,0,0)]
+	NaoClassificada[D(1914,1,0,1)]
+Ponto[.(1915,0,0,0)]
+	NaoClassificada[INSCRICAO(1916,0,0,0)]
+Virgula[,(1917,0,0,0)]
+	NaoClassificada[D(1920,1,0,1)]
+Ponto[.(1921,0,0,0)]
+	NaoClassificada[PROPOSTA(1922,0,0,0)]
+Virgula[,(1923,0,0,0)]
+	NaoClassificada[D(1926,1,0,1)]
+Ponto[.(1927,0,0,0)]
+	NaoClassificada[PRODUTO(1928,0,0,0)]
+Virgula[,(1929,0,0,0)]
+	NaoClassificada[TOTAL(1932,1,0,1)]
+Igual[=(1934,0,0,1)]
+	NaoClassificada[SUM(1936,0,0,1)]
+AbreParenteses[((1937,0,0,0)]
+	NaoClassificada[ROUND(1939,0,0,0)]
+AbreParenteses[((1940,0,0,0)]
+	NaoClassificada[D(1941,0,0,0)]
+Ponto[.(1942,0,0,0)]
+	NaoClassificada[VALOR_DCO(1943,0,0,0)]
+Virgula[,(1944,0,0,0)]
+InteiroLiteral[2(1945,0,0,1)]
+)
+)
+Virgula[,(1949,0,0,0)]
+	NaoClassificada[D(1952,1,0,1)]
+Ponto[.(1953,0,0,0)]
+	NaoClassificada[FKAGENDARECEBIMENTO(1954,0,0,0)]
+<From(1957)>
+DataSet[VarReference[#TMP_DCO1(1959,0,0,0)] D with(nolock)(11954,0,0,1)]
+<Where(1972)>
+Coluna[D.DATA_GERACAO(11997,0,0,1)]
+Igual[=(1978,0,0,1)]
+VarReference[@GERACAO(1980,0,0,1)]
+<And(1983)>
+Coluna[D.DATA_COBRANCA(11998,0,0,1)]
+Igual[=(1989,0,0,1)]
+VarReference[@DATADCO(1991,0,0,1)]
+<And(1994)>
+	NaoClassificada[D(1996,0,0,1)]
+Ponto[.(1997,0,0,0)]
+	NaoClassificada[DATA_VOLTA(1998,0,0,0)]
+IsNotNull[IS NOT NULL(11797,0,0,1)]
+<And(2007)>
+	NaoClassificada[D(2009,0,0,1)]
+Ponto[.(2010,0,0,0)]
+	NaoClassificada[PRODUTO(2011,0,0,0)]
+<In(2013)>
+AbreParenteses[((2015,0,0,1)]
+StringLiteral['A'(11170,0,0,0)]
+Virgula[,(2020,0,0,0)]
+StringLiteral['B'(11172,0,0,0)]
+Virgula[,(2025,0,0,0)]
+StringLiteral['E'(11174,0,0,0)]
+Virgula[,(2030,0,0,0)]
+StringLiteral['I'(11176,0,0,0)]
+Virgula[,(2035,0,0,0)]
+StringLiteral['M'(11178,0,0,0)]
+Virgula[,(2040,0,0,0)]
+StringLiteral['S'(11180,0,0,0)]
+Virgula[,(2045,0,0,0)]
+StringLiteral['T'(11182,0,0,0)]
+Virgula[,(2050,0,0,0)]
+StringLiteral['J'(11184,0,0,0)]
+Virgula[,(2055,0,0,0)]
+StringLiteral['V'(11186,0,0,0)]
+Virgula[,(2060,0,0,0)]
+StringLiteral['G'(11188,0,0,0)]
+Virgula[,(2065,0,0,0)]
+StringLiteral['H'(11190,0,0,0)]
+Virgula[,(2069,0,0,0)]
+StringLiteral['Q'(11192,0,0,0)]
+)
+<And(2077)>
+Coluna[D.BANCO(11999,0,0,1)]
+Igual[=(2083,0,0,1)]
+VarReference[@BANCO(2085,0,0,1)]
+<And(2088)>
+Coluna[D.SALDO_DCO(12000,0,0,1)]
+Diferente[<>(11823,0,0,1)]
+InteiroLiteral[0(2097,0,0,1)]
+<And(2100)>
+	NaoClassificada[D(2102,0,0,1)]
+Ponto[.(2103,0,0,0)]
+	NaoClassificada[INSCRICAO(2104,0,0,0)]
+<Not(2106)>
+<In(2108)>
+AbreParenteses[((2151,1,0,4)]
+<Select(2157)>
+	NaoClassificada[D1(2164,1,0,5)]
+Ponto[.(2165,0,0,0)]
+	NaoClassificada[INSCRICAO(2166,0,0,0)]
+<From(2172)>
+DataSet[VarReference[#TMP_DCO1(2174,0,0,0)] D1 with(nolock)(11955,0,0,1)]
+<Where(2188)>
+Coluna[D.INSCRICAO(12001,0,0,1)]
+Igual[=(2194,0,0,1)]
+Coluna[D1.INSCRICAO(12021,0,0,1)]
+<And(2204)>
+Coluna[D.DATA_GERACAO(12002,0,0,1)]
+Igual[=(2210,0,0,1)]
+Coluna[D1.DATA_GERACAO(12022,0,0,1)]
+<And(2220)>
+Coluna[D.DATA_COBRANCA(12003,0,0,1)]
+Igual[=(2226,0,0,1)]
+Coluna[D1.DATA_COBRANCA(12023,0,0,1)]
+<And(2236)>
+	NaoClassificada[D1(2238,0,0,1)]
+Ponto[.(2239,0,0,0)]
+	NaoClassificada[DATA_VOLTA(2240,0,0,0)]
+IsNull[IS NULL(11794,0,0,1)]
+<End of <Select(2157)>>
+)
+<And(2253)>
+<NotExists(11789)>
+AbreParenteses[((2285,1,0,3)]
+<Select(2290)>
+	NaoClassificada[O(2296,1,0,4)]
+Ponto[.(2297,0,0,0)]
+	NaoClassificada[SEQUENCIAL(2298,0,0,0)]
+<From(2303)>
+DataSet[TB_DCO_OCORRENCIA_BAIXA O with(nolock)(11956,0,0,1)]
+<Where(2318)>
+Coluna[O.SEQUENCIAL_DCO_AMORTIZADO(12004,0,0,1)]
+Igual[=(2324,0,0,1)]
+	NaoClassificada[D(2326,0,0,1)]
+Ponto[.(2327,0,0,0)]
+	NaoClassificada[SEQUENCIAL(2328,0,0,0)]
+<End of <Select(2290)>>
+)
+GroupBy[GROUP BY(11779,1,0,1)]
+	NaoClassificada[D(2340,0,0,1)]
+Ponto[.(2341,0,0,0)]
+	NaoClassificada[SEQUENCIAL(2342,0,0,0)]
+Virgula[,(2343,0,0,0)]
+	NaoClassificada[D(2345,0,0,1)]
+Ponto[.(2346,0,0,0)]
+	NaoClassificada[INSCRICAO(2347,0,0,0)]
+Virgula[,(2348,0,0,0)]
+	NaoClassificada[D(2350,0,0,1)]
+Ponto[.(2351,0,0,0)]
+	NaoClassificada[PROPOSTA(2352,0,0,0)]
+Virgula[,(2353,0,0,0)]
+	NaoClassificada[D(2355,0,0,1)]
+Ponto[.(2356,0,0,0)]
+	NaoClassificada[PRODUTO(2357,0,0,0)]
+Virgula[,(2358,0,0,0)]
+	NaoClassificada[D(2360,0,0,1)]
+Ponto[.(2361,0,0,0)]
+	NaoClassificada[FKAGENDARECEBIMENTO(2362,0,0,0)]
+OrderBy[ORDER BY(11780,1,0,1)]
+	NaoClassificada[D(2369,0,0,1)]
+Ponto[.(2370,0,0,0)]
+	NaoClassificada[INSCRICAO(2371,0,0,0)]
+Virgula[,(2372,0,0,0)]
+<Case(2375)>
+<When(2391)>
+	NaoClassificada[D(2393,0,0,1)]
+Ponto[.(2394,0,0,0)]
+	NaoClassificada[PRODUTO(2395,0,0,0)]
+Igual[=(2396,0,0,1)]
+StringLiteral['V'(11200,0,0,1)]
+<Then(2401)>
+InteiroLiteral[20(2403,0,0,1)]
+<When(2406)>
+	NaoClassificada[D(2408,0,0,1)]
+Ponto[.(2409,0,0,0)]
+	NaoClassificada[PRODUTO(2410,0,0,0)]
+Igual[=(2411,0,0,1)]
+StringLiteral['B'(11202,0,0,1)]
+<Then(2416)>
+InteiroLiteral[30(2418,0,0,1)]
+<When(2421)>
+	NaoClassificada[D(2423,0,0,1)]
+Ponto[.(2424,0,0,0)]
+	NaoClassificada[PRODUTO(2425,0,0,0)]
+Igual[=(2426,0,0,1)]
+StringLiteral['I'(11204,0,0,1)]
+<Then(2431)>
+InteiroLiteral[31(2433,0,0,1)]
+<When(2436)>
+	NaoClassificada[D(2438,0,0,1)]
+Ponto[.(2439,0,0,0)]
+	NaoClassificada[PRODUTO(2440,0,0,0)]
+Igual[=(2441,0,0,1)]
+StringLiteral['S'(11206,0,0,1)]
+<Then(2446)>
+InteiroLiteral[32(2448,0,0,1)]
+<When(2451)>
+	NaoClassificada[D(2453,0,0,1)]
+Ponto[.(2454,0,0,0)]
+	NaoClassificada[PRODUTO(2455,0,0,0)]
+Igual[=(2456,0,0,1)]
+StringLiteral['E'(11208,0,0,1)]
+<Then(2461)>
+InteiroLiteral[33(2463,0,0,1)]
+<When(2466)>
+	NaoClassificada[D(2468,0,0,1)]
+Ponto[.(2469,0,0,0)]
+	NaoClassificada[PRODUTO(2470,0,0,0)]
+Igual[=(2471,0,0,1)]
+StringLiteral['Q'(11210,0,0,1)]
+<Then(2476)>
+InteiroLiteral[33(2478,0,0,1)]
+<When(2481)>
+	NaoClassificada[D(2483,0,0,1)]
+Ponto[.(2484,0,0,0)]
+	NaoClassificada[PRODUTO(2485,0,0,0)]
+Igual[=(2486,0,0,1)]
+StringLiteral['G'(11212,0,0,1)]
+<Then(2491)>
+InteiroLiteral[34(2493,0,0,1)]
+<When(2496)>
+	NaoClassificada[D(2498,0,0,1)]
+Ponto[.(2499,0,0,0)]
+	NaoClassificada[PRODUTO(2500,0,0,0)]
+Igual[=(2501,0,0,1)]
+StringLiteral['T'(11214,0,0,1)]
+<Then(2506)>
+InteiroLiteral[40(2508,0,0,1)]
+<When(2511)>
+	NaoClassificada[D(2513,0,0,1)]
+Ponto[.(2514,0,0,0)]
+	NaoClassificada[PRODUTO(2515,0,0,0)]
+Igual[=(2516,0,0,1)]
+StringLiteral['J'(11216,0,0,1)]
+<Then(2521)>
+InteiroLiteral[41(2523,0,0,1)]
+<When(2526)>
+	NaoClassificada[D(2528,0,0,1)]
+Ponto[.(2529,0,0,0)]
+	NaoClassificada[PRODUTO(2530,0,0,0)]
+Igual[=(2531,0,0,1)]
+StringLiteral['M'(11218,0,0,1)]
+<Then(2536)>
+InteiroLiteral[42(2538,0,0,1)]
+<When(2541)>
+	NaoClassificada[D(2543,0,0,1)]
+Ponto[.(2544,0,0,0)]
+	NaoClassificada[PRODUTO(2545,0,0,0)]
+Igual[=(2546,0,0,1)]
+StringLiteral['F'(11220,0,0,1)]
+<Then(2551)>
+InteiroLiteral[43(2553,0,0,1)]
+<When(2556)>
+	NaoClassificada[D(2558,0,0,1)]
+Ponto[.(2559,0,0,0)]
+	NaoClassificada[PRODUTO(2560,0,0,0)]
+Igual[=(2561,0,0,1)]
+StringLiteral['C'(11222,0,0,1)]
+<Then(2566)>
+InteiroLiteral[50(2568,0,0,1)]
+<When(2571)>
+	NaoClassificada[D(2573,0,0,1)]
+Ponto[.(2574,0,0,0)]
+	NaoClassificada[PRODUTO(2575,0,0,0)]
+Igual[=(2576,0,0,1)]
+StringLiteral['H'(11224,0,0,1)]
+<Then(2581)>
+InteiroLiteral[51(2583,0,0,1)]
+<End of <Case(2375)>>
+<Open(2590)>
+	NaoClassificada[C(2592,0,0,1)]
+<FetchNextFrom(11809)>
+	NaoClassificada[C(2601,0,0,1)]
+<Into(2603)>
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(2605,0,0,1)]
+Virgula[,(2606,0,0,0)]
+VarReference[@INSCRICAO(2608,0,0,1)]
+Virgula[,(2609,0,0,0)]
+VarReference[@PROPOSTA(2611,0,0,1)]
+Virgula[,(2612,0,0,0)]
+VarReference[@PRODUTO(2614,0,0,1)]
+Virgula[,(2615,0,0,0)]
+VarReference[@TOTAL(2617,0,0,1)]
+Virgula[,(2618,0,0,0)]
+VarReference[@FKAGENDARECEBIMENTO(2620,0,0,1)]
+<End of <Select(1905)>>
+<While(2623)>
+AbreParenteses[((2625,0,0,1)]
+VarReference[@@FETCH_STATUS(2627,0,0,0)]
+Igual[=(2629,0,0,1)]
+InteiroLiteral[0(2631,0,0,1)]
+)
+<Begin(2636)>
+<Select(2709)>
+VarReference[@QUEDA(2713,1,0,2)]
+Igual[=(2715,0,0,1)]
+<Max(2717)>
+AbreParenteses[((2718,0,0,0)]
+	NaoClassificada[QUEDA(2720,0,0,0)]
+)
+<From(2725)>
+DataSet[DCO with(nolock)(11957,0,0,1)]
+<Where(2736)>
+	NaoClassificada[DATA_COBRANCA(2738,0,0,1)]
+Igual[=(2740,0,0,1)]
+VarReference[@DATADCO(2742,0,0,1)]
+<And(2745)>
+	NaoClassificada[INSCRICAO(2747,0,0,1)]
+Igual[=(2749,0,0,1)]
+VarReference[@INSCRICAO(2751,0,0,1)]
+<And(2754)>
+	NaoClassificada[BANCO(2756,0,0,1)]
+Igual[=(2758,0,0,1)]
+VarReference[@BANCO(2760,0,0,1)]
+<And(2782)>
+	NaoClassificada[Queda(2784,0,0,1)]
+Diferente[<>(11824,0,0,1)]
+StringLiteral['NG'(11232,0,0,1)]
+<Set(2795)>
+VarReference[@DIA_COBRANCA(2797,0,0,1)]
+Igual[=(2799,0,0,1)]
+Null[NULL(2801,0,0,1)]
+<Set(2804)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(2806,0,0,1)]
+Igual[=(2808,0,0,1)]
+Null[NULL(2810,0,0,1)]
+<Set(2814)>
+VarReference[@IS_CONVERSAO_13(2816,0,0,1)]
+Igual[=(2818,0,0,1)]
+InteiroLiteral[0(2820,0,0,1)]
+<End of <Select(2709)>>
+<If(2824)>
+AbreParenteses[((2825,0,0,0)]
+VarReference[@PRODUTO(2826,0,0,0)]
+Igual[=(2828,0,0,1)]
+StringLiteral['H'(11234,0,0,1)]
+)
+<Begin(2836)>
+<Select(2855)>
+VarReference[@DIA_COBRANCA(2857,0,0,1)]
+Igual[=(2859,0,0,1)]
+	NaoClassificada[DiaCobranca(2861,0,0,1)]
+<From(2863)>
+DataSet[SCH_LEGADO.ASSOCIADO with(nolock)(11909,0,0,1)]
+<Where(2874)>
+	NaoClassificada[INSCRICAO(2876,0,0,1)]
+Igual[=(2877,0,0,1)]
+VarReference[@INSCRICAO(2878,0,0,1)]
+<End of <Select(2855)>>
+<If(2882)>
+AbreParenteses[((2883,0,0,0)]
+<Exists(2884)>
+AbreParenteses[((2885,0,0,0)]
+<Select(2886)>
+InteiroLiteral[1(2888,0,0,1)]
+<From(2890)>
+DataSet[DEBITODEV with(nolock)(11958,0,0,1)]
+<Where(2900)>
+Coluna[DEBITODEV.MORTO(12005,0,0,1)]
+Igual[=(2906,0,0,1)]
+StringLiteral['N'(11238,0,0,1)]
+<And(2912)>
+	NaoClassificada[INSCRICAO(2914,0,0,1)]
+Igual[=(2916,0,0,1)]
+VarReference[@INSCRICAO(2918,0,0,1)]
+<End of <Select(2886)>>
+)
+)
+<Set(2924)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(2926,0,0,1)]
+Igual[=(2928,0,0,1)]
+InteiroLiteral[1234567(2930,0,0,1)]
+<Else(2934)>
+<Set(2938)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(2940,0,0,1)]
+Igual[=(2942,0,0,1)]
+InteiroLiteral[0(2944,0,0,1)]
+PontoEVirgula[;(12088,0,0,0)]
+<End(2947)>
+<If(2951)>
+AbreParenteses[((2953,0,0,1)]
+VarReference[@PRODUTO(2954,0,0,0)]
+Igual[=(2956,0,0,1)]
+StringLiteral['I'(11240,0,0,1)]
+)
+<Begin(2964)>
+<Set(2968)>
+VarReference[@IS_CONVERSAO_13(2970,0,0,1)]
+Igual[=(2972,0,0,1)]
+	NaoClassificada[iif(2974,0,0,1)]
+AbreParenteses[((2975,0,0,0)]
+<Exists(2977)>
+AbreParenteses[((2979,0,0,1)]
+<Select(2980)>
+InteiroLiteral[1(2982,0,0,1)]
+<From(2984)>
+DataSet[SCH_EMPRESTIMO.TB_Conversao13 with(nolock) /*gm*/(11910,0,0,1)]
+<Where(2992)>
+	NaoClassificada[FK_Conversao13Tipo(2994,0,0,1)]
+<In(2996)>
+AbreParenteses[((2998,0,0,1)]
+InteiroLiteral[2(2999,0,0,0)]
+Virgula[,(3000,0,0,0)]
+InteiroLiteral[3(3001,0,0,0)]
+)
+<And(3006)>
+	NaoClassificada[Inscricao(3008,0,0,1)]
+Igual[=(3010,0,0,1)]
+VarReference[@INSCRICAO(3012,0,0,1)]
+<End of <Select(2980)>>
+)
+Virgula[,(3014,0,0,0)]
+InteiroLiteral[1(3015,0,0,1)]
+Virgula[,(3016,0,0,0)]
+InteiroLiteral[0(3017,0,0,1)]
+)
+<If(3023)>
+AbreParenteses[((3024,0,0,0)]
+<Exists(3025)>
+AbreParenteses[((3026,0,0,0)]
+<Select(3027)>
+InteiroLiteral[1(3029,0,0,1)]
+<From(3031)>
+DataSet[DEBITODEV with(nolock)(11959,0,0,1)]
+<Where(3041)>
+Coluna[DEBITODEV.MORTO(12006,0,0,1)]
+Igual[=(3047,0,0,1)]
+StringLiteral['N'(11242,0,0,1)]
+<And(3053)>
+	NaoClassificada[INSCRICAO(3055,0,0,1)]
+Igual[=(3057,0,0,1)]
+VarReference[@INSCRICAO(3059,0,0,1)]
+<End of <Select(3027)>>
+)
+)
+<Set(3065)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3067,0,0,1)]
+Igual[=(3069,0,0,1)]
+InteiroLiteral[1(3071,0,0,1)]
+<Else(3075)>
+<Set(3079)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3081,0,0,1)]
+Igual[=(3083,0,0,1)]
+InteiroLiteral[0(3085,0,0,1)]
+PontoEVirgula[;(12089,0,0,0)]
+<End(3089)>
+PontoEVirgula[;(3090,0,0,1)]
+<If(3094)>
+AbreParenteses[((3096,0,0,1)]
+VarReference[@PRODUTO(3097,0,0,0)]
+<In(3099)>
+AbreParenteses[((3101,0,0,1)]
+StringLiteral['B'(11244,0,0,0)]
+Virgula[,(3106,0,0,0)]
+StringLiteral['E'(11246,0,0,0)]
+Virgula[,(3111,0,0,0)]
+StringLiteral['Q'(11248,0,0,0)]
+Virgula[,(3115,0,0,0)]
+StringLiteral['M'(11250,0,0,0)]
+Virgula[,(3120,0,0,0)]
+StringLiteral['S'(11252,0,0,0)]
+Virgula[,(3125,0,0,0)]
+StringLiteral['T'(11254,0,0,0)]
+Virgula[,(3130,0,0,0)]
+StringLiteral['J'(11256,0,0,0)]
+Virgula[,(3135,0,0,0)]
+StringLiteral['G'(11258,0,0,0)]
+)
+)
+<Or(3145)>
+AbreParenteses[((3147,0,0,1)]
+VarReference[@PRODUTO(3148,0,0,0)]
+Igual[=(3150,0,0,1)]
+StringLiteral['H'(11260,0,0,1)]
+<And(3156)>
+VarReference[@DIA_COBRANCA(3158,0,0,1)]
+IsNotNull[IS NOT NULL(11798,0,0,1)]
+<And(3166)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3168,0,0,1)]
+IsNotNull[IS NOT NULL(11799,0,0,1)]
+<And(3195)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3197,0,0,1)]
+Igual[=(3199,0,0,1)]
+InteiroLiteral[1(3201,0,0,1)]
+)
+<Or(3206)>
+AbreParenteses[((3207,0,0,0)]
+VarReference[@PRODUTO(3208,0,0,0)]
+Igual[=(3210,0,0,1)]
+StringLiteral['H'(11264,0,0,1)]
+<And(3216)>
+VarReference[@DIA_COBRANCA(3218,0,0,1)]
+IsNotNull[IS NOT NULL(11800,0,0,1)]
+<And(3226)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3228,0,0,1)]
+IsNotNull[IS NOT NULL(11801,0,0,1)]
+<And(3255)>
+<Exists(3257)>
+AbreParenteses[((3258,0,0,0)]
+<Select(3259)>
+InteiroLiteral[1(3261,0,0,1)]
+<From(3263)>
+DataSet[VarReference[#TRANSACAO(3265,0,0,0)] with(nolock)(11960,0,0,1)]
+<Where(3272)>
+	NaoClassificada[INSCRICAO(3274,0,0,1)]
+Igual[=(3275,0,0,1)]
+VarReference[@INSCRICAO(3276,0,0,1)]
+<And(3278)>
+	NaoClassificada[ID_TIPO_TRANSACAO(3280,0,0,1)]
+Igual[=(3281,0,0,1)]
+InteiroLiteral[251(3282,0,0,1)]
+<End of <Select(3259)>>
+)
+)
+<Or(3288)>
+AbreParenteses[((3290,0,0,1)]
+VarReference[@PRODUTO(3291,0,0,0)]
+Igual[=(3293,0,0,1)]
+StringLiteral['I'(11268,0,0,1)]
+<And(3299)>
+VarReference[@IS_CONVERSAO_13(3301,0,0,1)]
+Igual[=(3303,0,0,1)]
+InteiroLiteral[0(3305,0,0,1)]
+)
+<Or(3310)>
+AbreParenteses[((3312,0,0,1)]
+VarReference[@PRODUTO(3313,0,0,0)]
+Igual[=(3315,0,0,1)]
+StringLiteral['I'(11270,0,0,1)]
+<And(3321)>
+VarReference[@IS_POSSUI_DEBDEVOLVIDO(3323,0,0,1)]
+Igual[=(3325,0,0,1)]
+InteiroLiteral[1(3327,0,0,1)]
+)
+<Begin(3331)>
+<Set(3336)>
+VarReference[@VALORATUAL(3338,0,0,1)]
+Igual[=(3340,0,0,1)]
+InteiroLiteral[0(3342,0,0,1)]
+<Set(3346)>
+VarReference[@MONTANTE(3348,0,0,1)]
+Igual[=(3350,0,0,1)]
+InteiroLiteral[0(3352,0,0,1)]
+PontoEVirgula[;(12082,0,0,0)]
+<Declare(3378)>
+	NaoClassificada[D(3380,0,0,1)]
+<Cursor(3382)>
+<FastForward(3384)>
+<For(3386)>
+<Select(3391)>
+	NaoClassificada[VALOR(3393,0,0,1)]
+Virgula[,(3394,0,0,0)]
+	NaoClassificada[DATA_MOVIM(3396,0,0,1)]
+<From(3400)>
+DataSet[MOVIMENTO with(nolock)(11961,0,0,1)]
+<Where(3414)>
+	NaoClassificada[PROPOSTA(3416,0,0,1)]
+Igual[=(3418,0,0,1)]
+VarReference[@PROPOSTA(3420,0,0,1)]
+<And(3424)>
+	NaoClassificada[CONVERT(3426,0,0,1)]
+AbreParenteses[((3427,0,0,0)]
+Char[CHAR(8)(3429,0,0,0)]
+Virgula[,(3435,0,0,0)]
+	NaoClassificada[DATA_MOVIM(3437,0,0,1)]
+Virgula[,(3438,0,0,0)]
+InteiroLiteral[112(3440,0,0,1)]
+)
+MaiorOuIgual[>=(11126,0,0,1)]
+	NaoClassificada[CONVERT(3447,0,0,1)]
+AbreParenteses[((3448,0,0,0)]
+Char[CHAR(8)(3450,0,0,0)]
+Virgula[,(3456,0,0,0)]
+VarReference[@GERACAO(3458,0,0,1)]
+Virgula[,(3459,0,0,0)]
+InteiroLiteral[112(3461,0,0,1)]
+)
+<And(3467)>
+	NaoClassificada[CONVERT(3469,0,0,1)]
+AbreParenteses[((3470,0,0,0)]
+Char[CHAR(8)(3472,0,0,0)]
+Virgula[,(3478,0,0,0)]
+	NaoClassificada[DATA_MOVIM(3480,0,0,1)]
+Virgula[,(3481,0,0,0)]
+InteiroLiteral[112(3483,0,0,1)]
+)
+MenorOuIgual[<=(11124,0,0,1)]
+	NaoClassificada[CONVERT(3490,0,0,1)]
+AbreParenteses[((3491,0,0,0)]
+Char[CHAR(8)(3493,0,0,0)]
+Virgula[,(3499,0,0,0)]
+	NaoClassificada[DATEADD(3501,0,0,1)]
+AbreParenteses[((3502,0,0,0)]
+<Month(3504)>
+Virgula[,(3505,0,0,0)]
+InteiroLiteral[1(3507,0,0,1)]
+Virgula[,(3508,0,0,0)]
+VarReference[@DATADCO(3510,0,0,1)]
+)
+Virgula[,(3513,0,0,0)]
+InteiroLiteral[112(3515,0,0,1)]
+)
+<And(3521)>
+AbreParenteses[((3523,0,0,1)]
+AbreParenteses[((3528,1,0,3)]
+	NaoClassificada[TIPO(3530,0,0,0)]
+Igual[=(3532,0,0,1)]
+StringLiteral['E'(11274,0,0,1)]
+<And(3538)>
+	NaoClassificada[COD_MOVIM(3540,0,0,1)]
+<In(3542)>
+AbreParenteses[((3544,0,0,1)]
+StringLiteral['503'(11276,0,0,0)]
+Virgula[,(3549,0,0,0)]
+StringLiteral['504'(11278,0,0,0)]
+Virgula[,(3553,0,0,0)]
+StringLiteral['505'(11280,0,0,0)]
+Virgula[,(3557,0,0,0)]
+StringLiteral['506'(11282,0,0,0)]
+Virgula[,(3561,0,0,0)]
+StringLiteral['507'(11284,0,0,0)]
+Virgula[,(3565,0,0,0)]
+StringLiteral['513'(11286,0,0,0)]
+Virgula[,(3569,0,0,0)]
+StringLiteral['622'(11288,0,0,0)]
+Virgula[,(3573,0,0,0)]
+StringLiteral['518'(11290,0,0,0)]
+Virgula[,(3578,0,0,0)]
+StringLiteral['519'(11292,0,0,0)]
+Virgula[,(3584,0,0,0)]
+StringLiteral['600'(11294,0,0,0)]
+)
+)
+<Or(3596)>
+AbreParenteses[((3598,0,0,1)]
+	NaoClassificada[TIPO(3600,0,0,0)]
+Igual[=(3602,0,0,1)]
+StringLiteral['G'(11296,0,0,1)]
+<And(3608)>
+	NaoClassificada[COD_MOVIM(3610,0,0,1)]
+<In(3612)>
+AbreParenteses[((3614,0,0,1)]
+StringLiteral['503'(11298,0,0,0)]
+Virgula[,(3619,0,0,0)]
+StringLiteral['504'(11300,0,0,0)]
+Virgula[,(3623,0,0,0)]
+StringLiteral['505'(11302,0,0,0)]
+Virgula[,(3627,0,0,0)]
+StringLiteral['506'(11304,0,0,0)]
+Virgula[,(3631,0,0,0)]
+StringLiteral['507'(11306,0,0,0)]
+Virgula[,(3635,0,0,0)]
+StringLiteral['513'(11308,0,0,0)]
+Virgula[,(3639,0,0,0)]
+StringLiteral['622'(11310,0,0,0)]
+Virgula[,(3643,0,0,0)]
+StringLiteral['518'(11312,0,0,0)]
+Virgula[,(3648,0,0,0)]
+StringLiteral['519'(11314,0,0,0)]
+Virgula[,(3652,0,0,0)]
+StringLiteral['600'(11316,0,0,0)]
+)
+)
+<Or(3665)>
+AbreParenteses[((3667,0,0,1)]
+	NaoClassificada[TIPO(3669,0,0,0)]
+Igual[=(3671,0,0,1)]
+StringLiteral['Q'(11318,0,0,1)]
+<And(3677)>
+	NaoClassificada[COD_MOVIM(3679,0,0,1)]
+<In(3681)>
+AbreParenteses[((3683,0,0,1)]
+StringLiteral['503'(11320,0,0,0)]
+Virgula[,(3688,0,0,0)]
+StringLiteral['504'(11322,0,0,0)]
+Virgula[,(3692,0,0,0)]
+StringLiteral['505'(11324,0,0,0)]
+Virgula[,(3696,0,0,0)]
+StringLiteral['506'(11326,0,0,0)]
+Virgula[,(3700,0,0,0)]
+StringLiteral['507'(11328,0,0,0)]
+Virgula[,(3704,0,0,0)]
+StringLiteral['513'(11330,0,0,0)]
+Virgula[,(3708,0,0,0)]
+StringLiteral['622'(11332,0,0,0)]
+Virgula[,(3712,0,0,0)]
+StringLiteral['518'(11334,0,0,0)]
+Virgula[,(3717,0,0,0)]
+StringLiteral['519'(11336,0,0,0)]
+Virgula[,(3721,0,0,0)]
+StringLiteral['600'(11338,0,0,0)]
+)
+)
+<Or(3734)>
+AbreParenteses[((3736,0,0,1)]
+	NaoClassificada[TIPO(3738,0,0,0)]
+Igual[=(3740,0,0,1)]
+StringLiteral['H'(11340,0,0,1)]
+<And(3746)>
+	NaoClassificada[COD_MOVIM(3748,0,0,1)]
+<In(3750)>
+AbreParenteses[((3752,0,0,1)]
+StringLiteral['503'(11342,0,0,0)]
+Virgula[,(3757,0,0,0)]
+StringLiteral['504'(11344,0,0,0)]
+Virgula[,(3761,0,0,0)]
+StringLiteral['505'(11346,0,0,0)]
+Virgula[,(3765,0,0,0)]
+StringLiteral['506'(11348,0,0,0)]
+Virgula[,(3769,0,0,0)]
+StringLiteral['507'(11350,0,0,0)]
+Virgula[,(3773,0,0,0)]
+StringLiteral['513'(11352,0,0,0)]
+Virgula[,(3777,0,0,0)]
+StringLiteral['622'(11354,0,0,0)]
+Virgula[,(3781,0,0,0)]
+StringLiteral['518'(11356,0,0,0)]
+Virgula[,(3786,0,0,0)]
+StringLiteral['519'(11358,0,0,0)]
+Virgula[,(3790,0,0,0)]
+StringLiteral['600'(11360,0,0,0)]
+)
+)
+<Or(3803)>
+AbreParenteses[((3805,0,0,1)]
+	NaoClassificada[TIPO(3807,0,0,0)]
+Igual[=(3809,0,0,1)]
+StringLiteral['B'(11362,0,0,1)]
+<And(3815)>
+	NaoClassificada[COD_MOVIM(3817,0,0,1)]
+<In(3819)>
+AbreParenteses[((3821,0,0,1)]
+StringLiteral['501'(11364,0,0,0)]
+Virgula[,(3826,0,0,0)]
+StringLiteral['502'(11366,0,0,0)]
+Virgula[,(3830,0,0,0)]
+StringLiteral['503'(11368,0,0,0)]
+Virgula[,(3834,0,0,0)]
+StringLiteral['504'(11370,0,0,0)]
+Virgula[,(3838,0,0,0)]
+StringLiteral['511'(11372,0,0,0)]
+Virgula[,(3842,0,0,0)]
+StringLiteral['518'(11374,0,0,0)]
+Virgula[,(3846,0,0,0)]
+StringLiteral['519'(11376,0,0,0)]
+Virgula[,(3851,0,0,0)]
+StringLiteral['600'(11378,0,0,0)]
+)
+)
+<Or(3864)>
+AbreParenteses[((3866,0,0,1)]
+	NaoClassificada[TIPO(3868,0,0,0)]
+Igual[=(3870,0,0,1)]
+StringLiteral['M'(11380,0,0,1)]
+<And(3876)>
+	NaoClassificada[COD_MOVIM(3878,0,0,1)]
+<In(3880)>
+AbreParenteses[((3882,0,0,1)]
+StringLiteral['501'(11382,0,0,0)]
+Virgula[,(3887,0,0,0)]
+StringLiteral['502'(11384,0,0,0)]
+Virgula[,(3891,0,0,0)]
+StringLiteral['503'(11386,0,0,0)]
+Virgula[,(3895,0,0,0)]
+StringLiteral['504'(11388,0,0,0)]
+Virgula[,(3899,0,0,0)]
+StringLiteral['511'(11390,0,0,0)]
+Virgula[,(3903,0,0,0)]
+StringLiteral['518'(11392,0,0,0)]
+Virgula[,(3907,0,0,0)]
+StringLiteral['600'(11394,0,0,0)]
+)
+)
+<Or(3920)>
+AbreParenteses[((3922,0,0,1)]
+	NaoClassificada[TIPO(3924,0,0,0)]
+Igual[=(3926,0,0,1)]
+StringLiteral['S'(11396,0,0,1)]
+<And(3932)>
+	NaoClassificada[COD_MOVIM(3934,0,0,1)]
+<In(3936)>
+AbreParenteses[((3938,0,0,1)]
+StringLiteral['503'(11398,0,0,0)]
+Virgula[,(3943,0,0,0)]
+StringLiteral['504'(11400,0,0,0)]
+Virgula[,(3947,0,0,0)]
+StringLiteral['508'(11402,0,0,0)]
+Virgula[,(3951,0,0,0)]
+StringLiteral['509'(11404,0,0,0)]
+Virgula[,(3955,0,0,0)]
+StringLiteral['513'(11406,0,0,0)]
+Virgula[,(3959,0,0,0)]
+StringLiteral['518'(11408,0,0,0)]
+Virgula[,(3963,0,0,0)]
+StringLiteral['600'(11410,0,0,0)]
+)
+)
+<Or(3976)>
+AbreParenteses[((3978,0,0,1)]
+	NaoClassificada[TIPO(3980,0,0,0)]
+Igual[=(3982,0,0,1)]
+StringLiteral['T'(11412,0,0,1)]
+<And(3988)>
+	NaoClassificada[COD_MOVIM(3990,0,0,1)]
+<In(3992)>
+AbreParenteses[((3994,0,0,1)]
+StringLiteral['501'(11414,0,0,0)]
+Virgula[,(3999,0,0,0)]
+StringLiteral['502'(11416,0,0,0)]
+Virgula[,(4003,0,0,0)]
+StringLiteral['503'(11418,0,0,0)]
+Virgula[,(4007,0,0,0)]
+StringLiteral['504'(11420,0,0,0)]
+Virgula[,(4011,0,0,0)]
+StringLiteral['518'(11422,0,0,0)]
+Virgula[,(4015,0,0,0)]
+StringLiteral['600'(11424,0,0,0)]
+)
+)
+<Or(4027)>
+AbreParenteses[((4029,0,0,1)]
+	NaoClassificada[TIPO(4031,0,0,0)]
+Igual[=(4033,0,0,1)]
+StringLiteral['I'(11426,0,0,1)]
+<And(4039)>
+	NaoClassificada[COD_MOVIM(4041,0,0,1)]
+<In(4043)>
+AbreParenteses[((4045,0,0,1)]
+StringLiteral['501'(11428,0,0,0)]
+Virgula[,(4050,0,0,0)]
+StringLiteral['502'(11430,0,0,0)]
+Virgula[,(4054,0,0,0)]
+StringLiteral['503'(11432,0,0,0)]
+Virgula[,(4058,0,0,0)]
+StringLiteral['504'(11434,0,0,0)]
+Virgula[,(4062,0,0,0)]
+StringLiteral['511'(11436,0,0,0)]
+Virgula[,(4066,0,0,0)]
+StringLiteral['518'(11438,0,0,0)]
+Virgula[,(4070,0,0,0)]
+StringLiteral['519'(11440,0,0,0)]
+Virgula[,(4074,0,0,0)]
+StringLiteral['600'(11442,0,0,0)]
+)
+)
+<Or(4087)>
+AbreParenteses[((4089,0,0,1)]
+	NaoClassificada[TIPO(4091,0,0,0)]
+Igual[=(4093,0,0,1)]
+StringLiteral['J'(11444,0,0,1)]
+<And(4099)>
+	NaoClassificada[COD_MOVIM(4101,0,0,1)]
+<In(4103)>
+AbreParenteses[((4105,0,0,1)]
+StringLiteral['501'(11446,0,0,0)]
+Virgula[,(4110,0,0,0)]
+StringLiteral['502'(11448,0,0,0)]
+Virgula[,(4114,0,0,0)]
+StringLiteral['503'(11450,0,0,0)]
+Virgula[,(4118,0,0,0)]
+StringLiteral['504'(11452,0,0,0)]
+Virgula[,(4122,0,0,0)]
+StringLiteral['516'(11454,0,0,0)]
+Virgula[,(4126,0,0,0)]
+StringLiteral['519'(11456,0,0,0)]
+Virgula[,(4130,0,0,0)]
+StringLiteral['600'(11458,0,0,0)]
+)
+)
+)
+<Open(4147)>
+	NaoClassificada[D(4149,0,0,1)]
+<FetchNextFrom(11810)>
+	NaoClassificada[D(4159,0,0,1)]
+<Into(4161)>
+VarReference[@VALOR(4163,0,0,1)]
+Virgula[,(4164,0,0,0)]
+VarReference[@DATAMOVIM(4166,0,0,1)]
+<End of <Select(3391)>>
+<While(4170)>
+AbreParenteses[((4172,0,0,1)]
+VarReference[@@FETCH_STATUS(4174,0,0,0)]
+Igual[=(4176,0,0,1)]
+InteiroLiteral[0(4178,0,0,1)]
+)
+<Begin(4184)>
+<If(4217)>
+	NaoClassificada[ISNULL(4219,0,0,1)]
+AbreParenteses[((4220,0,0,0)]
+VarReference[@VALOR(4222,0,0,0)]
+Virgula[,(4223,0,0,0)]
+DoubleLiteral[0.00(11738,0,0,1)]
+)
+Maior[>(4231,0,0,1)]
+InteiroLiteral[0(4233,0,0,1)]
+<Begin(4237)>
+<Select(4242)>
+VarReference[@DIAS(4244,0,0,1)]
+Igual[=(4246,0,0,1)]
+	NaoClassificada[DATEDIFF(4248,0,0,1)]
+AbreParenteses[((4249,0,0,0)]
+<Day(4251)>
+Virgula[,(4252,0,0,0)]
+VarReference[@DATADCO(4254,0,0,1)]
+Virgula[,(4255,0,0,0)]
+VarReference[@DATAMOVIM(4257,0,0,1)]
+)
+<End of <Select(4242)>>
+<Exec(4264)>
+	NaoClassificada[DEFLACIONA_VALOR(4266,0,0,1)]
+VarReference[@PRODUTO(4268,0,0,1)]
+Virgula[,(4269,0,0,0)]
+VarReference[@VALOR(4271,0,0,1)]
+Virgula[,(4272,0,0,0)]
+VarReference[@DIAS(4274,0,0,1)]
+Virgula[,(4275,0,0,0)]
+VarReference[@DATAMOVIM(4277,0,0,1)]
+Virgula[,(4278,0,0,0)]
+StringLiteral['S'(11462,0,0,1)]
+Virgula[,(4283,0,0,0)]
+VarReference[@MONTANTE(4285,0,0,1)]
+	NaoClassificada[OUTPUT(4287,0,0,1)]
+<Select(4292)>
+VarReference[@VALORATUAL(4294,0,0,1)]
+Igual[=(4296,0,0,1)]
+VarReference[@VALORATUAL(4298,0,0,1)]
+Mais[+(4300,0,0,1)]
+VarReference[@MONTANTE(4302,0,0,1)]
+PontoEVirgula[;(12090,0,0,0)]
+<End(4306)>
+<FetchNextFrom(11811)>
+	NaoClassificada[D(4317,0,0,1)]
+<Into(4319)>
+VarReference[@VALOR(4321,0,0,1)]
+Virgula[,(4322,0,0,0)]
+VarReference[@DATAMOVIM(4324,0,0,1)]
+PontoEVirgula[;(12091,0,0,0)]
+<End(4328)>
+<Close(4332)>
+	NaoClassificada[D(4334,0,0,1)]
+<Deallocate(4338)>
+	NaoClassificada[D(4340,0,0,1)]
+<Select(4462)>
+VarReference[@SALDODIVIDA(4464,0,0,1)]
+Igual[=(4466,0,0,1)]
+	NaoClassificada[ROUND(4468,0,0,1)]
+AbreParenteses[((4469,0,0,0)]
+VarReference[@TOTAL(4471,0,0,0)]
+Virgula[,(4472,0,0,0)]
+InteiroLiteral[2(4474,0,0,1)]
+)
+Menos[-(4478,0,0,1)]
+	NaoClassificada[ROUND(4480,0,0,1)]
+AbreParenteses[((4481,0,0,0)]
+VarReference[@VALORATUAL(4483,0,0,0)]
+Virgula[,(4484,0,0,0)]
+InteiroLiteral[2(4486,0,0,1)]
+)
+<End of <Select(4292)>>
+<End of <Select(4462)>>
+<Exec(4511)>
+	NaoClassificada[SALDO_EMPRESTIMO(4513,0,0,1)]
+VarReference[@PROPOSTA(4515,0,0,1)]
+Virgula[,(4516,0,0,0)]
+VarReference[@PRODUTO(4518,0,0,1)]
+Virgula[,(4519,0,0,0)]
+VarReference[@DATADCO(4521,0,0,1)]
+Virgula[,(4522,0,0,0)]
+VarReference[@SALDOPROP(4524,0,0,1)]
+	NaoClassificada[OUTPUT(4526,0,0,1)]
+Virgula[,(4527,0,0,0)]
+StringLiteral['N'(11474,0,0,1)]
+<If(4597)>
+AbreParenteses[((4599,0,0,1)]
+VarReference[@SALDOPROP(4600,0,0,0)]
+Menos[-(4602,0,0,1)]
+VarReference[@VALORATUAL(4604,0,0,1)]
+)
+MenorOuIgual[<=(11125,0,0,1)]
+InteiroLiteral[0(4610,0,0,1)]
+<Begin(4614)>
+<Set(4618)>
+VarReference[@SALDODIVIDA(4620,0,0,1)]
+Igual[=(4622,0,0,1)]
+DoubleLiteral[0.00(11739,0,0,1)]
+PontoEVirgula[;(12092,0,0,0)]
+<End(4630)>
+<Exec(4648)>
+	NaoClassificada[SALDO_PROPOSTA(4650,0,0,1)]
+VarReference[@PROPOSTA(4656,1,0,4)]
+Virgula[,(4657,0,0,0)]
+VarReference[@DATAATUAL(4663,1,0,4)]
+Virgula[,(4664,0,0,0)]
+StringLiteral['N'(11482,1,0,4)]
+Virgula[,(4673,0,0,0)]
+VarReference[@SALDOATUAL(4679,1,0,4)]
+	NaoClassificada[OUTPUT(4681,0,0,1)]
+Virgula[,(4682,0,0,0)]
+VarReference[@SALDOCD(4688,1,0,4)]
+	NaoClassificada[OUTPUT(4690,0,0,1)]
+Virgula[,(4691,0,0,0)]
+VarReference[@SALDOCAR(4697,1,0,4)]
+	NaoClassificada[OUTPUT(4699,0,0,1)]
+Virgula[,(4700,0,0,0)]
+VarReference[@JUROS(4706,1,0,4)]
+	NaoClassificada[OUTPUT(4708,0,0,1)]
+Virgula[,(4709,0,0,0)]
+VarReference[@CCAR1(4715,1,0,4)]
+	NaoClassificada[OUTPUT(4717,0,0,1)]
+Virgula[,(4718,0,0,0)]
+VarReference[@CCAR2(4724,1,0,4)]
+	NaoClassificada[OUTPUT(4726,0,0,1)]
+Virgula[,(4727,0,0,0)]
+VarReference[@CCAR12(4733,1,0,4)]
+	NaoClassificada[OUTPUT(4735,0,0,1)]
+Virgula[,(4736,0,0,0)]
+VarReference[@CCAR22(4742,1,0,4)]
+	NaoClassificada[OUTPUT(4744,0,0,1)]
+Virgula[,(4745,0,0,0)]
+VarReference[@CCAR13(4751,1,0,4)]
+	NaoClassificada[OUTPUT(4753,0,0,1)]
+Virgula[,(4754,0,0,0)]
+VarReference[@CCAR23(4760,1,0,4)]
+	NaoClassificada[OUTPUT(4762,0,0,1)]
+Virgula[,(4763,0,0,0)]
+VarReference[@IR(4769,1,0,4)]
+	NaoClassificada[OUTPUT(4771,0,0,1)]
+<If(4802)>
+VarReference[@SALDODIVIDA(4804,0,0,1)]
+Maior[>(4806,0,0,1)]
+DoubleLiteral[0.00(11740,0,0,1)]
+<And(4812)>
+VarReference[@SALDOPROP(4814,0,0,1)]
+Maior[>(4816,0,0,1)]
+DoubleLiteral[0.00(11741,0,0,1)]
+<And(4822)>
+VarReference[@SALDOATUAL(4824,0,0,1)]
+Maior[>(4826,0,0,1)]
+InteiroLiteral[0(4828,0,0,1)]
+<Begin(4832)>
+<Set(4952)>
+VarReference[@SALDODIS(4954,0,0,1)]
+Igual[=(4956,0,0,1)]
+DoubleLiteral[0.00(11742,0,0,1)]
+<Set(5013)>
+VarReference[@VALOR_LANCADO(5015,0,0,1)]
+Igual[=(5017,0,0,1)]
+InteiroLiteral[0(5019,0,0,1)]
+<Select(5023)>
+VarReference[@VALOR_LANCADO(5028,1,0,3)]
+Igual[=(5030,0,0,1)]
+	NaoClassificada[ISNULL(5032,0,0,1)]
+AbreParenteses[((5033,0,0,0)]
+	NaoClassificada[SUM(5034,0,0,0)]
+AbreParenteses[((5035,0,0,0)]
+	NaoClassificada[VALOR(5036,0,0,0)]
+)
+Virgula[,(5038,0,0,0)]
+DoubleLiteral[0.00(11743,0,0,1)]
+)
+<From(5048)>
+DataSet[VarReference[#TRANSACAO(5050,0,0,0)](11962,0,0,1)]
+<Where(5054)>
+	NaoClassificada[ID_TIPO_TRANSACAO(5056,0,0,1)]
+<In(5058)>
+AbreParenteses[((5060,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_E(5068,1,0,6)]
+Virgula[,(5069,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_V(5077,1,0,6)]
+Virgula[,(5078,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_G(5086,1,0,6)]
+Virgula[,(5087,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_B(5095,1,0,6)]
+Virgula[,(5096,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_J(5104,1,0,6)]
+Virgula[,(5105,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_I(5113,1,0,6)]
+Virgula[,(5114,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_Q(5122,1,0,6)]
+Virgula[,(5123,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_H(5131,1,0,6)]
+)
+<And(5143)>
+	NaoClassificada[INSCRICAO(5145,0,0,1)]
+Igual[=(5147,0,0,1)]
+VarReference[@INSCRICAO(5149,0,0,1)]
+<Set(5154)>
+VarReference[@VALOR_LANCADO(5156,0,0,1)]
+Igual[=(5158,0,0,1)]
+	NaoClassificada[ISNULL(5160,0,0,1)]
+AbreParenteses[((5161,0,0,0)]
+VarReference[@VALOR_LANCADO(5162,0,0,0)]
+Virgula[,(5163,0,0,0)]
+DoubleLiteral[0.00(11744,0,0,1)]
+)
+<Set(5185)>
+VarReference[@VALORCAPITAL(5187,0,0,1)]
+Igual[=(5189,0,0,1)]
+	NaoClassificada[ISNULL(5191,0,0,1)]
+AbreParenteses[((5192,0,0,0)]
+	NaoClassificada[ROUND(5194,0,0,0)]
+AbreParenteses[((5195,0,0,0)]
+VarReference[@SALDODIS(5197,0,0,0)]
+Virgula[,(5198,0,0,0)]
+InteiroLiteral[2(5200,0,0,1)]
+)
+Virgula[,(5203,0,0,0)]
+DoubleLiteral[0.00(11745,0,0,1)]
+)
+Menos[-(5211,0,0,1)]
+VarReference[@VALOR_LANCADO(5213,0,0,1)]
+<End of <Select(5023)>>
+<If(5217)>
+VarReference[@VALORCAPITAL(5219,0,0,1)]
+MenorOuIgual[<=(11737,0,0,1)]
+InteiroLiteral[0(5225,0,0,1)]
+<Set(5230)>
+VarReference[@VALORCAPITAL(5232,0,0,1)]
+Igual[=(5234,0,0,1)]
+InteiroLiteral[0(5236,0,0,1)]
+<If(5273)>
+AbreParenteses[((5275,0,0,1)]
+VarReference[@VALORCAPITAL(5276,0,0,0)]
+MaiorOuIgual[>=(11127,0,0,1)]
+VarReference[@SALDODIVIDA(5281,0,0,1)]
+)
+<And(5287)>
+<NotExists(11790)>
+AbreParenteses[((5292,0,0,0)]
+<Select(5297)>
+	NaoClassificada[SEQUENCIAL(5303,1,0,4)]
+<From(5308)>
+DataSet[MOVIMENTO with(nolock)(11963,0,0,1)]
+<Where(5332)>
+	NaoClassificada[TIPO(5334,0,0,1)]
+Igual[=(5336,0,0,1)]
+VarReference[@PRODUTO(5338,0,0,1)]
+<And(5343)>
+	NaoClassificada[INSCRICAO(5345,0,0,1)]
+Igual[=(5347,0,0,1)]
+VarReference[@INSCRICAO(5349,0,0,1)]
+<And(5354)>
+	NaoClassificada[COD_MOVIM(5356,0,0,1)]
+Igual[=(5358,0,0,1)]
+<Case(5360)>
+<When(5385)>
+VarReference[@PRODUTO(5387,0,0,1)]
+<In(5389)>
+AbreParenteses[((5391,0,0,1)]
+StringLiteral['E'(11518,0,0,0)]
+Virgula[,(5396,0,0,0)]
+StringLiteral['G'(11520,0,0,0)]
+)
+<Then(5404)>
+StringLiteral['504'(11522,0,0,1)]
+<When(5433)>
+VarReference[@PRODUTO(5435,0,0,1)]
+<In(5437)>
+AbreParenteses[((5439,0,0,1)]
+StringLiteral['B'(11524,0,0,0)]
+Virgula[,(5444,0,0,0)]
+StringLiteral['M'(11526,0,0,0)]
+Virgula[,(5449,0,0,0)]
+StringLiteral['T'(11528,0,0,0)]
+Virgula[,(5454,0,0,0)]
+StringLiteral['I'(11530,0,0,0)]
+Virgula[,(5458,0,0,0)]
+StringLiteral['J'(11532,0,0,0)]
+)
+<Then(5465)>
+StringLiteral['502'(11534,0,0,1)]
+<When(5494)>
+VarReference[@PRODUTO(5496,0,0,1)]
+Igual[=(5498,0,0,1)]
+StringLiteral['S'(11536,0,0,1)]
+<Then(5504)>
+StringLiteral['508'(11538,0,0,1)]
+<End of <Case(5360)>>
+<And(5536)>
+	NaoClassificada[RESPONSAVEL(5538,0,0,1)]
+Igual[=(5540,0,0,1)]
+VarReference[@RESPONSAVEL(5542,0,0,1)]
+<And(5547)>
+	NaoClassificada[DATA_MOVIM(5549,0,0,1)]
+	NaoClassificada[BETWEEN(5551,0,0,1)]
+VarReference[@GERACAO(5553,0,0,1)]
+<And(5555)>
+VarReference[@DATADCO(5557,0,0,1)]
+<End of <Select(5297)>>
+)
+<Begin(5563)>
+<Set(5568)>
+VarReference[@COD_MOVIM(5570,0,0,1)]
+Igual[=(5572,0,0,1)]
+<Case(5574)>
+<When(5581)>
+VarReference[@PRODUTO(5583,0,0,1)]
+<In(5585)>
+AbreParenteses[((5587,0,0,1)]
+StringLiteral['E'(11540,0,0,0)]
+Virgula[,(5592,0,0,0)]
+StringLiteral['G'(11542,0,0,0)]
+)
+<Then(5600)>
+StringLiteral['504'(11544,0,0,1)]
+<When(5611)>
+VarReference[@PRODUTO(5613,0,0,1)]
+<In(5615)>
+AbreParenteses[((5617,0,0,1)]
+StringLiteral['B'(11546,0,0,0)]
+Virgula[,(5622,0,0,0)]
+StringLiteral['M'(11548,0,0,0)]
+Virgula[,(5627,0,0,0)]
+StringLiteral['T'(11550,0,0,0)]
+Virgula[,(5632,0,0,0)]
+StringLiteral['I'(11552,0,0,0)]
+Virgula[,(5637,0,0,0)]
+StringLiteral['J'(11554,0,0,0)]
+)
+<Then(5644)>
+StringLiteral['502'(11556,0,0,1)]
+<When(5655)>
+VarReference[@PRODUTO(5657,0,0,1)]
+Igual[=(5659,0,0,1)]
+StringLiteral['S'(11558,0,0,1)]
+<Then(5665)>
+StringLiteral['508'(11560,0,0,1)]
+<End of <Case(5574)>>
+<If(5701)>
+VarReference[@PRODUTO(5703,0,0,1)]
+Igual[=(5705,0,0,1)]
+StringLiteral['E'(11564,0,0,1)]
+<Set(5714)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5716,0,0,1)]
+Igual[=(5718,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_E(5720,0,0,1)]
+<Else(5725)>
+<If(5727)>
+VarReference[@PRODUTO(5729,0,0,1)]
+Igual[=(5731,0,0,1)]
+StringLiteral['V'(11566,0,0,1)]
+<Set(5740)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5742,0,0,1)]
+Igual[=(5744,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_V(5746,0,0,1)]
+<Else(5751)>
+<If(5753)>
+VarReference[@PRODUTO(5755,0,0,1)]
+Igual[=(5757,0,0,1)]
+StringLiteral['G'(11568,0,0,1)]
+<Set(5766)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5768,0,0,1)]
+Igual[=(5770,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_G(5772,0,0,1)]
+<Else(5777)>
+<If(5779)>
+VarReference[@PRODUTO(5781,0,0,1)]
+Igual[=(5783,0,0,1)]
+StringLiteral['B'(11570,0,0,1)]
+<Set(5792)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5794,0,0,1)]
+Igual[=(5796,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_B(5798,0,0,1)]
+<Else(5803)>
+<If(5805)>
+VarReference[@PRODUTO(5807,0,0,1)]
+Igual[=(5809,0,0,1)]
+StringLiteral['J'(11572,0,0,1)]
+<Set(5818)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5820,0,0,1)]
+Igual[=(5822,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_J(5824,0,0,1)]
+<Else(5829)>
+<If(5831)>
+VarReference[@PRODUTO(5833,0,0,1)]
+Igual[=(5835,0,0,1)]
+StringLiteral['I'(11574,0,0,1)]
+<Set(5844)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5846,0,0,1)]
+Igual[=(5848,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_I(5850,0,0,1)]
+<Else(5855)>
+<If(5857)>
+VarReference[@PRODUTO(5859,0,0,1)]
+Igual[=(5861,0,0,1)]
+StringLiteral['Q'(11576,0,0,1)]
+<Set(5870)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5872,0,0,1)]
+Igual[=(5874,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_Q(5876,0,0,1)]
+<Else(5881)>
+<If(5883)>
+VarReference[@PRODUTO(5885,0,0,1)]
+Igual[=(5887,0,0,1)]
+StringLiteral['H'(11578,0,0,1)]
+<Set(5896)>
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5898,0,0,1)]
+Igual[=(5900,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL_H(5902,0,0,1)]
+<Exec(5908)>
+	NaoClassificada[NOVAPROPOSTA(5910,0,0,1)]
+StringLiteral['P'(11580,0,0,1)]
+Virgula[,(5915,0,0,0)]
+VarReference[@INSCRICAO(5917,0,0,1)]
+Virgula[,(5918,0,0,0)]
+VarReference[@PROPOSTAP(5920,0,0,1)]
+	NaoClassificada[OUTPUT(5922,0,0,1)]
+Virgula[,(5923,0,0,0)]
+Null[NULL(5925,0,0,1)]
+<Insert(5931)>
+<Into(5933)>
+VarReference[#TRANSACAO(5935,0,0,1)]
+AbreParenteses[((5940,1,0,3)]
+	NaoClassificada[ID_AGRUPAMENTO(5941,0,0,0)]
+Virgula[,(5942,0,0,0)]
+	NaoClassificada[PROPOSTA(5944,0,0,1)]
+Virgula[,(5946,0,0,0)]
+	NaoClassificada[INSCRICAO(5947,0,0,1)]
+Virgula[,(5949,0,0,0)]
+	NaoClassificada[VALOR(5951,0,0,1)]
+Virgula[,(5953,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(5955,0,0,1)]
+Virgula[,(5956,0,0,0)]
+	NaoClassificada[PROPAMORTIZA(5958,0,0,1)]
+Virgula[,(5960,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(5962,0,0,1)]
+)
+<Select(5968)>
+VarReference[@ID_AGRUPAMENTO(5970,0,0,1)]
+Virgula[,(5971,0,0,0)]
+VarReference[@PROPOSTAP(5973,0,0,1)]
+Virgula[,(5974,0,0,0)]
+VarReference[@INSCRICAO(5976,0,0,1)]
+Virgula[,(5977,0,0,0)]
+VarReference[@SALDODIVIDA(5979,0,0,1)]
+Virgula[,(5980,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_AMORTIZA_COM_CAPITAL(5982,0,0,1)]
+Virgula[,(5983,0,0,0)]
+VarReference[@PROPOSTA(5985,0,0,1)]
+Virgula[,(5986,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(5988,0,0,1)]
+<Set(5993)>
+VarReference[@SALDODIVIDA(5995,0,0,1)]
+Igual[=(5997,0,0,1)]
+DoubleLiteral[0.00(11746,0,0,1)]
+PontoEVirgula[;(12093,0,0,0)]
+<End(6005)>
+<End of <Select(5968)>>
+<Exec(6057)>
+	NaoClassificada[BUSCA_DEPOSITO_ASSOCIADO(6059,0,0,1)]
+VarReference[@INSCRICAO(6066,1,0,5)]
+Virgula[,(6067,0,0,0)]
+VarReference[@GERACAO(6083,1,0,14)]
+Virgula[,(6084,0,0,0)]
+VarReference[@DATAATUAL(6099,1,0,13)]
+Virgula[,(6100,0,0,0)]
+VarReference[@VALORDEPOSITO(6115,1,0,13)]
+	NaoClassificada[OUTPUT(6117,0,0,1)]
+Virgula[,(6118,0,0,0)]
+VarReference[@PROPOSTA(6133,1,0,13)]
+Virgula[,(6134,0,0,0)]
+StringLiteral['C'(11584,1,0,13)]
+<Exec(6214)>
+	NaoClassificada[BUSCA_ESTORNO_ASSOCIADO(6216,0,0,1)]
+VarReference[@INSCRICAO(6224,1,0,6)]
+Virgula[,(6225,0,0,0)]
+VarReference[@GERACAO(6233,1,0,6)]
+Virgula[,(6234,0,0,0)]
+VarReference[@DATAATUAL(6242,1,0,6)]
+Virgula[,(6243,0,0,0)]
+VarReference[@VALORESTORNO(6251,1,0,6)]
+	NaoClassificada[OUTPUT(6253,0,0,1)]
+Virgula[,(6254,0,0,0)]
+VarReference[@PROPOSTA(6262,1,0,6)]
+<If(6358)>
+AbreParenteses[((6360,0,0,1)]
+VarReference[@SALDODIVIDA(6361,0,0,0)]
+MaiorOuIgual[>=(11128,0,0,1)]
+DoubleLiteral[25.00(11747,0,0,1)]
+)
+<And(6371)>
+	NaoClassificada[FLOOR(6373,0,0,1)]
+AbreParenteses[((6374,0,0,0)]
+VarReference[@VALORDEPOSITO(6376,0,0,0)]
+Menos[-(6378,0,0,1)]
+VarReference[@VALORESTORNO(6380,0,0,1)]
+)
+Menor[<(6384,0,0,1)]
+	NaoClassificada[FLOOR(6386,0,0,1)]
+AbreParenteses[((6387,0,0,0)]
+VarReference[@TOTAL(6389,0,0,0)]
+Asterisco[*(6391,0,0,1)]
+DoubleLiteral[0.7(11748,0,0,1)]
+)
+<Begin(6401)>
+<If(6406)>
+VarReference[@SALDOPROP(6408,0,0,1)]
+Menos[-(6410,0,0,1)]
+VarReference[@SALDODIVIDA(6412,0,0,1)]
+Menor[<(6414,0,0,1)]
+InteiroLiteral[0(6416,0,0,1)]
+<Set(6421)>
+VarReference[@SALDODIVIDA(6423,0,0,1)]
+Igual[=(6425,0,0,1)]
+VarReference[@SALDOPROP(6427,0,0,1)]
+<If(6433)>
+VarReference[@PRODUTO(6435,0,0,1)]
+Igual[=(6437,0,0,1)]
+StringLiteral['E'(11598,0,0,1)]
+<Begin(6446)>
+<Insert(6451)>
+<Into(6453)>
+VarReference[#TRANSACAO(6455,0,0,1)]
+AbreParenteses[((6461,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6462,0,0,0)]
+Virgula[,(6463,0,0,0)]
+	NaoClassificada[PROPOSTA(6465,0,0,1)]
+Virgula[,(6467,0,0,0)]
+	NaoClassificada[INSCRICAO(6468,0,0,1)]
+Virgula[,(6470,0,0,0)]
+	NaoClassificada[VALOR(6472,0,0,1)]
+Virgula[,(6474,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6476,0,0,1)]
+Virgula[,(6477,0,0,0)]
+	NaoClassificada[QUEDA(6479,0,0,1)]
+Virgula[,(6480,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6482,0,0,1)]
+)
+<Select(6489)>
+VarReference[@ID_AGRUPAMENTO(6491,0,0,1)]
+Virgula[,(6492,0,0,0)]
+VarReference[@PROPOSTA(6494,0,0,1)]
+Virgula[,(6495,0,0,0)]
+VarReference[@INSCRICAO(6497,0,0,1)]
+Virgula[,(6498,0,0,0)]
+VarReference[@SALDODIVIDA(6500,0,0,1)]
+Virgula[,(6501,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_E(6503,0,0,1)]
+Virgula[,(6504,0,0,0)]
+VarReference[@QUEDA(6506,0,0,1)]
+Virgula[,(6507,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6509,0,0,1)]
+PontoEVirgula[;(12094,0,0,0)]
+<End(6515)>
+<End of <Select(6489)>>
+<If(6523)>
+VarReference[@PRODUTO(6525,0,0,1)]
+Igual[=(6527,0,0,1)]
+StringLiteral['G'(11600,0,0,1)]
+<Begin(6536)>
+<Insert(6541)>
+<Into(6543)>
+VarReference[#TRANSACAO(6545,0,0,1)]
+AbreParenteses[((6551,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6552,0,0,0)]
+Virgula[,(6553,0,0,0)]
+	NaoClassificada[PROPOSTA(6555,0,0,1)]
+Virgula[,(6557,0,0,0)]
+	NaoClassificada[INSCRICAO(6558,0,0,1)]
+Virgula[,(6560,0,0,0)]
+	NaoClassificada[VALOR(6562,0,0,1)]
+Virgula[,(6564,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6566,0,0,1)]
+Virgula[,(6567,0,0,0)]
+	NaoClassificada[QUEDA(6569,0,0,1)]
+Virgula[,(6570,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6572,0,0,1)]
+)
+<Select(6579)>
+VarReference[@ID_AGRUPAMENTO(6581,0,0,1)]
+Virgula[,(6582,0,0,0)]
+VarReference[@PROPOSTA(6584,0,0,1)]
+Virgula[,(6585,0,0,0)]
+VarReference[@INSCRICAO(6587,0,0,1)]
+Virgula[,(6588,0,0,0)]
+VarReference[@SALDODIVIDA(6590,0,0,1)]
+Virgula[,(6591,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_G(6593,0,0,1)]
+Virgula[,(6594,0,0,0)]
+VarReference[@QUEDA(6596,0,0,1)]
+Virgula[,(6597,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6599,0,0,1)]
+PontoEVirgula[;(12095,0,0,0)]
+<End(6604)>
+<End of <Select(6579)>>
+<If(6609)>
+VarReference[@PRODUTO(6611,0,0,1)]
+Igual[=(6613,0,0,1)]
+StringLiteral['B'(11602,0,0,1)]
+<Begin(6622)>
+<Insert(6627)>
+<Into(6629)>
+VarReference[#TRANSACAO(6631,0,0,1)]
+AbreParenteses[((6637,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6638,0,0,0)]
+Virgula[,(6639,0,0,0)]
+	NaoClassificada[PROPOSTA(6641,0,0,1)]
+Virgula[,(6643,0,0,0)]
+	NaoClassificada[INSCRICAO(6644,0,0,1)]
+Virgula[,(6646,0,0,0)]
+	NaoClassificada[VALOR(6648,0,0,1)]
+Virgula[,(6650,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6652,0,0,1)]
+Virgula[,(6653,0,0,0)]
+	NaoClassificada[QUEDA(6655,0,0,1)]
+Virgula[,(6657,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6659,0,0,1)]
+)
+<Select(6665)>
+VarReference[@ID_AGRUPAMENTO(6667,0,0,1)]
+Virgula[,(6668,0,0,0)]
+VarReference[@PROPOSTA(6670,0,0,1)]
+Virgula[,(6671,0,0,0)]
+VarReference[@INSCRICAO(6673,0,0,1)]
+Virgula[,(6674,0,0,0)]
+VarReference[@SALDODIVIDA(6676,0,0,1)]
+Virgula[,(6677,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_B(6679,0,0,1)]
+Virgula[,(6680,0,0,0)]
+VarReference[@QUEDA(6682,0,0,1)]
+Virgula[,(6683,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6685,0,0,1)]
+PontoEVirgula[;(12096,0,0,0)]
+<End(6690)>
+<End of <Select(6665)>>
+<If(6695)>
+VarReference[@PRODUTO(6697,0,0,1)]
+Igual[=(6699,0,0,1)]
+StringLiteral['S'(11604,0,0,1)]
+<Begin(6708)>
+<Insert(6713)>
+<Into(6715)>
+VarReference[#TRANSACAO(6717,0,0,1)]
+AbreParenteses[((6723,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6724,0,0,0)]
+Virgula[,(6725,0,0,0)]
+	NaoClassificada[PROPOSTA(6727,0,0,1)]
+Virgula[,(6729,0,0,0)]
+	NaoClassificada[INSCRICAO(6730,0,0,1)]
+Virgula[,(6732,0,0,0)]
+	NaoClassificada[VALOR(6734,0,0,1)]
+Virgula[,(6736,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6738,0,0,1)]
+Virgula[,(6739,0,0,0)]
+	NaoClassificada[QUEDA(6741,0,0,1)]
+Virgula[,(6742,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6744,0,0,1)]
+)
+<Select(6751)>
+VarReference[@ID_AGRUPAMENTO(6753,0,0,1)]
+Virgula[,(6754,0,0,0)]
+VarReference[@PROPOSTA(6756,0,0,1)]
+Virgula[,(6757,0,0,0)]
+VarReference[@INSCRICAO(6759,0,0,1)]
+Virgula[,(6760,0,0,0)]
+VarReference[@SALDODIVIDA(6762,0,0,1)]
+Virgula[,(6763,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_S(6765,0,0,1)]
+Virgula[,(6766,0,0,0)]
+VarReference[@QUEDA(6768,0,0,1)]
+Virgula[,(6769,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6771,0,0,1)]
+PontoEVirgula[;(12097,0,0,0)]
+<End(6776)>
+<End of <Select(6751)>>
+<If(6781)>
+VarReference[@PRODUTO(6783,0,0,1)]
+Igual[=(6785,0,0,1)]
+StringLiteral['M'(11606,0,0,1)]
+<Begin(6794)>
+<Insert(6799)>
+<Into(6801)>
+VarReference[#TRANSACAO(6803,0,0,1)]
+AbreParenteses[((6809,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6810,0,0,0)]
+Virgula[,(6811,0,0,0)]
+	NaoClassificada[PROPOSTA(6813,0,0,1)]
+Virgula[,(6815,0,0,0)]
+	NaoClassificada[INSCRICAO(6816,0,0,1)]
+Virgula[,(6818,0,0,0)]
+	NaoClassificada[VALOR(6820,0,0,1)]
+Virgula[,(6822,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6824,0,0,1)]
+Virgula[,(6825,0,0,0)]
+	NaoClassificada[QUEDA(6827,0,0,1)]
+Virgula[,(6828,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6830,0,0,1)]
+)
+<Select(6837)>
+VarReference[@ID_AGRUPAMENTO(6839,0,0,1)]
+Virgula[,(6840,0,0,0)]
+VarReference[@PROPOSTA(6842,0,0,1)]
+Virgula[,(6843,0,0,0)]
+VarReference[@INSCRICAO(6845,0,0,1)]
+Virgula[,(6846,0,0,0)]
+VarReference[@SALDODIVIDA(6848,0,0,1)]
+Virgula[,(6849,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_M(6851,0,0,1)]
+Virgula[,(6852,0,0,0)]
+VarReference[@QUEDA(6854,0,0,1)]
+Virgula[,(6855,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6857,0,0,1)]
+PontoEVirgula[;(12098,0,0,0)]
+<End(6862)>
+<End of <Select(6837)>>
+<If(6867)>
+VarReference[@PRODUTO(6869,0,0,1)]
+Igual[=(6871,0,0,1)]
+StringLiteral['T'(11608,0,0,1)]
+<Begin(6880)>
+<Insert(6885)>
+<Into(6887)>
+VarReference[#TRANSACAO(6889,0,0,1)]
+AbreParenteses[((6895,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6896,0,0,0)]
+Virgula[,(6897,0,0,0)]
+	NaoClassificada[PROPOSTA(6899,0,0,1)]
+Virgula[,(6901,0,0,0)]
+	NaoClassificada[INSCRICAO(6902,0,0,1)]
+Virgula[,(6904,0,0,0)]
+	NaoClassificada[VALOR(6906,0,0,1)]
+Virgula[,(6908,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6910,0,0,1)]
+Virgula[,(6911,0,0,0)]
+	NaoClassificada[QUEDA(6913,0,0,1)]
+Virgula[,(6914,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(6916,0,0,1)]
+)
+<Select(6923)>
+VarReference[@ID_AGRUPAMENTO(6925,0,0,1)]
+Virgula[,(6926,0,0,0)]
+VarReference[@PROPOSTA(6928,0,0,1)]
+Virgula[,(6929,0,0,0)]
+VarReference[@INSCRICAO(6931,0,0,1)]
+Virgula[,(6932,0,0,0)]
+VarReference[@SALDODIVIDA(6934,0,0,1)]
+Virgula[,(6935,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_T(6937,0,0,1)]
+Virgula[,(6938,0,0,0)]
+VarReference[@QUEDA(6940,0,0,1)]
+Virgula[,(6941,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(6943,0,0,1)]
+PontoEVirgula[;(12099,0,0,0)]
+<End(6948)>
+<End of <Select(6923)>>
+<If(6953)>
+VarReference[@PRODUTO(6955,0,0,1)]
+Igual[=(6957,0,0,1)]
+StringLiteral['J'(11610,0,0,1)]
+<Begin(6966)>
+<Insert(6971)>
+<Into(6973)>
+VarReference[#TRANSACAO(6975,0,0,1)]
+AbreParenteses[((6981,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(6982,0,0,0)]
+Virgula[,(6983,0,0,0)]
+	NaoClassificada[PROPOSTA(6985,0,0,1)]
+Virgula[,(6987,0,0,0)]
+	NaoClassificada[INSCRICAO(6988,0,0,1)]
+Virgula[,(6990,0,0,0)]
+	NaoClassificada[VALOR(6992,0,0,1)]
+Virgula[,(6994,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(6996,0,0,1)]
+Virgula[,(6997,0,0,0)]
+	NaoClassificada[QUEDA(6999,0,0,1)]
+Virgula[,(7000,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(7002,0,0,1)]
+)
+<Select(7009)>
+VarReference[@ID_AGRUPAMENTO(7011,0,0,1)]
+Virgula[,(7012,0,0,0)]
+VarReference[@PROPOSTA(7014,0,0,1)]
+Virgula[,(7015,0,0,0)]
+VarReference[@INSCRICAO(7017,0,0,1)]
+Virgula[,(7018,0,0,0)]
+VarReference[@SALDODIVIDA(7020,0,0,1)]
+Virgula[,(7021,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_J(7023,0,0,1)]
+Virgula[,(7024,0,0,0)]
+VarReference[@QUEDA(7026,0,0,1)]
+Virgula[,(7027,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7029,0,0,1)]
+PontoEVirgula[;(12100,0,0,0)]
+<End(7034)>
+<End of <Select(7009)>>
+<If(7039)>
+VarReference[@PRODUTO(7041,0,0,1)]
+Igual[=(7043,0,0,1)]
+StringLiteral['I'(11612,0,0,1)]
+<Begin(7052)>
+<Insert(7057)>
+<Into(7059)>
+VarReference[#TRANSACAO(7061,0,0,1)]
+AbreParenteses[((7067,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(7068,0,0,0)]
+Virgula[,(7069,0,0,0)]
+	NaoClassificada[PROPOSTA(7071,0,0,1)]
+Virgula[,(7073,0,0,0)]
+	NaoClassificada[INSCRICAO(7074,0,0,1)]
+Virgula[,(7076,0,0,0)]
+	NaoClassificada[VALOR(7078,0,0,1)]
+Virgula[,(7080,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(7082,0,0,1)]
+Virgula[,(7083,0,0,0)]
+	NaoClassificada[QUEDA(7085,0,0,1)]
+Virgula[,(7087,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(7089,0,0,1)]
+)
+<Select(7095)>
+VarReference[@ID_AGRUPAMENTO(7097,0,0,1)]
+Virgula[,(7098,0,0,0)]
+VarReference[@PROPOSTA(7100,0,0,1)]
+Virgula[,(7101,0,0,0)]
+VarReference[@INSCRICAO(7103,0,0,1)]
+Virgula[,(7104,0,0,0)]
+VarReference[@SALDODIVIDA(7106,0,0,1)]
+Virgula[,(7107,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_I(7109,0,0,1)]
+Virgula[,(7110,0,0,0)]
+VarReference[@QUEDA(7112,0,0,1)]
+Virgula[,(7113,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7115,0,0,1)]
+PontoEVirgula[;(12101,0,0,0)]
+<End(7120)>
+<End of <Select(7095)>>
+<If(7125)>
+VarReference[@PRODUTO(7127,0,0,1)]
+Igual[=(7129,0,0,1)]
+StringLiteral['Q'(11614,0,0,1)]
+<Begin(7138)>
+<Insert(7143)>
+<Into(7145)>
+VarReference[#TRANSACAO(7147,0,0,1)]
+AbreParenteses[((7153,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(7154,0,0,0)]
+Virgula[,(7155,0,0,0)]
+	NaoClassificada[PROPOSTA(7157,0,0,1)]
+Virgula[,(7159,0,0,0)]
+	NaoClassificada[INSCRICAO(7160,0,0,1)]
+Virgula[,(7162,0,0,0)]
+	NaoClassificada[VALOR(7164,0,0,1)]
+Virgula[,(7166,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(7168,0,0,1)]
+Virgula[,(7169,0,0,0)]
+	NaoClassificada[QUEDA(7171,0,0,1)]
+Virgula[,(7173,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(7175,0,0,1)]
+)
+<Select(7181)>
+VarReference[@ID_AGRUPAMENTO(7183,0,0,1)]
+Virgula[,(7184,0,0,0)]
+VarReference[@PROPOSTA(7186,0,0,1)]
+Virgula[,(7187,0,0,0)]
+VarReference[@INSCRICAO(7189,0,0,1)]
+Virgula[,(7190,0,0,0)]
+VarReference[@SALDODIVIDA(7192,0,0,1)]
+Virgula[,(7193,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_Q(7195,0,0,1)]
+Virgula[,(7196,0,0,0)]
+VarReference[@QUEDA(7198,0,0,1)]
+Virgula[,(7199,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7201,0,0,1)]
+PontoEVirgula[;(12102,0,0,0)]
+<End(7206)>
+<End of <Select(7181)>>
+<If(7211)>
+VarReference[@PRODUTO(7213,0,0,1)]
+Igual[=(7215,0,0,1)]
+StringLiteral['H'(11616,0,0,1)]
+<Begin(7224)>
+<Insert(7229)>
+<Into(7231)>
+VarReference[#TRANSACAO(7233,0,0,1)]
+AbreParenteses[((7239,1,0,4)]
+	NaoClassificada[ID_AGRUPAMENTO(7240,0,0,0)]
+Virgula[,(7241,0,0,0)]
+	NaoClassificada[PROPOSTA(7243,0,0,1)]
+Virgula[,(7245,0,0,0)]
+	NaoClassificada[INSCRICAO(7246,0,0,1)]
+Virgula[,(7248,0,0,0)]
+	NaoClassificada[VALOR(7250,0,0,1)]
+Virgula[,(7252,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(7254,0,0,1)]
+Virgula[,(7255,0,0,0)]
+	NaoClassificada[QUEDA(7257,0,0,1)]
+Virgula[,(7259,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(7261,0,0,1)]
+)
+<Select(7267)>
+VarReference[@ID_AGRUPAMENTO(7269,0,0,1)]
+Virgula[,(7270,0,0,0)]
+VarReference[@PROPOSTA(7272,0,0,1)]
+Virgula[,(7273,0,0,0)]
+VarReference[@INSCRICAO(7275,0,0,1)]
+Virgula[,(7276,0,0,0)]
+VarReference[@SALDODIVIDA(7278,0,0,1)]
+Virgula[,(7279,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_H(7281,0,0,1)]
+Virgula[,(7282,0,0,0)]
+VarReference[@QUEDA(7284,0,0,1)]
+Virgula[,(7285,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7287,0,0,1)]
+PontoEVirgula[;(12103,0,0,0)]
+<End(7292)>
+<End(7296)>
+<Else(7300)>
+<Begin(7304)>
+<End of <Select(7267)>>
+<Update(7347)>
+VarReference[#TMP_DCO1(7349,0,0,1)]
+<Set(7354)>
+	NaoClassificada[ATUALIZA(7356,0,0,1)]
+Igual[=(7358,0,0,1)]
+StringLiteral['S'(11620,0,0,1)]
+Virgula[,(7363,0,0,0)]
+	NaoClassificada[SALDO_DCO(7369,1,0,4)]
+Igual[=(7371,0,0,1)]
+DoubleLiteral[0.00(11749,0,0,1)]
+Virgula[,(7376,0,0,0)]
+	NaoClassificada[PROCESSADO(7382,1,0,4)]
+Igual[=(7384,0,0,1)]
+StringLiteral['S'(11622,0,0,1)]
+<Where(7393)>
+	NaoClassificada[SEQUENCIAL(7395,0,0,1)]
+Igual[=(7397,0,0,1)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7399,0,0,1)]
+<Update(7405)>
+	NaoClassificada[DCO(7407,0,0,1)]
+<Set(7412)>
+	NaoClassificada[SALDO_DCO(7414,0,0,1)]
+Igual[=(7416,0,0,1)]
+	NaoClassificada[T(7418,0,0,1)]
+Ponto[.(7419,0,0,0)]
+	NaoClassificada[SALDO_DCO(7420,0,0,0)]
+Virgula[,(7421,0,0,0)]
+	NaoClassificada[PROCESSADO(7426,1,0,3)]
+Igual[=(7428,0,0,1)]
+	NaoClassificada[T(7430,0,0,1)]
+Ponto[.(7431,0,0,0)]
+	NaoClassificada[PROCESSADO(7432,0,0,0)]
+Virgula[,(7433,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(7438,1,0,3)]
+Igual[=(7440,0,0,1)]
+	NaoClassificada[T(7442,0,0,1)]
+Ponto[.(7443,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(7444,0,0,0)]
+Virgula[,(7445,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(7450,1,0,3)]
+Igual[=(7452,0,0,1)]
+InteiroLiteral[4(7454,0,0,1)]
+Virgula[,(7455,0,0,0)]
+	NaoClassificada[Data_Processamento(7460,1,0,3)]
+Igual[=(7462,0,0,1)]
+VarReference[@DATAATUAL(7464,0,0,1)]
+<From(7469)>
+DataSet[DCO D with(nolock) /*gm*/(11964,0,0,1)]
+<InnerJoin(11773)>
+DataSet[VarReference[#TMP_DCO1(7482,0,0,0)] T(11965,0,0,1)]
+<On(7486)>
+Coluna[T.SEQUENCIAL(12007,0,0,1)]
+Igual[=(7492,0,0,1)]
+Coluna[D.SEQUENCIAL(12024,0,0,1)]
+<And(7498)>
+Coluna[T.ATUALIZA(12008,0,0,1)]
+Igual[=(7504,0,0,1)]
+StringLiteral['S'(11624,0,0,1)]
+<Update(7514)>
+VarReference[#TMP_DCO1(7516,0,0,1)]
+<Set(7521)>
+	NaoClassificada[ATUALIZA(7523,0,0,1)]
+Igual[=(7525,0,0,1)]
+StringLiteral['P'(11626,0,0,1)]
+<Where(7534)>
+	NaoClassificada[ATUALIZA(7536,0,0,1)]
+Igual[=(7538,0,0,1)]
+StringLiteral['S'(11628,0,0,1)]
+PontoEVirgula[;(12104,0,0,0)]
+<End(7546)>
+<End(7550)>
+<Else(7554)>
+<Begin(7558)>
+<Update(7586)>
+VarReference[#TMP_DCO1(7588,0,0,1)]
+<Set(7593)>
+	NaoClassificada[ATUALIZA(7595,0,0,1)]
+Igual[=(7597,0,0,1)]
+StringLiteral['S'(11632,0,0,1)]
+Virgula[,(7602,0,0,0)]
+	NaoClassificada[SALDO_DCO(7607,1,0,3)]
+Igual[=(7609,0,0,1)]
+DoubleLiteral[0.00(11750,0,0,1)]
+Virgula[,(7614,0,0,0)]
+	NaoClassificada[PROCESSADO(7619,1,0,3)]
+Igual[=(7621,0,0,1)]
+StringLiteral['S'(11634,0,0,1)]
+<Where(7629)>
+	NaoClassificada[SEQUENCIAL(7631,0,0,1)]
+Igual[=(7633,0,0,1)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(7635,0,0,1)]
+<Update(7640)>
+	NaoClassificada[DCO(7642,0,0,1)]
+<Set(7647)>
+	NaoClassificada[SALDO_DCO(7649,0,0,1)]
+Igual[=(7651,0,0,1)]
+	NaoClassificada[T(7653,0,0,1)]
+Ponto[.(7654,0,0,0)]
+	NaoClassificada[SALDO_DCO(7655,0,0,0)]
+Virgula[,(7656,0,0,0)]
+	NaoClassificada[PROCESSADO(7661,1,0,3)]
+Igual[=(7663,0,0,1)]
+	NaoClassificada[T(7665,0,0,1)]
+Ponto[.(7666,0,0,0)]
+	NaoClassificada[PROCESSADO(7667,0,0,0)]
+Virgula[,(7668,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(7673,1,0,3)]
+Igual[=(7675,0,0,1)]
+	NaoClassificada[T(7677,0,0,1)]
+Ponto[.(7678,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(7679,0,0,0)]
+Virgula[,(7680,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(7685,1,0,3)]
+Igual[=(7687,0,0,1)]
+InteiroLiteral[4(7689,0,0,1)]
+Virgula[,(7690,0,0,0)]
+	NaoClassificada[Data_Processamento(7695,1,0,3)]
+Igual[=(7697,0,0,1)]
+VarReference[@DATAATUAL(7699,0,0,1)]
+<From(7703)>
+DataSet[DCO D with(nolock) /*gm*/(11966,0,0,1)]
+<InnerJoin(11774)>
+DataSet[VarReference[#TMP_DCO1(7715,0,0,0)] T(11967,0,0,1)]
+<On(7719)>
+Coluna[T.SEQUENCIAL(12009,0,0,1)]
+Igual[=(7725,0,0,1)]
+Coluna[D.SEQUENCIAL(12025,0,0,1)]
+<And(7731)>
+Coluna[T.ATUALIZA(12010,0,0,1)]
+Igual[=(7737,0,0,1)]
+StringLiteral['S'(11636,0,0,1)]
+<Update(7746)>
+VarReference[#TMP_DCO1(7748,0,0,1)]
+<Set(7753)>
+	NaoClassificada[ATUALIZA(7755,0,0,1)]
+Igual[=(7757,0,0,1)]
+StringLiteral['P'(11638,0,0,1)]
+<Where(7765)>
+	NaoClassificada[ATUALIZA(7767,0,0,1)]
+Igual[=(7769,0,0,1)]
+StringLiteral['S'(11640,0,0,1)]
+PontoEVirgula[;(12105,0,0,0)]
+<End(7777)>
+<End(7780)>
+<Else(7783)>
+<If(7785)>
+VarReference[@PRODUTO(7787,0,0,1)]
+<In(7789)>
+AbreParenteses[((7791,0,0,1)]
+StringLiteral['V'(11642,0,0,0)]
+)
+<Begin(7800)>
+<Select(7805)>
+VarReference[@VALORATUAL(7807,0,0,1)]
+Igual[=(7809,0,0,1)]
+InteiroLiteral[0(7811,0,0,1)]
+Virgula[,(7812,0,0,0)]
+VarReference[@MONTANTE(7814,0,0,1)]
+Igual[=(7816,0,0,1)]
+InteiroLiteral[0(7818,0,0,1)]
+Virgula[,(7819,0,0,0)]
+VarReference[@SALDODIVIDA(7821,0,0,1)]
+Igual[=(7823,0,0,1)]
+InteiroLiteral[0(7825,0,0,1)]
+<End of <Select(7805)>>
+PontoEVirgula[;(12083,0,0,0)]
+<Declare(7830)>
+	NaoClassificada[D(7832,0,0,1)]
+<Cursor(7834)>
+<FastForward(7836)>
+<For(7838)>
+<Select(7842)>
+	NaoClassificada[VALOR(7844,0,0,1)]
+Virgula[,(7845,0,0,0)]
+	NaoClassificada[DATA_MOVIM(7847,0,0,1)]
+<From(7849)>
+DataSet[MOVIMENTO with(nolock)(11968,0,0,1)]
+<Where(7863)>
+	NaoClassificada[PROPOSTA(7865,0,0,1)]
+Igual[=(7867,0,0,1)]
+VarReference[@PROPOSTA(7869,0,0,1)]
+<And(7871)>
+	NaoClassificada[DATA_MOVIM(7873,0,0,1)]
+MaiorOuIgual[>=(11129,0,0,1)]
+VarReference[@DATADCO(7878,0,0,1)]
+<And(7880)>
+	NaoClassificada[CONVERT(7891,1,0,9)]
+AbreParenteses[((7892,0,0,0)]
+Char[CHAR(6)(7894,0,0,0)]
+Virgula[,(7900,0,0,0)]
+	NaoClassificada[DATA_MOVIM(7902,0,0,1)]
+Virgula[,(7903,0,0,0)]
+InteiroLiteral[112(7905,0,0,1)]
+)
+Igual[=(7909,0,0,1)]
+	NaoClassificada[CONVERT(7911,0,0,1)]
+AbreParenteses[((7912,0,0,0)]
+Char[CHAR(6)(7914,0,0,0)]
+Virgula[,(7920,0,0,0)]
+VarReference[@DATADCO(7922,0,0,1)]
+Virgula[,(7923,0,0,0)]
+InteiroLiteral[112(7925,0,0,1)]
+)
+<And(7929)>
+AbreParenteses[((7940,1,0,9)]
+AbreParenteses[((7952,1,0,10)]
+	NaoClassificada[TIPO(7954,0,0,0)]
+Igual[=(7956,0,0,1)]
+StringLiteral['V'(11644,0,0,1)]
+<And(7962)>
+	NaoClassificada[COD_MOVIM(7964,0,0,1)]
+<In(7966)>
+AbreParenteses[((7968,0,0,1)]
+StringLiteral['503'(11646,0,0,0)]
+Virgula[,(7973,0,0,0)]
+StringLiteral['505'(11648,0,0,0)]
+Virgula[,(7977,0,0,0)]
+StringLiteral['506'(11650,0,0,0)]
+Virgula[,(7981,0,0,0)]
+StringLiteral['507'(11652,0,0,0)]
+Virgula[,(7985,0,0,0)]
+StringLiteral['508'(11654,0,0,0)]
+Virgula[,(7989,0,0,0)]
+StringLiteral['515'(11656,0,0,0)]
+Virgula[,(7993,0,0,0)]
+StringLiteral['600'(11658,0,0,0)]
+Virgula[,(7997,0,0,0)]
+StringLiteral['622'(11660,0,0,0)]
+Virgula[,(8001,0,0,0)]
+StringLiteral['519'(11662,0,0,0)]
+Virgula[,(8006,0,0,0)]
+StringLiteral['518'(11664,0,0,0)]
+)
+)
+)
+<Open(8027)>
+	NaoClassificada[D(8029,0,0,1)]
+<FetchNextFrom(11812)>
+	NaoClassificada[D(8039,0,0,1)]
+<Into(8041)>
+VarReference[@VALOR(8043,0,0,1)]
+Virgula[,(8044,0,0,0)]
+VarReference[@DATAMOVIM(8046,0,0,1)]
+<End of <Select(7842)>>
+<While(8050)>
+AbreParenteses[((8052,0,0,1)]
+VarReference[@@FETCH_STATUS(8054,0,0,0)]
+Igual[=(8056,0,0,1)]
+InteiroLiteral[0(8058,0,0,1)]
+)
+<Begin(8064)>
+<If(8068)>
+AbreParenteses[((8070,0,0,1)]
+VarReference[@VALOR(8072,0,0,0)]
+IsNotNull[IS NOT NULL(11802,0,0,1)]
+)
+<Or(8082)>
+AbreParenteses[((8084,0,0,1)]
+VarReference[@VALOR(8086,0,0,0)]
+Maior[>(8088,0,0,1)]
+InteiroLiteral[0(8090,0,0,1)]
+)
+<Begin(8096)>
+<Select(8101)>
+VarReference[@DIAS(8103,0,0,1)]
+Igual[=(8105,0,0,1)]
+	NaoClassificada[DATEDIFF(8107,0,0,1)]
+AbreParenteses[((8108,0,0,0)]
+<Day(8110)>
+Virgula[,(8111,0,0,0)]
+VarReference[@DATADCO(8113,0,0,1)]
+Virgula[,(8114,0,0,0)]
+VarReference[@DATAMOVIM(8116,0,0,1)]
+)
+<End of <Select(8101)>>
+<Exec(8123)>
+	NaoClassificada[DEFLACIONA_VALOR(8125,0,0,1)]
+VarReference[@PRODUTO(8127,0,0,1)]
+Virgula[,(8128,0,0,0)]
+VarReference[@VALOR(8130,0,0,1)]
+Virgula[,(8131,0,0,0)]
+VarReference[@DIAS(8133,0,0,1)]
+Virgula[,(8134,0,0,0)]
+VarReference[@DATAMOVIM(8136,0,0,1)]
+Virgula[,(8137,0,0,0)]
+StringLiteral['S'(11666,0,0,1)]
+Virgula[,(8142,0,0,0)]
+VarReference[@MONTANTE(8144,0,0,1)]
+	NaoClassificada[OUTPUT(8146,0,0,1)]
+<Select(8151)>
+VarReference[@VALORATUAL(8153,0,0,1)]
+Igual[=(8155,0,0,1)]
+VarReference[@VALORATUAL(8157,0,0,1)]
+Mais[+(8159,0,0,1)]
+VarReference[@MONTANTE(8161,0,0,1)]
+PontoEVirgula[;(12106,0,0,0)]
+<End(8165)>
+<FetchNextFrom(11813)>
+	NaoClassificada[D(8176,0,0,1)]
+<Into(8178)>
+VarReference[@VALOR(8180,0,0,1)]
+Virgula[,(8181,0,0,0)]
+VarReference[@DATAMOVIM(8183,0,0,1)]
+PontoEVirgula[;(12107,0,0,0)]
+<End(8187)>
+<Close(8191)>
+	NaoClassificada[D(8193,0,0,1)]
+<Deallocate(8197)>
+	NaoClassificada[D(8199,0,0,1)]
+<Select(8204)>
+VarReference[@SALDODIVIDA(8206,0,0,1)]
+Igual[=(8208,0,0,1)]
+	NaoClassificada[ROUND(8210,0,0,1)]
+AbreParenteses[((8211,0,0,0)]
+VarReference[@TOTAL(8213,0,0,0)]
+Virgula[,(8214,0,0,0)]
+InteiroLiteral[2(8216,0,0,1)]
+)
+Menos[-(8220,0,0,1)]
+	NaoClassificada[ROUND(8222,0,0,1)]
+AbreParenteses[((8223,0,0,0)]
+VarReference[@VALORATUAL(8225,0,0,0)]
+Virgula[,(8226,0,0,0)]
+InteiroLiteral[2(8228,0,0,1)]
+)
+<End of <Select(8151)>>
+<End of <Select(8204)>>
+<Exec(8235)>
+	NaoClassificada[SALDO_PROPOSTA(8237,0,0,1)]
+VarReference[@PROPOSTA(8239,0,0,1)]
+Virgula[,(8240,0,0,0)]
+VarReference[@DATADCO(8241,0,0,1)]
+Virgula[,(8242,0,0,0)]
+StringLiteral['N'(11668,0,0,1)]
+Virgula[,(8246,0,0,0)]
+VarReference[@SALDOPROP(8252,1,0,4)]
+	NaoClassificada[OUTPUT(8254,0,0,1)]
+Virgula[,(8255,0,0,0)]
+VarReference[@SALDOCD(8257,0,0,1)]
+	NaoClassificada[OUTPUT(8259,0,0,1)]
+Virgula[,(8260,0,0,0)]
+VarReference[@SALDOCAR(8266,1,0,4)]
+	NaoClassificada[OUTPUT(8268,0,0,1)]
+Virgula[,(8269,0,0,0)]
+VarReference[@JUROS(8270,0,0,1)]
+	NaoClassificada[OUTPUT(8272,0,0,1)]
+Virgula[,(8273,0,0,0)]
+VarReference[@CCAR1(8289,1,0,14)]
+	NaoClassificada[OUTPUT(8291,0,0,1)]
+Virgula[,(8292,0,0,0)]
+VarReference[@CCAR2(8293,0,0,1)]
+	NaoClassificada[OUTPUT(8295,0,0,1)]
+Virgula[,(8296,0,0,0)]
+VarReference[@CCAR12(8312,1,0,14)]
+	NaoClassificada[OUTPUT(8314,0,0,1)]
+Virgula[,(8315,0,0,0)]
+VarReference[@CCAR22(8316,0,0,1)]
+	NaoClassificada[OUTPUT(8318,0,0,1)]
+Virgula[,(8319,0,0,0)]
+VarReference[@CCAR13(8335,1,0,14)]
+	NaoClassificada[OUTPUT(8337,0,0,1)]
+Virgula[,(8338,0,0,0)]
+VarReference[@CCAR23(8339,0,0,1)]
+	NaoClassificada[OUTPUT(8341,0,0,1)]
+Virgula[,(8342,0,0,0)]
+VarReference[@IR(8357,1,0,13)]
+	NaoClassificada[OUTPUT(8359,0,0,1)]
+<Exec(8364)>
+	NaoClassificada[SALDO_PROPOSTA(8366,0,0,1)]
+VarReference[@PROPOSTA(8372,1,0,4)]
+Virgula[,(8373,0,0,0)]
+VarReference[@DATAATUAL(8375,0,0,1)]
+Virgula[,(8376,0,0,0)]
+StringLiteral['N'(11670,0,0,1)]
+Virgula[,(8380,0,0,0)]
+VarReference[@SALDOATUAL(8386,1,0,4)]
+	NaoClassificada[OUTPUT(8388,0,0,1)]
+Virgula[,(8389,0,0,0)]
+VarReference[@SALDOCD(8390,0,0,1)]
+	NaoClassificada[OUTPUT(8392,0,0,1)]
+Virgula[,(8393,0,0,0)]
+VarReference[@SALDOCAR(8399,1,0,4)]
+	NaoClassificada[OUTPUT(8401,0,0,1)]
+Virgula[,(8402,0,0,0)]
+VarReference[@JUROS(8403,0,0,1)]
+	NaoClassificada[OUTPUT(8405,0,0,1)]
+Virgula[,(8406,0,0,0)]
+VarReference[@CCAR1(8422,1,0,14)]
+	NaoClassificada[OUTPUT(8424,0,0,1)]
+Virgula[,(8425,0,0,0)]
+VarReference[@CCAR2(8426,0,0,1)]
+	NaoClassificada[OUTPUT(8428,0,0,1)]
+Virgula[,(8429,0,0,0)]
+VarReference[@CCAR12(8445,1,0,14)]
+	NaoClassificada[OUTPUT(8447,0,0,1)]
+Virgula[,(8448,0,0,0)]
+VarReference[@CCAR22(8449,0,0,1)]
+	NaoClassificada[OUTPUT(8451,0,0,1)]
+Virgula[,(8452,0,0,0)]
+VarReference[@CCAR13(8468,1,0,14)]
+	NaoClassificada[OUTPUT(8470,0,0,1)]
+Virgula[,(8471,0,0,0)]
+VarReference[@CCAR23(8472,0,0,1)]
+	NaoClassificada[OUTPUT(8474,0,0,1)]
+Virgula[,(8475,0,0,0)]
+VarReference[@IR(8491,1,0,14)]
+	NaoClassificada[OUTPUT(8493,0,0,1)]
+<Select(8498)>
+VarReference[@TIPORECEBIMENTO(8502,1,0,2)]
+Igual[=(8504,0,0,1)]
+	NaoClassificada[FKTIPORECEBIMENTO(8506,0,0,1)]
+<From(8510)>
+DataSet[TB_AGENDA_RECEBIMENTO with(nolock)(11969,0,0,1)]
+<Where(8519)>
+	NaoClassificada[CODIGOIDENTIFICADOR(8521,0,0,1)]
+Igual[=(8523,0,0,1)]
+VarReference[@FKAGENDARECEBIMENTO(8525,0,0,1)]
+<End of <Select(8498)>>
+<If(8530)>
+VarReference[@SALDODIVIDA(8532,0,0,1)]
+Maior[>(8534,0,0,1)]
+DoubleLiteral[0.00(11751,0,0,1)]
+<And(8540)>
+VarReference[@SALDOPROP(8542,0,0,1)]
+Maior[>(8544,0,0,1)]
+DoubleLiteral[0.00(11752,0,0,1)]
+<And(8550)>
+VarReference[@SALDOATUAL(8552,0,0,1)]
+Maior[>(8554,0,0,1)]
+InteiroLiteral[0(8556,0,0,1)]
+<And(8558)>
+VarReference[@TIPORECEBIMENTO(8560,0,0,1)]
+Diferente[<>(11825,0,0,1)]
+InteiroLiteral[5(8565,0,0,1)]
+<Begin(8579)>
+<Insert(8598)>
+<Into(8600)>
+VarReference[#TRANSACAO(8602,0,0,1)]
+AbreParenteses[((8607,1,0,3)]
+	NaoClassificada[ID_AGRUPAMENTO(8608,0,0,0)]
+Virgula[,(8609,0,0,0)]
+	NaoClassificada[PROPOSTA(8611,0,0,1)]
+Virgula[,(8613,0,0,0)]
+	NaoClassificada[INSCRICAO(8614,0,0,1)]
+Virgula[,(8616,0,0,0)]
+	NaoClassificada[VALOR(8618,0,0,1)]
+Virgula[,(8620,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(8622,0,0,1)]
+Virgula[,(8624,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(8626,0,0,1)]
+Virgula[,(8627,0,0,0)]
+	NaoClassificada[QUEDA(8629,0,0,1)]
+)
+<Select(8634)>
+VarReference[@ID_AGRUPAMENTO(8636,0,0,1)]
+Virgula[,(8637,0,0,0)]
+VarReference[@PROPOSTA(8639,0,0,1)]
+Virgula[,(8640,0,0,0)]
+VarReference[@INSCRICAO(8642,0,0,1)]
+Virgula[,(8643,0,0,0)]
+VarReference[@SALDODIVIDA(8645,0,0,1)]
+Virgula[,(8646,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO_TRANSFERE_DEBITO_DEV_V(8648,0,0,1)]
+Virgula[,(8649,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(8651,0,0,1)]
+Virgula[,(8652,0,0,0)]
+VarReference[@QUEDA(8654,0,0,1)]
+PontoEVirgula[;(12108,0,0,0)]
+<End(8658)>
+<Else(8662)>
+<Begin(8666)>
+<End of <Select(8634)>>
+<Update(8670)>
+VarReference[#TMP_DCO1(8672,0,0,1)]
+<Set(8677)>
+	NaoClassificada[ATUALIZA(8679,0,0,1)]
+Igual[=(8681,0,0,1)]
+StringLiteral['S'(11676,0,0,1)]
+Virgula[,(8686,0,0,0)]
+	NaoClassificada[SALDO_DCO(8691,1,0,3)]
+Igual[=(8693,0,0,1)]
+DoubleLiteral[0.00(11753,0,0,1)]
+Virgula[,(8698,0,0,0)]
+	NaoClassificada[PROCESSADO(8703,1,0,3)]
+Igual[=(8705,0,0,1)]
+StringLiteral['S'(11678,0,0,1)]
+<Where(8713)>
+	NaoClassificada[SEQUENCIAL(8715,0,0,1)]
+Igual[=(8717,0,0,1)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(8719,0,0,1)]
+<Update(8724)>
+	NaoClassificada[DCO(8726,0,0,1)]
+<Set(8731)>
+	NaoClassificada[SALDO_DCO(8733,0,0,1)]
+Igual[=(8735,0,0,1)]
+	NaoClassificada[T(8737,0,0,1)]
+Ponto[.(8738,0,0,0)]
+	NaoClassificada[SALDO_DCO(8739,0,0,0)]
+Virgula[,(8740,0,0,0)]
+	NaoClassificada[PROCESSADO(8745,1,0,3)]
+Igual[=(8747,0,0,1)]
+	NaoClassificada[T(8749,0,0,1)]
+Ponto[.(8750,0,0,0)]
+	NaoClassificada[PROCESSADO(8751,0,0,0)]
+Virgula[,(8752,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(8757,1,0,3)]
+Igual[=(8759,0,0,1)]
+	NaoClassificada[T(8761,0,0,1)]
+Ponto[.(8762,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(8763,0,0,0)]
+Virgula[,(8764,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(8769,1,0,3)]
+Igual[=(8771,0,0,1)]
+InteiroLiteral[4(8773,0,0,1)]
+Virgula[,(8774,0,0,0)]
+	NaoClassificada[Data_Processamento(8779,1,0,3)]
+Igual[=(8781,0,0,1)]
+VarReference[@DATAATUAL(8783,0,0,1)]
+<From(8787)>
+DataSet[DCO D with(nolock) /*gm*/(11970,0,0,1)]
+<InnerJoin(11775)>
+DataSet[VarReference[#TMP_DCO1(8799,0,0,0)] T(11971,0,0,1)]
+<On(8803)>
+Coluna[T.SEQUENCIAL(12011,0,0,1)]
+Igual[=(8809,0,0,1)]
+Coluna[D.SEQUENCIAL(12026,0,0,1)]
+<And(8815)>
+Coluna[T.ATUALIZA(12012,0,0,1)]
+Igual[=(8821,0,0,1)]
+StringLiteral['S'(11680,0,0,1)]
+<Update(8830)>
+VarReference[#TMP_DCO1(8832,0,0,1)]
+<Set(8837)>
+	NaoClassificada[ATUALIZA(8839,0,0,1)]
+Igual[=(8841,0,0,1)]
+StringLiteral['P'(11682,0,0,1)]
+<Where(8849)>
+	NaoClassificada[ATUALIZA(8851,0,0,1)]
+Igual[=(8853,0,0,1)]
+StringLiteral['S'(11684,0,0,1)]
+PontoEVirgula[;(12109,0,0,0)]
+<End(8861)>
+<End(8864)>
+<Else(8867)>
+<If(8869)>
+VarReference[@PRODUTO(8871,0,0,1)]
+<In(8873)>
+AbreParenteses[((8875,0,0,1)]
+StringLiteral['H'(11686,0,0,0)]
+Virgula[,(8880,0,0,0)]
+StringLiteral['I'(11688,0,0,0)]
+)
+<Begin(8887)>
+<If(8892)>
+<Exists(8894)>
+AbreParenteses[((8895,0,0,0)]
+<Select(8900)>
+Asterisco[*(8902,0,0,1)]
+<From(8907)>
+DataSet[EMPRESTIMO E with(nolock)(11972,0,0,1)]
+<Where(8923)>
+Coluna[E.PROPOSTA(12013,0,0,1)]
+Igual[=(8929,0,0,1)]
+VarReference[@PROPOSTA(8931,0,0,1)]
+<And(8933)>
+	NaoClassificada[MORTO(8935,0,0,1)]
+Igual[=(8937,0,0,1)]
+StringLiteral['N'(11690,0,0,1)]
+<End of <Select(8900)>>
+)
+<Begin(8950)>
+<Insert(8955)>
+<Into(8957)>
+VarReference[#TRANSACAO(8959,0,0,1)]
+AbreParenteses[((8964,1,0,3)]
+	NaoClassificada[ID_AGRUPAMENTO(8965,0,0,0)]
+Virgula[,(8966,0,0,0)]
+	NaoClassificada[PROPOSTA(8968,0,0,1)]
+Virgula[,(8969,0,0,0)]
+	NaoClassificada[INSCRICAO(8971,0,0,1)]
+Virgula[,(8972,0,0,0)]
+	NaoClassificada[VALOR(8974,0,0,1)]
+Virgula[,(8975,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(8977,0,0,1)]
+Virgula[,(8978,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(8980,0,0,1)]
+Virgula[,(8981,0,0,0)]
+	NaoClassificada[QUEDA(8983,0,0,1)]
+)
+<Select(8988)>
+VarReference[@ID_AGRUPAMENTO(8993,1,0,3)]
+Virgula[,(8994,0,0,0)]
+VarReference[@PROPOSTA(8996,0,0,1)]
+Virgula[,(8997,0,0,0)]
+VarReference[@INSCRICAO(8999,0,0,1)]
+Virgula[,(9000,0,0,0)]
+InteiroLiteral[0(9002,0,0,1)]
+Virgula[,(9003,0,0,0)]
+VarReference[@GERAR_FORTE_60(9005,0,0,1)]
+Virgula[,(9006,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9008,0,0,1)]
+Virgula[,(9009,0,0,0)]
+VarReference[@QUEDA(9011,0,0,1)]
+PontoEVirgula[;(12110,0,0,0)]
+<End(9015)>
+<Else(9019)>
+<Begin(9023)>
+<End of <Select(8988)>>
+<Update(9028)>
+VarReference[#TMP_DCO1(9030,0,0,1)]
+<Set(9034)>
+	NaoClassificada[ATUALIZA(9036,0,0,1)]
+Igual[=(9038,0,0,1)]
+StringLiteral['S'(11692,0,0,1)]
+Virgula[,(9043,0,0,0)]
+	NaoClassificada[SALDO_DCO(9048,1,0,3)]
+Igual[=(9050,0,0,1)]
+DoubleLiteral[0.00(11754,0,0,1)]
+Virgula[,(9055,0,0,0)]
+	NaoClassificada[PROCESSADO(9060,1,0,3)]
+Igual[=(9062,0,0,1)]
+StringLiteral['S'(11694,0,0,1)]
+<Where(9070)>
+	NaoClassificada[SEQUENCIAL(9072,0,0,1)]
+Igual[=(9074,0,0,1)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9076,0,0,1)]
+<Update(9081)>
+	NaoClassificada[DCO(9083,0,0,1)]
+<Set(9088)>
+	NaoClassificada[SALDO_DCO(9090,0,0,1)]
+Igual[=(9092,0,0,1)]
+	NaoClassificada[T(9094,0,0,1)]
+Ponto[.(9095,0,0,0)]
+	NaoClassificada[SALDO_DCO(9096,0,0,0)]
+Virgula[,(9097,0,0,0)]
+	NaoClassificada[PROCESSADO(9102,1,0,3)]
+Igual[=(9104,0,0,1)]
+	NaoClassificada[T(9106,0,0,1)]
+Ponto[.(9107,0,0,0)]
+	NaoClassificada[PROCESSADO(9108,0,0,0)]
+Virgula[,(9109,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(9114,1,0,3)]
+Igual[=(9116,0,0,1)]
+	NaoClassificada[T(9118,0,0,1)]
+Ponto[.(9119,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(9120,0,0,0)]
+Virgula[,(9121,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(9126,1,0,3)]
+Igual[=(9128,0,0,1)]
+InteiroLiteral[4(9130,0,0,1)]
+Virgula[,(9131,0,0,0)]
+	NaoClassificada[Data_Processamento(9136,1,0,3)]
+Igual[=(9138,0,0,1)]
+VarReference[@DATAATUAL(9140,0,0,1)]
+<From(9144)>
+DataSet[DCO D with(nolock) /*gm*/(11973,0,0,1)]
+<InnerJoin(11776)>
+DataSet[VarReference[#TMP_DCO1(9156,0,0,0)] T(11974,0,0,1)]
+<On(9160)>
+Coluna[T.SEQUENCIAL(12014,0,0,1)]
+Igual[=(9166,0,0,1)]
+Coluna[D.SEQUENCIAL(12027,0,0,1)]
+<And(9172)>
+Coluna[T.ATUALIZA(12015,0,0,1)]
+Igual[=(9178,0,0,1)]
+StringLiteral['S'(11696,0,0,1)]
+<Update(9187)>
+VarReference[#TMP_DCO1(9189,0,0,1)]
+<Set(9194)>
+	NaoClassificada[ATUALIZA(9196,0,0,1)]
+Igual[=(9198,0,0,1)]
+StringLiteral['P'(11698,0,0,1)]
+<Where(9206)>
+	NaoClassificada[ATUALIZA(9208,0,0,1)]
+Igual[=(9210,0,0,1)]
+StringLiteral['S'(11700,0,0,1)]
+PontoEVirgula[;(12111,0,0,0)]
+<End(9218)>
+<End(9221)>
+<Set(9238)>
+VarReference[@ID_AGRUPAMENTO(9240,0,0,1)]
+Igual[=(9242,0,0,1)]
+VarReference[@ID_AGRUPAMENTO(9244,0,0,1)]
+Mais[+(9246,0,0,1)]
+InteiroLiteral[1(9248,0,0,1)]
+<FetchNextFrom(11814)>
+	NaoClassificada[C(9257,0,0,1)]
+<Into(9259)>
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9261,0,0,1)]
+Virgula[,(9262,0,0,0)]
+VarReference[@INSCRICAO(9264,0,0,1)]
+Virgula[,(9265,0,0,0)]
+VarReference[@PROPOSTA(9267,0,0,1)]
+Virgula[,(9268,0,0,0)]
+VarReference[@PRODUTO(9270,0,0,1)]
+Virgula[,(9271,0,0,0)]
+VarReference[@TOTAL(9273,0,0,1)]
+Virgula[,(9274,0,0,0)]
+VarReference[@FKAGENDARECEBIMENTO(9276,0,0,1)]
+PontoEVirgula[;(12112,0,0,0)]
+<End(9279)>
+<Close(9282)>
+	NaoClassificada[C(9284,0,0,1)]
+<Deallocate(9287)>
+	NaoClassificada[C(9289,0,0,1)]
+PontoEVirgula[;(12084,0,0,0)]
+<Declare(9293)>
+VarDeclaration[@ID_SESSAO_TRANSACAO Tipo[INT](11908,1,0,1)]
+PontoEVirgula[;(12150,0,0,0)]
+<Declare(9302)>
+	NaoClassificada[C_TRANSACAO(9304,0,0,1)]
+<Cursor(9306)>
+<FastForward(9308)>
+<For(9310)>
+<Select(9314)>
+	NaoClassificada[DISTINCT(9317,1,0,1)]
+	NaoClassificada[ID_AGRUPAMENTO(9319,0,0,1)]
+<From(9322)>
+DataSet[VarReference[#TRANSACAO(9324,0,0,0)](11975,0,0,1)]
+<Where(9327)>
+	NaoClassificada[ID_TIPO_TRANSACAO(9329,0,0,1)]
+Diferente[<>(11826,0,0,1)]
+VarReference[@GERAR_FORTE_60(9334,0,0,1)]
+OrderBy[ORDER BY(11781,1,0,1)]
+	NaoClassificada[ID_AGRUPAMENTO(9344,0,0,1)]
+<Open(9348)>
+	NaoClassificada[C_TRANSACAO(9350,0,0,1)]
+<FetchNextFrom(11815)>
+	NaoClassificada[C_TRANSACAO(9359,0,0,1)]
+<Into(9361)>
+VarReference[@ID_AGRUPAMENTO(9363,0,0,1)]
+<End of <Select(9314)>>
+<While(9366)>
+VarReference[@@FETCH_STATUS(9368,0,0,1)]
+Igual[=(9370,0,0,1)]
+InteiroLiteral[0(9372,0,0,1)]
+<Begin(9375)>
+<Set(9379)>
+VarReference[@ID_SESSAO(9381,0,0,1)]
+Igual[=(9383,0,0,1)]
+Null[NULL(9385,0,0,1)]
+PontoEVirgula[;(12085,0,0,0)]
+<Declare(9389)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9391,0,0,1)]
+<Cursor(9393)>
+<For(9395)>
+<Select(9398)>
+	NaoClassificada[SEQUENCIAL_DCO(9402,1,0,2)]
+Virgula[,(9403,0,0,0)]
+	NaoClassificada[PROPOSTA(9407,1,0,2)]
+Virgula[,(9408,0,0,0)]
+	NaoClassificada[INSCRICAO(9412,1,0,2)]
+Virgula[,(9413,0,0,0)]
+	NaoClassificada[VALOR(9417,1,0,2)]
+Virgula[,(9418,0,0,0)]
+	NaoClassificada[ID_TIPO_TRANSACAO(9422,1,0,2)]
+Virgula[,(9423,0,0,0)]
+	NaoClassificada[QUEDA(9427,1,0,2)]
+Virgula[,(9428,0,0,0)]
+	NaoClassificada[PROPAMORTIZA(9432,1,0,2)]
+<From(9435)>
+DataSet[VarReference[#TRANSACAO(9437,0,0,0)](11976,0,0,1)]
+<Where(9440)>
+	NaoClassificada[ID_AGRUPAMENTO(9442,0,0,1)]
+Igual[=(9444,0,0,1)]
+VarReference[@ID_AGRUPAMENTO(9446,0,0,1)]
+OrderBy[ORDER BY(11782,1,0,1)]
+	NaoClassificada[ID_AGRUPAMENTO(9453,0,0,1)]
+<Open(9457)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9459,0,0,1)]
+<FetchNextFrom(11816)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9468,0,0,1)]
+<Into(9470)>
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9478,1,0,6)]
+Virgula[,(9479,0,0,0)]
+VarReference[@PROPOSTA(9487,1,0,6)]
+Virgula[,(9488,0,0,0)]
+VarReference[@INSCRICAO(9496,1,0,6)]
+Virgula[,(9497,0,0,0)]
+VarReference[@VALOR(9505,1,0,6)]
+Virgula[,(9506,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO(9514,1,0,6)]
+Virgula[,(9515,0,0,0)]
+VarReference[@QUEDA(9523,1,0,6)]
+Virgula[,(9524,0,0,0)]
+VarReference[@PROPAMORTIZA(9532,1,0,6)]
+<End of <Select(9398)>>
+<While(9536)>
+VarReference[@@FETCH_STATUS(9538,0,0,1)]
+Igual[=(9540,0,0,1)]
+InteiroLiteral[0(9542,0,0,1)]
+<Begin(9545)>
+<If(9550)>
+VarReference[@ID_SESSAO(9552,0,0,1)]
+IsNull[IS NULL(11795,0,0,1)]
+<Begin(9560)>
+<Exec(9564)>
+	NaoClassificada[DBO(9566,0,0,1)]
+Ponto[.(9567,0,0,0)]
+	NaoClassificada[STP_GLB_INICIA_SESSAO(9568,0,0,0)]
+VarReference[@CANAL(9574,1,0,4)]
+Igual[=(9576,0,0,1)]
+VarReference[@CANAL(9578,0,0,1)]
+Virgula[,(9579,0,0,0)]
+VarReference[@INSCRICAO(9585,1,0,4)]
+Igual[=(9587,0,0,1)]
+VarReference[@INSCRICAO(9589,0,0,1)]
+Virgula[,(9590,0,0,0)]
+VarReference[@ESTACAO_TRABALHO(9596,1,0,4)]
+Igual[=(9598,0,0,1)]
+VarReference[@ESTACAO_TRABALHO(9600,0,0,1)]
+Virgula[,(9601,0,0,0)]
+VarReference[@QRYRESULT(9607,1,0,4)]
+Igual[=(9609,0,0,1)]
+StringLiteral['N'(11706,0,0,1)]
+Virgula[,(9614,0,0,0)]
+VarReference[@ID_SESSAO(9620,1,0,4)]
+Igual[=(9622,0,0,1)]
+VarReference[@ID_SESSAO(9624,0,0,1)]
+	NaoClassificada[OUTPUT(9626,0,0,1)]
+PontoEVirgula[;(12113,0,0,0)]
+<End(9630)>
+<Select(9635)>
+VarReference[@ID_SESSAO_TRANSACAO(9637,0,0,1)]
+Igual[=(9639,0,0,1)]
+Null[NULL(9641,0,0,1)]
+<End of <Select(9635)>>
+<Exec(9646)>
+	NaoClassificada[DBO(9648,0,0,1)]
+Ponto[.(9649,0,0,0)]
+	NaoClassificada[STP_GLB_GRAVA_TRANSACAO(9650,0,0,0)]
+VarReference[@ID_SESSAO(9657,1,0,5)]
+Igual[=(9659,0,0,1)]
+VarReference[@ID_SESSAO(9661,0,0,1)]
+Virgula[,(9662,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO(9669,1,0,5)]
+Igual[=(9671,0,0,1)]
+VarReference[@ID_TIPO_TRANSACAO(9673,0,0,1)]
+Virgula[,(9674,0,0,0)]
+VarReference[@VALOR_OPERACAO(9681,1,0,5)]
+Igual[=(9683,0,0,1)]
+VarReference[@VALOR(9685,0,0,1)]
+Virgula[,(9686,0,0,0)]
+VarReference[@INSCRICAO_ORIGEM(9693,1,0,5)]
+Igual[=(9695,0,0,1)]
+VarReference[@INSCRICAO(9697,0,0,1)]
+Virgula[,(9698,0,0,0)]
+VarReference[@INSCRICAO_DESTINO(9705,1,0,5)]
+Igual[=(9707,0,0,1)]
+VarReference[@INSCRICAO(9709,0,0,1)]
+Virgula[,(9710,0,0,0)]
+VarReference[@DT_INICIO_CONTRATO(9717,1,0,5)]
+Igual[=(9719,0,0,1)]
+VarReference[@DATADCO(9721,0,0,1)]
+Virgula[,(9722,0,0,0)]
+VarReference[@ID_RESPONSAVEL(9729,1,0,5)]
+Igual[=(9731,0,0,1)]
+VarReference[@ID_RESPONSAVEL(9733,0,0,1)]
+Virgula[,(9734,0,0,0)]
+VarReference[@PROPOSTA(9741,1,0,5)]
+Igual[=(9743,0,0,1)]
+VarReference[@PROPOSTA(9745,0,0,1)]
+Virgula[,(9746,0,0,0)]
+VarReference[@QUEDA(9753,1,0,5)]
+Igual[=(9755,0,0,1)]
+VarReference[@QUEDA(9757,0,0,1)]
+Virgula[,(9758,0,0,0)]
+VarReference[@PROPOSTA_AMORT(9765,1,0,5)]
+Igual[=(9767,0,0,1)]
+VarReference[@PROPAMORTIZA(9769,0,0,1)]
+Virgula[,(9770,0,0,0)]
+VarReference[@ID_SESSAO_TRANSACAO(9777,1,0,5)]
+Igual[=(9779,0,0,1)]
+VarReference[@ID_SESSAO_TRANSACAO(9781,0,0,1)]
+	NaoClassificada[OUTPUT(9783,0,0,1)]
+<Insert(9788)>
+<Into(9790)>
+	NaoClassificada[TB_TRANSACAO_RECEBIMENTO(9792,0,0,1)]
+<Values(9796)>
+AbreParenteses[((9797,0,0,0)]
+VarReference[@ID_SESSAO_TRANSACAO(9798,0,0,0)]
+Virgula[,(9799,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9800,0,0,1)]
+Virgula[,(9801,0,0,0)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9803,0,0,1)]
+)
+<Update(9809)>
+VarReference[#TMP_DCO1(9811,0,0,1)]
+<Set(9815)>
+	NaoClassificada[SALDO_DCO(9817,0,0,1)]
+Igual[=(9819,0,0,1)]
+InteiroLiteral[0(9821,0,0,1)]
+Virgula[,(9822,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(9827,1,0,3)]
+Igual[=(9829,0,0,1)]
+VarReference[@ID_SESSAO(9831,0,0,1)]
+Virgula[,(9832,0,0,0)]
+	NaoClassificada[PROCESSADO(9837,1,0,3)]
+Igual[=(9839,0,0,1)]
+StringLiteral['S'(11708,0,0,1)]
+<Where(9847)>
+	NaoClassificada[SEQUENCIAL(9849,0,0,1)]
+Igual[=(9851,0,0,1)]
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9853,0,0,1)]
+<FetchNextFrom(11817)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9864,0,0,1)]
+<Into(9866)>
+VarReference[@SEQUENCIAL_DCO_AMORTIZADO(9868,0,0,1)]
+Virgula[,(9869,0,0,0)]
+VarReference[@PROPOSTA(9871,0,0,1)]
+Virgula[,(9872,0,0,0)]
+VarReference[@INSCRICAO(9874,0,0,1)]
+Virgula[,(9875,0,0,0)]
+VarReference[@VALOR(9877,0,0,1)]
+Virgula[,(9878,0,0,0)]
+VarReference[@ID_TIPO_TRANSACAO(9880,0,0,1)]
+Virgula[,(9881,0,0,0)]
+VarReference[@QUEDA(9883,0,0,1)]
+Virgula[,(9884,0,0,0)]
+VarReference[@PROPAMORTIZA(9886,0,0,1)]
+PontoEVirgula[;(12114,0,0,0)]
+<End(9889)>
+<Close(9892)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9894,0,0,1)]
+<Deallocate(9897)>
+	NaoClassificada[C_TRANSACAO_DETALHE(9899,0,0,1)]
+<If(9903)>
+VarReference[@ID_SESSAO(9905,0,0,1)]
+IsNotNull[IS NOT NULL(11803,0,0,1)]
+<Begin(9914)>
+<Begin(9918)>
+	NaoClassificada[TRY(9920,0,0,1)]
+<BeginTran(11785)>
+<Set(9931)>
+VarReference[@DATA_FIM_TRANSACAO(9933,0,0,1)]
+Igual[=(9935,0,0,1)]
+Null[NULL(9937,0,0,1)]
+<Exec(9943)>
+	NaoClassificada[DBO(9945,0,0,1)]
+Ponto[.(9946,0,0,0)]
+	NaoClassificada[STP_GLB_FINALIZA_SESSAO(9947,0,0,0)]
+VarReference[@ID_SESSAO(9952,1,0,3)]
+Igual[=(9954,0,0,1)]
+VarReference[@ID_SESSAO(9956,0,0,1)]
+Virgula[,(9957,0,0,0)]
+VarReference[@DATA_FIM_TRANSACAO(9962,1,0,3)]
+Igual[=(9964,0,0,1)]
+VarReference[@DATA_FIM_TRANSACAO(9966,0,0,1)]
+	NaoClassificada[OUTPUT(9968,0,0,1)]
+Virgula[,(9970,0,0,0)]
+VarReference[@MENSAGEM(9975,1,0,3)]
+Igual[=(9977,0,0,1)]
+Null[NULL(9979,0,0,1)]
+<If(9985)>
+VarReference[@DATA_FIM_TRANSACAO(9987,0,0,1)]
+IsNotNull[IS NOT NULL(11804,0,0,1)]
+<Begin(9998)>
+<Update(10004)>
+VarReference[#TMP_DCO1(10006,0,0,1)]
+<Set(10012)>
+	NaoClassificada[ATUALIZA(10014,0,0,1)]
+Igual[=(10016,0,0,1)]
+StringLiteral['S'(11710,0,0,1)]
+<Where(10025)>
+	NaoClassificada[ID_SESSAO_ESTORNO(10027,0,0,1)]
+Igual[=(10029,0,0,1)]
+VarReference[@ID_SESSAO(10031,0,0,1)]
+<Update(10037)>
+	NaoClassificada[DCO(10039,0,0,1)]
+<Set(10045)>
+	NaoClassificada[SALDO_DCO(10051,1,0,4)]
+Igual[=(10053,0,0,1)]
+	NaoClassificada[T(10055,0,0,1)]
+Ponto[.(10056,0,0,0)]
+	NaoClassificada[SALDO_DCO(10057,0,0,0)]
+Virgula[,(10058,0,0,0)]
+	NaoClassificada[PROCESSADO(10064,1,0,4)]
+Igual[=(10066,0,0,1)]
+	NaoClassificada[T(10068,0,0,1)]
+Ponto[.(10069,0,0,0)]
+	NaoClassificada[PROCESSADO(10070,0,0,0)]
+Virgula[,(10071,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(10077,1,0,4)]
+Igual[=(10079,0,0,1)]
+	NaoClassificada[T(10081,0,0,1)]
+Ponto[.(10082,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(10083,0,0,0)]
+Virgula[,(10084,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(10090,1,0,4)]
+Igual[=(10092,0,0,1)]
+InteiroLiteral[4(10094,0,0,1)]
+Virgula[,(10095,0,0,0)]
+	NaoClassificada[Data_Processamento(10101,1,0,4)]
+Igual[=(10103,0,0,1)]
+VarReference[@DATAATUAL(10105,0,0,1)]
+<From(10111)>
+DataSet[DCO D with(nolock) /*gm*/(11977,0,0,1)]
+<InnerJoin(11777)>
+DataSet[VarReference[#TMP_DCO1(10125,0,0,0)] T(11978,0,0,1)]
+<On(10129)>
+Coluna[T.SEQUENCIAL(12016,0,0,1)]
+Igual[=(10135,0,0,1)]
+Coluna[D.SEQUENCIAL(12028,0,0,1)]
+<And(10141)>
+Coluna[T.ATUALIZA(12017,0,0,1)]
+Igual[=(10147,0,0,1)]
+StringLiteral['S'(11712,0,0,1)]
+<Update(10157)>
+VarReference[#TMP_DCO1(10159,0,0,1)]
+<Set(10165)>
+	NaoClassificada[ATUALIZA(10167,0,0,1)]
+Igual[=(10169,0,0,1)]
+StringLiteral['P'(11714,0,0,1)]
+<Where(10178)>
+	NaoClassificada[ATUALIZA(10180,0,0,1)]
+Igual[=(10182,0,0,1)]
+StringLiteral['S'(11716,0,0,1)]
+PontoEVirgula[;(12115,0,0,0)]
+<End(10192)>
+<Else(10197)>
+<Begin(10202)>
+<Set(10207)>
+VarReference[@ERROMSG(10209,0,0,1)]
+Igual[=(10211,0,0,1)]
+StringLiteral['SESSAO NAO COMITADA COM SUCESSO ID SESSAO:'(11718,0,0,1)]
+Mais[+(10229,0,0,1)]
+	NaoClassificada[CONVERT(10230,0,0,1)]
+AbreParenteses[((10231,0,0,0)]
+Varchar[VARCHAR(10)(10232,0,0,0)]
+Virgula[,(10236,0,0,0)]
+VarReference[@ID_SESSAO(10238,0,0,1)]
+)
+<RaisError(10244)>
+AbreParenteses[((10245,0,0,0)]
+VarReference[@ERROMSG(10246,0,0,0)]
+Virgula[,(10248,0,0,0)]
+InteiroLiteral[16(10249,0,0,1)]
+Virgula[,(10250,0,0,0)]
+InteiroLiteral[1(10251,0,0,1)]
+)
+PontoEVirgula[;(12116,0,0,0)]
+<End(10257)>
+<CommitTran(11787)>
+PontoEVirgula[;(12117,0,0,0)]
+<End(10267)>
+	NaoClassificada[TRY(10269,0,0,1)]
+<Begin(10273)>
+	NaoClassificada[CATCH(10275,0,0,1)]
+	NaoClassificada[ROLLBACK(10279,1,0,2)]
+<Exec(10283)>
+	NaoClassificada[STP_GETERRORINFO(10285,0,0,1)]
+PontoEVirgula[;(12118,0,0,0)]
+<End(10289)>
+	NaoClassificada[CATCH(10291,0,0,1)]
+PontoEVirgula[;(12119,0,0,0)]
+<End(10294)>
+<FetchNextFrom(11818)>
+	NaoClassificada[C_TRANSACAO(10303,0,0,1)]
+<Into(10305)>
+VarReference[@ID_AGRUPAMENTO(10307,0,0,1)]
+PontoEVirgula[;(12120,0,0,0)]
+<End(10310)>
+<Close(10313)>
+	NaoClassificada[C_TRANSACAO(10315,0,0,1)]
+<Deallocate(10318)>
+	NaoClassificada[C_TRANSACAO(10320,0,0,1)]
+PontoEVirgula[;(12086,0,0,0)]
+<Declare(10324)>
+	NaoClassificada[C_TRANSACAO(10326,0,0,1)]
+<Cursor(10328)>
+<FastForward(10330)>
+<For(10332)>
+<Select(10336)>
+	NaoClassificada[DISTINCT(10340,1,0,2)]
+	NaoClassificada[INSCRICAO(10342,0,0,1)]
+<From(10345)>
+DataSet[VarReference[#TRANSACAO(10347,0,0,0)](11979,0,0,1)]
+<Where(10350)>
+	NaoClassificada[ID_TIPO_TRANSACAO(10352,0,0,1)]
+Igual[=(10354,0,0,1)]
+VarReference[@GERAR_FORTE_60(10356,0,0,1)]
+OrderBy[ORDER BY(11783,1,0,1)]
+	NaoClassificada[INSCRICAO(10383,0,0,1)]
+<Open(10386)>
+	NaoClassificada[C_TRANSACAO(10388,0,0,1)]
+<FetchNextFrom(11819)>
+	NaoClassificada[C_TRANSACAO(10398,0,0,1)]
+<Into(10400)>
+VarReference[@INSCRICAO(10402,0,0,1)]
+<End of <Select(10336)>>
+<While(10405)>
+VarReference[@@FETCH_STATUS(10407,0,0,1)]
+Igual[=(10409,0,0,1)]
+InteiroLiteral[0(10411,0,0,1)]
+<Begin(10414)>
+<Set(10417)>
+VarReference[@ID_SESSAO(10419,0,0,1)]
+Igual[=(10421,0,0,1)]
+Null[NULL(10423,0,0,1)]
+<Exec(10448)>
+	NaoClassificada[STP_BAIXA_FORTERAPIDO(10450,0,0,1)]
+VarReference[@INSCRICAO(10452,0,0,1)]
+Igual[=(10454,0,0,1)]
+VarReference[@INSCRICAO(10456,0,0,1)]
+Virgula[,(10457,0,0,0)]
+VarReference[@ID_SESSAO(10459,0,0,1)]
+Igual[=(10461,0,0,1)]
+VarReference[@ID_SESSAO(10463,0,0,1)]
+	NaoClassificada[OUTPUT(10465,0,0,1)]
+Virgula[,(10466,0,0,0)]
+VarReference[@DATA_COBRANCA(10468,0,0,1)]
+Igual[=(10470,0,0,1)]
+VarReference[@DATADCO(10472,0,0,1)]
+<Select(10476)>
+VarReference[@ID_SESSAO_TRASACAO_LIBERACAO(10480,1,0,2)]
+Igual[=(10482,0,0,1)]
+<Max(10484)>
+AbreParenteses[((10485,0,0,0)]
+	NaoClassificada[ID_SESSAO_TRANSACAO(10486,0,0,0)]
+)
+<From(10490)>
+DataSet[TB_SESSAO_TRANSACAO with(nolock)(11980,0,0,1)]
+<Where(10498)>
+	NaoClassificada[ID_SESSAO(10500,0,0,1)]
+Igual[=(10502,0,0,1)]
+VarReference[@ID_SESSAO(10504,0,0,1)]
+<And(10507)>
+	NaoClassificada[INSCRICAO_ORIGEM(10509,0,0,1)]
+Igual[=(10511,0,0,1)]
+VarReference[@INSCRICAO(10513,0,0,1)]
+<And(10516)>
+	NaoClassificada[ID_TIPO_TRANSACAO(10518,0,0,1)]
+Igual[=(10520,0,0,1)]
+InteiroLiteral[270(10522,0,0,1)]
+<End of <Select(10476)>>
+<If(10535)>
+AbreParenteses[((10536,0,0,0)]
+VarReference[@ID_SESSAO_TRASACAO_LIBERACAO(10537,0,0,0)]
+IsNotNull[IS NOT NULL(11805,0,0,1)]
+)
+<Begin(10547)>
+<Insert(10552)>
+<Into(10554)>
+	NaoClassificada[TB_TRANSACAO_RECEBIMENTO(10556,0,0,1)]
+AbreParenteses[((10558,0,0,1)]
+	NaoClassificada[FkSessaoTransacao(10559,0,0,0)]
+Virgula[,(10560,0,0,0)]
+	NaoClassificada[FkDco(10562,0,0,1)]
+)
+<Select(10567)>
+VarReference[@ID_SESSAO_TRASACAO_LIBERACAO(10572,1,0,3)]
+Virgula[,(10573,0,0,0)]
+	NaoClassificada[SEQUENCIAL_DCO(10578,1,0,3)]
+<From(10582)>
+DataSet[VarReference[#TRANSACAO(10584,0,0,0)](11981,0,0,1)]
+<Where(10588)>
+	NaoClassificada[ID_TIPO_TRANSACAO(10590,0,0,1)]
+Igual[=(10592,0,0,1)]
+VarReference[@GERAR_FORTE_60(10594,0,0,1)]
+<And(10598)>
+	NaoClassificada[INSCRICAO(10600,0,0,1)]
+Igual[=(10602,0,0,1)]
+VarReference[@INSCRICAO(10604,0,0,1)]
+PontoEVirgula[;(12121,0,0,0)]
+<End(10607)>
+<End of <Select(10567)>>
+<Update(10611)>
+VarReference[#TMP_DCO1(10613,0,0,1)]
+<Set(10617)>
+	NaoClassificada[SALDO_DCO(10619,0,0,1)]
+Igual[=(10621,0,0,1)]
+InteiroLiteral[0(10623,0,0,1)]
+Virgula[,(10624,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(10628,1,0,2)]
+Igual[=(10630,0,0,1)]
+VarReference[@ID_SESSAO(10632,0,0,1)]
+Virgula[,(10633,0,0,0)]
+	NaoClassificada[PROCESSADO(10637,1,0,2)]
+Igual[=(10639,0,0,1)]
+StringLiteral['S'(11726,0,0,1)]
+<Where(10646)>
+	NaoClassificada[SEQUENCIAL(10648,0,0,1)]
+<In(10650)>
+AbreParenteses[((10652,0,0,1)]
+<Select(10657)>
+	NaoClassificada[SEQUENCIAL_DCO(10659,0,0,1)]
+<From(10664)>
+DataSet[VarReference[#TRANSACAO(10666,0,0,0)](11982,0,0,1)]
+<Where(10680)>
+	NaoClassificada[INSCRICAO(10682,0,0,1)]
+Igual[=(10684,0,0,1)]
+VarReference[@INSCRICAO(10686,0,0,1)]
+<And(10691)>
+	NaoClassificada[ID_TIPO_TRANSACAO(10693,0,0,1)]
+Igual[=(10695,0,0,1)]
+VarReference[@GERAR_FORTE_60(10697,0,0,1)]
+<End of <Select(10657)>>
+)
+<If(10715)>
+VarReference[@ID_SESSAO(10717,0,0,1)]
+IsNotNull[IS NOT NULL(11806,0,0,1)]
+<Begin(10726)>
+<Begin(10730)>
+	NaoClassificada[TRY(10732,0,0,1)]
+<BeginTran(11786)>
+<Update(10744)>
+VarReference[#TMP_DCO1(10746,0,0,1)]
+<Set(10751)>
+	NaoClassificada[ATUALIZA(10753,0,0,1)]
+Igual[=(10755,0,0,1)]
+StringLiteral['S'(11728,0,0,1)]
+<Where(10764)>
+	NaoClassificada[ID_SESSAO_ESTORNO(10766,0,0,1)]
+Igual[=(10768,0,0,1)]
+VarReference[@ID_SESSAO(10770,0,0,1)]
+<Update(10776)>
+	NaoClassificada[DCO(10778,0,0,1)]
+<Set(10783)>
+	NaoClassificada[SALDO_DCO(10785,0,0,1)]
+Igual[=(10787,0,0,1)]
+	NaoClassificada[T(10789,0,0,1)]
+Ponto[.(10790,0,0,0)]
+	NaoClassificada[SALDO_DCO(10791,0,0,0)]
+Virgula[,(10792,0,0,0)]
+	NaoClassificada[PROCESSADO(10797,1,0,3)]
+Igual[=(10799,0,0,1)]
+	NaoClassificada[T(10801,0,0,1)]
+Ponto[.(10802,0,0,0)]
+	NaoClassificada[PROCESSADO(10803,0,0,0)]
+Virgula[,(10804,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(10809,1,0,3)]
+Igual[=(10811,0,0,1)]
+	NaoClassificada[T(10813,0,0,1)]
+Ponto[.(10814,0,0,0)]
+	NaoClassificada[ID_SESSAO_ESTORNO(10815,0,0,0)]
+Virgula[,(10816,0,0,0)]
+	NaoClassificada[FkSituacaoRecebimento(10821,1,0,3)]
+Igual[=(10823,0,0,1)]
+InteiroLiteral[4(10825,0,0,1)]
+Virgula[,(10826,0,0,0)]
+	NaoClassificada[Data_Processamento(10831,1,0,3)]
+Igual[=(10833,0,0,1)]
+VarReference[@DATAATUAL(10835,0,0,1)]
+<From(10840)>
+DataSet[DCO D with(nolock) /*gm*/(11983,0,0,1)]
+<InnerJoin(11778)>
+DataSet[VarReference[#TMP_DCO1(10853,0,0,0)] T(11984,0,0,1)]
+<On(10857)>
+Coluna[T.SEQUENCIAL(12018,0,0,1)]
+Igual[=(10863,0,0,1)]
+Coluna[D.SEQUENCIAL(12029,0,0,1)]
+<And(10869)>
+Coluna[T.ATUALIZA(12019,0,0,1)]
+Igual[=(10875,0,0,1)]
+StringLiteral['S'(11730,0,0,1)]
+<Update(10885)>
+VarReference[#TMP_DCO1(10887,0,0,1)]
+<Set(10892)>
+	NaoClassificada[ATUALIZA(10894,0,0,1)]
+Igual[=(10896,0,0,1)]
+StringLiteral['P'(11732,0,0,1)]
+<Where(10905)>
+	NaoClassificada[ATUALIZA(10907,0,0,1)]
+Igual[=(10909,0,0,1)]
+StringLiteral['S'(11734,0,0,1)]
+<CommitTran(11788)>
+PontoEVirgula[;(12122,0,0,0)]
+<End(10923)>
+	NaoClassificada[TRY(10925,0,0,1)]
+<Begin(10930)>
+	NaoClassificada[CATCH(10932,0,0,1)]
+	NaoClassificada[ROLLBACK(10936,1,0,2)]
+<Exec(10940)>
+	NaoClassificada[STP_GETERRORINFO(10942,0,0,1)]
+PontoEVirgula[;(12123,0,0,0)]
+<End(10946)>
+	NaoClassificada[CATCH(10948,0,0,1)]
+PontoEVirgula[;(12124,0,0,0)]
+<End(10951)>
+<FetchNextFrom(11820)>
+	NaoClassificada[C_TRANSACAO(10960,0,0,1)]
+<Into(10962)>
+VarReference[@INSCRICAO(10964,0,0,1)]
+PontoEVirgula[;(12125,0,0,0)]
+<End(10967)>
+<Close(10970)>
+	NaoClassificada[C_TRANSACAO(10972,0,0,1)]
+<Deallocate(10975)>
+	NaoClassificada[C_TRANSACAO(10977,0,0,1)]
+SetNoCountOff[set nocount off(11808,2,0,1)]
+	NaoClassificada[(11755,0,0,1)]

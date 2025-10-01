@@ -1,0 +1,5 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoJpa
+br.elfa.elfacare.src.views.logado.medicamentos.principiosAtivos.PrincipioAtivoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

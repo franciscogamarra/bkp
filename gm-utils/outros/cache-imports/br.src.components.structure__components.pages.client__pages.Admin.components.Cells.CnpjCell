@@ -1,0 +1,10 @@
+br.Transpilar
+br.libs.formatCpfOrCnpj
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.Tx
+br.srcx.components.structure__components.pages.client__pages.Admin.components.Cells.CnpjCellX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

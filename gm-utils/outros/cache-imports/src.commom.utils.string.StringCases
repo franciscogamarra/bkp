@@ -1,0 +1,7 @@
+js.support.console
+src.commom.utils.string.StringCamelCase
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringTrim

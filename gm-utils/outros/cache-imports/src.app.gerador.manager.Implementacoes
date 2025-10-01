@@ -1,0 +1,6 @@
+react.support.anotacoes.Component
+react.support.anotacoes.ImplementacaoPadrao
+src.app.fc.components.consulta.CampoConsultaRenders
+src.app.fc.components.consulta.CampoConsultaWebRenders
+src.react.padrao.Api
+src.web.padrao.api.ApiImpl

@@ -1,0 +1,15 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.Logo
+br.elfa.elfacare.src.comps.OurButton
+br.elfa.elfacare.src.comps.OurLink
+br.elfa.elfacare.src.comps.nicks.Tx
+br.elfa.elfacare.srcx.views.PaginaExcessaoX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.mui.Grid
+libs.materialUi.mui.Paper
+react.support.ReactNode

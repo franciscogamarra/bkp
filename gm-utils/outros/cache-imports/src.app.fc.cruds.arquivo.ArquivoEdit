@@ -1,0 +1,14 @@
+js.annotations.NoAuto
+libs.antd.Col
+libs.antd.Row
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.RadioBoolean
+src.app.fc.components.FormEdit
+src.app.fc.components.GroupCard
+src.app.fc.components.Permissoes
+src.app.fc.cruds.arquivo.Arquivo
+src.app.fc.cruds.arquivo.ArquivoCampos
+src.app.fc.cruds.arquivo.ArquivoPermissoes
+src.commom.utils.array.ArrayLst
+src.web.Span

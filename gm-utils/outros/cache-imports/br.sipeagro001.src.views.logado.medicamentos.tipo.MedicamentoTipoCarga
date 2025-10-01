@@ -1,0 +1,4 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.medicamentos.tipo.MedicamentoTipoDao
+br.sipeagro001.src.views.logado.medicamentos.tipo.MedicamentoTipoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

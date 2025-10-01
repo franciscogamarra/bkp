@@ -1,0 +1,12 @@
+br.elfa.elfacare.outros.zustand.ZustandStore
+br.elfa.elfacare.src.state.AppState
+br.elfa.elfacare.src.views.logado.global.MenuEsquerda
+gm.utils.javaCreate.JcAtributo
+gm.utils.javaCreate.JcClasse
+gm.utils.javaCreate.JcTipo
+gm.utils.lambda.P0
+gm.utils.lambda.P1
+gm.utils.reflection.Atributos
+gm.utils.reflection.Atributos
+gm.utils.string.ListString
+js.annotations.NaoConverter

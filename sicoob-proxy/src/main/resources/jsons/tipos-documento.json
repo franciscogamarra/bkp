@@ -1,0 +1,163 @@
+[
+    {
+        "nomeTipoDocumento": "COMPROVAÇÃO DE RECEITA",
+        "siglaTipoDocumento": "COMPRECEITA",
+        "idTipoDocumento": 2986,
+        "descricao": "COMPROVAÇÃO DE RECEITA",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "OUTROS BNDES ONLINE",
+        "siglaTipoDocumento": "OVNDESONLINE",
+        "idTipoDocumento": 3007,
+        "descricao": "OUTROS BNDES ONLINE",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "RELATÓRIO DE CONCLUSÃO DA ANÁLISE",
+        "siglaTipoDocumento": "RCANALISE",
+        "idTipoDocumento": 3006,
+        "descricao": "RELATÓRIO DE CONCLUSÃO DA ANÁLISE",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - LAUDO TÉCNICO",
+        "siglaTipoDocumento": "EFCCLT",
+        "idTipoDocumento": 3005,
+        "descricao": "EQUIPAMENTO FCC - LAUDO TÉCNICO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - FLUXOGRAMA",
+        "siglaTipoDocumento": "EFCCF",
+        "idTipoDocumento": 3004,
+        "descricao": "EQUIPAMENTO FCC - FLUXOGRAMA",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - PROJETO",
+        "siglaTipoDocumento": "EFCCPROJETO",
+        "idTipoDocumento": 3003,
+        "descricao": "EQUIPAMENTO FCC - PROJETO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - DESENHO",
+        "siglaTipoDocumento": "EFCCD",
+        "idTipoDocumento": 3002,
+        "descricao": "EQUIPAMENTO FCC - DESENHO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - DESCRIÇÃO DO EQUIPAMENTO",
+        "siglaTipoDocumento": "EFDE",
+        "idTipoDocumento": 3001,
+        "descricao": "EQUIPAMENTO FCC - DESCRIÇÃO DO EQUIPAMENTO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - PLANILHA ÍNDICE DE NACIONALIZAÇÃO",
+        "siglaTipoDocumento": "EFPIN",
+        "idTipoDocumento": 3000,
+        "descricao": "EQUIPAMENTO FCC - PLANILHA ÍNDICE DE NACIONALIZAÇÃO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - LAY OUT",
+        "siglaTipoDocumento": "EFCCLAYOUT",
+        "idTipoDocumento": 2999,
+        "descricao": "EQUIPAMENTO FCC - LAY OUT",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - PROPOSTA",
+        "siglaTipoDocumento": "EFCCPRO",
+        "idTipoDocumento": 2998,
+        "descricao": "EQUIPAMENTO FCC - PROPOSTA",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO FCC - ESPECIFICAÇÕES",
+        "siglaTipoDocumento": "EFCCE",
+        "idTipoDocumento": 2997,
+        "descricao": "EQUIPAMENTO FCC - ESPECIFICAÇÕES",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "APLICAÇÃO DE RECURSOS E APURAÇÃO DO FINANCIAMENTO",
+        "siglaTipoDocumento": "ARAF",
+        "idTipoDocumento": 2996,
+        "descricao": "APLICAÇÃO DE RECURSOS E APURAÇÃO DO FINANCIAMENTO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "QUF - QUADRO DE USOS E FONTES",
+        "siglaTipoDocumento": "QUF",
+        "idTipoDocumento": 2995,
+        "descricao": "QUF - QUADRO DE USOS E FONTES",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "INFORMAÇÕES SOBRE O PROJETO",
+        "siglaTipoDocumento": "INFPROJETO",
+        "idTipoDocumento": 2994,
+        "descricao": "INFORMAÇÕES SOBRE O PROJETO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "ORÇAMENTO",
+        "siglaTipoDocumento": "ORCAMENTO",
+        "idTipoDocumento": 2993,
+        "descricao": "ORÇAMENTO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "EQUIPAMENTO IMPORTADO SEM SIMILAR NACIONAL",
+        "siglaTipoDocumento": "EQIMSEMSIMNAC",
+        "idTipoDocumento": 2991,
+        "descricao": "EQUIPAMENTO IMPORTADO SEM SIMILAR NACIONAL",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "PLANILHA DE NOTAS FISCAIS DA OPERAÇÃO",
+        "siglaTipoDocumento": "PNFO",
+        "idTipoDocumento": 2990,
+        "descricao": "PLANILHA DE NOTAS FISCAIS DA OPERAÇÃO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "ATESTADO DE FALHA DE PERFORMANCE",
+        "siglaTipoDocumento": "ATFALHAPERFO",
+        "idTipoDocumento": 2989,
+        "descricao": "ATESTADO DE FALHA DE PERFORMANCE",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "COMPROVANTE DE SINISTRO",
+        "siglaTipoDocumento": "COMPSINISTRO",
+        "idTipoDocumento": 2988,
+        "descricao": "COMPROVANTE DE SINISTRO",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "DOCUMENTO FISCAL",
+        "siglaTipoDocumento": "DOCFISCAL",
+        "idTipoDocumento": 2987,
+        "descricao": "DOCUMENTO FISCAL",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "COMPROVAÇÃO DE RECEITA",
+        "siglaTipoDocumento": "COMPRECEITA",
+        "idTipoDocumento": 2986,
+        "descricao": "COMPROVAÇÃO DE RECEITA",
+        "listaChave": []
+    },
+    {
+        "nomeTipoDocumento": "PROPOSTA TÉCNICO-COMERCIAL",
+        "siglaTipoDocumento": "PROPORCIAL",
+        "idTipoDocumento": 36,
+        "descricao": "PROPOSTA TÉCNICO-COMERCIAL",
+        "listaChave": []
+    }
+]

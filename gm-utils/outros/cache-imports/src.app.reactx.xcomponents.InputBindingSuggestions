@@ -1,0 +1,15 @@
+react.support.ReactNode
+react.support.anotacoes.Auto
+react.support.anotacoes.State
+src.app.react.campos.support.Sugestao
+src.app.react.campos.support.VList
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.consts.enums.FlexDirection
+src.app.react.utils.Style
+src.app.reactx.xcomponents.XText
+src.app.reactx.xcomponents.XTouchableOpacity
+src.app.reactx.xcomponents.XView
+src.commom.utils.array.Itens
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null

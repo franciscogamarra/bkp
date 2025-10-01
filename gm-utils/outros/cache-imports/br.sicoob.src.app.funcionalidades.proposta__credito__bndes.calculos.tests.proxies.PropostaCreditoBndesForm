@@ -1,0 +1,7 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.PropostaCreditoBndesComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.LinhaBndes
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.Produto
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.Programa
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

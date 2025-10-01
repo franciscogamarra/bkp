@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.antd.BotaoType
+src.app.fc.components.FcBotao
+src.app.fc.components.comentarios.Comentarios
+src.app.fc.cruds.comentario.Comentario
+src.app.fc.cruds.comentario.ComentarioFormConsultaAbstract
+src.app.react.utils.Style
+src.web.Span

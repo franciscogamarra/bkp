@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro.srcx.comps.OurDividerX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.PropBoolean
+exec.ts.infra.PropInt
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.core.Divider
+react.support.ReactNode

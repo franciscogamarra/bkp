@@ -1,0 +1,14 @@
+gm.languages.ts.javaToTs.JS
+js.Js
+js.annotations.Method
+js.annotations.NoAuto
+js.annotations.Support
+js.array.Array
+js.outros.Date
+js.support.JSON
+js.support.console
+src.commom.utils.array.ArrayClear
+src.commom.utils.classe.ClassSimpleName
+src.commom.utils.object.Equals
+src.commom.utils.object.Null
+src.commom.utils.string.StringReplace

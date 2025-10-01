@@ -1,0 +1,13 @@
+br.cvc.SomenteMock
+br.cvc.Transpilar
+br.cvc.src.components.Form.ResumeTab.ResumeTab
+br.cvc.src.jsons.formData_json
+br.cvc.src.jsons.rule2_json
+br.cvc.src.jsons.rule_json
+exec.ts.infra.FC
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+js.Js
+js.array.Array
+react.support.ReactNode

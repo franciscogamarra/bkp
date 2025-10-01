@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRo
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRoCampos
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRoCols
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRoConsulta
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRoEdit
+src.app.consolidate.cruds.cielo011IdentificadorDeAntecipacaoDoRo.Cielo011IdentificadorDeAntecipacaoDoRoPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

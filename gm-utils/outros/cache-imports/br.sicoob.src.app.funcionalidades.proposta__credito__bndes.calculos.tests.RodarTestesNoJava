@@ -1,0 +1,10 @@
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.TipoInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.PcbCalculo
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.PcbTest001
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.proxies.AdicionaItensForm
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AbaItensInvestimentoComponent
+js.html.Element
+js.html.HtmlDocument
+js.html.IHtmlDocument
+js.html.NodeList
+js.support.ThreadsList

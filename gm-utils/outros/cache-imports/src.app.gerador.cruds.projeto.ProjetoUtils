@@ -1,0 +1,13 @@
+js.annotations.NoAuto
+js.array.Array
+react.support.anotacoes.Component
+src.app.fc.components.EntityCampos
+src.app.fc.components.campoAlterado.CampoAlterado
+src.app.gerador.cruds.projeto.Projeto
+src.app.gerador.cruds.projeto.ProjetoTo
+src.app.gerador.cruds.tbTabela.TbTabelaUtils
+src.commom.utils.array.ArrayEmpty
+src.commom.utils.array.ArrayEquals
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare

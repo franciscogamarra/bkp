@@ -1,0 +1,14 @@
+br.sipeagro001.src.crud.edicao.CrudEdicaoListagem
+br.sipeagro001.src.crud.edicao.Registro
+br.sipeagro001.src.crud.listagem.InformacoesDoRegistroOriginal
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampo
+br.sipeagro001.srcx.crud.edicao.CrudTelaEdicaoInputListaX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.td
+html.tr
+react.support.ReactNode

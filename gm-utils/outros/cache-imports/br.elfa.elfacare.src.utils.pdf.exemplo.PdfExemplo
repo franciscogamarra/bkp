@@ -1,0 +1,6 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.OurButton
+br.elfa.elfacare.src.utils.pdf.exemplo.PdfExemploBuild
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

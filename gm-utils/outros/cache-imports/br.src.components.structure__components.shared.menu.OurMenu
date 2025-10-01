@@ -1,0 +1,14 @@
+br.Transpilar
+br.libs.Menu
+br.libs.MenuButton
+br.libs.MenuList
+br.srcx.components.structure__components.shared.menu.OurMenuX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.StateBoolean
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+js.array.Array
+react.support.ReactNode

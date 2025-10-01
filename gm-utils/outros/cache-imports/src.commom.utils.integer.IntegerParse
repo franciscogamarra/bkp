@@ -1,0 +1,12 @@
+gm.languages.ts.javaToTs.annotacoes.PodeSerNull
+gm.utils.abstrato.ExtraidId
+gm.utils.abstrato.ObjetoComId
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.exception.NaoImplementadoException
+gm.utils.exception.UException
+java.math.BigDecimal
+java.math.BigInteger
+src.commom.utils.integer.IntegerIs
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiNumeros

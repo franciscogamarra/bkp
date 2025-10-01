@@ -1,0 +1,10 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.CellText
+br.src.components.structure__components.pages.client__pages.Admin.components.RegisteredUsers.RegisteredUsers
+br.src.mock.jsons.CnpjJson
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+react.support.ReactNode

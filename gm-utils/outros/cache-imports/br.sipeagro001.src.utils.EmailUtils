@@ -1,0 +1,16 @@
+br.Transpilar
+br.sipeagro001.src.comps.Consts
+br.sipeagro001.src.utils.StringManter
+br.sipeagro001.src.utils.StringOcorrencias
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringAfterFirst
+src.commom.utils.string.StringBeforeFirst
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringRight
+src.commom.utils.string.StringSplit

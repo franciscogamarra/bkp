@@ -1,0 +1,6 @@
+gm.languages.ts.javaToTs.annotacoes.From
+gm.languages.ts.javaToTs.annotacoes.ImportStatic
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Error
+js.annotations.NaoConverter
+libs.axios.AxiosResponse

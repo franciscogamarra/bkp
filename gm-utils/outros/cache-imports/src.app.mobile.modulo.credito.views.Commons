@@ -1,0 +1,13 @@
+gm.utils.lambda.P0
+js.Js
+js.array.Array
+libs.react_native.Text
+libs.react_native.TouchableWithoutFeedback
+react.support.ReactNode
+src.app.react.components.Uncycle
+src.app.react.consts.enums.Color
+src.app.react.utils.Style
+src.commom.utils.string.StringSplit
+src.mobile.components.Vw
+src.notec.outros.EstilosComuns
+src.react.Frag

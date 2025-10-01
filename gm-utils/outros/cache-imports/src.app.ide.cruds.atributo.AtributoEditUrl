@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.ide.cruds.atributo.AtributoCampos
+src.app.ide.cruds.atributo.AtributoEdit
+src.app.ide.cruds.atributo.AtributoPermissoes

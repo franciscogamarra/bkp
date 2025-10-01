@@ -1,0 +1,11 @@
+-- LISTAR_TMP_INFO_COMPLEMENTAR_PROJETO_INVESTIMENTO
+select
+  case when InfoComplementar.BolImovelDePropriedadeBeneficiario = 1 then true else false end as BolImovelDePropriedadeBeneficiario
+, case when InfoComplementar.bolVigenciaContratoImovel = 1 then true else false end as BolVigenciaContratoImovel
+, InfoComplementar.DataInicioProjetoInvestimento as DataInicioProjetoInvestimento
+, InfoComplementar.DataFimProjetoInvestimento as DataFimProjetoInvestimento
+, InfoComplementar.DescProjetoInvestimento as DescProjetoInvestimento
+from bnd.PrePropostaBndes as PropostaCredito
+join bnd.infoComplementarProjetoInvestimento as InfoComplementar on InfoComplementar.idInfoComplementarProjetoInvestimento = PropostaCredito.idInfoComplementarProjetoInvestimento
+where PropostaCredito.numPropostaCredito = 
+  

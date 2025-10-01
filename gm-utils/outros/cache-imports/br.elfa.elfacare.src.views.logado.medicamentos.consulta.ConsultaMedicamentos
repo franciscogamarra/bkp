@@ -1,0 +1,14 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.state.AppState
+br.elfa.elfacare.src.views.logado.medicamentos.mock.DrugConsultaJson
+br.elfa.elfacare.src.views.logado.pedidos.consulta.KeyValueComponent
+br.elfa.elfacare.src.views.logado.status.mock.StatusJpa
+br.elfa.elfacare.src.views.logado.telaConsulta.KeysValues
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsulta
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaParams
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaParamsDados
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+react.support.ReactNode
+src.commom.utils.object.Null

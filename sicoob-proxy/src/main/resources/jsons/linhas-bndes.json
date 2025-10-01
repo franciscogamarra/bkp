@@ -1,0 +1,14 @@
+[
+    {
+        "id": 301,
+        "descricao": "FINAME",
+        "sigla": "351",
+        "className": "LinhaBndesDTO"
+    },
+    {
+        "id": 500,
+        "descricao": "BNDES AUTOMÁTICO",
+        "sigla": "500",
+        "className": "LinhaBndesDTO"
+    }
+]

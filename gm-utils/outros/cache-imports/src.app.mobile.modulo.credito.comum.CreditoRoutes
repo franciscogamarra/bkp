@@ -1,0 +1,5 @@
+src.app.mobile.modulo.credito.home.views.CreditoHomeView
+src.app.mobile.modulo.credito.simulacao.views.CreditoSimularView
+src.app.mobile.naoJava.SimulacaoAntiga
+src.app.mobile.outros.Navigation
+src.mobile.components.NavigationItem

@@ -1,0 +1,8 @@
+js.promise.Promise
+js.promise.Response
+react.support.anotacoes.Component
+src.autoatendimento.web.services.support.Axios
+src.autoatendimento.web.services.support.api
+src.commom.utils.object.Null
+src.notec.apis.ApiUtils
+src.react.padrao.Api

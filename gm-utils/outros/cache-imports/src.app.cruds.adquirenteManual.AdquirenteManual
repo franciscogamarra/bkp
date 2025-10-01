@@ -1,0 +1,5 @@
+js.annotations.NoAuto
+src.app.cruds.arquivo.Arquivo
+src.commom.utils.idText.IdText
+src.commom.utils.object.UJson
+src.fc.components.EntityFront

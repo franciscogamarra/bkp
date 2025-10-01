@@ -1,0 +1,13 @@
+br.Transpilar
+br.libs.getFormattedPhoneNumber
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.CellText
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.User
+br.srcx.components.structure__components.pages.client__pages.Admin.components.Cells.UserCellX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+libs.react.Fragment
+react.support.ReactNode

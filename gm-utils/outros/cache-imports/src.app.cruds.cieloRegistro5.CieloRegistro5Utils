@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.cruds.cieloRegistro5.CieloRegistro5
+src.app.react.utils.UBoolean
+src.commom.utils.array.ArrayEmpty
+src.commom.utils.array.ArrayEquals
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null
+src.fc.components.campoAlterado.CampoAlterado

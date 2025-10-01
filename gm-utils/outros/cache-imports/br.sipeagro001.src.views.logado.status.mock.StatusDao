@@ -1,0 +1,7 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.views.logado.status.mock.StatusJpa
+br.sipeagro001.src.views.logado.status.mock.StatusJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare

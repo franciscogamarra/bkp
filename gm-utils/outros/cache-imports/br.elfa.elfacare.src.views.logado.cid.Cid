@@ -1,0 +1,16 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.OurStorage
+br.elfa.elfacare.src.back.api
+br.elfa.elfacare.src.back.auth.Auth
+br.elfa.elfacare.src.views.logado.cid.mock.CidSimpleJson
+br.elfa.elfacare.src.views.logado.telaConsulta.ConsultaJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+js.promise.Promise
+js.support.JSON
+libs.axios.AxiosResponse
+src.commom.utils.array.Itens
+src.commom.utils.comum.PromiseBuilder
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

@@ -1,0 +1,8 @@
+br.Transpilar
+br.sipeagro.src.state.AppState
+br.sipeagro.src.support.OurStorage
+exec.ts.infra.FX
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+libs.react_router_dom.NavigateFunction
+libs.react_router_dom.useNavigate

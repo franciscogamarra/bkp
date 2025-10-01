@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.contratoProblema.ContratoProblemaCampos
+src.app.consolidate.cruds.contratoProblema.ContratoProblemaEdit
+src.app.consolidate.cruds.contratoProblema.ContratoProblemaPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro.src.enums.tipoCampo.TipoCampo
+br.sipeagro.src.support.estrutura.EstruturaComandoDto
+br.sipeagro.src.support.estrutura.EstruturaDto
+br.sipeagro.src.support.estrutura.campo.EstruturaCampoDto
+br.sipeagro.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeEdicaoDto
+br.sipeagro.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeFiltroDto
+br.sipeagro.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeListagemDto
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array

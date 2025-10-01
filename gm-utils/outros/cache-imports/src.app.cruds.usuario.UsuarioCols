@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.cruds.usuario.Usuario
+src.app.cruds.usuario.UsuarioConsulta
+src.app.react.consts.enums.TextAlign
+src.commom.utils.array.ArrayLst
+src.commom.utils.string.StringCompare
+src.fc.components.consulta.IGetCols
+src.fc.components.tabela.Coluna

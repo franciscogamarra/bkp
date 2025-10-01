@@ -1,0 +1,17 @@
+br.Transpilar
+br.sipeagro.src.comps.OurIconButton
+br.sipeagro.srcx.comps.input.OurCheckX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+exec.ts.infra.PropString
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P1
+html.label
+js.array.Array
+libs.materialUi.icons.CheckBoxOutlineBlankOutlinedIcon
+libs.materialUi.icons.CheckBoxOutlinedIcon
+libs.react.Fragment
+react.support.ReactNode

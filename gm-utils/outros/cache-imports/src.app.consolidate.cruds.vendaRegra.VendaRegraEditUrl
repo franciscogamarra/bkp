@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.vendaRegra.VendaRegraCampos
+src.app.consolidate.cruds.vendaRegra.VendaRegraEdit
+src.app.consolidate.cruds.vendaRegra.VendaRegraPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

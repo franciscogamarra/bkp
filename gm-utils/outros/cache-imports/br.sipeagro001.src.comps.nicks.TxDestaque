@@ -1,0 +1,17 @@
+br.Transpilar
+br.sipeagro001.src.comps.nicks.Tx
+br.sipeagro001.srcx.comps.nicks.TxDestaqueX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.span
+libs.react.Fragment
+react.support.ReactNode
+src.commom.utils.array.Itens
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.string.StringRight
+src.commom.utils.string.StringSplit

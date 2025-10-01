@@ -1,0 +1,5 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.views.logado.medicamentos.drugClass.DrugClassJpa
+br.sipeagro001.src.views.logado.medicamentos.drugClass.DrugClassJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

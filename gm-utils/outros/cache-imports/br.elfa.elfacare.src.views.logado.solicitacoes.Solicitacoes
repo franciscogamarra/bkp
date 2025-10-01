@@ -1,0 +1,7 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.PaginaEmConstrucao
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.NaoConverter
+react.support.ReactNode

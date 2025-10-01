@@ -1,0 +1,9 @@
+js.Js
+js.html.support.FetchParams
+js.html.support.Headers
+js.promise.Promise
+js.support.JSON
+src.app.misc.utils.Response
+src.app.react.utils.Console
+src.commom.utils.classe.ClassSimpleName
+src.commom.utils.string.StringParse

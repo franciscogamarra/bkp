@@ -1,0 +1,16 @@
+br.Transpilar
+br.sipeagro.src.comps.nicks.Tx
+br.sipeagro.src.dominios.entidade.EntidadeEstrutura
+br.sipeagro.src.dominios.entidadeCampo.EntidadeCampoEstrutura
+br.sipeagro.src.dominios.menu.GetMenus
+br.sipeagro.src.dominios.menu.ItemMenu
+br.sipeagro.src.dominios.menu.MenuEstrutura
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F0
+js.Js
+libs.materialUi.icons.SearchOutlinedIcon
+react.support.ReactNode
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare

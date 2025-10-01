@@ -1,0 +1,5 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.utils.tempo.Data
+br.elfa.elfacare.src.utils.tempo.Hora
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.string.StringEmpty

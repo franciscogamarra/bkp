@@ -1,0 +1,12 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.CellText
+br.src.components.structure__components.pages.client__pages.Admin.components.utils.UserDataTable
+br.srcx.components.structure__components.pages.client__pages.Admin.components.Cells.UserCellX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.StateInt
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+react.support.ReactNode
+src.commom.utils.object.Null

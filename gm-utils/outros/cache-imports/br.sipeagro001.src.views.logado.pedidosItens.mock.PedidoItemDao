@@ -1,0 +1,12 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.views.logado.clients.mock.ClientDao
+br.sipeagro001.src.views.logado.clients.mock.ClientJpa
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemJpa
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemJson
+br.sipeagro001.src.views.logado.status.mock.StatusDao
+br.sipeagro001.src.views.logado.status.mock.StatusJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty

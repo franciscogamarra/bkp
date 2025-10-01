@@ -1,0 +1,10 @@
+gm.utils.comum.SystemPrint
+gm.utils.string.StringNormalizer
+src.commom.utils.integer.IntegerIs
+src.commom.utils.string.StringBox
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringToCamelCaseSepare
+src.commom.utils.string.StringTrim

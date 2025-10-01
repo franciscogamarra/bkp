@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.contratoTaxa.ContratoTaxaCampos
+src.app.consolidate.cruds.contratoTaxa.ContratoTaxaEdit
+src.app.consolidate.cruds.contratoTaxa.ContratoTaxaPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

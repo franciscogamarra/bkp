@@ -1,0 +1,16 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.OurStorage
+br.sipeagro001.src.back.api
+br.sipeagro001.src.back.auth.Auth
+br.sipeagro001.src.views.logado.cid.mock.CidSimpleJson
+br.sipeagro001.src.views.logado.telaConsulta.ConsultaJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+js.promise.Promise
+js.support.JSON
+libs.axios.AxiosResponse
+src.commom.utils.array.Itens
+src.commom.utils.comum.PromiseBuilder
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

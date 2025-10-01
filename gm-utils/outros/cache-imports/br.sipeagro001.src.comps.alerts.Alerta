@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro001.src.comps.alerts.Alert
+br.sipeagro001.src.comps.alerts.AlertaItem
+br.sipeagro001.srcx.comps.alerts.AlertaX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.StateInt
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+libs.materialUi.core.Snackbar
+libs.materialUi.core.SnackbarAnchorOrigin
+react.support.ReactNode
+src.commom.utils.object.Null

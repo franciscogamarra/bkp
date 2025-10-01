@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.adquirenteRegraManual.AdquirenteRegraManual
+src.app.cruds.adquirenteRegraManual.AdquirenteRegraManualCampos
+src.app.cruds.adquirenteRegraManual.AdquirenteRegraManualCols
+src.app.cruds.adquirenteRegraManual.AdquirenteRegraManualConsulta
+src.app.cruds.adquirenteRegraManual.AdquirenteRegraManualEdit
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela

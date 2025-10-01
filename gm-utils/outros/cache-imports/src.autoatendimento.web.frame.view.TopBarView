@@ -1,0 +1,9 @@
+react.support.ReactNode
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.consts.enums.Position
+src.app.react.consts.enums.TextAlign
+src.app.react.utils.Style
+src.autoatendimento.web.frame.state.TopBarText
+src.web.Div
+src.web.Span

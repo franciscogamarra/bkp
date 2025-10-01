@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.fc.cruds.mes.MesCampos
+src.app.fc.cruds.mes.MesEdit
+src.app.fc.cruds.mes.MesPermissoes

@@ -1,0 +1,10 @@
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.fc.components.EntityCampos
+src.app.fc.components.Permissoes
+src.app.fc.cruds.comentario.ComentarioCampos
+src.app.fc.cruds.comentario.ComentarioConsulta
+src.app.fc.cruds.comentario.ComentarioPermissoes
+src.app.react.campos.support.Wrapper
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null

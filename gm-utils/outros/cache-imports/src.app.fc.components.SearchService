@@ -1,0 +1,10 @@
+gm.utils.lambda.FT
+gm.utils.lambda.FVoidT
+js.Js
+js.UNative
+js.promise.Response
+src.app.fc.components.ResultadoConsulta
+src.app.fc.components.SearchServiceParams
+src.app.react.campos.support.ISeachService
+src.commom.utils.object.Null
+src.react.padrao.Api

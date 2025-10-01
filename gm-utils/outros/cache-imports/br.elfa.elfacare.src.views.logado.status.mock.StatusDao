@@ -1,0 +1,7 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.status.mock.StatusJpa
+br.elfa.elfacare.src.views.logado.status.mock.StatusJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare

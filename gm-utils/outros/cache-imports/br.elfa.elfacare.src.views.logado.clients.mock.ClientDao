@@ -1,0 +1,13 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.auth.Auth
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.clients.mock.ClientJpa
+br.elfa.elfacare.src.views.logado.clients.mock.ClientJson
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringAfterLast
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringSplit

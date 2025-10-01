@@ -1,0 +1,4 @@
+br.sipeagro001.src.back.ApiManager
+br.sipeagro001.src.back.auth.AuthReqJson
+js.promise.Promise
+libs.axios.AxiosResponse

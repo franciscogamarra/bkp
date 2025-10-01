@@ -1,0 +1,7 @@
+libs.react_native.ScrollView
+libs.react_native.Text
+react.support.ReactNode
+src.app.react.components.SuperComponent
+src.commom.utils.string.StringParse
+src.mobile.components.Vw
+src.mobile.tema.Tema

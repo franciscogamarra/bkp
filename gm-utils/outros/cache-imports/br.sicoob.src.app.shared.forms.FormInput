@@ -1,0 +1,15 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.shared.utils.Str
+gm.languages.ts.angular.forms.FormControl
+gm.languages.ts.angular.forms.ValidatorFn
+gm.languages.ts.angular.forms.Validators
+gm.languages.ts.javaToTs.JS
+gm.languages.ts.javaToTs.annotacoes.PodeSerNull
+gm.languages.ts.javaToTs.exemplo.services.Utils
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P2
+js.array.Array
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.object.UJson
+src.commom.utils.string.StringRight

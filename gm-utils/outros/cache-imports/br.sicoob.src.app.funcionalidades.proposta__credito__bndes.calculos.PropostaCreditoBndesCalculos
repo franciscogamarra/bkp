@@ -1,0 +1,8 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.ItemInvestimento
+br.sicoob.src.app.shared.forms.StateForm
+br.sicoob.src.app.shared.forms.StateFormControl
+br.sicoob.src.app.shared.utils.Utils
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array

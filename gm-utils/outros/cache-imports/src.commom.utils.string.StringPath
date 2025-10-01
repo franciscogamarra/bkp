@@ -1,0 +1,6 @@
+src.commom.utils.array.Itens
+src.commom.utils.string.StringCases
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringReplace

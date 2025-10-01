@@ -1,0 +1,8 @@
+libs.react_native.ScrollView
+react.support.ReactNode
+src.app.mobile.modulo.credito.home.views.CreditoHome
+src.app.mobile.naoJava.CooperContainer
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Style
+src.notec.outros.Rotas

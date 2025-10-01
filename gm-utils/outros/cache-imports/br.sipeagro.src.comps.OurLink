@@ -1,0 +1,12 @@
+br.Transpilar
+br.sipeagro.src.comps.SafeActions
+br.sipeagro.srcx.comps.OurLinkX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.console
+libs.react.Fragment
+libs.react_router_dom.Link
+react.support.ReactNode

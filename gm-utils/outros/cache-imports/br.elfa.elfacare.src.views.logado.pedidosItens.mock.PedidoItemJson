@@ -1,0 +1,6 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoJson
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoJson
+br.elfa.elfacare.src.views.logado.status.mock.StatusJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.TypeJs

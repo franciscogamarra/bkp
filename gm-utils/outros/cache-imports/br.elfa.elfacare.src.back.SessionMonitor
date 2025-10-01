@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.Interacao
+br.elfa.elfacare.src.state.AppState
+br.elfa.elfacare.src.views.logado.Logout
+exec.ts.infra.FX
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+js.Js
+src.commom.utils.tempo.DataHora

@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.parcelaRetorno.ParcelaRetorno
+src.app.cruds.parcelaRetorno.ParcelaRetornoCampos
+src.app.cruds.parcelaRetorno.ParcelaRetornoCols
+src.app.cruds.parcelaRetorno.ParcelaRetornoConsulta
+src.app.cruds.parcelaRetorno.ParcelaRetornoEdit
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela

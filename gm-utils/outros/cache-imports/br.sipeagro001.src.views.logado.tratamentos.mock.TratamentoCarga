@@ -1,0 +1,9 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.cid.mock.CidDao
+br.sipeagro001.src.views.logado.patient.mock.PatientDao
+br.sipeagro001.src.views.logado.patient.mock.PatientJpa
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoDao
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.comum.Randomico

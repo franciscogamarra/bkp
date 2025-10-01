@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro001.src.crud.edicao.Registro
+br.sipeagro001.src.dominios.entidadeCampos.EntidadeCampoEstruturaDto
+br.sipeagro001.src.support.estrutura.Estrutura
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampo
+br.sipeagro001.src.support.estrutura.campo.TiposDeCampo
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F0
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare

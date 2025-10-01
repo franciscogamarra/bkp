@@ -1,0 +1,11 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.OurIconButton
+br.elfa.elfacare.srcx.comps.input.OurCheckX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P1
+libs.materialUi.icons.CheckBoxOutlineBlankOutlinedIcon
+libs.materialUi.icons.CheckBoxOutlinedIcon
+react.support.ReactNode

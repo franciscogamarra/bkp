@@ -1,0 +1,12 @@
+src.app.mobile.modulo.credito.home.values.ItemSelecionado
+src.app.mobile.modulo.credito.home.values.VPrincipal
+src.app.mobile.modulo.credito.simulacao.actions.simular.ExecutarSimulacao
+src.app.mobile.modulo.credito.simulacao.actions.simular.ExecutarSimulacaoSimples
+src.app.mobile.modulo.credito.simulacao.values.DataParaCredito
+src.app.mobile.modulo.credito.simulacao.values.DataParaVencimento
+src.app.mobile.modulo.credito.simulacao.values.Parcelas
+src.app.mobile.modulo.credito.simulacao.values.ProdutoSelecionado
+src.app.mobile.modulo.credito.simulacao.values.ValorAContratar
+src.app.react.campos.support.VBoolean
+src.app.react.campos.support.VString
+src.notec.credito.DataBanco

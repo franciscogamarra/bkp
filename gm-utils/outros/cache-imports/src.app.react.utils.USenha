@@ -1,0 +1,6 @@
+src.app.react.utils.UConstantes
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringLength

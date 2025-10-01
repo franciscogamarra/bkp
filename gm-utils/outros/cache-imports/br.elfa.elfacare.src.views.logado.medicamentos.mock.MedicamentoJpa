@@ -1,0 +1,11 @@
+br.elfa.elfacare.src.back.mock.ObjetoJpa
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoJson
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoDao
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoJpa
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.DrugJson
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.DrugSimpleJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.anotacoes.ManterDaquiPraBaixo
+js.Js
+src.commom.utils.comum.Randomico
+src.commom.utils.tempo.DataHora

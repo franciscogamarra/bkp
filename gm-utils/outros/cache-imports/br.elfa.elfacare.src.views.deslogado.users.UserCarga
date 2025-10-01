@@ -1,0 +1,6 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.deslogado.users.UserDao
+br.elfa.elfacare.src.views.deslogado.users.UserJpa
+br.elfa.elfacare.src.views.logado.clients.mock.ClientCarga
+br.elfa.elfacare.src.views.logado.clients.mock.ClientDao
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

@@ -1,0 +1,12 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.auth.Auth
+br.sipeagro001.src.dominios.solicitacoes.consultar.PedidosConsultarRow
+br.sipeagro001.src.views.logado.status.mock.StatusDao
+br.sipeagro001.src.views.logado.status.mock.StatusJpa
+br.sipeagro001.src.views.logado.telaConsulta.DataField
+br.sipeagro001.src.views.logado.telaConsulta.FiltroBase
+br.sipeagro001.src.views.logado.telaConsulta.TelaConsultaCol
+br.sipeagro001.src.views.logado.telaConsulta.TelaConsultaParamsDados
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.tempo.Data

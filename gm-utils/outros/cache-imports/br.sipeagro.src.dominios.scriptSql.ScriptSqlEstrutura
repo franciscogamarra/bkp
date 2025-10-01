@@ -1,0 +1,6 @@
+br.Transpilar
+br.sipeagro.src.dominios.scriptSql.ScriptSqlEstruturaDto
+br.sipeagro.src.support.estrutura.Estrutura
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F0
+src.commom.utils.object.Null

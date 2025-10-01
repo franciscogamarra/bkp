@@ -1,0 +1,15 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.OurButton
+br.elfa.elfacare.src.comps.nicks.Tx
+br.elfa.elfacare.src.views.logado.patient.PatientForm
+br.elfa.elfacare.src.views.modais.ModalItem
+br.elfa.elfacare.src.views.modais.OurModal
+br.elfa.elfacare.srcx.views.logado.patient.PatientModalX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.div
+libs.materialUi.types.buttonType.ButtonTypeValues
+react.support.ReactNode

@@ -1,0 +1,4 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.PcbAcao
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.proxies.AdicionaItensForm
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

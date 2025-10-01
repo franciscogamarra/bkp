@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.ide.cruds.pacote.Pacote
+src.app.ide.cruds.pacote.PacoteCamposAbstract
+src.app.ide.cruds.projeto.ProjetoSelecionado
+src.commom.utils.integer.IntegerIs
+src.commom.utils.object.Null
+src.commom.utils.string.StringConstants
+src.commom.utils.string.StringExtraiCaracteres
+src.commom.utils.string.StringPrimeiraMinuscula

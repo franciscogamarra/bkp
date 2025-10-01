@@ -1,0 +1,10 @@
+br.Transpilar
+br.src.mock.InvokeParams
+br.src.mock.jsons.CodeMessageJson
+br.src.mock.jsons.PayloadJson
+br.src.mock.jsons.PayloadResJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise
+js.support.console
+libs.axios.AxiosResponse
+src.commom.utils.comum.PromiseBuilder

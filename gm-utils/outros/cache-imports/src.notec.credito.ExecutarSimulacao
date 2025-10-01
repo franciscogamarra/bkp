@@ -1,0 +1,13 @@
+gm.utils.anotacoes.Descricao
+gm.utils.lambda.P0
+js.promise.Promise
+src.commom.utils.date.BaseData
+src.commom.utils.object.Null
+src.notec.apis.CreditoService
+src.notec.apis.tos.ResultadoSimulacaoNpeEntidadeTo
+src.notec.apis.tos.ResultadoSimulacaoNpeTo
+src.notec.credito.CreditoDados
+src.notec.credito.SafeRepeat
+src.notec.credito.view.ModalPossuiAgendamentos
+src.react.alert.Alert
+src.react.xcomponents.XComponents

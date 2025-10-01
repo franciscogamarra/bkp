@@ -1,0 +1,11 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.fc.components.consulta.ColsAbstract
+src.app.fc.components.tabela.Coluna
+src.app.fc.components.tabela.ColunaAba
+src.app.fc.components.tabela.ColunaGrupo
+src.app.ide.cruds.metodo.MetodoConsulta
+src.app.ide.cruds.metodoParametro.MetodoParametro
+src.app.ide.cruds.metodoParametro.MetodoParametroCols
+src.commom.utils.array.ArrayLst

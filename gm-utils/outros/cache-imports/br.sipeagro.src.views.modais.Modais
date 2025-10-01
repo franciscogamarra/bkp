@@ -1,0 +1,9 @@
+br.Transpilar
+br.sipeagro.src.state.AppState
+br.sipeagro.src.views.modais.ModalItem
+br.sipeagro.src.views.modais.OurModal
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+react.support.ReactNode
+src.commom.utils.object.Null

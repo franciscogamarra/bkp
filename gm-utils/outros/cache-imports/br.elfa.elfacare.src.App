@@ -1,0 +1,17 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.alerts.Alertas
+br.elfa.elfacare.src.state.AppState
+br.elfa.elfacare.src.theme.ColorModeContextProvider
+br.elfa.elfacare.src.theme.Tema
+br.elfa.elfacare.src.theme.TemaBuilder
+br.elfa.elfacare.src.views.LoadingFrame
+br.elfa.elfacare.src.views.deslogado.DeslogadoView
+br.elfa.elfacare.src.views.logado.LogadoView
+br.elfa.elfacare.src.views.modais.Modais
+exec.ts.infra.FC
+gm.languages.ts.javaToTs.annotacoes.ImportCss
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.styles.CssBaseline
+libs.materialUi.styles.ThemeProvider
+libs.react_router_dom.BrowserRouter
+react.support.ReactNode

@@ -1,0 +1,11 @@
+br.Transpilar
+br.sipeagro.src.comps.Consts
+br.sipeagro.srcx.comps.OurCardX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.mui.Box
+react.support.ReactNode

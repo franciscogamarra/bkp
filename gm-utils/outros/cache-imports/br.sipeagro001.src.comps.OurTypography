@@ -1,0 +1,16 @@
+br.Transpilar
+br.sipeagro001.src.comps.SafeActions
+br.sipeagro001.srcx.comps.OurTypographyX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.span
+libs.materialUi.mui.Typography
+libs.materialUi.types.typographyFontweight.TypographyFontweight
+libs.materialUi.types.typographyVariant.java.TypographyVariantValue
+react.support.ReactNode

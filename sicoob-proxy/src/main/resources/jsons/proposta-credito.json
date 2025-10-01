@@ -1,0 +1,176 @@
+{
+    "id": 8958,
+    "produto": 7,
+    "linhaBndes": 301,
+    "programa": {"id" : 10013},
+    "linhaCredito": null,
+    "valorFinanciado": 1000,
+    "percFinanciada": 1,
+    "valorRecursosProprios": 99000,
+    "percRecursoProprio": 99,
+    "valorTotalInvestimento": 100000,
+    "percTotalInvestimento": 100,
+    "percTaxaJurosRisco": 10,
+    "percTaxaJurosBasica": 10,
+    "idCustoFinanceiro": 1026,
+    "numeroProposta": 25778177,
+    "dataPropostaBndes": "2025-05-21T09:56:11.070+0000",
+    "dataHoraAtualizacao": "2025-05-21T09:56:50.191+0000",
+    "idInstituicao": 1,
+    "idUnidadeInstituicao": 1,
+    "itensInvestimento": [
+        {
+            "id": 1403,
+            "propostaBNDES": {
+                "id": 8958,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 9
+            },
+            "qtdItemInvestimento": 1,
+            "valorUnitarioItem": 100000,
+            "valorTotalItem": 100000,
+            "valorUnitarioFinanciadoItem": 1000,
+            "valorTotalFinanciadoItem": 1000,
+            "numSeqItemInvestimento": 1,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "className": "ItemInvestimentoDTO"
+        }
+    ],
+    "habilitaEnvioBndes": true,
+    "bolContratacaoAprovadaBndes": false,
+    "condicao": {
+        "codigo": 1,
+        "descricao": "FINANCIAMENTO",
+        "className": "ArquivoPropostaCondicaoDTO"
+    },
+    "situacao": {
+        "codigo": 9,
+        "descricao": "PRONTA_PARA_ENVIO",
+        "className": "ArquivoPropostaSituacaoDTO"
+    },
+    "fase": {
+        "codigo": 1,
+        "descricao": "FINANCIAMENTO",
+        "className": "ArquivoPropostaFaseDTO"
+    },
+    "quantidadeAnexos": null,
+    "bolSisbr30": true,
+    "bolInformacaoAdicional": false,
+    "prazoLimiteSolicitacaoPL": {
+        "id": 2,
+        "prazoLimiteDia": 90,
+        "bolAtivo": true,
+        "className": "PrazoLimiteSolicitacaoPLDTO"
+    },
+    "tipoEvento": {
+        "id": 3,
+        "descricao": "Homologação de Financiamento",
+        "className": "TipoEventoDTO"
+    },
+    "percTaxaFixaBndes": 15.276074,
+    "percTaxaJuros": 0,
+    "dataEmissaoCartaFianca": null,
+    "bolOperacaoColetivo": false,
+    "bolEncargosExigiveisCarencia": false,
+    "prazoAmortizacaoMeses": null,
+    "envioAnexos": {
+        "idProposta": 8958,
+        "anexos": []
+    },
+    "envioAnexosBndesInvalido": false,
+    "rejeitadaPorDuplicacao": false,
+    "investimento": {
+        "id": 5352,
+        "dataSolicitacaoInstituicao": "2024-01-01T03:00:00.000Z",
+        "cnaeBusca": null,
+        "cnae": "A0111302",
+        "objetivoProjeto": {
+            "id": 13,
+            "descricaoObjetivoProjeto": "AQUISIÇÃO DE TRATORES E IMPLEMENTOS E RECUPERAÇÃO DE MÁQUINAS AGRÍCOLAS",
+            "className": "ObjetivoProjetoBndesDTO"
+        },
+        "numeroCnpjInvestimento": "00213678166808",
+        "idPessoa": 5658025,
+        "idInstituicao": 1,
+        "codigoTipoLogradouroEndereco": 2,
+        "descricaoLogradouroEndereco": "11",
+        "numeroEndereco": "6",
+        "descricaoComplementoEndereco": "Acampamento Pacheco Fernandes",
+        "descricaoBairroEndereco": "Vila Planalto",
+        "municipio": {
+            "codigoMunicipio": 2900207,
+            "descricaoMunicipio": "ABARE",
+            "siglaUf": "BA",
+            "className": "MunicipioDTO"
+        },
+        "codMunicipioBusca": null,
+        "codigoMunicipio": 2900207,
+        "numeroCEP": "70804110",
+        "siglaUF": "BA"
+    },
+    "enquadramentoCliente": {
+        "id": 4,
+        "pessoaCapes": {
+            "idPessoa": 5658025,
+            "numCpfCnpj": "00.213.678/1668-08",
+            "nomeCompleto": "Pessoa Jurídica 7447418",
+            "idInstituicao": 1
+        },
+        "valorReceitaOperacionalBruta": 9892592.8,
+        "porteEmpresa": {
+            "codigoPorteEmpresa": 1,
+            "descricaoPorteEmpresa": "Média Empresa I",
+            "valorMinimoFaturamento": 4800000.01,
+            "valorMaximoFaturamento": 90000000,
+            "className": "PorteEmpresaDTO"
+        },
+        "dataReferenciaReceitaOperacionalBruta": "2020-12-29T02:00:00.000+0000",
+        "indicadorReceitaOperacionalBruta": {
+            "codigoIndicadorReceitaOperacionalBruta": 1,
+            "descricaoIndicadorReceiraOperacionalBruta": "Efetiva",
+            "className": "IndicadorReceitaOperacionalBrutaDTO"
+        },
+        "caracterizacaoCapitalSocial": {
+            "codigoCaracterizacaoCapitalSocial": 4,
+            "descricaoCaracterizacaoCapitalSocial": "Empresa brasileira sem participação estrangeira",
+            "className": "CaracterizacaoCapitalSocialDTO"
+        },
+        "empresarioIdividual": false,
+        "controleFundoAtivoPrivado": false,
+        "numeroCRNTRC": "003035200",
+        "dataAtualizacao": "2024-12-02T14:02:33.267+0000",
+        "idPessoa": 5658025,
+        "idUsuario": "fabioo0001_00"
+    },
+    "infoComplementarAgricola": {
+        "id": null,
+        "qtdAnimal": null,
+        "dataEstimadaPrimeiroCorte": null,
+        "dataTerminoColheita": null,
+        "areaASerPlantada": null,
+        "especieFlorestal": null,
+        "unidadeMedidaBusca": null,
+        "produtoPgpaf": null,
+        "siglaUf": null
+    },
+    "infoComplementarProjetoInvestimento": {
+        "id": null,
+        "bolImovelDePropriedadeBeneficiario": false,
+        "bolVigenciaContratoImovel": false,
+        "dataInicioProjetoInvestimento": null,
+        "dataFimProjetoInvestimento": null,
+        "descProjetoInvestimento": null,
+        "infoResultadosEsperados": []
+    },
+    "usuario": "fabioo0001_00",
+    "custoFinanceiro": {
+        "id": 1026
+    }
+}

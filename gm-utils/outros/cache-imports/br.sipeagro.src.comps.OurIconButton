@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro.src.comps.SafeActions
+br.sipeagro.srcx.comps.OurIconButtonX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+exec.ts.infra.PropString
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+libs.materialUi.icons.IconButton
+react.support.ReactNode

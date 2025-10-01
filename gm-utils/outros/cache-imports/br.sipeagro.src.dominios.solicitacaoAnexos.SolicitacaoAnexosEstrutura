@@ -1,0 +1,5 @@
+br.Transpilar
+br.sipeagro.src.dominios.solicitacaoAnexos.SolicitacaoAnexosEstruturaDto
+br.sipeagro.src.support.estrutura.Estrutura
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null

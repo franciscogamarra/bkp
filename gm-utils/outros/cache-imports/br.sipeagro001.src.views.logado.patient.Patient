@@ -1,0 +1,15 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.ApiManager
+br.sipeagro001.src.back.OurStorage
+br.sipeagro001.src.back.auth.Auth
+br.sipeagro001.src.views.logado.patient.PatientSimpleJson
+br.sipeagro001.src.views.logado.patient.mock.PatientJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+js.Js
+js.support.JSON
+libs.axios.AxiosResponse
+src.commom.utils.idText.UidText
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

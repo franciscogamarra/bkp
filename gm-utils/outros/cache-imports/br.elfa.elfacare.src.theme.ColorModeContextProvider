@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.theme.ColorModeContextParam
+br.elfa.elfacare.src.theme.TemaConsts
+br.elfa.elfacare.srcx.theme.ColorModeContextProviderX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

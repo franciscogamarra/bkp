@@ -1,0 +1,9 @@
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.mob.associacao.etapas.e002.segmentacao.perfil.Perfil
+src.app.mob.associacao.etapas.e002.segmentacao.vinculo.VinculoDeAssociacao
+src.app.mob.associacao.etapas.e002.segmentacao.vinculo.VinculoDeAssociacaoCassi
+src.app.mob.associacao.etapas.e002.segmentacao.vinculo.VinculoDeAssociacaoFuncionarioBanco
+src.app.mob.associacao.etapas.e002.segmentacao.vinculo.VinculoDeAssociacaoServidorPublicoEstatalParticipada
+src.app.mob.associacao.etapas.e002.segmentacao.vinculo.VinculoDeAssociacaoSocioComunitario
+src.app.react.campos.support.Wrapper

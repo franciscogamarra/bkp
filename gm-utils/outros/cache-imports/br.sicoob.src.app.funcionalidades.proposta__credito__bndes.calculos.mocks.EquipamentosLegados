@@ -1,0 +1,5 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.FabricantesLegados
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.EquipamentoLegado
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array

@@ -1,0 +1,10 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.ItemInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.components.utils.calculo__financiamento.CalculoFinanciamentoItem
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.components.utils.calculo__financiamento.CalculoFinanciamentoResult
+br.sicoob.src.app.shared.utils.Asserts
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Error
+js.array.Array
+js.outros.JsMath
+js.support.console

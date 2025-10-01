@@ -1,0 +1,9 @@
+libs.materialUi.core.Checkbox
+libs.materialUi.core.FormControlLabel
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.materialUi.consts.MaterialUiColorEnums
+src.app.react.campos.support.VBoolean
+src.app.react.components.SuperComponent
+src.app.react.utils.Style
+src.app.reactx.xcomponents.interfaces.ICheckBox

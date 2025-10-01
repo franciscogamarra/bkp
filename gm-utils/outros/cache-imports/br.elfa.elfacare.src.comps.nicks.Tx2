@@ -1,0 +1,12 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.outros.valores.MuiTypographyVariant
+br.elfa.elfacare.outros.valores.TypographyFontweight
+br.elfa.elfacare.src.comps.OurTypography
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.Sto
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

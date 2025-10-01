@@ -1,0 +1,11 @@
+gm-utils=/opt/desen/gm/cs2019/gm-utils
+front-constructor=/opt/desen/gm/cs2019/gm-frame-constructor/front-constructor
+react=/opt/desen/gm/cs2019/reacts/react
+react-mobile=/opt/desen/gm/cs2019/reacts/react-mobile
+react-web-materialUi=/opt/desen/gm/cs2019/reacts/react-web-materialUi
+react-web-antd=/opt/desen/gm/cs2019/reacts/react-web-antd
+react-web=/opt/desen/gm/cs2019/reacts/react-web
+react-x=/opt/desen/gm/cs2019/reacts/react-x
+web-app-web-java=/opt/desen/gm/cs2019/cooper/web-app/web-app-web-java
+fc-core-front=/opt/desen/gm/cs2019/gm-frame-constructor/fc-core-front
+react-mobile-associacao=/opt/desen/gm/cs2019/reacts/react-mobile-associacao

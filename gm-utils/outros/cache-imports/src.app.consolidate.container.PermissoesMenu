@@ -1,0 +1,5 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.fc.components.PermissoesMenuController
+src.app.react.campos.support.VBoolean

@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+js.annotations.Support
+js.array.Array
+src.app.fc.components.EntityTo
+src.app.fc.cruds.importacaoArquivoErro.ImportacaoArquivoErroTo
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null

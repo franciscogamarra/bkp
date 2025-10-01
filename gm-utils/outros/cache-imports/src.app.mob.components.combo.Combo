@@ -1,0 +1,15 @@
+libs.antd.icons.CaretDownOutlined
+react.project.infra.StyleResult
+react.support.ReactNode
+react.support.anotacoes.Auto
+react.support.anotacoes.NoProps
+src.app.mob.components.botoes.BotaoPadrao
+src.app.mob.components.combo.ComboItens
+src.app.mob.components.spans.TituloInput
+src.app.react.campos.support.VBoolean
+src.app.react.campos.support.itens.VIdTexts
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.AlignSelf
+src.app.react.utils.Style
+src.web.Div
+src.web.Span

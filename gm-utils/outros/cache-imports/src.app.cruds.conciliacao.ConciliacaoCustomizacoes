@@ -1,0 +1,4 @@
+javax.annotation.PostConstruct
+react.support.anotacoes.Component
+src.app.cruds.conciliacao.ConciliacaoConsulta
+src.app.cruds.consultaOperador.ConsultaOperadorConstantes

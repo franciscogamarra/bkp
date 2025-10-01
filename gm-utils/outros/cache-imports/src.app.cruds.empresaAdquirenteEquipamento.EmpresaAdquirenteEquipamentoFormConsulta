@@ -1,0 +1,14 @@
+gm.utils.lambda.FVoidT
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamento
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoCampos
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoCols
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoConsulta
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoEdit
+src.app.cruds.empresaAdquirenteEquipamento.EmpresaAdquirenteEquipamentoUtils
+src.commom.utils.integer.IntegerCompare
+src.fc.components.FcBotao
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela
+src.web.Td

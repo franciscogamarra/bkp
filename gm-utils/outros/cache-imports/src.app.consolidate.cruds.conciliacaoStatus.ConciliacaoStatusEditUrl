@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.conciliacaoStatus.ConciliacaoStatusCampos
+src.app.consolidate.cruds.conciliacaoStatus.ConciliacaoStatusEdit
+src.app.consolidate.cruds.conciliacaoStatus.ConciliacaoStatusPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

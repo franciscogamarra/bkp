@@ -1,0 +1,13 @@
+br.cvc.Transpilar
+br.cvc.libs.mui.core.Accordion
+br.cvc.libs.mui.core.AccordionDetails
+br.cvc.libs.mui.core.AccordionSummary
+br.cvc.libs.mui.icons.ExpandMore
+br.cvc.srcx.components.accordion.OurAccordionX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.annotacoes.ImportCss
+gm.languages.ts.javaToTs.annotacoes.SalvarComoIndex
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

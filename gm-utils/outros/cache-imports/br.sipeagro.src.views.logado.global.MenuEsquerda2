@@ -1,0 +1,7 @@
+br.Transpilar
+br.sipeagro.src.dominios.entidade.EntidadeEstrutura
+br.sipeagro.src.dominios.menu.MenuItem
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F0
+libs.materialUi.icons.SearchOutlinedIcon
+react.support.ReactNode

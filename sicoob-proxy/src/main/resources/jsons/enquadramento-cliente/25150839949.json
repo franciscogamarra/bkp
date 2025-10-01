@@ -1,0 +1,30 @@
+{
+	"id": 38,
+	"valorReceitaOperacionalBruta": 123456.97,
+	"dataReferenciaReceitaOperacionalBruta": "2024-12-31T02:00:00.000+0000",
+	"empresarioIdividual": false,
+	"dataAtualizacao": "2025-05-14T19:34:14.323+0000",
+	"idUsuario": "brunod3219_00",
+	"porteEmpresa": {
+		"codigoPorteEmpresa": 3,
+		"descricaoPorteEmpresa": "Microempresa",
+		"valorMinimoFaturamento": 0.01,
+		"valorMaximoFaturamento": 360000.00,
+		"className": "PorteEmpresaDTO"
+	},
+	"indicadorReceitaOperacionalBruta": {
+		"codigoIndicadorReceitaOperacionalBruta": 1,
+		"descricaoIndicadorReceiraOperacionalBruta": "Efetiva",
+		"className": "IndicadorReceitaOperacionalBrutaDTO"
+	},
+	"idPessoa": 1030,
+	"pessoaCapes": {
+		"idPessoa": 1030,
+		"numCpfCnpj": "25150839949",
+		"nomeCompleto": "JOÃO AUTO SILVA AGROPECUARIA LTDA",
+		"idInstituicao": 1,
+		"className": "PessoaCapesDTO"
+	},
+	"controleFundoAtivoPrivado": false,
+	"className": "EnquadramentoClienteDTO"
+}

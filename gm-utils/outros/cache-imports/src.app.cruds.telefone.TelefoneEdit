@@ -1,0 +1,16 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.RadioBoolean
+src.app.cruds.telefone.Telefone
+src.app.cruds.telefone.TelefoneCampos
+src.app.cruds.telefone.TelefonePermissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

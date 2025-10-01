@@ -1,0 +1,17 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.TipoInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.TipoInvestimentoWrapper
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao004AdicionarTipoDeInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao006SelecionarTipoDeInvestimentoNoUltimoItemAdicionado
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao007MenuItemExpandir
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao008MenuItemBuscarFabricantes
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao009MenuItemPreencherFabricante
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao010MenuItemPreencherEquipamento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao011MenuItemSelecionarQuantidade
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao012MenuItemSelecionarValorTotal
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao013MenuItemInserirInformacaoAdicional
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao014MenuItemClicarEmAdicionar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.Acao017MenuItemSelecionarValorUnitario
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.mocks.EquipamentosLegados
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.mocks.FabricantesLegados
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

@@ -1,0 +1,11 @@
+js.map.Map
+js.promise.Promise
+js.promise.Response
+react.support.anotacoes.Component
+src.app.mobile.naoJava.SuperagentMobile
+src.commom.utils.comum.PromiseBuilder
+src.commom.utils.object.Null
+src.commom.utils.string.StringParse
+src.notec.apis.ApiUtils
+src.react.cache.Cache
+src.react.padrao.Api

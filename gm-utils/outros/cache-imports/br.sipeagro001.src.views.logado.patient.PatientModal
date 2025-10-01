@@ -1,0 +1,15 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.comps.OurButton
+br.sipeagro001.src.comps.nicks.Tx
+br.sipeagro001.src.views.logado.patient.PatientForm
+br.sipeagro001.src.views.modais.ModalItem
+br.sipeagro001.src.views.modais.OurModal
+br.sipeagro001.srcx.views.logado.patient.PatientModalX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.div
+libs.materialUi.types.buttonType.ButtonTypeValues
+react.support.ReactNode

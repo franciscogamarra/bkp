@@ -1,0 +1,6 @@
+react.support.interfaces.Configuration
+src.fc.components.FormGenerico
+src.fc.components.consulta.CampoConsulta
+src.fc.components.consulta.CampoConsultaWebRenders
+src.fc.config.Ambiente
+src.fc.config.AmbienteConfigWeb

@@ -1,0 +1,12 @@
+br.Transpilar
+br.libs.Divider
+br.src.components.structure__components.pages.client__pages.Admin.components.PendingUsers.PendingUsers
+br.src.components.structure__components.shared.TopTitle.TopTitle
+br.src.components.structure__components.shared.tab.OurTabItem
+br.src.components.structure__components.shared.tab.OurTabs
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+js.array.Array
+libs.react.Fragment
+react.support.ReactNode

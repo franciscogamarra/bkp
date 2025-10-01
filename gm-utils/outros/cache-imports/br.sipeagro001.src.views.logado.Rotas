@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro001.src.crud.Cruds
+br.sipeagro001.src.dominios.entidades.EntidadeEstrutura
+br.sipeagro001.src.views.Pagina404
+br.sipeagro001.src.views.logado.global.MenuEsquerda
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.react_router_dom.Route
+libs.react_router_dom.Routes
+react.support.ReactNode

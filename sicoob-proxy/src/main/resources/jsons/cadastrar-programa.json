@@ -1,0 +1,448 @@
+{
+    "caracteristicas": {
+        "codigo": null,
+        "descricao": "P-301-6-24000-3-30-375-1024",
+        "linha": 301,
+        "siglaPrograma": "P-301-6",
+        "siglaProposta": "P-301-6",
+        "dataInicioVigencia": "2025-06-02T01:18:56.000Z",
+        "dataFimVigencia": "2025-07-26T03:00:00.000Z",
+        "produto": 6,
+        "produtoBndesOnline": 24000,
+        "sistematicaOperacional": 3,
+        "modalidade": 30,
+        "custosFinanceiro": [
+            {
+                "id": 1024,
+                "descCustoFinanceiro": "Custo Fixo",
+                "className": "CustoFinanceiroDTO"
+            }
+        ],
+        "selCustosFinanceiro": null,
+        "condicaoOperacional": 168,
+        "bolPossuiItensInvestimento": false
+    },
+    "prazoPeriodicidade": {
+        "prazoMaximoOperacaoMeses": "36",
+        "prazoMaximoCarenciaMeses": "0",
+        "bolPermitePrazoCarenciaMesesNaoMultiplos": false,
+        "bolPermitePrazoAmortizacaoMesesNaoMultiplos": false,
+        "bolEncargosExigiveisCarencia": false,
+        "bolPermiteExcecaoExigibilidadeEncargo": false,
+        "bolAlteraPrazoTotal": false,
+        "bolAlteraPrazoCarencia": false,
+        "bolConsideraAnoBissexto": false,
+        "selPeriodicidadeAmortizacao": null,
+        "selPeriodicidadeCarencia": 11,
+        "periodicidades": [
+            {
+                "id": "11-11",
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                }
+            }
+        ]
+    },
+    "informacoesTfbTfbd": {
+        "selTiposEventoFixacao": null,
+        "selPrazosTotalOperacao": null,
+        "selPrazosLimiteSolicitacaoPl": null,
+        "tiposEventoFixacao": [],
+        "prazosTotalOperacao": [],
+        "prazosLimiteSolicitacaoPl": []
+    },
+    "percentuaisValores": {
+        "percSpreadBndesPadrao": 50,
+        "percSpreadBndesMinimo": 10,
+        "percSpreadBndesMaximo": 100,
+        "percSpreadBancoPadrao": 50,
+        "percSpreadBancoMinimo": 10,
+        "percSpreadBancoMaximo": 100,
+        "vlrMaximoFinanciado": 1000000,
+        "percMaximoFinanciado": 100,
+        "bolIncluiTaxaCustoFinanceiro": false,
+        "percTaxaCustoFinanceiro": null,
+        "percCustoIntermediacaoFinanceira": null
+    },
+    "tributos": {
+        "bolIsento": true,
+        "bolSemCobrancaIofAliquotaZero": false,
+        "bolComCobrancaIofAliquotaAdicional": false,
+        "bolComCobrancaIofAliquotaNormal": false
+    },
+    "itensInvestimento": {
+        "tipoInvestimento": null,
+        "itensInvestimento": []
+    },
+    "informacoesAdicionais": {
+        "bolLicencaDispensaAmbiental": true,
+        "bolFinanciamentoItemDiverso": false,
+        "bolQtdEmpregoAntesAposInvestimento": false,
+        "bolHabilitaEnvioBndes": false,
+        "bolIntegracaoPlataformaCredito": false,
+        "bolExigePrazoFinanciamento": false,
+        "selObjetivosProjeto": null,
+        "objetivosProjeto": [
+            {
+                "id": 13,
+                "descricaoObjetivoProjeto": "AQUISIÇÃO DE TRATORES E IMPLEMENTOS E RECUPERAÇÃO DE MÁQUINAS AGRÍCOLAS",
+                "className": "ObjetivoProjetoBndesDTO"
+            }
+        ],
+        "bolEnviaCnpjInvestimentoPf": false,
+        "bolEnviaMunicipioPf": false,
+        "bolEnviaEnderecoCompletoPf": false,
+        "bolEnviaCnpjInvestimentoPj": false,
+        "bolEnviaMunicipioPj": false,
+        "bolEnviaEnderecoCompletoPj": false,
+        "bolExcecaoObjetivoImplantacaoPj": false,
+        "bolCprBndes": false,
+        "bolEnvioSicorSemMatriculaEmpreendCapes": false,
+        "bolHabilitaCadastroPl": false,
+        "bolExigeDataEmissaoCartaFianca": false,
+        "bolProjetoColetivo": false
+    },
+    "informacoesRural": {
+        "origemRecurso": 10002,
+        "bolValidarDapBeneficiario": false,
+        "bolPgpaf": false,
+        "bolHabilitarCodigoStn": false,
+        "bolQtdAnimais": false,
+        "bolDataPrimeiroCorte": false,
+        "bolDataTerminoColheita": false,
+        "bolEspecieFlorestal": false,
+        "bolAreaSerPlantada": false,
+        "codigoStn": null,
+        "bolHabilitaUsoMesContratacao": false,
+        "bolHabilitaUsoCodigoRegionalNacional": false,
+        "bolHabilitaUsoApenasCodigoNacional": false,
+        "bolEnviaFaseFinanciamento": false
+    },
+    "expurgoAutomatico": {
+        "bolHabilitaExpurgoTfbTfbd": false,
+        "prazoExpurgoFinanciamentoDias": null,
+        "prazoExpurgoContratacaoDias": null,
+        "prazoExpurgoLiberacaoDias": null,
+        "selDataInicioFinanciamento": null,
+        "selDataFimFinanciamento": null,
+        "selDataInicioContratacao": null,
+        "selDataFimContratacao": null,
+        "prazoContratacoes": null
+    },
+    "municipios": {
+        "selRegioes": null,
+        "selUfs": null,
+        "selMunicipios": null,
+        "municipios": [
+            {
+                "sigla": "AC",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "AC"
+                    }
+                ]
+            },
+            {
+                "sigla": "AL",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "AL"
+                    }
+                ]
+            },
+            {
+                "sigla": "AP",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "AP"
+                    }
+                ]
+            },
+            {
+                "sigla": "AM",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "AM"
+                    }
+                ]
+            },
+            {
+                "sigla": "BA",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "BA"
+                    }
+                ]
+            },
+            {
+                "sigla": "CE",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "CE"
+                    }
+                ]
+            },
+            {
+                "sigla": "DF",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "DF"
+                    }
+                ]
+            },
+            {
+                "sigla": "ES",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "ES"
+                    }
+                ]
+            },
+            {
+                "sigla": "GO",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "GO"
+                    }
+                ]
+            },
+            {
+                "sigla": "MA",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "MA"
+                    }
+                ]
+            },
+            {
+                "sigla": "MT",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "MT"
+                    }
+                ]
+            },
+            {
+                "sigla": "MS",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "MS"
+                    }
+                ]
+            },
+            {
+                "sigla": "MG",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "MG"
+                    }
+                ]
+            },
+            {
+                "sigla": "PA",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "PA"
+                    }
+                ]
+            },
+            {
+                "sigla": "PB",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "PB"
+                    }
+                ]
+            },
+            {
+                "sigla": "PR",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "PR"
+                    }
+                ]
+            },
+            {
+                "sigla": "PE",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "PE"
+                    }
+                ]
+            },
+            {
+                "sigla": "PI",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "PI"
+                    }
+                ]
+            },
+            {
+                "sigla": "RJ",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "RJ"
+                    }
+                ]
+            },
+            {
+                "sigla": "RN",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "RN"
+                    }
+                ]
+            },
+            {
+                "sigla": "RS",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "RS"
+                    }
+                ]
+            },
+            {
+                "sigla": "RO",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "RO"
+                    }
+                ]
+            },
+            {
+                "sigla": "RR",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "RR"
+                    }
+                ]
+            },
+            {
+                "sigla": "SC",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "SC"
+                    }
+                ]
+            },
+            {
+                "sigla": "SP",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "SP"
+                    }
+                ]
+            },
+            {
+                "sigla": "SE",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "SE"
+                    }
+                ]
+            },
+            {
+                "sigla": "TO",
+                "municipios": [
+                    {
+                        "codigoMunicipio": 0,
+                        "descricaoMunicipio": "TODOS MUNICÍPIOS",
+                        "siglaUf": "TO"
+                    }
+                ]
+            }
+        ]
+    },
+    "cnaes": {
+        "cnaeBusca": null,
+        "selCnaes": null,
+        "cnaes": [
+            {
+                "codigo": "A0111302",
+                "descricao": "Cultivo de milho"
+            }
+        ]
+    },
+    "informacoesProjetoInvestimento": {
+        "bolImovelPropriedadeBeneficiario": false,
+        "bolVigenciaContratoImovel": false,
+        "bolDataInicioProjeto": false,
+        "bolDataInicioProjetoObrigatorio": false,
+        "bolDataFimProjeto": false,
+        "bolDataFimProjetoObrigatorio": false,
+        "bolDescricaoProjeto": false,
+        "bolDescricaoProjetoObrigatorio": false,
+        "bolQtdUltimoExercicio": false,
+        "bolQtdUltimoExercicioObrigatorio": false,
+        "bolVlrUltimoExercicio": false,
+        "bolVlrUltimoExercicioObrigatorio": false,
+        "bolQtdAposProjeto": false,
+        "bolQtdAposProjetoObrigatorio": false,
+        "bolVlrAposProjeto": false,
+        "bolVlrAposProjetoObrigatorio": false,
+        "bolTipoResultadoEsperado": false,
+        "bolTipoResultadoEsperadoObrigatorio": false,
+        "bolUnidadeMedida": false,
+        "bolUnidadeMedidaObrigatorio": false
+    }
+}

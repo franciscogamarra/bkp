@@ -1,0 +1,14 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.clients.mock.ClientDao
+br.elfa.elfacare.src.views.logado.clients.mock.ClientJpa
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroReq
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoJpa
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.cp.UCpf
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.tempo.DataHora

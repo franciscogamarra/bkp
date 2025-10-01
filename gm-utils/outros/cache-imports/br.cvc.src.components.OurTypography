@@ -1,0 +1,10 @@
+br.cvc.Transpilar
+br.cvc.libs.mui.core.Typography
+br.cvc.srcx.components.OurTypographyX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

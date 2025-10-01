@@ -1,0 +1,15 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.OurStorage
+br.elfa.elfacare.src.back.api
+br.elfa.elfacare.src.back.auth.Auth
+br.elfa.elfacare.src.views.logado.patient.PatientSimpleJson
+br.elfa.elfacare.src.views.logado.patient.mock.PatientJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+js.Js
+js.support.JSON
+libs.axios.AxiosResponse
+src.commom.utils.idText.UidText
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

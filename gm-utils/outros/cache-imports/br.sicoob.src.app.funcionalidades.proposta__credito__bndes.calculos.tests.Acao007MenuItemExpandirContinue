@@ -1,0 +1,10 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.TipoInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.TipoInvestimentoWrapper
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.PcbAcao
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.proxies.AdicionaItensForm
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AdicionaEquipamentosComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AdicionaItensInvestimentoComQuantidadeComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AdicionaItensInvestimentoComponent
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Error

@@ -1,0 +1,9 @@
+br.Transpilar
+br.sipeagro001.src.comps.input.OurInputItem
+br.sipeagro001.src.support.estrutura.EstruturaDto
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampoDto
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeEdicaoDto
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeFiltroDto
+br.sipeagro001.src.support.estrutura.campo.EstruturaCampoRegrasDaTelaDeListagemDto
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array

@@ -1,0 +1,14 @@
+js.annotations.NoAuto
+js.array.Array
+react.support.anotacoes.Component
+src.app.fc.components.EntityCampos
+src.app.fc.components.campoAlterado.CampoAlterado
+src.app.ide.cruds.classeExtends.ClasseExtends
+src.app.ide.cruds.classeExtends.ClasseExtendsTo
+src.commom.utils.array.ArrayEmpty
+src.commom.utils.array.ArrayEquals
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.idText.IdTextCompare
+src.commom.utils.object.Null
+src.commom.utils.string.StringParse

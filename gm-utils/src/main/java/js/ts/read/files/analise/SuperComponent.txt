@@ -1,0 +1,58 @@
+<Import(41)>
+	NaoClassificada[Dev(43,0,0,1)]
+<From(45)>
+StringLiteral["Dev"(176,0,0,1)]
+PontoEVirgula[;(50,0,0,0)]
+PublicClass[public class SuperComponent(183,2,0,0)]
+{
+PublicConstructor[public SuperComponent(184,2,1,0)]
+(
+)
+{
+<This(74)>
+Ponto[.(75,0,0,0)]
+	NaoClassificada[log(76,0,0,0)]
+(
+StringLiteral[""(178,0,0,0)]
+)
+PontoEVirgula[;(81,0,0,0)]
+}
+Metodo[public void getClassName(187,2,1,0)]
+(
+)
+{
+	NaoClassificada[return(98,2,2,0)]
+Chamada[getClass().getSimpleName()(186,0,0,1)]
+PontoEVirgula[;(105,0,0,0)]
+}
+Metodo[public void log(189,2,1,0)]
+(
+TipoObject[Object(182,0,0,0)]
+	NaoClassificada[s(115,0,0,1)]
+)
+{
+	NaoClassificada[if(126,2,2,0)]
+(
+	NaoClassificada[Dev(129,0,0,0)]
+Ponto[.(130,0,0,0)]
+	NaoClassificada[in(131,0,0,0)]
+)
+{
+	NaoClassificada[console(140,2,3,0)]
+Ponto[.(141,0,0,0)]
+	NaoClassificada[log(142,0,0,0)]
+(
+<This(144)>
+Ponto[.(145,0,0,0)]
+	NaoClassificada[getClassName(146,0,0,0)]
+(
+)
+Mais[+(150,0,0,1)]
+StringLiteral[" -> "(180,0,0,1)]
+Mais[+(159,0,0,1)]
+	NaoClassificada[s(161,0,0,1)]
+)
+PontoEVirgula[;(163,0,0,0)]
+}
+}
+}

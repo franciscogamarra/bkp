@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.empresa.EmpresaCampos
+src.app.consolidate.cruds.empresa.EmpresaEdit
+src.app.consolidate.cruds.empresa.EmpresaPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+src.app.cruds.arquivo.Arquivo
+src.app.cruds.importacaoArquivoErro.ImportacaoArquivoErro
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.UJson
+src.fc.components.EntityFront

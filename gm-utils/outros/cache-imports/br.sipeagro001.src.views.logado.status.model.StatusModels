@@ -1,0 +1,8 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.status.mock.StatusCarga
+br.sipeagro001.src.views.logado.status.mock.StatusDao
+br.sipeagro001.src.views.logado.status.mock.StatusJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.types.buttonColor.ButtonColorValues
+src.commom.utils.array.Itens
+src.commom.utils.string.StringCompare

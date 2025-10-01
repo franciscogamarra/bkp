@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+libs.antd.icons.AccountBookFilled
+libs.react_router_dom.Route
+react.support.ReactNode
+src.app.fc.components.FramePrincipalBase
+src.app.fuvio.container.PermissoesMenu
+src.app.fuvio.cruds.cadastro.CadastroEditUrl
+src.app.fuvio.cruds.cadastro.CadastroFormConsulta
+src.commom.utils.array.ArrayLst

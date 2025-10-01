@@ -1,0 +1,12 @@
+{
+	"prazoOperacao" : 120,
+	"prazoCarencia" : 12,
+	"bolPrazoCarenNaoMultiplos" : false,
+	"bolPrazoAmortizacaoNaoMultiplo" : false,
+	"bolAlteraPrazoCarencia" : true,
+	"bolAlteraPrazoTotal" : true,
+	"bolEncargosExigiveis" : true,
+	"bolExecEncExigiveis" : false,
+	"codsPeriodicidadeAmortizacao" : [ 11, 12, 15 ],
+	"codsPeriodicidadeCarencia" : [ 11, 12, 13 ]
+}

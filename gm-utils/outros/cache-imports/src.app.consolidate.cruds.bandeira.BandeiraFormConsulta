@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.bandeira.Bandeira
+src.app.consolidate.cruds.bandeira.BandeiraCampos
+src.app.consolidate.cruds.bandeira.BandeiraCols
+src.app.consolidate.cruds.bandeira.BandeiraConsulta
+src.app.consolidate.cruds.bandeira.BandeiraEdit
+src.app.consolidate.cruds.bandeira.BandeiraPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

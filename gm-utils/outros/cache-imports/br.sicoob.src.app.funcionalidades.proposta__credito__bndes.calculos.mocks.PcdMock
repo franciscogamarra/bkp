@@ -1,0 +1,13 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.BuscarEquipamentosBndesHandle
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.LinhasBndes
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.Produtos
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.Programas
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.ProgramasTipoInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.mocks.TiposInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.PcbTest001
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AbaItensInvestimentoComponent
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+js.Js

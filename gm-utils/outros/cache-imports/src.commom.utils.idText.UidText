@@ -1,0 +1,10 @@
+gm.languages.ts.javaToTs.annotacoes.Any
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.string.ListString
+lombok.Getter
+lombok.Setter
+src.commom.utils.object.Null
+src.commom.utils.object.ObjJs
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringRemoveAcentos

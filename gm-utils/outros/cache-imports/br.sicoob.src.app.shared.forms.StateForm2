@@ -1,0 +1,5 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.shared.forms.StateFormControl
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F0

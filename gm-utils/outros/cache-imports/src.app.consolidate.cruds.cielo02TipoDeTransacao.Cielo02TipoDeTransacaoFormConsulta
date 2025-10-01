@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacao
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacaoCampos
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacaoCols
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacaoConsulta
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacaoEdit
+src.app.consolidate.cruds.cielo02TipoDeTransacao.Cielo02TipoDeTransacaoPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

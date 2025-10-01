@@ -1,0 +1,12 @@
+br.cvc.CvcResponse
+br.cvc.CvcResponseData
+br.cvc.SomenteMock
+br.cvc.Transpilar
+br.cvc.src.mock.Message
+br.cvc.supports.CodeDescription
+br.cvc.supports.UrlByCodeParams
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+jakarta.validation.constraints.NotNull
+js.array.Array
+js.promise.Promise
+src.commom.utils.comum.PromiseBuilder

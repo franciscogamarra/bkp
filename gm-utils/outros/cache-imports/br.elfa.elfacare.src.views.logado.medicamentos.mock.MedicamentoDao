@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.medicamentos.mock.DrugConsultaJson
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoJpa
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty
+src.commom.utils.tempo.DataHora

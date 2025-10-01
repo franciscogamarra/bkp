@@ -1,0 +1,8 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.gerador.cruds.projeto.ProjetoCamposAbstract
+src.commom.utils.string.StringCases
+src.commom.utils.string.StringCorretorOrtografico
+src.commom.utils.string.StringPath
+src.commom.utils.string.StringReplace
+src.commom.utils.string.StringTrim

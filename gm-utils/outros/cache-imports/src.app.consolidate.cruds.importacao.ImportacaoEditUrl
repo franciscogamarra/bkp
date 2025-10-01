@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.importacao.ImportacaoCampos
+src.app.consolidate.cruds.importacao.ImportacaoEdit
+src.app.consolidate.cruds.importacao.ImportacaoPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

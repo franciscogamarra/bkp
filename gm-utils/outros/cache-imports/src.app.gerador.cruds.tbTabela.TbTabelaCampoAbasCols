@@ -1,0 +1,11 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.fc.components.consulta.ColsAbstract
+src.app.fc.components.tabela.Coluna
+src.app.fc.components.tabela.ColunaAba
+src.app.fc.components.tabela.ColunaGrupo
+src.app.gerador.cruds.tbAba.TbAba
+src.app.gerador.cruds.tbAba.TbAbaCols
+src.app.gerador.cruds.tbTabela.TbTabelaConsulta
+src.commom.utils.array.ArrayLst

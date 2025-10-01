@@ -1,0 +1,12 @@
+br.Transpilar
+br.gen.gtag
+br.libs.Button
+br.src.components.pages__components.client__pages.pages.Quotation.QuatationEditModal
+br.src.components.structure__components.shared.Table.TableConfigItem
+br.src.mock.jsons.GTagJson
+exec.ts.infra.FC
+exec.ts.infra.StateBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+libs.react.Fragment
+react.support.ReactNode

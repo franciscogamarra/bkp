@@ -1,0 +1,4 @@
+br.Transpilar
+br.src.cotacao.BotaoCotacao
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

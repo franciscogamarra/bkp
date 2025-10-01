@@ -1,0 +1,19 @@
+{
+	"id": null,
+	"dataHora": null,
+	"idPessoa": 5665743,
+	"empresarioIdividual": false,
+	"numeroCRNTRC": "123456",
+	"idUsuario": "fabioo0001_00",
+	"caracterizacaoCapitalSocial": null,
+	"naturezaEmpresa": null,
+	"controleFundoAtivoPrivado": "Não",
+	"dataAtualizacao": "15/10/2024 20:29:56",
+	"grupoEconomico": null,
+	"receitaOperacionalBruta": {
+		"indicador": "1 - Efetiva",
+		"valor": 173034.10,
+		"dataReferencia": "31/12/2022",
+		"porteEmpresa": "3 - Microempresa - R$ R$ 0,01 até R$ 360.000,00"
+	}
+}

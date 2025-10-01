@@ -1,0 +1,10 @@
+gm.utils.anotacoes.Descricao
+js.promise.Promise
+js.support.console
+src.commom.utils.date.BaseData
+src.commom.utils.string.StringEmpty
+src.notec.apis.CreditoService
+src.notec.apis.tos.SimulacaoTo
+src.notec.credito.CreditoDados
+src.notec.credito.SafeRepeat
+src.react.alert.Alert

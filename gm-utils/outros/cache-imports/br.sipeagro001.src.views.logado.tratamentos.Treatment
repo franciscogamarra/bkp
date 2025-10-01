@@ -1,0 +1,10 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.OurStorage
+br.sipeagro001.src.back.auth.Auth
+br.sipeagro001.src.views.logado.clients.Clients
+br.sipeagro001.src.views.logado.tratamentos.TreatmentSimpleJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.JSON
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty

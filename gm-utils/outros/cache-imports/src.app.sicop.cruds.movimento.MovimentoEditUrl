@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.sicop.cruds.movimento.MovimentoCampos
+src.app.sicop.cruds.movimento.MovimentoEdit
+src.app.sicop.cruds.movimento.MovimentoPermissoes

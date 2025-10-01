@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.ide.cruds.bloco.BlocoCampos
+src.app.ide.cruds.bloco.BlocoEdit
+src.app.ide.cruds.bloco.BlocoPermissoes

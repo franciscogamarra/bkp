@@ -1,0 +1,81 @@
+[ {
+	"id" : 13,
+	"descricaoObjetivoProjeto" : "AQUISIÇÃO DE TRATORES E IMPLEMENTOS E RECUPERAÇÃO DE MÁQUINAS AGRÍCOLAS",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 5,
+	"descricaoObjetivoProjeto" : "CAPITAL DE GIRO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 15,
+	"descricaoObjetivoProjeto" : "CAPITALIZAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 12,
+	"descricaoObjetivoProjeto" : "COMERCIALIZAÇÃO EQUIPAMENTO NACIONAL - FINANCIAMENTO COMPRADOR",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 16,
+	"descricaoObjetivoProjeto" : "DESENVOLVIMENTO TECNOLÓGICO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 2,
+	"descricaoObjetivoProjeto" : "EXPANSÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 20,
+	"descricaoObjetivoProjeto" : "FINAME – Financiamento a Materiais Industrializados",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 9,
+	"descricaoObjetivoProjeto" : "FORTALECIMENTO PATRIMONIAL",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 1,
+	"descricaoObjetivoProjeto" : "IMPLANTAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 7,
+	"descricaoObjetivoProjeto" : "MÁQUINAS E EQUIPAMENTOS  NOVOS",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 8,
+	"descricaoObjetivoProjeto" : "MÁQUINAS EQUIPAMENTOS USADOS",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 6,
+	"descricaoObjetivoProjeto" : "MEIO AMBIENTE",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 3,
+	"descricaoObjetivoProjeto" : "MODERNIZAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 17,
+	"descricaoObjetivoProjeto" : "OUTROS",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 4,
+	"descricaoObjetivoProjeto" : "RACIONALIZAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 11,
+	"descricaoObjetivoProjeto" : "RACIONALIZAÇÃO / MODERNIZAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 14,
+	"descricaoObjetivoProjeto" : "REESTRUTURAÇÃO FINANCEIRA",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 18,
+	"descricaoObjetivoProjeto" : "REFINANCIAMENTO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 19,
+	"descricaoObjetivoProjeto" : "REFINANCIAMENTO",
+	"className" : "ObjetivoProjetoBndesDTO"
+}, {
+	"id" : 10,
+	"descricaoObjetivoProjeto" : "RELOCALIZAÇÃO",
+	"className" : "ObjetivoProjetoBndesDTO"
+} ]

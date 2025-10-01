@@ -1,0 +1,14 @@
+gm.utils.lambda.FVoidT
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.adquirenteManual.AdquirenteManual
+src.app.cruds.adquirenteManual.AdquirenteManualCampos
+src.app.cruds.adquirenteManual.AdquirenteManualCols
+src.app.cruds.adquirenteManual.AdquirenteManualConsulta
+src.app.cruds.adquirenteManual.AdquirenteManualEdit
+src.app.cruds.adquirenteManual.AdquirenteManualUtils
+src.commom.utils.integer.IntegerCompare
+src.fc.components.FcBotao
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela
+src.web.Td

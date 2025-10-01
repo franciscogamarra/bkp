@@ -1,0 +1,9 @@
+br.elfa.elfacare.outros.reqObjs.CidResponse
+br.elfa.elfacare.outros.reqObjs.GerarJson
+br.elfa.elfacare.src.back.mock.MockRowRes
+br.elfa.elfacare.src.views.logado.pacientes.dtos.ConsultaPacientesRowRes
+gm.languages.ts.javaToTs.annotacoes.Any
+gm.utils.comum.Aleatorio
+js.annotations.NaoConverter
+js.annotations.Support
+src.commom.utils.string.StringRemoveAcentos

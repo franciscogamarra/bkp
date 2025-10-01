@@ -1,0 +1,10 @@
+js.annotations.NoAuto
+js.annotations.Support
+js.array.Array
+src.app.fc.components.EntityTo
+src.app.ide.cruds.atributo.AtributoTo
+src.app.ide.cruds.classeExtends.ClasseExtendsTo
+src.app.ide.cruds.injecao.InjecaoTo
+src.app.ide.cruds.metodo.MetodoTo
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null

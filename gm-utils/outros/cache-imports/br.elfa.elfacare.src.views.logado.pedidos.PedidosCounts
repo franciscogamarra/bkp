@@ -1,0 +1,15 @@
+br.elfa.elfacare.src.comps.OurButton
+br.elfa.elfacare.src.comps.nicks.Tx
+br.elfa.elfacare.src.views.logado.status.mock.StatusJpa
+br.elfa.elfacare.src.views.logado.status.model.StatusCount
+br.elfa.elfacare.src.views.logado.status.model.StatusModels
+br.elfa.elfacare.srcx.views.logado.pedidos.PedidosCountsX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+react.support.ReactNode
+src.commom.utils.array.Itens
+src.commom.utils.object.Null

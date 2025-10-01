@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.cieloRegistro5.CieloRegistro5Campos
+src.app.consolidate.cruds.cieloRegistro5.CieloRegistro5Edit
+src.app.consolidate.cruds.cieloRegistro5.CieloRegistro5Permissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

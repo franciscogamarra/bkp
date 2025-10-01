@@ -1,0 +1,16 @@
+libs.antd.icons.CheckOutlined
+libs.antd.icons.CloudDownloadOutlined
+react.project.infra.StyleResult
+react.support.ReactNode
+src.app.mob.associacao.etapas.e002.segmentacao.perfil.Perfil
+src.app.mob.components.botoes.Downloader
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.TextAlign
+src.app.react.consts.enums.VerticalAlign
+src.app.react.utils.Style
+src.web.Div
+src.web.P
+src.web.Span
+src.web.Tb
+src.web.Td
+src.web.Tr

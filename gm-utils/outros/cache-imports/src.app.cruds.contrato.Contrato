@@ -1,0 +1,8 @@
+js.annotations.NoAuto
+src.app.cruds.contratoEquipamento.ContratoEquipamento
+src.app.cruds.contratoTaxa.ContratoTaxa
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.UJson
+src.commom.utils.string.StringParse
+src.fc.components.EntityFront

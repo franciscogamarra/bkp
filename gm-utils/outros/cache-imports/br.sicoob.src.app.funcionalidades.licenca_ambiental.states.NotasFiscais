@@ -1,0 +1,10 @@
+br.sicoob.SicoobDeploy
+br.sicoob.SicoobTranspilar
+br.sicoob.src.bla.NotaFiscalBndes
+gm.languages.ts.javaToTs.JS
+gm.languages.ts.javaToTs.annotacoes.From
+gm.languages.ts.javaToTs.annotacoes.ImportStatic
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.JsObject
+js.array.Array
+src.commom.utils.object.Null

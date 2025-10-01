@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.ide.cruds.metodo.MetodoCampos
+src.app.ide.cruds.metodo.MetodoEdit
+src.app.ide.cruds.metodo.MetodoPermissoes

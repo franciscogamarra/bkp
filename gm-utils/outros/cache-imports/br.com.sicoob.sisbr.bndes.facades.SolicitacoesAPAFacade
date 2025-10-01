@@ -1,0 +1,9 @@
+br.com.bancoob.dto.RequisicaoReqDTO
+br.com.sicoob.sisbr.bndes.mensagens.MensagensBNDES
+br.com.sicoob.sisbr.bndes.util.Constantes
+br.com.sicoob.sisbr.bndes.util.Servico
+flash.system.System
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P1
+javatoflex.JavaToFlex
+mx.rpc.events.ResultEvent

@@ -1,0 +1,5 @@
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringBox
+src.commom.utils.string.StringRight
+src.commom.utils.string.StringSepararPalavrasSupport

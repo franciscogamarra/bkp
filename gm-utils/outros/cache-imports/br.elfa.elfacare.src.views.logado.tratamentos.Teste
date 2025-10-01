@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.OurButton
+br.elfa.elfacare.src.views.logado.tratamentos.TratamentoEdit
+br.elfa.elfacare.src.views.logado.tratamentos.TratamentoEditModal
+exec.ts.infra.FC
+exec.ts.infra.StateBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.react.Fragment
+react.support.ReactNode

@@ -1,0 +1,16 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.FormItemSelect
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjuste
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjusteCampos
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjustePermissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

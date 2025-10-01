@@ -1,0 +1,10 @@
+libs.react_native.Text
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.AlignItens
+src.app.react.consts.enums.FlexDirection
+src.app.react.utils.Style
+src.mobile.components.Vw
+src.mobile.tema.Tema
+src.mobile.utils.ItemLista

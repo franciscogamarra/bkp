@@ -1,0 +1,17 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.FormItemSelect
+src.app.cruds.adquirenteManual.AdquirenteManual
+src.app.cruds.adquirenteManual.AdquirenteManualCampos
+src.app.cruds.adquirenteManual.AdquirenteManualPermissoes
+src.app.cruds.arquivo.ArquivoEdit
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

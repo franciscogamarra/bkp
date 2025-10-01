@@ -1,0 +1,14 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.ItemInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.CalculoFinanciamentoItem
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.ItemInvestimentoWrapper
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.PropostaCreditoBndesCalculo
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.TipoInvestimentoWrapper
+br.sicoob.src.app.shared.utils.ChaveValor
+br.sicoob.src.app.shared.utils.formataComNumeroComVirgula
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.PrintObj
+js.Error
+js.array.Array
+js.outros.JsMath
+js.support.console

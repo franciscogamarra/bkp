@@ -1,0 +1,14 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.mock.MedicamentoDao
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoDao
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoJpa
+br.elfa.elfacare.src.views.logado.pedidosItens.mock.PedidoItemDao
+br.elfa.elfacare.src.views.logado.pedidosItens.mock.PedidoItemJpa
+br.elfa.elfacare.src.views.logado.status.mock.StatusDao
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoDao
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.comum.Randomico
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

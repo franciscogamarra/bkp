@@ -1,0 +1,5 @@
+br.elfa.elfacare.src.views.logado.pedidos.consulta.OrderJson
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.DrugSimpleJson
+gm.utils.anotacoes.Ignorar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.TypeJs

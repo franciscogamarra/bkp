@@ -1,0 +1,5 @@
+br.Transpilar
+br.sipeagro.src.support.mock.DaoJpa
+br.sipeagro.src.views.deslogado.users.UserJpa
+br.sipeagro.src.views.deslogado.users.UserJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

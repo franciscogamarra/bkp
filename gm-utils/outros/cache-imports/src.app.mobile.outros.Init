@@ -1,0 +1,4 @@
+src.app.mobile.modulo.credito.comum.CreditoInit
+src.app.mobile.modulo.credito.comum.XComponentsImpl
+src.app.mobile.modulo.credito.simulacao.values.RotasImpl
+src.app.react.utils.Style

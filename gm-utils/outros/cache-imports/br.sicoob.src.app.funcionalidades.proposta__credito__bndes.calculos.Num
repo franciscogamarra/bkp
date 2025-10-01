@@ -1,0 +1,14 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.shared.forms.StateFormControl
+br.sicoob.src.app.shared.utils.Utils
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.F1
+js.array.Array
+js.decimaljs.Decimal
+js.support.console
+src.commom.utils.comum.SeparaMilhares
+src.commom.utils.object.Null
+src.commom.utils.string.StringAfterFirst
+src.commom.utils.string.StringBeforeFirst
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty

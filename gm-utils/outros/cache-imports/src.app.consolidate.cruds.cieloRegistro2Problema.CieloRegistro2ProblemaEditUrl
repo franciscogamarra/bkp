@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.cieloRegistro2Problema.CieloRegistro2ProblemaCampos
+src.app.consolidate.cruds.cieloRegistro2Problema.CieloRegistro2ProblemaEdit
+src.app.consolidate.cruds.cieloRegistro2Problema.CieloRegistro2ProblemaPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

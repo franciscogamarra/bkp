@@ -1,0 +1,15 @@
+br.cvc.Transpilar
+br.cvc.src.components.Form.ResumeTab.Dados
+br.cvc.src.components.Form.ResumeTab.ResumeItem
+br.cvc.src.components.Form.ResumeTab.ResumeObjectView
+br.cvc.src.components.Form.ResumeTab.ResumeTab
+br.cvc.src.utils.StringUtils
+br.cvc.src.utils.TextoSingularOuPlural
+br.cvc.supports.FormDataField
+br.cvc.supports.RuleObject
+br.cvc.supports.TypeRangeValue
+gm.languages.ts.javaToTs.JS
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+js.array.Array
+src.commom.utils.object.Null

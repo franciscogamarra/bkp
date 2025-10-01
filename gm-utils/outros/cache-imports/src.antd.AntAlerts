@@ -1,0 +1,6 @@
+libs.antd.MessageConfig
+libs.antd.message
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.react.alert.Alert
+src.react.alert.IAlert

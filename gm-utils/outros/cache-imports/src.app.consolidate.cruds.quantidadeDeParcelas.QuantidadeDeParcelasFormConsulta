@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelas
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelasCampos
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelasCols
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelasConsulta
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelasEdit
+src.app.consolidate.cruds.quantidadeDeParcelas.QuantidadeDeParcelasPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

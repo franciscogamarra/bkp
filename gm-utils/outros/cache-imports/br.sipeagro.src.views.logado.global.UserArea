@@ -1,0 +1,17 @@
+br.Transpilar
+br.sipeagro.src.assets.user_png
+br.sipeagro.src.comps.OurTypography
+br.sipeagro.src.comps.SafeActions
+exec.ts.infra.FC
+exec.ts.infra.StateProp
+gm.languages.ts.javaToTs.ojs
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+gm.utils.lambda.P1
+html.img
+js.html.support.MouseEvent
+libs.materialUi.mui.Box
+libs.materialUi.mui.Popover
+react.support.ReactNode
+src.commom.utils.ourtypes.HElement

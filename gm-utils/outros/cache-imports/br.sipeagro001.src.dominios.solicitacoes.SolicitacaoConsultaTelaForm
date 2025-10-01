@@ -1,0 +1,7 @@
+br.Transpilar
+br.sipeagro001.src.crud.CrudTelaConsulta
+br.sipeagro001.src.dominios.solicitacoes.SolicitacaoEstrutura
+br.sipeagro001.src.support.estrutura.Estrutura
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

@@ -1,0 +1,6 @@
+br.sipeagro.src.dominios.solicitacaoAnalise.tela.Campo
+br.sipeagro.src.dominios.solicitacaoAnalise.tela.PaiJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+lombok.Getter
+src.commom.utils.array.Itens
+src.commom.utils.object.Null

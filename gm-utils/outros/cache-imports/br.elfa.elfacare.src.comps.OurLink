@@ -1,0 +1,10 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.SafeActions
+br.elfa.elfacare.srcx.comps.OurLinkX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.console
+libs.react_router_dom.Link
+react.support.ReactNode

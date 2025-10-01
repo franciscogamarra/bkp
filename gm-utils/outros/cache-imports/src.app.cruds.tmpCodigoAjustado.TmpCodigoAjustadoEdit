@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemSelect
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustado
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoCampos
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoPermissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

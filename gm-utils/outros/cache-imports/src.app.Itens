@@ -1,0 +1,7 @@
+react.support.ReactNode
+react.support.anotacoes.Component
+src.app.react.campos.support.itens.IdTexts
+src.app.react.campos.support.itens.VIdTexts
+src.app.sicop.cruds.associado.AssociadoFormConsulta
+src.app.sicop.cruds.pessoa.PessoaFormConsulta
+src.app.sicop.cruds.proponente.ProponenteFormConsulta

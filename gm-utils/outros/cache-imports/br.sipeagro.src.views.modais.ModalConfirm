@@ -1,0 +1,15 @@
+br.Transpilar
+br.sipeagro.src.comps.OurButton
+br.sipeagro.src.comps.nicks.Tx
+br.sipeagro.src.state.AppState
+br.sipeagro.src.views.modais.ModalConfirmParams
+br.sipeagro.src.views.modais.ModalItem
+exec.ts.infra.FX
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+gm.utils.lambda.P1
+html.div
+jakarta.validation.constraints.NotNull
+react.support.ReactNode
+src.commom.utils.string.StringEmpty

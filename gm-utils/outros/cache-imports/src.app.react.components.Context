@@ -1,0 +1,10 @@
+gm.utils.anotacoes.Ignorar
+gm.utils.lambda.F0
+gm.utils.reflection.Atributo
+gm.utils.reflection.Atributos
+lombok.Generated
+react.support.anotacoes.Component
+src.app.react.components.CDI
+src.app.react.components.ContextItem
+src.app.react.components.ContextPool
+src.app.react.components.SuperComponent

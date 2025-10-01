@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemSelect
+src.app.cruds.cielo04CodigoDoProduto.Cielo04CodigoDoProduto
+src.app.cruds.cielo04CodigoDoProduto.Cielo04CodigoDoProdutoCampos
+src.app.cruds.cielo04CodigoDoProduto.Cielo04CodigoDoProdutoPermissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

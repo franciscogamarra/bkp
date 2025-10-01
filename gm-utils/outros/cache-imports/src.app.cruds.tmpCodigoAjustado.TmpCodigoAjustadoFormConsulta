@@ -1,0 +1,14 @@
+gm.utils.lambda.FVoidT
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustado
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoCampos
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoCols
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoConsulta
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoEdit
+src.app.cruds.tmpCodigoAjustado.TmpCodigoAjustadoUtils
+src.commom.utils.integer.IntegerCompare
+src.fc.components.FcBotao
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela
+src.web.Td

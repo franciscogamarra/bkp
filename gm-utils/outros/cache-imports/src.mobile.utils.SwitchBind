@@ -1,0 +1,12 @@
+libs.react_native.Switch
+libs.react_native.SwitchColors
+libs.react_native.Text
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.campos.support.VBoolean
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.FlexDirection
+src.app.react.consts.enums.JustifyContent
+src.app.react.utils.Style
+src.mobile.components.Vw
+src.mobile.tema.Tema

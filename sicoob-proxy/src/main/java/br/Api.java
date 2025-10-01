@@ -1,0 +1,198 @@
+package br;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import br.utils.Cache;
+import br.utils.DevException;
+import br.utils.JsonUtils;
+import br.utils.Print;
+import br.utils.SSLUtil;
+import jakarta.servlet.http.HttpServletRequest;
+
+@RestController
+@RequestMapping("/**")
+public class Api {
+
+	private final RestTemplate restTemplate;
+
+	/**
+	 * Atenção: modificar a porta para 8080 no arquivo:
+	 * C:\dev\projects\cre-concessao-bndes-web\proxy.conf.json
+	 */
+	private final String DESTINO = "http://127.0.0.1:9080";
+
+	public Api() {
+		SSLUtil.disableSSL();
+		this.restTemplate = new RestTemplate();
+	}
+
+//    http://localhost:4200/cre-concessao-bndes-api-web/api/parametro/indicador-ativo/9102
+
+//    GET http://127.0.0.1:9080/cre-concessao-bndes-api-web/api/parametro/indicador-ativo/9102
+
+	@GetMapping("/cre-concessao-bndes-api-web/api/parametro/indicador-ativo/9102")
+	public boolean m() {
+		return true;
+	}
+	
+    @GetMapping("/cre-concessao-bndes-api-web/api/enquadramentos-clientes/00213678166808/instituicoes/1")
+    public ResponseEntity<String> getEnquadramento() {
+        return getJson("enquadramentos-clientes/00213678166808");
+    }
+
+    @GetMapping("/cre-concessao-bndes-api-web/api/linhas-bndes")
+    public ResponseEntity<String> getLinhaBndes() {
+        return getJson("linhas-bndes");
+    }
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/documento-anexo/recuperar-tipos-documento")
+    public ResponseEntity<String> getTiposDocumento() {
+        return getJson("tipos-documento");
+    }
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/produtos-bndes")
+    public ResponseEntity<String> getProdutosBndes() {
+    	return getJson("produtos-bndes");
+    }
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/programas-bndes/2424/percentual-valor-maximo")
+    public ResponseEntity<String> getPercentualValorMaximo2024() {
+    	return getJson("percentual-valor-maximo-2024");
+    }
+    
+//  http://localhost:4200/
+
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/programas-bndes")
+    public ResponseEntity<String> getProgramas(
+    		HttpServletRequest request,
+            @RequestParam("idProdutoBndes") int idProdutoBndes,
+            @RequestParam("idLinhaBndes") int idLinhaBndes) {
+
+        if (idProdutoBndes == 6) {
+        	
+        	if (idLinhaBndes == 301) {
+        		return getJson("programas6e301");
+        	}
+
+        	if (idLinhaBndes == 500) {
+        		return getJson("programas6e500");
+        	}
+        	
+        } else if (idProdutoBndes == 7) {
+
+            if (idLinhaBndes == 301) {
+            	return getJson("programas7e301");
+            }
+        	
+        }
+        
+        
+        return proxy(HttpMethod.GET, request, null);
+        
+    }
+
+    @GetMapping("/cre-concessao-bndes-api-web/api/plataforma-credito/linha-credito")
+    public ResponseEntity<String> getProgramas(
+    		HttpServletRequest request,
+            @RequestParam("idInstituicao") int idInstituicao,
+            @RequestParam("idProduto") int idProduto,
+            @RequestParam("idPrograma") int idPrograma,
+            @RequestParam("usuarioLogado") String usuarioLogado
+            ) {
+
+        if (idInstituicao == 1 && idProduto == 6) {
+        	
+        	if (idPrograma == 2424) {
+        		return ResponseEntity.ok().body("[]");
+        	}
+        	
+        	if (idPrograma == 2271) {
+        		return ResponseEntity.ok().body("[]");
+        	}
+        	
+        }
+        
+        return proxy(HttpMethod.GET, request, null);
+        
+    }
+    
+    private static final Map<String, ResponseEntity<String>> RESOURCES = new HashMap<>();
+    
+	private ResponseEntity<String> getJson(String resourceName) {
+		ResponseEntity<String> cache = RESOURCES.get(resourceName);
+		if (cache == null) {
+			try {
+				cache = ResponseEntity.ok().body(JsonUtils.loadResource(resourceName));
+				RESOURCES.put(resourceName, cache);
+			} catch (Exception e) {
+				throw DevException.build(e);
+			}
+		}
+		return cache;
+	}
+    
+	@RequestMapping(method = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE,
+			RequestMethod.PATCH, RequestMethod.OPTIONS })
+	public ResponseEntity<String> proxy(HttpMethod method, HttpServletRequest request, @RequestBody(required = false) Object body) {
+
+		String path = request.getRequestURI();
+		String query = request.getQueryString();
+		String url = path + (query != null ? "?" + query : "");
+		
+		boolean get = method == HttpMethod.GET;
+		
+		if (get) {
+			ResponseEntity<String> cache = Cache.get(url);
+			if (cache != null) {
+				return cache;
+			}
+		}
+		
+		String key = method + " " + url;
+		
+		Print.blocoVerde("> " + key);
+
+		try {
+			
+			HttpHeaders headers = new HttpHeaders();
+			Collections.list(request.getHeaderNames()).forEach(headerName -> {
+				if (!headerName.equalsIgnoreCase("host") && !headerName.equalsIgnoreCase("content-length")
+						&& !headerName.equalsIgnoreCase("connection")
+						&& !headerName.equalsIgnoreCase("transfer-encoding")) {
+					headers.add(headerName, request.getHeader(headerName));
+				}
+			});
+			
+			HttpEntity<Object> requestEntity = new HttpEntity<>(body, headers);
+			
+			ResponseEntity<String> res = restTemplate.exchange(DESTINO + url, method, requestEntity, String.class);
+			
+			int statusCode = res.getStatusCode().value();
+			
+			if (get && statusCode == 200) {
+				Cache.set(url, res);
+			}
+			
+			return res;
+			
+		} finally {
+			Print.blocoAmarelo("< " + key);
+		}
+		
+	}
+}

@@ -1,0 +1,138 @@
+{
+    "id": null,
+    "produto": 6,
+    "linhaBndes": 301,
+    "programa": null,
+    "linhaCredito": null,
+    "valorFinanciado": 180,
+    "percFinanciada": 18,
+    "valorRecursosProprios": 820,
+    "percRecursoProprio": 82,
+    "valorTotalInvestimento": 1000,
+    "percTotalInvestimento": 100,
+    "percTaxaJurosRisco": 1.4,
+    "percTaxaJurosBasica": 1.15,
+    "idCustoFinanceiro": 1026,
+    "numeroProposta": 25778187,
+    "dataPropostaBndes": "2025-06-04T06:51:27.466Z",
+    "dataHoraAtualizacao": null,
+    "idInstituicao": 1,
+    "idUnidadeInstituicao": 1,
+    "itensInvestimento": [
+        {
+            "id": null,
+            "propostaBNDES": null,
+            "qtdItemInvestimento": 1,
+            "valorUnitarioItem": 1000,
+            "valorTotalItem": 1000,
+            "valorUnitarioFinanciadoItem": 180,
+            "valorTotalFinanciadoItem": 180,
+            "numSeqItemInvestimento": 1,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "bolItemNaoFinanciavel": false,
+            "tipoInvestimento": {
+                "id": 8
+            }
+        }
+    ],
+    "habilitaEnvioBndes": true,
+    "bolContratacaoAprovadaBndes": false,
+    "condicao": null,
+    "situacao": null,
+    "fase": null,
+    "quantidadeAnexos": null,
+    "bolSisbr30": 1,
+    "bolInformacaoAdicional": 0,
+    "prazoLimiteSolicitacaoPL": {
+        "id": 2,
+        "prazoLimiteDia": 90,
+        "bolAtivo": true,
+        "className": "PrazoLimiteSolicitacaoPLDTO"
+    },
+    "tipoEvento": {
+        "id": 9,
+        "descricao": "Homologação de Contratação"
+    },
+    "idLinhaCredito": null,
+    "idProgramaBacen": null,
+    "idSubProgramaBacen": null,
+    "numReferenciaBacen": null,
+    "dataCadastroLinhaCredito": null,
+    "percSobretaxaBndes": null,
+    "percTaxaFixaBndes": 16.109134,
+    "percTaxaJuros": 0,
+    "dataEmissaoCartaFianca": "2025-06-01T03:00:00.000Z",
+    "bolOperacaoColetivo": null,
+    "prazoOperacaoMeses": 120,
+    "prazoCarenciaMeses": 12,
+    "periodicidadeEncAmortizacao": {
+        "codigo": 11,
+        "descricao": "ANUAL"
+    },
+    "periodicidadeEncCarencia": {
+        "codigo": 11,
+        "descricao": "ANUAL"
+    },
+    "bolEncargosExigiveisCarencia": true,
+    "prazoAmortizacaoMeses": 0,
+    "envioAnexos": null,
+    "envioAnexosBndesInvalido": false,
+    "rejeitadaPorDuplicacao": null,
+    "investimento": {
+        "id": null,
+        "dataSolicitacaoInstituicao": "2025-04-01T03:00:00.000Z",
+        "cnaeBusca": "A0111302",
+        "cnae": "A0111302",
+        "objetivoProjeto": {
+            "id": 13,
+            "descricaoObjetivoProjeto": "AQUISIÇÃO DE TRATORES E IMPLEMENTOS E RECUPERAÇÃO DE MÁQUINAS AGRÍCOLAS",
+            "className": "ObjetivoProjetoBndesDTO"
+        },
+        "quantidadeEmpregosAntes": null,
+        "quantidadeEmpregosApos": null,
+        "idPessoa": 5658025,
+        "idInstituicao": 1,
+        "codigoTipoLogradouroEndereco": 1,
+        "descricaoLogradouroEndereco": "13212",
+        "numeroEndereco": "12",
+        "descricaoComplementoEndereco": "123132",
+        "descricaoBairroEndereco": "Vila Planalto",
+        "municipio": {
+            "codigoMunicipio": 2900207,
+            "descricaoMunicipio": "ABARE",
+            "siglaUf": "BA",
+            "className": "MunicipioDTO"
+        },
+        "codMunicipioBusca": "2900207",
+        "codigoMunicipio": 2900207,
+        "numeroCEP": "70804110",
+        "siglaUF": "BA"
+    },
+    "enquadramentoCliente": {"id": 4},
+    "infoComplementarAgricola": {
+        "id": null,
+        "qtdAnimal": null,
+        "dataEstimadaPrimeiroCorte": null,
+        "dataTerminoColheita": null,
+        "areaASerPlantada": null,
+        "especieFlorestal": null,
+        "unidadeMedidaBusca": null,
+        "produtoPgpaf": null,
+        "siglaUf": null
+    },
+    "infoComplementarProjetoInvestimento": {
+        "id": null,
+        "bolImovelDePropriedadeBeneficiario": false,
+        "bolVigenciaContratoImovel": false,
+        "dataInicioProjetoInvestimento": "2025-06-02T06:46:52.000Z",
+        "dataFimProjetoInvestimento": "2025-07-01T03:00:00.000Z",
+        "descProjetoInvestimento": "teste",
+        "infoResultadosEsperados": []
+    },
+    "usuario": "fabioo0001_00",
+    "custoFinanceiro": {
+        "id": 1026
+    }
+}

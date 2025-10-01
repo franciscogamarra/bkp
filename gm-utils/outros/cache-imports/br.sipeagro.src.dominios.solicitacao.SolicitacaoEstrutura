@@ -1,0 +1,13 @@
+br.Transpilar
+br.sipeagro.src.comps.SelectModal
+br.sipeagro.src.crud.edicao.Registro
+br.sipeagro.src.dominios.solicitacao.SolicitacaoEstruturaDto
+br.sipeagro.src.enums.naturezaSolicitacao.NaturezaSolicitacao
+br.sipeagro.src.support.estrutura.Estrutura
+br.sipeagro.src.support.estrutura.campo.EstruturaCampo
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+jakarta.validation.constraints.NotNull
+react.support.ReactNode
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty

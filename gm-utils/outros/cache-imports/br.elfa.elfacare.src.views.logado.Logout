@@ -1,0 +1,8 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.OurStorage
+br.elfa.elfacare.src.state.AppState
+exec.ts.infra.FX
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+libs.react_router_dom.NavigateFunction
+libs.react_router_dom.useNavigate

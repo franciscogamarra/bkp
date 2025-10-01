@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.empresaAdquirente.EmpresaAdquirenteCampos
+src.app.consolidate.cruds.empresaAdquirente.EmpresaAdquirenteEdit
+src.app.consolidate.cruds.empresaAdquirente.EmpresaAdquirentePermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

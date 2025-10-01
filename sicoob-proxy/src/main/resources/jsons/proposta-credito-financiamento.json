@@ -1,0 +1,194 @@
+{
+    "id": null,
+    "numeroProposta": null,
+    "idInstituicao": 1,
+    "idUnidadeInstituicao": 2,
+    
+    "valorFinanciado": 4675.69,
+    "valorRecursosProprios": 1242.91,
+    "percRecursoProprio": 21.00,
+    "percFinanciada": 79.00,
+    "percTaxaJurosRisco": 3.5000,
+    "percTaxaFixaBndes": 12.119788,
+    "percTaxaJuros": 0.000000,
+    "percTaxaJurosBasica": 0.950000,
+    
+    "dataPropostaBndes": "2022-11-26T16:10:23.359+0000",
+    "dataHoraAtualizacao": "2024-10-02T14:44:38.706+0000",
+    
+    "habilitaEnvioBndes": false,
+    "bolSisbr30": true,
+    "bolInformacaoAdicional": true,
+    "bolContratacaoAprovadaBndes": true,
+    "dataEmissaoCartaFianca": "2022-11-06",
+    "valorTotalOrcamento": 5918.60,
+    "numContratoBndes": "44920054716",
+    "bolOperacaoColetivo": false,
+    "bolEncargosExigiveisCarencia": false,
+    "rejeitadaPorDuplicacao": false,
+    "bolPermiteAditamento": true,
+    "bolLiberacaoParcelada": true,
+    "bolPermiteCancelamento": true,
+        
+    "enquadramentoCliente": {"id": 38},
+    "investimento": {
+        "id": 4381,
+        "dataSolicitacaoInstituicao": "2022-10-10",
+        "cnae": "A0111302",
+        "objetivoProjeto": {
+            "id": 7,
+            "descricaoObjetivoProjeto": "MÁQUINAS E EQUIPAMENTOS  NOVOS",
+            "className": "ObjetivoProjetoBndesDTO"
+        },
+        "codigoTipoLogradouroEndereco": 32,
+        "descricaoLogradouroEndereco": "teste",
+        "numeroEndereco": "213412",
+        "descricaoComplementoEndereco": "teste",
+        "descricaoBairroEndereco": "teste",
+        "codigoMunicipio": 5300108,
+        "numeroCEP": "34234563",
+        "siglaUF": "DF",
+        "className": "InvestimentoBndesDTO"
+    },
+    "programa": {"id" : 2473},
+    "condicao": null,
+    "situacao": null,
+    "fase": null,
+    "itensInvestimento": [
+        {
+            "id": 785,
+            "propostaBNDES": {
+                "id": 7959,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 1,
+                "descricao": "Equipamentos Finamizáveis (cadastrados no CFI)",
+                "bolQtdTipoInvestimento": true,
+                "bolEquipamento": true,
+                "bolEquipamentoCredenciado": true,
+                "bolPermiteSomenteUmItem": false,
+                "programaTipoInvestimentos": [
+                    {
+                        "bolTipoExclusivo": false,
+                        "bolDescItemObrigatorio": false,
+                        "bolHabilitaEventoProducao": false
+                    }
+                ],
+                "className": "TipoInvestimentoDTO"
+            },
+            "qtdItemInvestimento": 2,
+            "valorUnitarioItem": 1234.00,
+            "valorTotalItem": 2468.00,
+            "valorUnitarioFinanciadoItem": 974.86,
+            "valorTotalFinanciadoItem": 1949.72,
+            "numSeqItemInvestimento": 1,
+            "numCpfCnpjFabricante": "9240627000194",
+            "codProdutoBNDES": 3507304,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "descricaoEquipamento": "SISTEMA GERADOR FOTOVOLTAICO – 750W ATÉ 75KW / TIPO A                           ",
+            "descricaoFabricante": "SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA     ",
+            "className": "ItemInvestimentoDTO"
+        },
+        {
+            "id": 786,
+            "propostaBNDES": {
+                "id": 7959,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 1,
+                "descricao": "Equipamentos Finamizáveis (cadastrados no CFI)",
+                "bolQtdTipoInvestimento": true,
+                "bolEquipamento": true,
+                "bolEquipamentoCredenciado": true,
+                "bolPermiteSomenteUmItem": false,
+                "programaTipoInvestimentos": [
+                    {
+                        "bolTipoExclusivo": false,
+                        "bolDescItemObrigatorio": false,
+                        "bolHabilitaEventoProducao": false
+                    }
+                ],
+                "className": "TipoInvestimentoDTO"
+            },
+            "qtdItemInvestimento": 2,
+            "valorUnitarioItem": 975.30,
+            "valorTotalItem": 1950.60,
+            "valorUnitarioFinanciadoItem": 770.48,
+            "valorTotalFinanciadoItem": 1540.96,
+            "numSeqItemInvestimento": 2,
+            "numCpfCnpjFabricante": "1855226000137",
+            "codProdutoBNDES": 3795970,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "descricaoEquipamento": "SISTEMA GERADOR FOTOVOLTAICO – 75KW ATÉ 375KW / TIPO A                          ",
+            "descricaoFabricante": "SOLFACIL DISTRIBUIDORA INDUSTRIAL LTDA                 ",
+            "className": "ItemInvestimentoDTO"
+        },
+        {
+            "id": 787,
+            "propostaBNDES": {
+                "id": 7959,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 8,
+                "descricao": "Serviço associado",
+                "bolQtdTipoInvestimento": false,
+                "bolEquipamento": false,
+                "bolEquipamentoCredenciado": false,
+                "bolPermiteSomenteUmItem": false,
+                "programaTipoInvestimentos": [
+                    {
+                        "bolTipoExclusivo": false,
+                        "bolDescItemObrigatorio": false,
+                        "bolHabilitaEventoProducao": false
+                    }
+                ],
+                "className": "TipoInvestimentoDTO"
+            },
+            "qtdItemInvestimento": 1,
+            "valorUnitarioItem": 1500.00,
+            "valorTotalItem": 1500.00,
+            "valorUnitarioFinanciadoItem": 1185.01,
+            "valorTotalFinanciadoItem": 1185.01,
+            "numSeqItemInvestimento": 3,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "className": "ItemInvestimentoDTO"
+        }
+    ],
+    "prazoLimiteSolicitacaoPL": {
+        "id": 2,
+        "prazoLimiteDia": 90,
+        "bolAtivo": true,
+        "className": "PrazoLimiteSolicitacaoPLDTO"
+    },
+    "idOperacaoCredito": 1234,
+    "tipoEvento": {
+        "id": 9,
+        "descricao": "Homologação de Contratação",
+        "className": "TipoEventoDTO"
+    },
+    "custoFinanceiro": {
+        "id": 1026,
+        "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+        "descComplementar": "Taxa Fixa do BNDES - TFB",
+        "className": "CustoFinanceiroDTO"
+    },
+    "className": "PropostaCreditoBndesDTO"
+}

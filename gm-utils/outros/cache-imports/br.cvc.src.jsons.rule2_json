@@ -1,0 +1,6 @@
+br.cvc.Transpilar
+br.cvc.supports.PromotionsRule
+gm.utils.map.MapSO
+gm.utils.map.MapSoFromJson
+gm.utils.string.ListString
+js.annotations.NaoConverter

@@ -1,0 +1,5 @@
+js.annotations.Support
+src.commom.utils.array.ArrayLst
+src.notec.apis.tos.ProdutoUnicoTo
+src.notec.apis.tos.ResultadoSimulacaoNpeEntidadeTo
+src.notec.apis.tos.ResultadoSimulacaoNpeMensagemTo

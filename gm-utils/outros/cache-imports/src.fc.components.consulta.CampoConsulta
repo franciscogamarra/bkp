@@ -1,0 +1,13 @@
+react.support.ReactNode
+src.app.cruds.consultaOperador.ConsultaOperadorConstantes
+src.app.react.campos.support.VBoolean
+src.app.react.campos.support.VList
+src.app.react.campos.support.VString
+src.app.react.campos.support.Wrapper
+src.app.react.utils.Console
+src.commom.utils.array.ArrayLst
+src.commom.utils.classe.ClassSimpleName
+src.commom.utils.idText.IdText
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty
+src.fc.components.consulta.CampoConsultaRenders

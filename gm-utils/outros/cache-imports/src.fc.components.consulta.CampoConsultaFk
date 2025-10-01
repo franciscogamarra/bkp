@@ -1,0 +1,16 @@
+gm.utils.lambda.FT
+js.Js
+js.UNative
+js.array.Array
+react.support.ReactNode
+src.app.cruds.consultaOperador.ConsultaOperadorConstantes
+src.app.react.campos.support.VArray
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.integer.IntegerCompare
+src.commom.utils.object.Null
+src.fc.components.ResultadoConsulta
+src.fc.components.SearchServiceParams
+src.fc.components.consulta.CampoConsulta
+src.fc.services.FcAxios

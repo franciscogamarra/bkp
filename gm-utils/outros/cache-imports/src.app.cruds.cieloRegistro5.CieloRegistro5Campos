@@ -1,0 +1,16 @@
+js.UNative
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.cruds.cieloRegistro5.CieloRegistro5
+src.app.cruds.cieloRegistro5.CieloRegistro5Consulta
+src.app.cruds.cieloRegistro5.CieloRegistro5Utils
+src.app.react.campos.support.VFk
+src.app.react.campos.support.VInteger
+src.app.react.campos.support.VNumeric
+src.app.react.campos.support.VString
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.fc.components.EntityCampos
+src.fc.components.campoAlterado.CampoAlterado

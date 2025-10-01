@@ -1,0 +1,17 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.outros.myTheme.ThemeColors
+br.elfa.elfacare.outros.myTheme.tokens
+exec.ts.infra.FC
+exec.ts.infra.StateString
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P1
+libs.materialUi.mui.Box
+libs.materialUi.mui.FormControl
+libs.materialUi.mui.InputLabel
+libs.materialUi.mui.MenuItem
+libs.materialUi.mui.Select
+libs.materialUi.mui.SelectChangeEvent
+libs.materialUi.styles.Theme
+libs.materialUi.styles.useTheme
+react.support.ReactNode

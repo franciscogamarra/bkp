@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.cruds.vendaRegra.VendaRegra
+src.app.cruds.vendaRegra.VendaRegraCampos
+src.app.cruds.vendaRegra.VendaRegraCols
+src.app.cruds.vendaRegra.VendaRegraConsulta
+src.app.cruds.vendaRegra.VendaRegraEdit
+src.fc.components.consulta.FormConsulta
+src.fc.components.tabela.Tabela

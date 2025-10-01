@@ -1,0 +1,10 @@
+libs.materialUi.core.Snackbar
+libs.materialUi.core.SnackbarAnchorOrigin
+libs.materialUi.core.SnackbarContent
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.campos.support.VString
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Style
+src.web.Span

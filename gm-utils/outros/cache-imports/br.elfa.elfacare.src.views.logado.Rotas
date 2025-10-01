@@ -1,0 +1,12 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.Pagina404
+br.elfa.elfacare.src.views.logado.assistenciaFarmaceutica.AssistenciaFarmaceutica
+br.elfa.elfacare.src.views.logado.global.MenuEsquerda
+br.elfa.elfacare.src.views.logado.pedidos.DetalhePedido
+br.elfa.elfacare.src.views.logado.pedidos.NovoPedido
+br.elfa.elfacare.src.views.logado.pedidos.consulta.ConsultaPedidos
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.react_router_dom.Route
+libs.react_router_dom.Routes
+react.support.ReactNode

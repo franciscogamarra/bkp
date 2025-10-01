@@ -1,0 +1,13 @@
+br.cvc.Transpilar
+br.cvc.libs.mui.core.Typography
+br.cvc.src.components.Form.ResumeTab.ResumeTab
+br.cvc.srcx.components.Form.ResumeTab.ErroX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.annotacoes.ImportCss
+gm.languages.ts.javaToTs.style.Sto
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+react.support.ReactNode

@@ -1,0 +1,15 @@
+libs.react.ModalNative
+libs.react_native.ScrollView
+libs.react_native_elements.Icon
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.components.Touchable
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.consts.enums.Position
+src.app.react.utils.Border
+src.app.react.utils.Style
+src.commom.utils.object.Null
+src.mobile.components.Vw
+src.react.utils.Modais
+src.react.xcomponents.XDiv

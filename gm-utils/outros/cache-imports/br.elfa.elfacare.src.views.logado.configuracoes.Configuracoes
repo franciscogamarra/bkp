@@ -1,0 +1,10 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.comps.OurCardRow
+br.elfa.elfacare.src.comps.OurTypography
+br.elfa.elfacare.src.views.logado.global.ChangeThemeIcon
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.mui.Box
+react.support.ReactNode

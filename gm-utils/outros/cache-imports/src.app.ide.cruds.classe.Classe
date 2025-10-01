@@ -1,0 +1,9 @@
+js.annotations.NoAuto
+src.app.fc.components.EntityFront
+src.app.ide.cruds.atributo.Atributo
+src.app.ide.cruds.classeExtends.ClasseExtends
+src.app.ide.cruds.injecao.Injecao
+src.app.ide.cruds.metodo.Metodo
+src.commom.utils.array.ArrayLst
+src.commom.utils.idText.IdText
+src.commom.utils.object.UJson

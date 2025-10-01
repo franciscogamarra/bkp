@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.libs.pdfmake.build.PdfMake
+br.elfa.elfacare.libs.pdfmake.build.VfsFonts
+br.elfa.elfacare.libs.pdfmake.interfaces.TDocumentDefinitions
+br.elfa.elfacare.src.utils.pdf.PdfItem
+br.elfa.elfacare.src.utils.pdf.PdfStyles
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Js
+js.array.Array

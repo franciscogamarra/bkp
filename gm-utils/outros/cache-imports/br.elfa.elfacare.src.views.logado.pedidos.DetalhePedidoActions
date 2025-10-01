@@ -1,0 +1,14 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.api
+br.elfa.elfacare.src.back.auth.Auth
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.DrugDetalheJson
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.OrderItemDetalheJson
+br.elfa.elfacare.src.views.logado.pedidos.detalhes.PedidoDetalheJson
+br.elfa.elfacare.src.views.logado.status.StatusChangeJson
+br.elfa.elfacare.src.views.logado.status.mock.StatusDao
+br.elfa.elfacare.src.views.logado.status.mock.StatusJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise
+libs.axios.AxiosResponse
+src.commom.utils.array.Itens
+src.commom.utils.tempo.Data

@@ -1,0 +1,6 @@
+java.util.Date
+js.annotations.Support
+src.notec.apis.tos.MotivoTO
+src.notec.apis.tos.ProdutoAplicacaoTo
+src.notec.apis.tos.TipoOperacaoTO
+src.notec.apis.tos.TipoTransacaoDepositoTO

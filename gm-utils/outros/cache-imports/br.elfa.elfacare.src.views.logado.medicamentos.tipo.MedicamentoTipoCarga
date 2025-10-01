@@ -1,0 +1,4 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoDao
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

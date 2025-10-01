@@ -1,0 +1,8 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.TipoInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.mocks.Programas
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.tests.mocks.TiposInvestimento
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.ProgramaTipoInvestimento
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+js.support.console

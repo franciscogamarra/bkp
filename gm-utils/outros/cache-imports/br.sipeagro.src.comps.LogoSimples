@@ -1,0 +1,12 @@
+br.Transpilar
+br.sipeagro.src.assets.logosimples_svg
+br.sipeagro.src.assets.logosimplesred_svg
+br.sipeagro.srcx.comps.LogoX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.img
+jakarta.validation.constraints.NotNull
+react.support.ReactNode
+src.commom.utils.object.Null

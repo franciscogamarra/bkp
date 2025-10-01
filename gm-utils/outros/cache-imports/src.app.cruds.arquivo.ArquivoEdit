@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.Auto
+react.support.anotacoes.NoProps
+src.app.auto.arquivo.ArquivoEditAbstract
+src.app.cruds.arquivo.ArquivoDragger
+src.commom.utils.array.ArrayLst

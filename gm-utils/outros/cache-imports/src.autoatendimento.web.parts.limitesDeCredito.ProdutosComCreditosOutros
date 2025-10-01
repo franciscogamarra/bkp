@@ -1,0 +1,6 @@
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.react.campos.support.VBoolean
+src.autoatendimento.web.parts.limitesDeCredito.ProdutosComCreditosOutrosParam
+src.autoatendimento.web.services.support.Axios
+src.web.padrao.api.CacheClear

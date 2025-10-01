@@ -1,0 +1,10 @@
+libs.antd.Card
+libs.antd.icons.CaretDownOutlined
+libs.antd.icons.CaretUpOutlined
+react.project.infra.StyleResult
+react.support.ReactNode
+react.support.anotacoes.Auto
+react.support.anotacoes.State
+src.app.react.components.SuperComponent
+src.app.react.utils.Style
+src.react.Frag

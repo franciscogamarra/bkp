@@ -1,0 +1,4 @@
+br.sicoob.src.app.shared.utils.Itens
+lombok.Getter
+lombok.Setter
+src.commom.utils.integer.IntegerCompare

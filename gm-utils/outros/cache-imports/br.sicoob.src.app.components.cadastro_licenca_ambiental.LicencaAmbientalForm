@@ -1,0 +1,8 @@
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.LicencaAmbiental
+br.sicoob.src.app.funcionalidades.licenca_ambiental.models.TipoLicencaAmbiental
+br.sicoob.src.app.shared.forms.Form
+br.sicoob.src.app.shared.forms.InputDate
+br.sicoob.src.app.shared.forms.InputInt
+br.sicoob.src.app.shared.forms.InputString
+br.sicoob.src.app.shared.forms.InputUF
+gm.languages.ts.javaToTs.JS

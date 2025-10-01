@@ -1,0 +1,442 @@
+{
+	"id" : 9044,
+	"numeroProposta" : 25778223,
+	"valorFinanciado" : 4675.69,
+	"valorRecursosProprios" : 1242.91,
+	"percRecursoProprio" : 21.0,
+	"percFinanciada" : 79.0,
+	"dataPropostaBndes" : "2025-06-06T00:56:17.518+0000",
+	"dataHoraAtualizacao" : "2025-06-06T03:56:21.335+0000",
+	"idInstituicao" : 1,
+	"idUnidadeInstituicao" : 2,
+	"habilitaEnvioBndes" : true,
+	"bolSisbr30" : true,
+	"bolInformacaoAdicional" : true,
+	"enquadramentoCliente" : {
+		"id" : 38,
+		"valorReceitaOperacionalBruta" : 123456.97,
+		"dataReferenciaReceitaOperacionalBruta" : "2024-12-31T02:00:00.000+0000",
+		"empresarioIdividual" : false,
+		"dataAtualizacao" : "2025-05-14T19:34:14.323+0000",
+		"idUsuario" : "brunod3219_00",
+		"porteEmpresa" : {
+			"codigoPorteEmpresa" : 3,
+			"descricaoPorteEmpresa" : "Microempresa",
+			"valorMinimoFaturamento" : 0.01,
+			"valorMaximoFaturamento" : 360000.0,
+			"className" : "PorteEmpresaDTO"
+		},
+		"indicadorReceitaOperacionalBruta" : {
+			"codigoIndicadorReceitaOperacionalBruta" : 1,
+			"descricaoIndicadorReceiraOperacionalBruta" : "Efetiva",
+			"className" : "IndicadorReceitaOperacionalBrutaDTO"
+		},
+		"idPessoa" : 1030,
+		"pessoaCapes" : {
+			"idPessoa" : 1030,
+			"numCpfCnpj" : "25150839949",
+			"nomeCompleto" : "JOÃO AUTO SILVA AGROPECUARIA LTDA",
+			"idInstituicao" : 1,
+			"className" : "PessoaCapesDTO"
+		},
+		"controleFundoAtivoPrivado" : false,
+		"className" : "EnquadramentoClienteDTO"
+	},
+	"investimento" : {
+		"id" : 5404,
+		"dataSolicitacaoInstituicao" : "2024-10-19",
+		"cnae" : "A0111302",
+		"objetivoProjeto" : {
+			"id" : 7,
+			"descricaoObjetivoProjeto" : "MÁQUINAS E EQUIPAMENTOS  NOVOS",
+			"className" : "ObjetivoProjetoBndesDTO"
+		},
+		"codigoTipoLogradouroEndereco" : 32,
+		"descricaoLogradouroEndereco" : "teste",
+		"numeroEndereco" : "213412",
+		"descricaoComplementoEndereco" : "teste",
+		"descricaoBairroEndereco" : "teste",
+		"codigoMunicipio" : 5300108,
+		"numeroCEP" : "34234563",
+		"siglaUF" : "DF",
+		"className" : "InvestimentoBndesDTO"
+	},
+	"programa" : {
+		"id" : 2473,
+		"descricao" : "FINAME - BK AQUISIÇÃO E COMERCIALIZAÇÃO",
+		"produtoBndes" : 7,
+		"linhaBndes" : 301,
+		"taxaJurosBasica" : 0.95,
+		"taxaJurosRisco" : 3.5,
+		"sigla" : "DC3,5 - BK AQUISICAO E COMERCIALIZACAO - BAIXO CARBONO (TFB)",
+		"siglaPrograma" : "BK AQUISICAO E COMERCIALIZACAO BAIXO CARBONO",
+		"programaTipoInvestimentos" : [ {
+			"bolTipoExclusivo" : false,
+			"bolDescItemObrigatorio" : false,
+			"bolHabilitaEventoProducao" : false
+		}, {
+			"bolTipoExclusivo" : false,
+			"bolDescItemObrigatorio" : false,
+			"bolHabilitaEventoProducao" : false
+		} ],
+		"bolExigeItemInvestimento" : true,
+		"bolEnviaQtdEmpregado" : false,
+		"bolHabilitaCadastroPl" : true,
+		"prazosLimitesSolicitacaoPL" : [ {
+			"id" : 2,
+			"prazoLimiteDia" : 90,
+			"bolAtivo" : true,
+			"className" : "PrazoLimiteSolicitacaoPLDTO"
+		} ],
+		"prazosTotaisOperacao" : [ {
+			"id" : 1,
+			"sigla" : "TFB_36",
+			"descricao" : "Até 36 meses",
+			"prazoTotalMes" : 36,
+			"bolAtivo" : true,
+			"custoFinanceiro" : {
+				"id" : 1026,
+				"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+				"descComplementarCusto" : "Taxa Fixa do BNDES - TFB",
+				"bolCustoAtivo" : true
+			}
+		}, {
+			"id" : 4,
+			"sigla" : "TFB_120",
+			"descricao" : "Acima de 84 a 120 meses",
+			"prazoTotalMes" : 120,
+			"bolAtivo" : true,
+			"custoFinanceiro" : {
+				"id" : 1026,
+				"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+				"descComplementarCusto" : "Taxa Fixa do BNDES - TFB",
+				"bolCustoAtivo" : true
+			}
+		}, {
+			"id" : 3,
+			"sigla" : "TFB_84",
+			"descricao" : "Acima de 60 até 84 meses",
+			"prazoTotalMes" : 84,
+			"bolAtivo" : true,
+			"custoFinanceiro" : {
+				"id" : 1026,
+				"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+				"descComplementarCusto" : "Taxa Fixa do BNDES - TFB",
+				"bolCustoAtivo" : true
+			}
+		}, {
+			"id" : 2,
+			"sigla" : "TFB_60",
+			"descricao" : "Acima de 36 até 60 meses",
+			"prazoTotalMes" : 60,
+			"bolAtivo" : true,
+			"custoFinanceiro" : {
+				"id" : 1026,
+				"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+				"descComplementarCusto" : "Taxa Fixa do BNDES - TFB",
+				"bolCustoAtivo" : true
+			}
+		} ],
+		"tipoEventos" : [ {
+			"id" : 9,
+			"descricao" : "Homologação de Contratação"
+		} ],
+		"taxaJurosRiscoMax" : 3.5,
+		"taxaJurosRiscoMin" : 3.5,
+		"taxaJurosRiscoPadrao" : 3.5,
+		"bolHabilitaEnvioPlataformaCredito" : true,
+		"bolLicencaDispensaAmb" : true,
+		"bolLicencaAmbItemDiverso" : false,
+		"bolLicencaAmbExcecao" : false,
+		"custoFinanceiro" : {
+			"id" : 1026,
+			"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+			"descComplementar" : "Taxa Fixa do BNDES - TFB",
+			"className" : "CustoFinanceiroDTO"
+		},
+		"condicaoOperacional" : {
+			"id" : 176,
+			"descricao" : "PO2020/01",
+			"codigo" : 393,
+			"className" : "CondicaoOperacionalDTO"
+		},
+		"bolExigeDataEmissaoCartaFianca" : true,
+		"bolFinalidadeLiberacao" : false,
+		"bolFinalidadeLiberacaoExcecao" : true,
+		"tiposEnquadramentoOperacao" : [ ],
+		"bolExigePrazoFinanciamento" : false,
+		"bolHabilitaEnvioBndes" : true,
+		"bolExcecaoCalculoJuros" : false,
+		"taxaJurosBasicaMax" : 0.95,
+		"taxaJurosBasicaMin" : 0.95,
+		"idProdutoBndesOnline" : 22500,
+		"valorMaximoMutuario" : 2.0E7,
+		"percMaximoFinanciamento" : 100.0,
+		"idModalidadeProduto" : 390,
+		"idOrigemRecursoOpCred" : 5,
+		"bolAlteraPrazoCarencia" : true,
+		"bolAlteraPrazoTotal" : true,
+		"bolSisbr30" : true,
+		"bolIsentoIof" : false,
+		"bolAliquotaZeroIof" : true,
+		"bolAliquotaAdicionalIof" : false,
+		"bolAliquotaNormalIof" : false,
+		"bolAnoBissexto" : true,
+		"bolPrazoAmortizacaoNaoMultiplo" : false,
+		"prazoOperacao" : 120,
+		"prazoCarencia" : 12,
+		"bolCprBndes" : false,
+		"bolEnvioSicorSemMatriculaEmpreendCapes" : false,
+		"bolProjetoColetivo" : false,
+		"bolEncargosExigivel" : true,
+		"bolExecEncExigivel" : false,
+		"programaCustosFinanceiro" : [ {
+			"id" : 275,
+			"custoFinanceiro" : {
+				"id" : 1026,
+				"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+				"descComplementar" : "Taxa Fixa do BNDES - TFB",
+				"className" : "CustoFinanceiroDTO"
+			},
+			"className" : "ProgramaBndesCustoFinanceiroDTO"
+		} ],
+		"programaPeriodicidades" : [ {
+			"id" : 1250,
+			"periodicidadeAmortizacao" : {
+				"codigo" : 15,
+				"descricao" : "Mensal",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"periodicidadeCarencia" : {
+				"codigo" : 11,
+				"descricao" : "Anual",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"className" : "ProgramaBndesTipoPeriodicidadeDTO"
+		}, {
+			"id" : 1251,
+			"periodicidadeAmortizacao" : {
+				"codigo" : 11,
+				"descricao" : "Anual",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"periodicidadeCarencia" : {
+				"codigo" : 11,
+				"descricao" : "Anual",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"className" : "ProgramaBndesTipoPeriodicidadeDTO"
+		}, {
+			"id" : 1247,
+			"periodicidadeAmortizacao" : {
+				"codigo" : 12,
+				"descricao" : "Semestral",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"periodicidadeCarencia" : {
+				"codigo" : 12,
+				"descricao" : "Semestral",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"className" : "ProgramaBndesTipoPeriodicidadeDTO"
+		}, {
+			"id" : 1248,
+			"periodicidadeAmortizacao" : {
+				"codigo" : 15,
+				"descricao" : "Mensal",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"periodicidadeCarencia" : {
+				"codigo" : 12,
+				"descricao" : "Semestral",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"className" : "ProgramaBndesTipoPeriodicidadeDTO"
+		}, {
+			"id" : 1249,
+			"periodicidadeAmortizacao" : {
+				"codigo" : 15,
+				"descricao" : "Mensal",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"periodicidadeCarencia" : {
+				"codigo" : 13,
+				"descricao" : "Trimestral",
+				"className" : "TipoPeriodicidadeDTO"
+			},
+			"className" : "ProgramaBndesTipoPeriodicidadeDTO"
+		} ],
+		"className" : "ProgramaBndesDTO"
+	},
+	"condicao" : {
+		"codigo" : 1,
+		"descricao" : "FINANCIAMENTO",
+		"className" : "ArquivoPropostaCondicaoDTO"
+	},
+	"situacao" : {
+		"codigo" : 9,
+		"descricao" : "PRONTA_PARA_ENVIO",
+		"className" : "ArquivoPropostaSituacaoDTO"
+	},
+	"fase" : {
+		"codigo" : 1,
+		"descricao" : "FINANCIAMENTO",
+		"className" : "ArquivoPropostaFaseDTO"
+	},
+	"itensInvestimento" : [ {
+		"id" : 1490,
+		"propostaBNDES" : {
+			"id" : 9044,
+			"rejeitadaPorDuplicacao" : false,
+			"bolPermiteAditamento" : false,
+			"bolPermiteCancelamento" : false,
+			"className" : "PropostaCreditoBndesDTO"
+		},
+		"tipoInvestimento" : {
+			"id" : 1,
+			"descricao" : "Equipamentos Finamizáveis (cadastrados no CFI)",
+			"bolQtdTipoInvestimento" : true,
+			"bolEquipamento" : true,
+			"bolEquipamentoCredenciado" : true,
+			"bolPermiteSomenteUmItem" : false,
+			"programaTipoInvestimentos" : [ {
+				"bolTipoExclusivo" : false,
+				"bolDescItemObrigatorio" : false,
+				"bolHabilitaEventoProducao" : false
+			} ],
+			"className" : "TipoInvestimentoDTO"
+		},
+		"qtdItemInvestimento" : 2,
+		"valorUnitarioItem" : 1234.0,
+		"valorTotalItem" : 2468.0,
+		"valorUnitarioFinanciadoItem" : 974.86,
+		"valorTotalFinanciadoItem" : 1949.72,
+		"numSeqItemInvestimento" : 1,
+		"numCpfCnpjFabricante" : "9240627000194",
+		"codProdutoBNDES" : 3507304,
+		"bolItemEventoProducao" : false,
+		"bolItemUsado" : false,
+		"bolItemImportado" : false,
+		"descricaoEquipamento" : "SISTEMA GERADOR FOTOVOLTAICO – 750W ATÉ 75KW / TIPO A                           ",
+		"descricaoFabricante" : "SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA     ",
+		"className" : "ItemInvestimentoDTO"
+	}, {
+		"id" : 1491,
+		"propostaBNDES" : {
+			"id" : 9044,
+			"rejeitadaPorDuplicacao" : false,
+			"bolPermiteAditamento" : false,
+			"bolPermiteCancelamento" : false,
+			"className" : "PropostaCreditoBndesDTO"
+		},
+		"tipoInvestimento" : {
+			"id" : 1,
+			"descricao" : "Equipamentos Finamizáveis (cadastrados no CFI)",
+			"bolQtdTipoInvestimento" : true,
+			"bolEquipamento" : true,
+			"bolEquipamentoCredenciado" : true,
+			"bolPermiteSomenteUmItem" : false,
+			"programaTipoInvestimentos" : [ {
+				"bolTipoExclusivo" : false,
+				"bolDescItemObrigatorio" : false,
+				"bolHabilitaEventoProducao" : false
+			} ],
+			"className" : "TipoInvestimentoDTO"
+		},
+		"qtdItemInvestimento" : 2,
+		"valorUnitarioItem" : 975.3,
+		"valorTotalItem" : 1950.6,
+		"valorUnitarioFinanciadoItem" : 770.48,
+		"valorTotalFinanciadoItem" : 1540.96,
+		"numSeqItemInvestimento" : 2,
+		"numCpfCnpjFabricante" : "1855226000137",
+		"codProdutoBNDES" : 3795970,
+		"bolItemEventoProducao" : false,
+		"bolItemUsado" : false,
+		"bolItemImportado" : false,
+		"descricaoEquipamento" : "SISTEMA GERADOR FOTOVOLTAICO – 75KW ATÉ 375KW / TIPO A                          ",
+		"descricaoFabricante" : "SOLFACIL DISTRIBUIDORA INDUSTRIAL LTDA                 ",
+		"className" : "ItemInvestimentoDTO"
+	}, {
+		"id" : 1492,
+		"propostaBNDES" : {
+			"id" : 9044,
+			"rejeitadaPorDuplicacao" : false,
+			"bolPermiteAditamento" : false,
+			"bolPermiteCancelamento" : false,
+			"className" : "PropostaCreditoBndesDTO"
+		},
+		"tipoInvestimento" : {
+			"id" : 8,
+			"descricao" : "Serviço associado",
+			"bolQtdTipoInvestimento" : false,
+			"bolEquipamento" : false,
+			"bolEquipamentoCredenciado" : false,
+			"bolPermiteSomenteUmItem" : false,
+			"programaTipoInvestimentos" : [ {
+				"bolTipoExclusivo" : false,
+				"bolDescItemObrigatorio" : false,
+				"bolHabilitaEventoProducao" : false
+			} ],
+			"className" : "TipoInvestimentoDTO"
+		},
+		"qtdItemInvestimento" : 1,
+		"valorUnitarioItem" : 1500.0,
+		"valorTotalItem" : 1500.0,
+		"valorUnitarioFinanciadoItem" : 1185.01,
+		"valorTotalFinanciadoItem" : 1185.01,
+		"numSeqItemInvestimento" : 3,
+		"bolItemEventoProducao" : false,
+		"bolItemUsado" : false,
+		"bolItemImportado" : false,
+		"className" : "ItemInvestimentoDTO"
+	} ],
+	"pedidosLiberacao" : [ ],
+	"arquivosProposta" : [ {
+		"idArquivoProposta" : 19793,
+		"dataArquivo" : "2025-06-06T03:56:21.335+0000",
+		"fase" : "FINANCIAMENTO",
+		"status" : "PRONTA_PARA_ENVIO",
+		"condicao" : {
+			"codigo" : 1,
+			"descricao" : "FINANCIAMENTO",
+			"className" : "ArquivoPropostaCondicaoDTO"
+		},
+		"erros" : [ ],
+		"informacoesAdicionais" : [ ],
+		"className" : "ArquivoPropostaDTO"
+	} ],
+	"prazoLimiteSolicitacaoPL" : {
+		"id" : 2,
+		"prazoLimiteDia" : 90,
+		"bolAtivo" : true,
+		"className" : "PrazoLimiteSolicitacaoPLDTO"
+	},
+	"idOperacaoCredito" : 1234,
+	"tipoEvento" : {
+		"id" : 9,
+		"descricao" : "Homologação de Contratação",
+		"className" : "TipoEventoDTO"
+	},
+	"percTaxaJurosRisco" : 3.5,
+	"percTaxaFixaBndes" : 12.119788,
+	"percTaxaJuros" : 0.0,
+	"percTaxaJurosBasica" : 0.95,
+	"bolContratacaoAprovadaBndes" : true,
+	"dataEmissaoCartaFianca" : "2022-11-05",
+	"valorTotalOrcamento" : 5918.6,
+	"numContratoBndes" : "44920054716",
+	"bolOperacaoColetivo" : false,
+	"bolEncargosExigiveisCarencia" : false,
+	"rejeitadaPorDuplicacao" : false,
+	"bolPermiteAditamento" : true,
+	"bolLiberacaoParcelada" : true,
+	"bolPermiteCancelamento" : true,
+	"custoFinanceiro" : {
+		"id" : 1026,
+		"descCustoFinanceiro" : "Taxa Fixa BNDES - TFB",
+		"descComplementar" : "Taxa Fixa do BNDES - TFB",
+		"className" : "CustoFinanceiroDTO"
+	},
+	"className" : "PropostaCreditoBndesDTO"
+}

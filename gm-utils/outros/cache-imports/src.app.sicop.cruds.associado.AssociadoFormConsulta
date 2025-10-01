@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.app.sicop.cruds.associado.Associado
+src.app.sicop.cruds.associado.AssociadoCampos
+src.app.sicop.cruds.associado.AssociadoCols
+src.app.sicop.cruds.associado.AssociadoConsulta
+src.app.sicop.cruds.associado.AssociadoEdit
+src.app.sicop.cruds.associado.AssociadoPermissoes
+src.web.Td

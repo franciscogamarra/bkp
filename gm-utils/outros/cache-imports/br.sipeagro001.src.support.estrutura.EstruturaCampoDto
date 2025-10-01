@@ -1,0 +1,8 @@
+br.sipeagro001.src.comps.input.OurInputItem
+br.sipeagro001.src.support.estrutura.EstruturaCampoRegrasDaTelaDeConsultaDto
+br.sipeagro001.src.support.estrutura.EstruturaCampoRegrasDaTelaDeEdicaoDto
+gm.utils.anotacoes.Ignorar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.TypeJs
+js.array.Array
+js.outros.ObjJson

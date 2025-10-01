@@ -1,0 +1,5 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.ItemInvestimentoWrapper
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.Num
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.Error

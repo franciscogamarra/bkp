@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro001.src.dominios.solicitacoes.Solicitacao
+br.sipeagro001.src.views.logado.telaConsulta.CampoFiltroData
+br.sipeagro001.src.views.logado.telaConsulta.CampoFiltroFk
+br.sipeagro001.src.views.logado.telaConsulta.CampoFiltroNumber
+br.sipeagro001.src.views.logado.telaConsulta.CampoFiltroString
+br.sipeagro001.src.views.logado.telaConsulta.FiltroBase
+br.sipeagro001.src.views.logado.telaConsulta.TelaConsultaCol
+br.sipeagro001.src.views.logado.telaConsulta.TelaConsultaParamsDados
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

@@ -1,0 +1,17 @@
+br.Transpilar
+br.src.components.structure__components.shared.Theme
+br.src.components.structure__components.shared.ThemeJson
+br.src.components.structure__components.shared.buttons.SafeActions
+br.srcx.components.structure__components.shared.buttons.OurIconButtonX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+exec.ts.infra.PropInt
+exec.ts.infra.StateBoolean
+gm.languages.ts.javaToTs.style.Sto
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.div
+react.support.ReactNode

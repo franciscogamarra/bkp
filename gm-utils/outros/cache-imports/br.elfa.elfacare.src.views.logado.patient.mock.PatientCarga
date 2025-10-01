@@ -1,0 +1,7 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.clients.mock.ClientDao
+br.elfa.elfacare.src.views.logado.patient.mock.PatientDao
+br.elfa.elfacare.src.views.logado.patient.mock.PatientJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

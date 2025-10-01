@@ -1,0 +1,9 @@
+libs.antd.Modal
+react.support.ReactNode
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.AlignSelf
+src.autoatendimento.web.messages.Mensagens
+src.resources.Resources
+src.web.Div
+src.web.Img
+src.web.Span

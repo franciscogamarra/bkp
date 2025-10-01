@@ -1,0 +1,13 @@
+br.sipeagro001.src.back.mock.ObjetoJpa
+br.sipeagro001.src.views.logado.cid.mock.CidDao
+br.sipeagro001.src.views.logado.cid.mock.CidJpa
+br.sipeagro001.src.views.logado.clients.mock.ClientJpa
+br.sipeagro001.src.views.logado.patient.mock.PatientDao
+br.sipeagro001.src.views.logado.patient.mock.PatientJpa
+br.sipeagro001.src.views.logado.tratamentos.TreatmentSimpleJson
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.anotacoes.ManterDaquiPraBaixo
+js.Js
+src.commom.utils.comum.Randomico
+src.commom.utils.tempo.DataHora

@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes
+src.app.sicop.cruds.tipoDeEntidade.TipoDeEntidadeCampos
+src.app.sicop.cruds.tipoDeEntidade.TipoDeEntidadeEdit
+src.app.sicop.cruds.tipoDeEntidade.TipoDeEntidadePermissoes

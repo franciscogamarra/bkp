@@ -1,0 +1,5 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.Num
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.AdicionaItensInvestimentoComponent
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

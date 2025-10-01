@@ -1,0 +1,10 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.pedidos.CriarPedidoJson
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoJpa
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoJson
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoDao
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty
+src.commom.utils.tempo.DataHora

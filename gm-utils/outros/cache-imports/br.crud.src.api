@@ -1,0 +1,9 @@
+br.crud.Transpilar
+gm.languages.ts.javaToTs.JS
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise
+js.promise.Response
+libs.axios.AxiosConfig
+libs.axios.AxiosCreateParams
+libs.axios.AxiosInstance
+libs.axios.axios

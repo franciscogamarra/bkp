@@ -1,0 +1,11 @@
+libs.react.PDFReader
+libs.react.PDFReaderSource
+libs.support.MidiaObject
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.Color
+src.app.react.utils.Style
+src.commom.utils.object.Null
+src.mobile.components.Vw
+src.react.Frag

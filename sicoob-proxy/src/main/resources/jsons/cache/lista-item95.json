@@ -1,0 +1,25 @@
+[ {
+	"id" : 11,
+	"descricao" : "ANUAL",
+	"idLista" : 95
+}, {
+	"id" : 14,
+	"descricao" : "BIMESTRAL",
+	"idLista" : 95
+}, {
+	"id" : 16,
+	"descricao" : "INFORMADO",
+	"idLista" : 95
+}, {
+	"id" : 15,
+	"descricao" : "MENSAL",
+	"idLista" : 95
+}, {
+	"id" : 12,
+	"descricao" : "SEMESTRAL",
+	"idLista" : 95
+}, {
+	"id" : 13,
+	"descricao" : "TRIMESTRAL",
+	"idLista" : 95
+} ]

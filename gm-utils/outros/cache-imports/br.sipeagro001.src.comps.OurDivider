@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro001.outros.myTheme.ThemeColors
+br.sipeagro001.outros.myTheme.tokens
+br.sipeagro001.srcx.comps.OurDividerX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.PropBoolean
+exec.ts.infra.PropInt
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+libs.materialUi.core.Divider
+libs.materialUi.styles.Theme
+libs.materialUi.styles.useTheme
+react.support.ReactNode

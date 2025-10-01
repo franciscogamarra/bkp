@@ -1,0 +1,5 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.Dao
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoJpa
+br.elfa.elfacare.src.views.logado.medicamentos.tipo.MedicamentoTipoJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

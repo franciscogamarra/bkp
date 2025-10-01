@@ -1,0 +1,14 @@
+br.Transpilar
+br.gen.gtag
+br.libs.Button
+br.libs.ModalComponent
+br.src.mock.jsons.GTagJson
+exec.ts.infra.FC
+exec.ts.infra.StateBoolean
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.div
+html.h1
+js.support.console
+libs.react.Fragment
+react.support.ReactNode

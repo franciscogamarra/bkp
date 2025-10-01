@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.app.fc.cruds.systemConfig.SystemConfig
+src.app.fc.cruds.systemConfig.SystemConfigCampos
+src.app.fc.cruds.systemConfig.SystemConfigCols
+src.app.fc.cruds.systemConfig.SystemConfigConsulta
+src.app.fc.cruds.systemConfig.SystemConfigEdit
+src.app.fc.cruds.systemConfig.SystemConfigPermissoes
+src.web.Td

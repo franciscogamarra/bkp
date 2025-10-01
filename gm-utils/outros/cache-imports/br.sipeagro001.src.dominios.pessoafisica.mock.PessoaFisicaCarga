@@ -1,0 +1,6 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.dominios.pessoafisica.mock.PessoaFisicaDao
+br.sipeagro001.src.dominios.pessoafisica.mock.PessoaFisicaJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

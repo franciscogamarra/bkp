@@ -1,0 +1,9 @@
+libs.react_native.Text
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.mobile.inputs.Botao
+src.app.mobile.outros.Modais
+src.app.react.utils.Style
+src.mobile.components.Vw
+src.react.alert.Alert
+src.react.alert.IAlert

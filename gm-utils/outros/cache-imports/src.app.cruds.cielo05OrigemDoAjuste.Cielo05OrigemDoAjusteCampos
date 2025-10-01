@@ -1,0 +1,14 @@
+js.UNative
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjuste
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjusteConsulta
+src.app.cruds.cielo05OrigemDoAjuste.Cielo05OrigemDoAjusteUtils
+src.app.react.campos.support.VFk
+src.app.react.campos.support.VString
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.fc.components.EntityCampos
+src.fc.components.campoAlterado.CampoAlterado

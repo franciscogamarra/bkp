@@ -1,0 +1,9 @@
+js.UNative
+js.promise.Promise
+js.promise.Response
+src.app.react.utils.UBoolean
+src.commom.utils.date.BaseData
+src.commom.utils.object.Null
+src.notec.outros.Rotas
+src.react.padrao.Api
+src.react.xcomponents.AlertaTo

@@ -1,0 +1,14 @@
+js.annotations.NoAuto
+react.support.anotacoes.Component
+react.support.anotacoes.PostConstruct
+src.app.cruds.venda.Venda
+src.app.cruds.venda.VendaConsulta
+src.app.react.consts.enums.TextAlign
+src.app.react.utils.UBoolean
+src.app.react.utils.UDouble
+src.app.react.utils.UIdText
+src.app.react.utils.UMoney
+src.commom.utils.array.ArrayLst
+src.commom.utils.string.StringCompare
+src.fc.components.consulta.IGetCols
+src.fc.components.tabela.Coluna

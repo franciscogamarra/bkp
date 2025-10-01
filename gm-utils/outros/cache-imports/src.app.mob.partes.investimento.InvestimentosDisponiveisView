@@ -1,0 +1,14 @@
+libs.fontAwesome.FaIcons
+react.support.ReactNode
+react.support.anotacoes.Auto
+src.app.mob.components.botoes.Touchable
+src.app.mob.components.divs.TbColRow
+src.app.mob.components.divs.TbColTitle
+src.app.mob.partes.investimento.InvestimentoDisponivelTo
+src.app.mob.state.Tema
+src.app.react.campos.support.VArray
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.TextAlign
+src.react.Frag
+src.web.Div
+src.web.icons.FaIcon

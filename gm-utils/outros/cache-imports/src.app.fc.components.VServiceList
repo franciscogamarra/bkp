@@ -1,0 +1,10 @@
+gm.utils.lambda.FT
+gm.utils.lambda.FVoidT
+gm.utils.lambda.FVoidTT
+js.promise.Promise
+js.promise.Response
+src.app.fc.components.ObjetoComId
+src.app.react.campos.support.VVinculado
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringEmpty

@@ -1,0 +1,7 @@
+br.sipeagro.src.dominios.solicitacaoAnalise.tela.CampoJson
+br.sipeagro.src.dominios.solicitacaoAnalise.tela.Pai
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+lombok.Getter
+src.app.react.utils.UBoolean
+src.commom.utils.array.Itens
+src.commom.utils.object.Null

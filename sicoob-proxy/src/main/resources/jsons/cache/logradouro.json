@@ -1,0 +1,181 @@
+[ {
+	"codigoBndes" : 1,
+	"descricaoLogradouro" : "Aeroporto",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 2,
+	"descricaoLogradouro" : "Alameda",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 3,
+	"descricaoLogradouro" : "Área",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 4,
+	"descricaoLogradouro" : "Avenida",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 5,
+	"descricaoLogradouro" : "Campo",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 6,
+	"descricaoLogradouro" : "Chácara",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 7,
+	"descricaoLogradouro" : "Colônia",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 8,
+	"descricaoLogradouro" : "Condomínio",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 9,
+	"descricaoLogradouro" : "Conjunto",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 10,
+	"descricaoLogradouro" : "Distrito",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 11,
+	"descricaoLogradouro" : "Esplanada",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 12,
+	"descricaoLogradouro" : "Estação",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 13,
+	"descricaoLogradouro" : "Estrada",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 14,
+	"descricaoLogradouro" : "Favela",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 15,
+	"descricaoLogradouro" : "Fazenda",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 16,
+	"descricaoLogradouro" : "Feira",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 17,
+	"descricaoLogradouro" : "Jardim",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 18,
+	"descricaoLogradouro" : "Ladeira",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 19,
+	"descricaoLogradouro" : "Lago",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 20,
+	"descricaoLogradouro" : "Lagoa",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 21,
+	"descricaoLogradouro" : "Largo",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 22,
+	"descricaoLogradouro" : "Morro",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 23,
+	"descricaoLogradouro" : "Núcleo",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 24,
+	"descricaoLogradouro" : "Parque",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 25,
+	"descricaoLogradouro" : "Passarela",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 26,
+	"descricaoLogradouro" : "Pátio",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 27,
+	"descricaoLogradouro" : "Praça",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 28,
+	"descricaoLogradouro" : "Quadra",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 29,
+	"descricaoLogradouro" : "Recanto",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 30,
+	"descricaoLogradouro" : "Residencial",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 31,
+	"descricaoLogradouro" : "Rodovia",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 32,
+	"descricaoLogradouro" : "Rua",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 33,
+	"descricaoLogradouro" : "Setor",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 34,
+	"descricaoLogradouro" : "Sitio",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 35,
+	"descricaoLogradouro" : "Travessa",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 36,
+	"descricaoLogradouro" : "Trecho",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 37,
+	"descricaoLogradouro" : "Trevo",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 38,
+	"descricaoLogradouro" : "Vale",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 39,
+	"descricaoLogradouro" : "Vereda",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 40,
+	"descricaoLogradouro" : "Via",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 41,
+	"descricaoLogradouro" : "Viaduto",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 42,
+	"descricaoLogradouro" : "Viela",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 43,
+	"descricaoLogradouro" : "Vila",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 44,
+	"descricaoLogradouro" : "Outros",
+	"className" : "LogradouroDTO"
+}, {
+	"codigoBndes" : 44,
+	"descricaoLogradouro" : "Outro",
+	"className" : "LogradouroDTO"
+} ]

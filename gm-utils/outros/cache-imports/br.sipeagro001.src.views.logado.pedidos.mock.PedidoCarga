@@ -1,0 +1,14 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoDao
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoDao
+br.sipeagro001.src.views.logado.pedidos.mock.PedidoJpa
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemDao
+br.sipeagro001.src.views.logado.pedidosItens.mock.PedidoItemJpa
+br.sipeagro001.src.views.logado.status.mock.StatusDao
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoDao
+br.sipeagro001.src.views.logado.tratamentos.mock.TratamentoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.comum.Randomico
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

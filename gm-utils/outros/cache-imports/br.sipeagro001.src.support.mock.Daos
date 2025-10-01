@@ -1,0 +1,14 @@
+br.Transpilar
+br.sipeagro001.src.support.estrutura.ConsultaDadosDto
+br.sipeagro001.src.support.estrutura.ConsultaPaginadaFiltrosDto
+br.sipeagro001.src.support.estrutura.ConsultaPaginasDto
+br.sipeagro001.src.support.estrutura.Estrutura
+br.sipeagro001.src.support.mock.BancoDeDados
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.outros.ObjJson
+src.commom.utils.array.Itens
+src.commom.utils.integer.IntegerParse
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmptyPlus
+src.commom.utils.tempo.DataHora

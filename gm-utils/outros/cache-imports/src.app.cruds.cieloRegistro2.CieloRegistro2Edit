@@ -1,0 +1,16 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.RadioBoolean
+src.app.cruds.cieloRegistro2.CieloRegistro2
+src.app.cruds.cieloRegistro2.CieloRegistro2Campos
+src.app.cruds.cieloRegistro2.CieloRegistro2Permissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

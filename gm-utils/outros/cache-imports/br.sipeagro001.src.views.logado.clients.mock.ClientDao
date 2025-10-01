@@ -1,0 +1,13 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.back.auth.Auth
+br.sipeagro001.src.back.mock.Dao
+br.sipeagro001.src.views.logado.clients.mock.ClientJpa
+br.sipeagro001.src.views.logado.clients.mock.ClientJson
+br.sipeagro001.src.views.logado.telaConsulta.FiltroReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.object.Null
+src.commom.utils.string.StringAfterLast
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringSplit

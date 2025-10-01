@@ -1,0 +1,9 @@
+gm.utils.lambda.FVoidT
+src.app.fc.components.campoAlterado.BotaoDesfazerCampoAlterado
+src.app.fc.components.campoAlterado.CampoAlterado
+src.app.fc.components.consulta.ColsAbstract
+src.app.fc.components.tabela.Coluna
+src.app.fc.components.tabela.ColunaAba
+src.app.fc.components.tabela.ColunaGrupo
+src.app.react.consts.enums.TextAlign
+src.commom.utils.array.ArrayLst

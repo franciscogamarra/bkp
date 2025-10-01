@@ -1,0 +1,17 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.medicamentos.consulta.ConsultaMedicamentosApiMock
+br.elfa.elfacare.src.views.logado.pacientes.consulta.PacienteDao
+br.elfa.elfacare.src.views.logado.pedidos.cadastro.PedidoJpa
+br.elfa.elfacare.src.views.logado.pedidos.cadastro.PedidoRes
+br.elfa.elfacare.src.views.logado.pedidos.cadastro.PedidoSaveReq
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.array.Array
+src.commom.utils.array.Itens
+src.commom.utils.comum.Random
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringRemoveAcentos
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

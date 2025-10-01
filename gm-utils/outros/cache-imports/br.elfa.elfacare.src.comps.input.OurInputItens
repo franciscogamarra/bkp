@@ -1,0 +1,8 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.outros.reqObjs.OurInputItem
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.NaoConverter
+libs.materialUi.mui.Autocomplete
+react.support.ReactNode

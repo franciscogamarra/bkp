@@ -1,0 +1,9 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.cid.mock.CidDao
+br.elfa.elfacare.src.views.logado.patient.mock.PatientDao
+br.elfa.elfacare.src.views.logado.patient.mock.PatientJpa
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoDao
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens
+src.commom.utils.comum.Randomico

@@ -1,0 +1,16 @@
+br.cvc.Transpilar
+br.cvc.src.components.Form.ResumeTab.Campo
+br.cvc.src.components.Form.ResumeTab.ResumeTab
+br.cvc.src.components.Form.ResumeTab.Text
+br.cvc.srcx.components.Form.ResumeTab.ResumeObjectViewX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+html.table
+html.tbody
+html.td
+html.thead
+html.tr
+react.support.ReactNode

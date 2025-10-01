@@ -1,0 +1,11 @@
+br.Transpilar
+br.libs.Icon
+br.libs.Tooltip
+br.srcx.components.structure__components.shared.CommonTooltip.CommonTooltipX
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.lambda.P0
+html.span
+js.array.Array
+react.support.ReactNode

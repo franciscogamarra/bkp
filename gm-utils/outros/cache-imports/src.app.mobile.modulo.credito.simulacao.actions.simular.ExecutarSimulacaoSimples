@@ -1,0 +1,11 @@
+gm.utils.anotacoes.Descricao
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.UNative
+js.promise.Response
+js.support.console
+src.app.mobile.modulo.credito.simulacao.actions.simular.SafeRepeat
+src.app.mobile.modulo.credito.simulacao.values.CreditoDados
+src.commom.utils.string.StringEmpty
+src.notec.apis.tos.simulacao.SimulacaoTo
+src.react.alert.Alert
+support.TranspilarAlgumas

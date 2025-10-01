@@ -1,0 +1,6 @@
+br.Transpilar
+br.sipeagro.src.support.ApiManager
+br.sipeagro.src.support.ResponseDto
+br.sipeagro.src.support.auth.AuthReqJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise

@@ -1,0 +1,5 @@
+src.commom.utils.array.ArrayLst
+src.commom.utils.classe.ClassSimpleName
+src.commom.utils.idText.IdText
+src.fc.components.ResultadoConsulta
+src.fc.outros.ServiceMock

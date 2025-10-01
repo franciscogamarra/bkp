@@ -1,0 +1,8 @@
+br.Transpilar
+br.src.mock.InvokeParams
+br.src.mock.ServiceMock
+br.src.mock.jsons.CodeMessageJson
+br.src.mock.jsons.PayloadResJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.promise.Promise
+src.commom.utils.string.StringCompare

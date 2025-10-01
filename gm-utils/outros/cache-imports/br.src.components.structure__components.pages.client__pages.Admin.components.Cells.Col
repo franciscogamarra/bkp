@@ -1,0 +1,7 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.ColJson
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.SortTitle
+exec.ts.infra.FX
+exec.ts.infra.Prop
+exec.ts.infra.PropBoolean
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

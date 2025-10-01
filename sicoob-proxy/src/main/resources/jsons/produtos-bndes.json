@@ -1,0 +1,16 @@
+[
+    {
+        "id": 6,
+        "descricao": "CREDITO RURAL",
+        "dataAtualMovimento": "2025-04-10",
+        "dataAtualProd": "2025-04-09",
+        "className": "ProdutoBndesDTO"
+    },
+    {
+        "id": 7,
+        "descricao": "EMPRÉSTIMO",
+        "dataAtualMovimento": "2024-10-22",
+        "dataAtualProd": "2024-10-21",
+        "className": "ProdutoBndesDTO"
+    }
+]

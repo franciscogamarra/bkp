@@ -1,0 +1,40 @@
+[ {
+	"id" : 1,
+	"descricao" : "Equipamentos Finamizáveis (cadastrados no CFI)",
+	"bolQtdTipoInvestimento" : true,
+	"bolEquipamento" : true,
+	"bolEquipamentoCredenciado" : true,
+	"bolPermiteSomenteUmItem" : false,
+	"programaTipoInvestimentos" : [ {
+		"bolTipoExclusivo" : false,
+		"bolDescItemObrigatorio" : false,
+		"bolHabilitaEventoProducao" : false
+	} ],
+	"itensInvestimento" : [ ]
+}, {
+	"id" : 8,
+	"descricao" : "Serviço associado",
+	"bolQtdTipoInvestimento" : false,
+	"bolEquipamento" : false,
+	"bolEquipamentoCredenciado" : false,
+	"bolPermiteSomenteUmItem" : false,
+	"programaTipoInvestimentos" : [ {
+		"bolTipoExclusivo" : false,
+		"bolDescItemObrigatorio" : false,
+		"bolHabilitaEventoProducao" : false
+	} ],
+	"itensInvestimento" : [ ]
+}, {
+	"id" : 17,
+	"descricao" : "Softwares (Cadastrados no PROSOFT)",
+	"bolQtdTipoInvestimento" : true,
+	"bolEquipamento" : false,
+	"bolEquipamentoCredenciado" : false,
+	"bolPermiteSomenteUmItem" : false,
+	"programaTipoInvestimentos" : [ {
+		"bolTipoExclusivo" : false,
+		"bolDescItemObrigatorio" : false,
+		"bolHabilitaEventoProducao" : false
+	} ],
+	"itensInvestimento" : [ ]
+} ]

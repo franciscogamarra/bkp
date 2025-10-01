@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro.src.comps.OurButton
+br.sipeagro.src.comps.nicks.Tx
+br.sipeagro.src.crud.CrudContainer
+br.sipeagro.src.state.AppState
+br.sipeagro.src.support.ApiManager
+exec.ts.infra.FC
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.console
+react.support.ReactNode

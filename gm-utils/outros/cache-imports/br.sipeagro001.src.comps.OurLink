@@ -1,0 +1,10 @@
+br.Transpilar
+br.sipeagro001.src.comps.SafeActions
+br.sipeagro001.srcx.comps.OurLinkX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.support.console
+libs.react_router_dom.Link
+react.support.ReactNode

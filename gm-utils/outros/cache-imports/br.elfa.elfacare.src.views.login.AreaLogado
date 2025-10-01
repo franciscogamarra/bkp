@@ -1,0 +1,7 @@
+br.elfa.elfacare.srcx.AppRoutesX
+br.elfa.elfacare.srcx.views.global.SidebarX
+br.elfa.elfacare.srcx.views.global.TopbarX
+exec.ts.infra.FC
+html.div
+libs.react_router_dom.BrowserRouter
+react.support.ReactNode

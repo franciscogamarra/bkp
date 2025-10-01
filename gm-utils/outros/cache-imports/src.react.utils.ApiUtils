@@ -1,0 +1,9 @@
+js.UNative
+js.promise.Promise
+js.promise.Response
+src.app.react.utils.UBoolean
+src.commom.utils.date.BaseData
+src.commom.utils.object.Null
+src.react.padrao.Api
+src.react.utils.Deslogar
+src.react.xcomponents.AlertaTo

@@ -1,0 +1,12 @@
+js.UNative
+js.annotations.NoAuto
+src.app.cruds.esqueciSenha.EsqueciSenha
+src.app.cruds.esqueciSenha.EsqueciSenhaConsulta
+src.app.cruds.esqueciSenha.EsqueciSenhaUtils
+src.app.react.campos.support.VSenha
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.fc.components.EntityCampos
+src.fc.components.campoAlterado.CampoAlterado

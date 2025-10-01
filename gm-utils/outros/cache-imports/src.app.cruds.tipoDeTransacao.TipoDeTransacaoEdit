@@ -1,0 +1,17 @@
+js.annotations.NoAuto
+libs.antd.Card
+libs.antd.Col
+libs.antd.Row
+libs.antd.TabPane
+libs.antd.Tabs
+react.support.ReactNode
+src.antd.form.FormItemInput
+src.antd.form.FormItemSelect
+src.antd.form.RadioBoolean
+src.app.cruds.tipoDeTransacao.TipoDeTransacao
+src.app.cruds.tipoDeTransacao.TipoDeTransacaoCampos
+src.app.cruds.tipoDeTransacao.TipoDeTransacaoPermissoes
+src.commom.utils.string.StringCompare
+src.fc.components.FormEdit
+src.fc.components.LayoutApp
+src.fc.components.Permissoes

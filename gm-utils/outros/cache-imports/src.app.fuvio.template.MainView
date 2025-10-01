@@ -1,0 +1,15 @@
+js.Js
+libs.react_native.SafeAreaView
+libs.react_native.StatusBar
+react.project.infra.StyleResult
+react.support.ReactNode
+src.app.fuvio.auto.PageView
+src.app.fuvio.template.IconesInferiores
+src.app.react.components.SuperComponent
+src.app.react.consts.enums.FlexDirection
+src.app.react.consts.enums.JustifyContent
+src.app.react.utils.Console
+src.app.react.utils.StartPrototypes
+src.app.react.utils.Style
+src.mobile.components.Vw
+src.mobile.tema.Tema

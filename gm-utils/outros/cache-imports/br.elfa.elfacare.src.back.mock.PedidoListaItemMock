@@ -1,0 +1,17 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.back.mock.MockPaginacao
+br.elfa.elfacare.src.back.mock.PedidoListaItemMockReq
+br.elfa.elfacare.src.views.logado.pedidos2.Pedido
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.Aleatorio
+gm.utils.comum.Lst
+gm.utils.comum.UNomeProprio
+gm.utils.date.Data
+gm.utils.string.ListString
+src.commom.utils.array.Itens
+src.commom.utils.cp.UCpf
+src.commom.utils.integer.IntegerFormat
+src.commom.utils.string.StringContains
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringRemoveAcentos

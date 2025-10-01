@@ -1,0 +1,8 @@
+br.Transpilar
+br.src.components.structure__components.pages.client__pages.Admin.components.Cells.Tx
+br.srcx.components.structure__components.pages.client__pages.Admin.components.Cells.EmailCellX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Prop
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+react.support.ReactNode

@@ -1,0 +1,8 @@
+src.app.react.utils.UCommons
+src.commom.utils.array.Itens
+src.commom.utils.idText.IdText
+src.commom.utils.object.Equals
+src.commom.utils.string.StringEmpty
+src.commom.utils.string.StringExtraiNumeros
+src.commom.utils.string.StringLength
+src.commom.utils.string.StringRight

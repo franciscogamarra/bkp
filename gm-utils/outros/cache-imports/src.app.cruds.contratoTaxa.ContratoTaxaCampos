@@ -1,0 +1,16 @@
+js.UNative
+js.annotations.NoAuto
+react.support.anotacoes.Component
+src.app.cruds.contratoTaxa.ContratoTaxa
+src.app.cruds.contratoTaxa.ContratoTaxaConsulta
+src.app.cruds.contratoTaxa.ContratoTaxaUtils
+src.app.react.campos.support.VBoolean
+src.app.react.campos.support.VFk
+src.app.react.campos.support.VNumeric
+src.app.react.campos.support.Wrapper
+src.commom.utils.array.ArrayLst
+src.commom.utils.object.Null
+src.commom.utils.string.StringCompare
+src.commom.utils.string.StringParse
+src.fc.components.EntityCampos
+src.fc.components.campoAlterado.CampoAlterado

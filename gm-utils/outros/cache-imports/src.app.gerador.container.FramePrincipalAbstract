@@ -1,0 +1,13 @@
+js.annotations.NoAuto
+libs.antd.icons.AccountBookFilled
+libs.react_router_dom.Route
+react.support.ReactNode
+src.app.fc.components.FramePrincipalBase
+src.app.gerador.container.PermissoesMenu
+src.app.gerador.cruds.projeto.ProjetoEditUrl
+src.app.gerador.cruds.projeto.ProjetoFormConsulta
+src.app.gerador.cruds.tbColuna.TbColunaEditUrl
+src.app.gerador.cruds.tbColuna.TbColunaFormConsulta
+src.app.gerador.cruds.tbTabela.TbTabelaEditUrl
+src.app.gerador.cruds.tbTabela.TbTabelaFormConsulta
+src.commom.utils.array.ArrayLst

@@ -1,0 +1,9 @@
+br.sicoob.SicoobTranspilar
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.Num
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.calculos.TipoInvestimentoWrapper
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.BuscarEquipamentosBndesComponent
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.comps.Formulario
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.EquipamentoLegado
+br.sicoob.src.app.funcionalidades.proposta__credito__bndes.models.FabricanteLegado
+gm.languages.ts.angular.forms.FormGroup
+gm.utils.anotacoes.IgnorarDaquiPraBaixo

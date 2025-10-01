@@ -1,0 +1,5 @@
+br.elfa.elfacare.src.views.logado.clients.ClientSimpleJson
+br.elfa.elfacare.src.views.logado.patient.PatientSimpleJson
+gm.utils.anotacoes.Ignorar
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.TypeJs

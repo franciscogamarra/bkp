@@ -1,0 +1,7 @@
+br.cvc.SomenteMock
+br.cvc.Transpilar
+br.cvc.src.mock.ApiMock
+br.cvc.src.services
+gm.languages.ts.javaToTs.annotacoes.FromClass
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+js.annotations.NaoConverter

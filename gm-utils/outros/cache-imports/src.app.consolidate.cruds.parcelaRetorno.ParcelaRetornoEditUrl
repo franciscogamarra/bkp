@@ -1,0 +1,7 @@
+js.annotations.NoAuto
+react.support.ReactNode
+src.app.consolidate.cruds.parcelaRetorno.ParcelaRetornoCampos
+src.app.consolidate.cruds.parcelaRetorno.ParcelaRetornoEdit
+src.app.consolidate.cruds.parcelaRetorno.ParcelaRetornoPermissoes
+src.app.fc.components.FormEditUrl
+src.app.fc.components.Permissoes

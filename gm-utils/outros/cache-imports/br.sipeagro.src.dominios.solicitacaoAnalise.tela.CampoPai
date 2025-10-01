@@ -1,0 +1,5 @@
+br.sipeagro.src.dominios.solicitacaoAnalise.tela.Campo
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+lombok.Getter
+lombok.Setter
+src.commom.utils.array.Itens

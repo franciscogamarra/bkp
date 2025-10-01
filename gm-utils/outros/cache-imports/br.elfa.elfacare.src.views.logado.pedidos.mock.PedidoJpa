@@ -1,0 +1,13 @@
+br.elfa.elfacare.src.back.mock.ObjetoJpa
+br.elfa.elfacare.src.views.logado.clients.mock.ClientJpa
+br.elfa.elfacare.src.views.logado.patient.mock.PatientJpa
+br.elfa.elfacare.src.views.logado.pedidos.mock.PedidoJson
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoDao
+br.elfa.elfacare.src.views.logado.tratamentos.mock.TratamentoJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.anotacoes.ManterDaquiPraBaixo
+js.Js
+src.commom.utils.array.Itens
+src.commom.utils.comum.Randomico
+src.commom.utils.object.Null
+src.commom.utils.tempo.DataHora

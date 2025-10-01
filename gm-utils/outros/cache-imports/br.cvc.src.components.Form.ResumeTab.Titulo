@@ -1,0 +1,15 @@
+br.cvc.Transpilar
+br.cvc.libs.mui.core.Avatar
+br.cvc.libs.mui.core.Typography
+br.cvc.libs.mui.icons.PlaylistAddCheck
+br.cvc.src.components.Form.ResumeTab.ResumeTab
+br.cvc.src.components.Form.ResumeTab.Text
+br.cvc.srcx.components.Form.ResumeTab.TituloX
+exec.srcx.CriarSrcx
+exec.ts.infra.FC
+exec.ts.infra.Req
+gm.languages.ts.javaToTs.style.st
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.reflection.Atributos
+html.div
+react.support.ReactNode

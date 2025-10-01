@@ -1,0 +1,11 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.dominios.pessoafisica.mock.PessoaFisicaCarga
+br.sipeagro001.src.dominios.pessoafisica.mock.PessoaFisicaJpa
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+gm.utils.comum.Aleatorio
+gm.utils.javaCreate.JcClasse
+gm.utils.javaCreate.JcMetodo
+gm.utils.string.ListString
+js.annotations.NaoConverter
+src.commom.utils.tempo.Data
+src.commom.utils.tempo.DataHora

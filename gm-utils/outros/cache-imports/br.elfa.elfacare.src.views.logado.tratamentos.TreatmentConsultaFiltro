@@ -1,0 +1,7 @@
+br.elfa.elfacare.Transpilar
+br.elfa.elfacare.src.views.logado.clients.consulta.ConsultaClientesRow
+br.elfa.elfacare.src.views.logado.telaConsulta.FiltroBase
+br.elfa.elfacare.src.views.logado.telaConsulta.TelaConsultaParamsDados
+br.elfa.elfacare.src.views.logado.tratamentos.TreatmentSimpleJson
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
+src.commom.utils.array.Itens

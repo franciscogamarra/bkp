@@ -1,0 +1,15 @@
+js.annotations.NoAuto
+react.support.ReactNode
+react.support.anotacoes.State
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblema
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblemaCampos
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblemaCols
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblemaConsulta
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblemaEdit
+src.app.consolidate.cruds.empresaAdquirenteProblema.EmpresaAdquirenteProblemaPermissoes
+src.app.fc.components.FcBotao
+src.app.fc.components.Permissoes
+src.app.fc.components.consulta.FormConsulta
+src.app.fc.components.tabela.Tabela
+src.app.fc.cruds.importacaoArquivo.ImportacaoArquivoForm
+src.web.Td

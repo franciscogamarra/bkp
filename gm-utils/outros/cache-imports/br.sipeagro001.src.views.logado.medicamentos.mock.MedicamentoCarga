@@ -1,0 +1,10 @@
+br.sipeagro001.Transpilar
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga0
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga1
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga2
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga3
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga4
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoCarga5
+br.sipeagro001.src.views.logado.medicamentos.mock.MedicamentoDao
+br.sipeagro001.src.views.logado.medicamentos.tipo.MedicamentoTipoCarga
+gm.utils.anotacoes.IgnorarDaquiPraBaixo
