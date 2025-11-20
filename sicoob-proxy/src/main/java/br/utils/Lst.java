@@ -308,6 +308,46 @@ public class Lst<T> extends ArrayList<T> {
 		return this;
 	}
 	
+	@SuppressWarnings("unchecked")
+	public <TT extends Comparable<TT>> Lst<T> sort(F1<T, Comparable<?>> func) {
+		
+		sort((a, b) -> {
+			
+			if (a == b) {
+				return 0;
+			}
+			
+			if (a == null) {
+				return -1;
+			}
+
+			if (b == null) {
+				return 1;
+			}
+			
+			TT va = (TT) func.call(a);
+			TT vb = (TT) func.call(b);
+			
+			if (va == vb) {
+				return 0;
+			}
+			
+			if (va == null) {
+				return -1;
+			}
+
+			if (vb == null) {
+				return 1;
+			}
+			
+			return va.compareTo(vb);
+			
+		});
+		
+		return this;
+		
+	}
+	
 	public Lst<T> sortInt(F1<T, Integer> func) {
 		sort((a, b) -> IntegerCompare.compare(func.call(a), func.call(b)));
 		return this;

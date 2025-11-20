@@ -22,6 +22,7 @@ import br.utils.JsonUtils;
 import br.utils.Print;
 import br.utils.SSLUtil;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/**")
@@ -31,9 +32,27 @@ public class Api {
 
 	/**
 	 * Atenção: modificar a porta para 8080 no arquivo:
-	 * C:\dev\projects\cre-concessao-bndes-web\proxy.conf.json
+	 * C:\dev\projs\cre-concessao-bndes-web\proxy.conf.json
+	 * derrubar o front e subir novamente
+	 *
+	 * 
+	 * C:\Users\francisco.gamarra\.m2\repository\br\com\sicoob\concessao\bndes\cre-concessao-bndes-api-comum
+	 * 
 	 */
-	private final String DESTINO = "http://127.0.0.1:9080";
+	
+	@AllArgsConstructor
+	private static class Destino {
+		final String url;
+		final String replace;
+	}
+	
+	protected static Destino LOCALHOST = new Destino("http://127.0.0.1:9080", null);
+	protected static Destino HMG = new Destino("https://api-sisbr.homologacao.com.br", "/concessao-credito-bndes/v2");
+	
+//	private final Destino destino = HMG;
+	private final Destino destino = LOCALHOST;
+
+//	cre-concessao-bndes-api-web/api
 
 	public Api() {
 		SSLUtil.disableSSL();
@@ -72,6 +91,11 @@ public class Api {
     @GetMapping("/cre-concessao-bndes-api-web/api/programas-bndes/2424/percentual-valor-maximo")
     public ResponseEntity<String> getPercentualValorMaximo2024() {
     	return getJson("percentual-valor-maximo-2024");
+    }
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/propostas-credito-bndes/9361")
+    public ResponseEntity<String> getProposta31724() {
+    	return getJson("hmg/propostas/31724");
     }
     
 //  http://localhost:4200/
@@ -163,9 +187,16 @@ public class Api {
 			}
 		}
 		
+		if (destino.replace != null) {
+			url = url.replace("/cre-concessao-bndes-api-web/api", destino.replace);
+		}
+		
 		String key = method + " " + url;
 		
+		String fullUrl = destino.url + url;
+		
 		Print.blocoVerde("> " + key);
+		Print.blocoVerde("> " + method + " " + fullUrl);
 
 		try {
 			
@@ -180,7 +211,7 @@ public class Api {
 			
 			HttpEntity<Object> requestEntity = new HttpEntity<>(body, headers);
 			
-			ResponseEntity<String> res = restTemplate.exchange(DESTINO + url, method, requestEntity, String.class);
+			ResponseEntity<String> res = restTemplate.exchange(fullUrl, method, requestEntity, String.class);
 			
 			int statusCode = res.getStatusCode().value();
 			

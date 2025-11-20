@@ -1,0 +1,937 @@
+{
+    "id": 31724,
+    "numeroProposta": 25029334,
+    "valorFinanciado": 4800.00,
+    "valorRecursosProprios": 0.00,
+    "percRecursoProprio": 0.00,
+    "percFinanciada": 100.00,
+    "dataPropostaBndes": "2025-10-22T15:06:08.478+0000",
+    "dataHoraAtualizacao": "2025-10-22T17:46:19.000+0000",
+    "idInstituicao": 496,
+    "idUnidadeInstituicao": 0,
+    "habilitaEnvioBndes": false,
+    "bolSisbr30": true,
+    "bolInformacaoAdicional": true,
+    "enquadramentoCliente": {
+        "id": 686,
+        "valorReceitaOperacionalBruta": 450000.00,
+        "dataReferenciaReceitaOperacionalBruta": "2024-12-31T03:00:00.000+0000",
+        "empresarioIdividual": false,
+        "numeroCRNTRC": "003900099",
+        "dataAtualizacao": "2025-07-24T14:45:06.877+0000",
+        "idUsuario": "guilhermes4155_00",
+        "porteEmpresa": {
+            "codigoPorteEmpresa": 4,
+            "descricaoPorteEmpresa": "Pequena empresa",
+            "valorMinimoFaturamento": 360000.01,
+            "valorMaximoFaturamento": 4800000.00,
+            "className": "PorteEmpresaDTO"
+        },
+        "indicadorReceitaOperacionalBruta": {
+            "codigoIndicadorReceitaOperacionalBruta": 1,
+            "descricaoIndicadorReceiraOperacionalBruta": "Efetiva",
+            "className": "IndicadorReceitaOperacionalBrutaDTO"
+        },
+        "idPessoa": 253,
+        "pessoaCapes": {
+            "idPessoa": 253,
+            "numCpfCnpj": "67827608949",
+            "nomeCompleto": "SARAH REBEKA",
+            "idInstituicao": 1,
+            "codTipoPessoa": 0,
+            "codigoCnaeFiscal": "A0151201",
+            "descricaoCnaeFiscal": "Criação de bovinos para corte",
+            "codigoAtividadeEconomica": 55,
+            "descricaoAtividadeEconomica": "PESSOA FISICA",
+            "className": "PessoaCapesDTO"
+        },
+        "controleFundoAtivoPrivado": false,
+        "className": "EnquadramentoClienteDTO"
+    },
+    "investimento": {
+        "id": 30003,
+        "dataSolicitacaoInstituicao": "2025-08-05",
+        "cnae": "A0115600",
+        "objetivoProjeto": {
+            "id": 7,
+            "descricaoObjetivoProjeto": "MÁQUINAS E EQUIPAMENTOS  NOVOS",
+            "className": "ObjetivoProjetoBndesDTO"
+        },
+        "codigoTipoLogradouroEndereco": 3,
+        "descricaoLogradouroEndereco": "teste",
+        "numeroEndereco": "123",
+        "descricaoComplementoEndereco": "teste",
+        "descricaoBairroEndereco": "brasilia",
+        "codigoMunicipio": 5300108,
+        "numeroCEP": "05959509",
+        "siglaUF": "DF",
+        "className": "InvestimentoBndesDTO"
+    },
+    "programa": {
+        "id": 2847,
+        "descricao": "MPME - BK AQUISIÇÃO - FINANCIAMENTO À COMPRADORA (TLP)",
+        "produtoBndes": 6,
+        "linhaBndes": 301,
+        "taxaJurosBasica": 0.9500,
+        "taxaJurosRisco": 3.0000,
+        "sigla": "BK AQUISICAO E COMERCIALIZACAO BKS - NPC",
+        "siglaPrograma": "BK AQUISICAO E COMERCIALIZACAO BKS",
+        "programaTipoInvestimentos": [
+            {
+                "bolTipoExclusivo": false,
+                "bolDescItemObrigatorio": false,
+                "bolHabilitaEventoProducao": true
+            }
+        ],
+        "bolExigeItemInvestimento": true,
+        "bolEnviaQtdEmpregado": false,
+        "bolHabilitaCadastroPl": true,
+        "prazosLimitesSolicitacaoPL": [
+            {
+                "id": 2,
+                "prazoLimiteDia": 90,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            },
+            {
+                "id": 3,
+                "prazoLimiteDia": 120,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            }
+        ],
+        "prazosTotaisOperacao": [
+            {
+                "id": 1,
+                "sigla": "TFB_36",
+                "descricao": "Até 36 meses",
+                "prazoTotalMes": 36,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa",
+                    "descComplementarCusto": "taxa fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 4,
+                "sigla": "TFB_120",
+                "descricao": "Acima de 84 a 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa",
+                    "descComplementarCusto": "taxa fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 3,
+                "sigla": "TFB_84",
+                "descricao": "Acima de 60 até 84 meses",
+                "prazoTotalMes": 84,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa",
+                    "descComplementarCusto": "taxa fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 2,
+                "sigla": "TFB_60",
+                "descricao": "Acima de 36 até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa",
+                    "descComplementarCusto": "taxa fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 5,
+                "sigla": "TFBD24",
+                "descricao": "Até 24 meses",
+                "prazoTotalMes": 24,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "sigla": "TFBD120",
+                "descricao": "Acima de 72 meses até 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "sigla": "TFBD72",
+                "descricao": "Acima de 24 até 72 meses",
+                "prazoTotalMes": 72,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementarCusto": "taxa fixa do BNDES em dólares americanos",
+                    "bolCustoAtivo": true,
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR"
+                    }
+                }
+            }
+        ],
+        "tipoEventos": [
+            {
+                "id": 3,
+                "descricao": "Homologação de Financiamento"
+            },
+            {
+                "id": 9,
+                "descricao": "Homologação de Contratação"
+            }
+        ],
+        "taxaJurosRiscoMax": 4.5000,
+        "taxaJurosRiscoMin": 1.4000,
+        "bolHabilitaEnvioPlataformaCredito": true,
+        "bolLicencaDispensaAmb": true,
+        "bolLicencaAmbItemDiverso": true,
+        "bolLicencaAmbExcecao": false,
+        "condicaoOperacional": {
+            "id": 176,
+            "descricao": "PO2020/01",
+            "codigo": 393,
+            "className": "CondicaoOperacionalDTO"
+        },
+        "bolExigeDataEmissaoCartaFianca": true,
+        "bolFinalidadeLiberacao": false,
+        "bolFinalidadeLiberacaoExcecao": false,
+        "bolHabilitaMutuario": false,
+        "tiposEnquadramentoOperacao": [],
+        "bolExigePrazoFinanciamento": false,
+        "bolHabilitaEnvioBndes": true,
+        "bolExcecaoCalculoJuros": false,
+        "taxaJurosBasicaMax": 0.9500,
+        "taxaJurosBasicaMin": 0.9500,
+        "idProdutoBndesOnline": 22500,
+        "valorMaximoMutuario": 20000000.00,
+        "valorMaximoFinanciadoProjetoColetivo": 100000000.00,
+        "percMaximoFinanciamento": 100.0000,
+        "idModalidadeProduto": 394,
+        "idOrigemRecursoOpCred": 3034,
+        "bolAlteraPrazoCarencia": true,
+        "bolAlteraPrazoTotal": true,
+        "bolSisbr30": true,
+        "bolIsentoIof": true,
+        "bolAliquotaZeroIof": false,
+        "bolAliquotaAdicionalIof": false,
+        "bolAliquotaNormalIof": false,
+        "bolAnoBissexto": false,
+        "bolPrazoAmortizacaoNaoMultiplo": false,
+        "prazoOperacao": 120,
+        "prazoCarencia": 24,
+        "bolCprBndes": false,
+        "bolEnvioSicorSemMatriculaEmpreendCapes": true,
+        "bolProjetoColetivo": true,
+        "bolEncargosExigivel": true,
+        "bolExecEncExigivel": false,
+        "bolHabilitaProjetoAstec": false,
+        "bolHabilitaFinanciamentoProjetoAstec": false,
+        "bolEnvioPrevisaoRepasse": false,
+        "idProgramaBacen": 999,
+        "programaCustosFinanceiro": [
+            {
+                "id": 1521,
+                "custoFinanceiro": {
+                    "id": 1047,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+                    "descComplementar": "taxa fixa do BNDES em dólares americanos",
+                    "indiceBndes": {
+                        "id": 51,
+                        "descricao": "TAXA FIXA BNDES EM DÓLAR",
+                        "className": "IndiceBndesDTO"
+                    },
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1522,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa",
+                    "descComplementar": "taxa fixa do BNDES - TFB",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1523,
+                "custoFinanceiro": {
+                    "id": 1054,
+                    "descCustoFinanceiro": "Custo Fixo Equalizado",
+                    "descComplementar": "Usado em todos os programas da Safra 25/26",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            }
+        ],
+        "programaPeriodicidades": [
+            {
+                "id": 6194,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6192,
+                "periodicidadeAmortizacao": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6193,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6195,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6197,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6196,
+                "periodicidadeAmortizacao": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6198,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6200,
+                "periodicidadeAmortizacao": {
+                    "codigo": 15,
+                    "descricao": "Mensal",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            },
+            {
+                "id": 6199,
+                "periodicidadeAmortizacao": {
+                    "codigo": 12,
+                    "descricao": "Semestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 13,
+                    "descricao": "Trimestral",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            }
+        ],
+        "programaSistematicaOperacional": [
+            {
+                "sistematicaOperacional": {
+                    "codigo": 3,
+                    "sigla": "FINAME",
+                    "descricao": "FINAME",
+                    "linhaBndes": {
+                        "id": 301,
+                        "descricao": "FINAME",
+                        "sigla": "351",
+                        "className": "LinhaBndesDTO"
+                    },
+                    "className": "SistematicaOperacionalDTO"
+                },
+                "className": "ProgramaSistematicaOperacionalDTO"
+            }
+        ],
+        "className": "ProgramaBndesDTO"
+    },
+    "condicao": {
+        "codigo": 2,
+        "descricao": "CONTRATACAO",
+        "className": "ArquivoPropostaCondicaoDTO"
+    },
+    "situacao": {
+        "codigo": 14,
+        "descricao": "FALHA_COMUNICACAO",
+        "className": "ArquivoPropostaSituacaoDTO"
+    },
+    "fase": {
+        "codigo": 2,
+        "descricao": "CONTRATACAO",
+        "className": "ArquivoPropostaFaseDTO"
+    },
+    "itensInvestimento": [
+        {
+            "id": 14536,
+            "propostaBNDES": {
+                "id": 31724,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 1,
+                "descricao": "Equipamentos Finamizáveis (cadastrados no CFI)",
+                "bolQtdTipoInvestimento": true,
+                "bolEquipamento": true,
+                "bolEquipamentoCredenciado": true,
+                "bolPermiteSomenteUmItem": false,
+                "programaTipoInvestimentos": [
+                    {
+                        "bolTipoExclusivo": false,
+                        "bolDescItemObrigatorio": false,
+                        "bolHabilitaEventoProducao": true
+                    }
+                ],
+                "className": "TipoInvestimentoDTO"
+            },
+            "qtdItemInvestimento": 1,
+            "valorUnitarioItem": 4800.00,
+            "valorTotalItem": 4800.00,
+            "valorUnitarioFinanciadoItem": 4800.00,
+            "valorTotalFinanciadoItem": 4800.00,
+            "numSeqItemInvestimento": 1,
+            "numCpfCnpjFabricante": "04987477000163",
+            "codProdutoBNDES": 2060839,
+            "descInformacaoAdicional": "teste",
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "descricaoEquipamento": "EXTRUSORA DE SOJA EM GRAOS                                                      ",
+            "descricaoFabricante": "GREENPECAS INDUSTRIA E COMERCIO DE MAQUINAS E EQUIPAMEN",
+            "bolFinanciaElaboracaoProjeto": false,
+            "className": "ItemInvestimentoDTO"
+        }
+    ],
+    "pedidosLiberacao": [],
+    "arquivosProposta": [
+        {
+            "idArquivoProposta": 9298897,
+            "dataArquivo": "2025-10-22T15:06:12.654+0000",
+            "usuario": "guilhermes4155_00",
+            "fase": "FINANCIAMENTO",
+            "status": "PRONTA_PARA_ENVIO",
+            "condicao": {
+                "codigo": 1,
+                "descricao": "FINANCIAMENTO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298898,
+            "dataArquivo": "2025-10-22T15:09:02.861+0000",
+            "usuario": "guilhermes4155_00",
+            "fase": "FINANCIAMENTO",
+            "status": "ENVIANDO",
+            "condicao": {
+                "codigo": 1,
+                "descricao": "FINANCIAMENTO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298899,
+            "nroProtocolo": 10418705,
+            "dataArquivo": "2025-10-22T15:09:04.881+0000",
+            "usuario": "guilhermes4155_00",
+            "fase": "FINANCIAMENTO",
+            "status": "PROCESSANDO",
+            "condicao": {
+                "codigo": 1,
+                "descricao": "FINANCIAMENTO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298900,
+            "nroProtocolo": 10418705,
+            "dataArquivo": "2025-10-22T15:11:05.784+0000",
+            "usuario": "guilhermes4155_00",
+            "fase": "FINANCIAMENTO",
+            "status": "APROVADA",
+            "condicao": {
+                "codigo": 1,
+                "descricao": "FINANCIAMENTO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [
+                {
+                    "idInformacao": 9507,
+                    "chave": "IND_CRED_RURAL",
+                    "valor": "Sim",
+                    "className": "ArquivoPropostaInformacaoAdicionalDTO"
+                }
+            ],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298901,
+            "dataArquivo": "2025-10-22T15:11:06.837+0000",
+            "usuario": "guilhermes4155_00",
+            "fase": "CONTRATACAO",
+            "status": "PROCESSAMENTO_SISBR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298902,
+            "dataArquivo": "2025-10-22T15:11:11.247+0000",
+            "fase": "CONTRATACAO",
+            "status": "PENDENCIA_CADASTRAL_SISBR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148637,
+                    "codigo": 77771,
+                    "descricao": "Proposta aguardando integração com o ASTEC Digital no cadastro da proposta no Sisbr 3.0 ou o cadastro do Empreendimento Rural no Sisbr 2.0 > Plataforma de Crédito > BNDES Online > Proposta > BNDES Online, conforme o processo adotado pela instituição.",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298903,
+            "dataArquivo": "2025-10-22T15:15:07.519+0000",
+            "fase": "CONTRATACAO",
+            "status": "PENDENCIA_CADASTRAL",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148638,
+                    "codigo": 77771,
+                    "descricao": "Proposta aguardando envio ao Fluxo de Crédito da Plataforma de Crédito, através do caminho Sisbr 2.0 > Plataforma de Crédito > BNDES Online >Proposta > BNDES Online.",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298942,
+            "dataArquivo": "2025-10-22T15:25:32.710+0000",
+            "fase": "CONTRATACAO",
+            "status": "PROPOSTA_ENCAMINHADA_PDC",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298943,
+            "dataArquivo": "2025-10-22T15:31:54.732+0000",
+            "fase": "CONTRATACAO",
+            "status": "PROCESSAMENTO_SISBR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298944,
+            "dataArquivo": "2025-10-22T15:32:21.685+0000",
+            "fase": "CONTRATACAO",
+            "status": "AGUARDANDO_SICOR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298945,
+            "dataArquivo": "2025-10-22T15:32:49.669+0000",
+            "fase": "CONTRATACAO",
+            "status": "PROCESSAMENTO_SISBR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298946,
+            "dataArquivo": "2025-10-22T15:32:53.791+0000",
+            "fase": "CONTRATACAO",
+            "status": "PROCESSAMENTO_SISBR",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298947,
+            "dataArquivo": "2025-10-22T15:32:57.775+0000",
+            "fase": "CONTRATACAO",
+            "status": "ENVIANDO",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298948,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T15:32:58.650+0000",
+            "fase": "CONTRATACAO",
+            "status": "PROCESSANDO",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298949,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T15:34:50.282+0000",
+            "fase": "CONTRATACAO",
+            "status": "REJEITADA",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148652,
+                    "codigo": 1059,
+                    "descricao": "Informações de garantia inválidas",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298950,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T15:38:19.000+0000",
+            "usuario": "guilherme.rural",
+            "fase": "FINANCIAMENTO",
+            "status": "FALHA_COMUNICACAO",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148653,
+                    "codigo": 77777,
+                    "descricao": "Serviço temporariamente indisponível. Tente novamente mais tarde.",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298960,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T17:15:58.591+0000",
+            "usuario": "guilherme.rural",
+            "fase": "FINANCIAMENTO",
+            "status": "ENVIANDO",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298976,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T17:17:58.977+0000",
+            "usuario": "guilherme.rural",
+            "fase": "CONTRATACAO",
+            "status": "REJEITADA",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148660,
+                    "codigo": 1059,
+                    "descricao": "Informações de garantia inválidas",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        },
+        {
+            "idArquivoProposta": 9298995,
+            "nroProtocolo": 10418749,
+            "dataArquivo": "2025-10-22T17:46:19.000+0000",
+            "usuario": "guilherme.rural",
+            "fase": "FINANCIAMENTO",
+            "status": "FALHA_COMUNICACAO",
+            "condicao": {
+                "codigo": 2,
+                "descricao": "CONTRATACAO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [
+                {
+                    "idErro": 9148670,
+                    "codigo": 77777,
+                    "descricao": "Serviço temporariamente indisponível. Tente novamente mais tarde.",
+                    "className": "ArquivoPropostaErroDTO"
+                }
+            ],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        }
+    ],
+    "prazoLimiteSolicitacaoPL": {
+        "id": 3,
+        "prazoLimiteDia": 120,
+        "bolAtivo": true,
+        "className": "PrazoLimiteSolicitacaoPLDTO"
+    },
+    "prazoTotalOperacao": {
+        "id": 5,
+        "sigla": "TFBD24",
+        "descricao": "Até 24 meses",
+        "prazoTotalMes": 24,
+        "bolAtivo": 1,
+        "custoFinanceiro": {
+            "id": 1047,
+            "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+            "descComplementar": "taxa fixa do BNDES em dólares americanos",
+            "indiceBndes": {
+                "id": 51,
+                "descricao": "TAXA FIXA BNDES EM DÓLAR",
+                "className": "IndiceBndesDTO"
+            },
+            "className": "CustoFinanceiroDTO"
+        },
+        "className": "PrazoTotalOperacaoDTO"
+    },
+    "idOperacaoCredito": 12105664,
+    "tipoEvento": {
+        "id": 9,
+        "descricao": "Homologação de Contratação",
+        "className": "TipoEventoDTO"
+    },
+    "percTaxaJurosRisco": 3.0000,
+    "idLinhaCredito": 8055,
+    "idProgramaBacen": 999,
+    "numReferenciaBacen": 20250014276,
+    "dataCadastroLinhaCredito": "2025-04-30T03:00:00.000+0000",
+    "percTaxaFixaBndes": 5.150000,
+    "percTaxaJuros": 9.100000,
+    "percTaxaJurosBasica": 0.950000,
+    "indiceBndes": {
+        "id": 51,
+        "descricao": "TAXA FIXA BNDES EM DÓLAR",
+        "className": "IndiceBndesDTO"
+    },
+    "bolContratacaoAprovadaBndes": false,
+    "dataEmissaoCartaFianca": "2025-10-01",
+    "valorTotalOrcamento": 4800.00,
+    "numContratoBndes": "44941168001",
+    "bolOperacaoColetivo": false,
+    "prazoCarenciaMeses": 6,
+    "prazoOperacaoMeses": 18,
+    "bolEncargosExigiveisCarencia": true,
+    "periodicidadeEncCarencia": {
+        "codigo": 13,
+        "descricao": "Trimestral",
+        "className": "TipoPeriodicidadeDTO"
+    },
+    "periodicidadeEncAmortizacao": {
+        "codigo": 15,
+        "descricao": "Mensal",
+        "className": "TipoPeriodicidadeDTO"
+    },
+    "rejeitadaPorDuplicacao": false,
+    "bolPermiteAditamento": true,
+    "bolLiberacaoParcelada": false,
+    "bolPermiteCancelamento": true,
+    "custoFinanceiro": {
+        "id": 1047,
+        "descCustoFinanceiro": "Taxa Fixa BNDES - US$",
+        "descComplementar": "taxa fixa do BNDES em dólares americanos",
+        "indiceBndes": {
+            "id": 51,
+            "descricao": "TAXA FIXA BNDES EM DÓLAR",
+            "className": "IndiceBndesDTO"
+        },
+        "className": "CustoFinanceiroDTO"
+    },
+    "mutuarios": [],
+    "bolPossuiAstec": false,
+    "bolServicoFinanciado": false,
+    "sistematicaOperacional": {
+        "codigo": 3,
+        "sigla": "FINAME",
+        "descricao": "FINAME",
+        "linhaBndes": {
+            "id": 301,
+            "descricao": "FINAME",
+            "sigla": "351",
+            "className": "LinhaBndesDTO"
+        },
+        "className": "SistematicaOperacionalDTO"
+    },
+    "className": "PropostaCreditoBndesDTO"
+}

@@ -38,5 +38,7 @@ public class ApiClient {
 	}
 	
 	public static final ApiClient local = new ApiClient("http://localhost:8080/cre-concessao-bndes-api-web/api");
+//	public static final ApiClient local = new ApiClient("https//api-sisbr.homologacao.com.br/concessao-credito-bndes/v2");
+//	public static final ApiClient local = new ApiClient("https://api-sisbr.homologacao.com.br:80/cre-concessao-bndes-api-web/api");
 	
 }
