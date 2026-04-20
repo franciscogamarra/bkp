@@ -1,6 +1,6 @@
 package br.utils.strings;
 
-import br.utils.Lst;
+import br.support.comum.Lst;
 
 public class StringSplit {
 	

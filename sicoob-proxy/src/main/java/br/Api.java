@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import br.support.comum.Print;
 import br.utils.Cache;
 import br.utils.DevException;
 import br.utils.JsonUtils;
-import br.utils.Print;
 import br.utils.SSLUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
@@ -93,9 +93,19 @@ public class Api {
     	return getJson("percentual-valor-maximo-2024");
     }
     
-    @GetMapping("/cre-concessao-bndes-api-web/api/propostas-credito-bndes/9361")
-    public ResponseEntity<String> getProposta31724() {
-    	return getJson("hmg/propostas/31724");
+//    @GetMapping("/cre-concessao-bndes-api-web/api/propostas-credito-bndes/9361")
+//    public ResponseEntity<String> getProposta31724() {
+//    	return getJson("hmg/propostas/31724");
+//    }
+    
+//    @GetMapping("/cre-concessao-bndes-api-web/api/propostas-credito-bndes/9404")
+//    public ResponseEntity<String> getProposta9404() {
+//    	return getJson("hmg/propostas/9404");
+//    }
+    
+    @GetMapping("/cre-concessao-bndes-api-web/api/dominios/configuracao-financiamento-bacen?id=10010&idLinhaCredito=null&dataCadastro=null")
+    public ResponseEntity<String> getConfiguracao() {
+    	return ResponseEntity.ok("{}");
     }
     
 //  http://localhost:4200/
@@ -195,6 +205,10 @@ public class Api {
 		
 		String fullUrl = destino.url + url;
 		
+		if (key.contains("configuracao-financiamento-bacen")) {
+			return ResponseEntity.ok("{}");
+		}
+		
 		Print.blocoVerde("> " + key);
 		Print.blocoVerde("> " + method + " " + fullUrl);
 
@@ -212,6 +226,10 @@ public class Api {
 			HttpEntity<Object> requestEntity = new HttpEntity<>(body, headers);
 			
 			ResponseEntity<String> res = restTemplate.exchange(fullUrl, method, requestEntity, String.class);
+			
+			if (url.contains("propostas-credito-bndes?")) {
+				System.out.println();
+			}
 			
 			int statusCode = res.getStatusCode().value();
 			

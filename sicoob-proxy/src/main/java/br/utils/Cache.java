@@ -1,39 +1,47 @@
 package br.utils;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 import org.springframework.http.ResponseEntity;
 
+import br.support.comum.Lst;
 import br.utils.strings.StringAfterFirst;
+import br.utils.strings.StringBeforeFirst;
+import br.utils.strings.StringSplit;
 
 public class Cache {
 	
+	private static final boolean enabled = false;
 	private static final Map<String, ResponseEntity<String>> MAP = new HashMap<>();
 	private static final ResponseEntity<String> NULL = ResponseEntity.ok().build(); 
 	
 	private static String trataKey(String s) {
 		s = StringAfterFirst.get(s, "/api/");
-		if (s.contains("pagina=")) {
-			return null;
-		}
+//		if (s.contains("pagina=")) {
+//			return null;
+//		}
 		if (s.contentEquals("numeros-proposta-credito-bndes")) {
 			return null;
 		}
 		s = s.replace("&usuarioLogado=fabioo0001_00", "");
 		s = s.replace("?usuarioLogado=fabioo0001_00", "?");
 		s = s.replace("?&", "?");
-		s = s.replace("?", "/");
-		s = s.replace("&", "_");
-		s = s.replace("=", "");
-		for (int i = 0; i < 10; i++) {
-			s = s.replace("/" + i, "" + i);
-		}
+//		s = s.replace("?", "/");
+//		s = s.replace("&", "_");
+//		s = s.replace("=", "");
+//		for (int i = 0; i < 10; i++) {
+//			s = s.replace("/" + i, "" + i);
+//		}
 		return s;
 	}
 
 	public static ResponseEntity<String> get(String key) {
+		
+		if (!enabled) {
+			return null;
+		}
+		
 		key = trataKey(key);
 		if (key == null) {
 			return null;
@@ -64,7 +72,6 @@ public class Cache {
 			return;
 		}
 		String value = res.getBody();
-		Lst<String> lst = new Lst<>();
 		
 		try {
 			value = JsonUtils.format(value);
@@ -72,8 +79,17 @@ public class Cache {
 			// TODO: handle exception
 		}
 		
-		lst.add(value);
-		lst.save("c:/dev/myprojects/sicoob-proxy/src/main/resources/jsons/cache/" + key + ".json");
+		Lst<String> lst = StringSplit.exec(value, "\n");
+		
+		if (key.contains("?")) {
+			String queryParams = StringAfterFirst.get(key, "?");
+			key = StringBeforeFirst.get(key, "?");
+			lst.removeLast();
+			lst.add("	,\"queryParams\": \"" + queryParams + "\"");
+			lst.add("}");
+		}
+		
+		lst.save("c:/dev/tmp/sicoob-proxy/requests/" + key + ".json");
 		MAP.put(key, res);
 	}
 	

@@ -1,7 +1,7 @@
 package gm.cenarios;
 
 import br.com.sicoob.concessao.bndes.dtos.EnvioPropostaDTO;
-import br.utils.Lst;
+import br.support.comum.Lst;
 import gm.bos.SolicitacoesAPAResourceClient;
 import gm.support.Programa;
 import gm.support.PropostaCredito;

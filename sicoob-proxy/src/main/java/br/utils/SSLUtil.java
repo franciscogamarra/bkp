@@ -9,6 +9,8 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import br.support.comum.Print;
+
 public class SSLUtil {
 	
 	private SSLUtil() {}

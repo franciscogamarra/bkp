@@ -1,0 +1,662 @@
+{
+    "id": 9404,
+    "numeroProposta": 25778310,
+    "valorFinanciado": 50.00,
+    "valorRecursosProprios": 50.00,
+    "percRecursoProprio": 50.00,
+    "percFinanciada": 50.00,
+    "dataPropostaBndes": "2025-11-13T14:44:14.119+0000",
+    "dataHoraAtualizacao": "2025-11-13T14:49:06.351+0000",
+    "idInstituicao": 1,
+    "idUnidadeInstituicao": 1,
+    "habilitaEnvioBndes": true,
+    "bolSisbr30": true,
+    "bolInformacaoAdicional": false,
+    "enquadramentoCliente": {
+        "id": 38,
+        "valorReceitaOperacionalBruta": 123456.97,
+        "dataReferenciaReceitaOperacionalBruta": "2024-12-31T03:00:00.000+0000",
+        "empresarioIdividual": false,
+        "dataAtualizacao": "2025-05-14T19:34:14.323+0000",
+        "idUsuario": "brunod3219_00",
+        "porteEmpresa": {
+            "codigoPorteEmpresa": 3,
+            "descricaoPorteEmpresa": "Microempresa",
+            "valorMinimoFaturamento": 0.01,
+            "valorMaximoFaturamento": 360000.00,
+            "className": "PorteEmpresaDTO"
+        },
+        "indicadorReceitaOperacionalBruta": {
+            "codigoIndicadorReceitaOperacionalBruta": 1,
+            "descricaoIndicadorReceiraOperacionalBruta": "Efetiva",
+            "className": "IndicadorReceitaOperacionalBrutaDTO"
+        },
+        "idPessoa": 1030,
+        "pessoaCapes": {
+            "idPessoa": 1030,
+            "numCpfCnpj": "25150839949",
+            "nomeCompleto": "JOÃO AUTO SILVA AGROPECUARIA LTDA",
+            "idInstituicao": 1,
+            "codTipoPessoa": 0,
+            "codigoCnaeFiscal": "A0134200",
+            "descricaoCnaeFiscal": "Cultivo de café",
+            "codigoAtividadeEconomica": 55,
+            "descricaoAtividadeEconomica": "PESSOA FISICA",
+            "className": "PessoaCapesDTO"
+        },
+        "controleFundoAtivoPrivado": false,
+        "className": "EnquadramentoClienteDTO"
+    },
+    "investimento": {
+        "id": 5784,
+        "dataSolicitacaoInstituicao": "2025-04-01",
+        "cnae": "A0111301",
+        "objetivoProjeto": {
+            "id": 13,
+            "descricaoObjetivoProjeto": "AQUISIÇÃO DE TRATORES E IMPLEMENTOS E RECUPERAÇÃO DE MÁQUINAS AGRÍCOLAS",
+            "className": "ObjetivoProjetoBndesDTO"
+        },
+        "numeroCnpjInvestimento": "11111111111111",
+        "codigoTipoLogradouroEndereco": 1,
+        "descricaoLogradouroEndereco": "1",
+        "numeroEndereco": "1",
+        "descricaoComplementoEndereco": "1",
+        "descricaoBairroEndereco": "1",
+        "codigoMunicipio": 5300108,
+        "numeroCEP": "11111111",
+        "siglaUF": "DF",
+        "className": "InvestimentoBndesDTO"
+    },
+    "programa": {
+        "id": 10010,
+        "descricao": "descricao",
+        "produtoBndes": 6,
+        "linhaBndes": 301,
+        "taxaJurosBasica": 10.0000,
+        "taxaJurosRisco": 10.0000,
+        "sigla": "sigla cad",
+        "siglaPrograma": "sigla prog",
+        "programaTipoInvestimentos": [
+            {
+                "bolTipoExclusivo": false,
+                "bolDescItemObrigatorio": false,
+                "bolHabilitaEventoProducao": false
+            }
+        ],
+        "bolExigeItemInvestimento": true,
+        "bolEnviaQtdEmpregado": false,
+        "bolHabilitaCadastroPl": false,
+        "prazosLimitesSolicitacaoPL": [
+            {
+                "id": 1,
+                "prazoLimiteDia": 30,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            },
+            {
+                "id": 2,
+                "prazoLimiteDia": 90,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            },
+            {
+                "id": 3,
+                "prazoLimiteDia": 120,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            },
+            {
+                "id": 4,
+                "prazoLimiteDia": 180,
+                "bolAtivo": true,
+                "className": "PrazoLimiteSolicitacaoPLDTO"
+            }
+        ],
+        "prazosTotaisOperacao": [
+            {
+                "id": 10,
+                "sigla": "TFC_MPME_60.90",
+                "descricao": "Até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 910,
+                    "descCustoFinanceiro": "Taxa Fixa Composta - MPME",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 11,
+                "sigla": "TFC_MPME_120.90",
+                "descricao": "Acima de 60 até 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 910,
+                    "descCustoFinanceiro": "Taxa Fixa Composta - MPME",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 12,
+                "sigla": "TFC_60.90",
+                "descricao": "Até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 911,
+                    "descCustoFinanceiro": "Taxa Fixa Composta",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 13,
+                "sigla": "TFC_120.90",
+                "descricao": "Acima de 60 até 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 911,
+                    "descCustoFinanceiro": "Taxa Fixa Composta",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 2,
+                "sigla": "TFB_60",
+                "descricao": "Acima de 36 até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementarCusto": "Taxa Fixa do BNDES - TFB",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 8,
+                "sigla": "TFBTR60",
+                "descricao": "Até 60 meses",
+                "prazoTotalMes": 60,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1048,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TR",
+                    "bolCustoAtivo": true
+                }
+            },
+            {
+                "id": 9,
+                "sigla": "TFBTR120",
+                "descricao": "Acima de 60 até 120 meses",
+                "prazoTotalMes": 120,
+                "bolAtivo": true,
+                "custoFinanceiro": {
+                    "id": 1048,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TR",
+                    "bolCustoAtivo": true
+                }
+            }
+        ],
+        "tipoEventos": [
+            {
+                "id": 9,
+                "descricao": "Homologação de Contratação"
+            }
+        ],
+        "taxaJurosRiscoMax": 100.0000,
+        "taxaJurosRiscoMin": 0.0100,
+        "bolHabilitaEnvioPlataformaCredito": false,
+        "bolLicencaDispensaAmb": false,
+        "bolLicencaAmbItemDiverso": false,
+        "bolLicencaAmbExcecao": false,
+        "condicaoOperacional": {
+            "id": 168,
+            "descricao": "CDD Agro 2018/09",
+            "codigo": 375,
+            "className": "CondicaoOperacionalDTO"
+        },
+        "bolExigeDataEmissaoCartaFianca": false,
+        "bolFinalidadeLiberacao": false,
+        "bolFinalidadeLiberacaoExcecao": false,
+        "bolHabilitaMutuario": false,
+        "tiposEnquadramentoOperacao": [],
+        "bolExigePrazoFinanciamento": false,
+        "bolHabilitaEnvioBndes": false,
+        "bolExcecaoCalculoJuros": false,
+        "taxaJurosBasicaMax": 100.0000,
+        "taxaJurosBasicaMin": 0.0100,
+        "idProdutoBndesOnline": 22500,
+        "valorMaximoMutuario": 2000.00,
+        "valorMaximoFinanciadoProjetoColetivo": 10000000.00,
+        "percMaximoFinanciamento": 90.0000,
+        "idModalidadeProduto": 30,
+        "idOrigemRecursoOpCred": 10002,
+        "bolAlteraPrazoCarencia": false,
+        "bolAlteraPrazoTotal": false,
+        "bolSisbr30": true,
+        "bolIsentoIof": false,
+        "bolAliquotaZeroIof": false,
+        "bolAliquotaAdicionalIof": false,
+        "bolAliquotaNormalIof": false,
+        "bolAnoBissexto": false,
+        "bolPrazoAmortizacaoNaoMultiplo": false,
+        "prazoOperacao": 12,
+        "prazoCarencia": 12,
+        "bolCprBndes": false,
+        "bolEnvioSicorSemMatriculaEmpreendCapes": false,
+        "bolProjetoColetivo": true,
+        "bolEncargosExigivel": false,
+        "bolExecEncExigivel": false,
+        "bolHabilitaProjetoAstec": false,
+        "bolHabilitaFinanciamentoProjetoAstec": false,
+        "bolEnvioPrevisaoRepasse": false,
+        "programaCustosFinanceiro": [
+            {
+                "id": 1963,
+                "custoFinanceiro": {
+                    "id": 1003,
+                    "descCustoFinanceiro": "US$",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1964,
+                "custoFinanceiro": {
+                    "id": 1048,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TR",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1965,
+                "custoFinanceiro": {
+                    "id": 1026,
+                    "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+                    "descComplementar": "Taxa Fixa do BNDES - TFB",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1966,
+                "custoFinanceiro": {
+                    "id": 910,
+                    "descCustoFinanceiro": "Taxa Fixa Composta - MPME",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            },
+            {
+                "id": 1967,
+                "custoFinanceiro": {
+                    "id": 911,
+                    "descCustoFinanceiro": "Taxa Fixa Composta",
+                    "className": "CustoFinanceiroDTO"
+                },
+                "className": "ProgramaBndesCustoFinanceiroDTO"
+            }
+        ],
+        "programaPeriodicidades": [
+            {
+                "id": 3435,
+                "periodicidadeAmortizacao": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "periodicidadeCarencia": {
+                    "codigo": 11,
+                    "descricao": "Anual",
+                    "className": "TipoPeriodicidadeDTO"
+                },
+                "className": "ProgramaBndesTipoPeriodicidadeDTO"
+            }
+        ],
+        "programaSistematicaOperacional": [
+            {
+                "sistematicaOperacional": {
+                    "codigo": 3,
+                    "sigla": "FINAME",
+                    "descricao": "FINAME",
+                    "linhaBndes": {
+                        "id": 301,
+                        "descricao": "FINAME",
+                        "sigla": "351",
+                        "className": "LinhaBndesDTO"
+                    },
+                    "className": "SistematicaOperacionalDTO"
+                },
+                "className": "ProgramaSistematicaOperacionalDTO"
+            }
+        ],
+        "className": "ProgramaBndesDTO"
+    },
+    "condicao": {
+        "codigo": 1,
+        "descricao": "FINANCIAMENTO",
+        "className": "ArquivoPropostaCondicaoDTO"
+    },
+    "situacao": {
+        "codigo": 9,
+        "descricao": "PRONTA_PARA_ENVIO",
+        "className": "ArquivoPropostaSituacaoDTO"
+    },
+    "fase": {
+        "codigo": 1,
+        "descricao": "FINANCIAMENTO",
+        "className": "ArquivoPropostaFaseDTO"
+    },
+    "itensInvestimento": [
+        {
+            "id": 1801,
+            "propostaBNDES": {
+                "id": 9404,
+                "rejeitadaPorDuplicacao": false,
+                "bolPermiteAditamento": false,
+                "bolPermiteCancelamento": false,
+                "className": "PropostaCreditoBndesDTO"
+            },
+            "tipoInvestimento": {
+                "id": 1,
+                "descricao": "Equipamentos Finamizáveis (cadastrados no CFI)",
+                "bolQtdTipoInvestimento": true,
+                "bolEquipamento": true,
+                "bolEquipamentoCredenciado": true,
+                "bolPermiteSomenteUmItem": false,
+                "programaTipoInvestimentos": [
+                    {
+                        "bolTipoExclusivo": false,
+                        "bolDescItemObrigatorio": false,
+                        "bolHabilitaEventoProducao": false
+                    }
+                ],
+                "className": "TipoInvestimentoDTO"
+            },
+            "qtdItemInvestimento": 1,
+            "valorUnitarioItem": 100.00,
+            "valorTotalItem": 100.00,
+            "valorUnitarioFinanciadoItem": 50.00,
+            "valorTotalFinanciadoItem": 50.00,
+            "numSeqItemInvestimento": 1,
+            "numCpfCnpjFabricante": "00834919000180",
+            "codProdutoBNDES": 2613936,
+            "bolItemEventoProducao": false,
+            "bolItemUsado": false,
+            "bolItemImportado": false,
+            "descricaoEquipamento": "ROSCA EXTRATORA                                                                 ",
+            "descricaoFabricante": "TECSOL AGROINDUSTRIAL LTDA                             ",
+            "bolFinanciaElaboracaoProjeto": false,
+            "className": "ItemInvestimentoDTO"
+        }
+    ],
+    "pedidosLiberacao": [],
+    "arquivosProposta": [
+        {
+            "idArquivoProposta": 21172,
+            "dataArquivo": "2025-11-13T14:49:06.351+0000",
+            "usuario": "fabioo0001_00",
+            "fase": "FINANCIAMENTO",
+            "status": "PRONTA_PARA_ENVIO",
+            "condicao": {
+                "codigo": 1,
+                "descricao": "FINANCIAMENTO",
+                "className": "ArquivoPropostaCondicaoDTO"
+            },
+            "erros": [],
+            "informacoesAdicionais": [],
+            "className": "ArquivoPropostaDTO"
+        }
+    ],
+    "prazoLimiteSolicitacaoPL": {
+        "id": 4,
+        "prazoLimiteDia": 180,
+        "bolAtivo": true,
+        "className": "PrazoLimiteSolicitacaoPLDTO"
+    },
+    "prazoTotalOperacao": {
+        "id": 2,
+        "sigla": "TFB_60",
+        "descricao": "Acima de 36 até 60 meses",
+        "prazoTotalMes": 60,
+        "bolAtivo": 1,
+        "custoFinanceiro": {
+            "id": 1026,
+            "descCustoFinanceiro": "Taxa Fixa BNDES - TFB",
+            "descComplementar": "Taxa Fixa do BNDES - TFB",
+            "className": "CustoFinanceiroDTO"
+        },
+        "className": "PrazoTotalOperacaoDTO"
+    },
+    "tipoEvento": {
+        "id": 9,
+        "descricao": "Homologação de Contratação",
+        "className": "TipoEventoDTO"
+    },
+    "percTaxaJurosRisco": 10.0000,
+    "percTaxaFixaBndes": 5.600000,
+    "percTaxaJuros": 0.000000,
+    "percTaxaJurosBasica": 10.000000,
+    "bolContratacaoAprovadaBndes": false,
+    "valorTotalOrcamento": 100.00,
+    "bolOperacaoColetivo": false,
+    "bolEncargosExigiveisCarencia": false,
+    "rejeitadaPorDuplicacao": false,
+    "bolPermiteAditamento": true,
+    "bolLiberacaoParcelada": false,
+    "bolPermiteCancelamento": true,
+    "custoFinanceiro": {
+        "id": 1048,
+        "descCustoFinanceiro": "Taxa Fixa BNDES - TR",
+        "className": "CustoFinanceiroDTO"
+    },
+    "mutuarios": [],
+    "bolPossuiAstec": false,
+    "bolServicoFinanciado": false,
+    "sistematicaOperacional": {
+        "codigo": 3,
+        "sigla": "FINAME",
+        "descricao": "FINAME",
+        "linhaBndes": {
+            "id": 301,
+            "descricao": "FINAME",
+            "sigla": "351",
+            "className": "LinhaBndesDTO"
+        },
+        "className": "SistematicaOperacionalDTO"
+    },
+    "checkList": {
+        "id": "",
+        "titulo": "Validações da Proposta",
+        "detalhes": "7-TESTE WAS / 0-RESIDENCIAL / 1-COMERCIAL / 2-OUTROS / 4-RECADO / 5-FAX / 6-CELULAR",
+        "status": "FALHA",
+        "regras": [],
+        "subitens": [
+            {
+                "id": "VALIDACAO_PESSOA_CAPES",
+                "titulo": "Validação de Cadastro da pessoa no CAPES",
+                "status": "SUCESSO",
+                "regras": [],
+                "subitens": [],
+                "sucessos": 1,
+                "falhas": 0,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACOES_DA_ROB",
+                "titulo": "Validação da Data ROB (Receita Operacional Bruta)",
+                "status": "FALHA",
+                "regras": [
+                    "As datas da ROB devem estar dentro dos parâmetros aceitos pelo BNDES.",
+                    "Quando for ROB efetiva, a data deverá ser 31/12/xxxx, onde xxxx se refere ao ano anterior da data de movimento,",
+                    "no caso de enquadramento cadastrado após o encerramento do ano fiscal, ou seja, entre 01/05 e 31/12 do ano corrente;",
+                    "OU",
+                    "Ao segundo ano fiscal anterior da data de movimento, quando o cadastro for entre 01/01/ a 30/04 do ano corrente.",
+                    "Quando for ROB Prevista, a data deverá ser 31/12/zzzz, onde zzzz é o mesmo ano de cadastro do enquadramento do cliente;"
+                ],
+                "subitens": [
+                    {
+                        "id": "VALIDACAO_DA_ROB_DO_CLIENTE",
+                        "titulo": "Validação da ROB do Cliente",
+                        "status": "SUCESSO",
+                        "regras": [],
+                        "subitens": [],
+                        "sucessos": 1,
+                        "falhas": 0,
+                        "atencoes": 0,
+                        "className": "CheckListDto"
+                    },
+                    {
+                        "id": "VALIDACAO_DA_ROB_DO_GRUPO",
+                        "titulo": "Validação da ROB do Grupo Econômico",
+                        "mensagem": "O grupo econômico não está preenchido",
+                        "status": "FALHA",
+                        "regras": [],
+                        "subitens": [],
+                        "sucessos": 0,
+                        "falhas": 1,
+                        "atencoes": 0,
+                        "className": "CheckListDto"
+                    }
+                ],
+                "sucessos": 1,
+                "falhas": 1,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACAO_DO_PRENCHIMENTO_DO_DAP_CAF",
+                "titulo": "Validação do Preenchimento da DAP/CAF",
+                "mensagem": "O preenchimento do DAP/CAF não é exigido porque não há informações complementares agrícolas",
+                "status": "SUCESSO",
+                "regras": [
+                    "Caso o programa selecionado exigir envio de DAP ao BNDES o CAPES deve estar preenchido corretamente",
+                    "DAP deve estar válida (data de vencimento não pode ser maior que a data atual)",
+                    "Deve seguir a regra implementada do preenchimento do XML do BNDES"
+                ],
+                "subitens": [],
+                "sucessos": 1,
+                "falhas": 0,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACAO_DOS_CAMPOS_DE_CONTATO_NO_CAPES",
+                "titulo": "Validação de Campos de Contatos no CAPES",
+                "status": "FALHA",
+                "regras": [
+                    "O sistema deve verificar se há pelo menos um desses três grupos de informações preenchidos e de acordo com o formato válido do leiaute do BNDES:",
+                    "E-mail - Deve ter o @yyyyy.xxx;",
+                    "Telefone Fixo - Deve ter DDD + telefone + ramal;",
+                    "Celular - Deve ter DDD + telefone Ação em caso de erro: Exibir alerta informativo"
+                ],
+                "subitens": [
+                    {
+                        "id": "VALIDACAO_DO_EMAIL",
+                        "titulo": "Validar E-mail",
+                        "status": "SUCESSO",
+                        "regras": [
+                            "E-mail - Deve ter o @yyyyy.xxx;"
+                        ],
+                        "subitens": [],
+                        "sucessos": 1,
+                        "falhas": 0,
+                        "atencoes": 0,
+                        "className": "CheckListDto"
+                    },
+                    {
+                        "id": "VALIDACAO_DO_TELEFONE",
+                        "titulo": "Validar Telefone",
+                        "mensagem": "Nenhum telefone cadastrado",
+                        "status": "FALHA",
+                        "regras": [
+                            "Telefone Fixo - Deve ter DDD + telefone + ramal;"
+                        ],
+                        "subitens": [],
+                        "sucessos": 0,
+                        "falhas": 1,
+                        "atencoes": 0,
+                        "className": "CheckListDto"
+                    },
+                    {
+                        "id": "VALIDACAO_DO_CELULAR",
+                        "titulo": "Validar Celular",
+                        "mensagem": "Nenhum telefone cadastrado",
+                        "status": "FALHA",
+                        "regras": [
+                            "Celular - Deve ter DDD + telefone Ação em caso de erro: Exibir alerta informativo"
+                        ],
+                        "subitens": [],
+                        "sucessos": 0,
+                        "falhas": 1,
+                        "atencoes": 0,
+                        "className": "CheckListDto"
+                    }
+                ],
+                "sucessos": 1,
+                "falhas": 2,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACAO_GRAU_DE_INSTRUCAO",
+                "titulo": "Validação do Grau de Instrução",
+                "mensagem": "Grau de Instrução não exigido pelo programa. Apenas programas PRONAF exigem.",
+                "status": "SUCESSO",
+                "regras": [
+                    "Verificar se o dado de contato está completo e válido no CAPES e de acordo com o XML do BNDES, caso o campo sejam obrigatório no envio do XML de financiamento, conforme parametrização do programa."
+                ],
+                "subitens": [],
+                "sucessos": 1,
+                "falhas": 0,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACAO_EMPRESARIO_INDIVIDUAL",
+                "titulo": "Validação do Empresário Individual",
+                "mensagem": "Validação não se aplica à pessoas físicas",
+                "status": "SUCESSO",
+                "regras": [
+                    "Verificar consistência dos dados quando o beneficiário é Empresário Individual",
+                    "Quando o beneficiário for Pessoa Jurídica e a Natureza Jurídica marcada no CAPES for alguma dessas abaixo:",
+                    "- Empresário Individual (EI);",
+                    "- Microempreendedor Individual (MEI);",
+                    "- Empresa Individual de Responsabilidade Limitada;",
+                    "- Empresária (EIRELI Empresária);",
+                    "- Sociedade Limitada Unipessoal (SLU).",
+                    "O enquadramento do cliente no módulo de Concessão de Crédito BNDES deve estar com o campo 'Empresário Individual' marcado como VERDADEIRO."
+                ],
+                "subitens": [],
+                "sucessos": 1,
+                "falhas": 0,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            },
+            {
+                "id": "VALIDACAO_FUNDO_ATIVO_PRIVADO",
+                "titulo": "Validação do Fundo Ativo e Privado",
+                "mensagem": "Validação não se aplica à pessoas físicas",
+                "status": "SUCESSO",
+                "regras": [
+                    "Verificar se o porte do Beneficiário está como Grande Empresa quando for marcado o campo 'Fundo Ativo Privado' no Enquadramento de Cliente",
+                    "Quando o beneficiário for Pessoa Jurídica e estiver com o campo 'Fundo Ativo Privado' marcado como VERDADEIRO, então, o sistema deverá validar se o porte da empresa está como Grande"
+                ],
+                "subitens": [],
+                "sucessos": 1,
+                "falhas": 0,
+                "atencoes": 0,
+                "className": "CheckListDto"
+            }
+        ],
+        "sucessos": 7,
+        "falhas": 3,
+        "atencoes": 0,
+        "className": "CheckListDto"
+    },
+    "className": "PropostaCreditoBndesDTO"
+}

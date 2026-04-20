@@ -1,11 +1,11 @@
 package gm.bats;
 
+import br.support.comum.Lst;
+import br.support.dev.GFile;
 import br.utils.DevException;
-import br.utils.GFile;
-import br.utils.Lst;
 import br.utils.Sleep;
 
-public class WasClear {
+public class WasDeploy {
 	
 	private static Lst<GFile> destinos = new Lst<>();
 
@@ -28,7 +28,7 @@ public class WasClear {
 			throw DevException.build("Nao encontrado nenhum ear: " + target);
 		}
 		
-		ears.sort(i -> i.getModificacao());
+		ears.sortMomento(i -> i.getModificacao());
 		
 		GFile ear = ears.getLast();
 		GFile destino = GFile.get("c:/dev/ibm/ears/"+nome+".ear");

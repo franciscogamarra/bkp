@@ -2,8 +2,8 @@ package gm.bos;
 
 import br.com.sicoob.concessao.bndes.dtos.EnvioPropostaDTO;
 import br.com.sicoob.concessao.bndes.dtos.UsuarioDTO;
+import br.support.comum.Lst;
 import br.utils.ApiClient;
-import br.utils.Lst;
 import gm.support.PropostaCredito;
 
 public class SolicitacoesAPAResourceClient {

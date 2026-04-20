@@ -3,6 +3,7 @@ package br.utils;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.support.comum.Lst;
 import br.utils.strings.StringSplit;
 import lombok.Getter;
 

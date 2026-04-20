@@ -20,6 +20,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 
+import br.support.comum.Lst;
 import br.utils.strings.StringEmpty;
 import br.utils.strings.StringReplace;
 import br.utils.strings.StringSplit;
@@ -27,8 +28,7 @@ import br.utils.strings.StringTrim;
 
 public class JsonUtils {
 
-	private JsonUtils() {
-	}
+	private JsonUtils() {}
 
 	private static final ObjectMapper om = new ObjectMapper();
 	private static final ObjectMapper omString = new ObjectMapper();

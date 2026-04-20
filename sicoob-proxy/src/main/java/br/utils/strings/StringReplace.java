@@ -1,6 +1,6 @@
 package br.utils.strings;
 
-import br.utils.lambda.F0;
+import br.support.lambda.F0;
 
 public class StringReplace {
 	

@@ -1,6 +1,6 @@
 package br.utils.strings;
 
-import br.utils.lambda.P1;
+import br.support.lambda.P1;
 
 public class StringTrim {
 	

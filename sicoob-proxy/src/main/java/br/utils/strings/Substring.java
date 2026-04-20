@@ -1,7 +1,7 @@
 package br.utils.strings;
 
-import br.utils.lambda.F0;
-import br.utils.lambda.F1;
+import br.support.lambda.F0;
+import br.support.lambda.F1;
 
 public class Substring {
 	

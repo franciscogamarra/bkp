@@ -31,6 +31,13 @@
     </properties>	
 	
 	<dependencies>
+	
+		<dependency>
+		    <groupId>io.github.franciscogamarra</groupId>
+		    <artifactId>gm-support</artifactId>
+		    <version>2026-04-18-03-15</version>		
+		</dependency>
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -77,12 +84,6 @@
   <version>11.5.8.0</version>
 </dependency>
 
-		<!--		<dependency>-->
-		<!--			<groupId>gm</groupId>-->
-		<!--			<artifactId>gm-utils</artifactId>-->
-		<!--			<version>0</version>		-->
-		<!--		</dependency>-->
-		
     </dependencies>
 
 	<build>
