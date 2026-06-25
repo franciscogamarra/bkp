@@ -13,11 +13,17 @@ public class SicoobDBs {
 //		db2_hmg().testaConexao();
 //		bla().criarViewsParaFuncionamento();
 //		db2_ti().testaConexao();
-		db2_ti().selectMap("select * from bnd.programabndes").print();
+//		db2_ti().selectMap("select * from bnd.programabndes").print();
+//		db2_hmg().selectMap("select * from bnd.NATUREZAEMPRESA").print();
+		
 		
 //		System.out.println(
-//			db2_dev().selectInt("select IDENDERECOPESSOA FROM CLI.VIW_ENDERECOPESSOAHISTORICO limit 1")				
+//			db2_dev().selectInt("select 1 from bnd.PedidoDevolucao where DataHoraSolicitacaoCriacao is not null limit 1")				
 //		);
+
+		System.out.println(
+			db2_hmg().selectInt("select 1 from bnd.PedidoDevolucao where DataHoraSolicitacaoCriacao is not null limit 1")				
+		);
 		
 //		Database URL    jdbc:db2://DB2T303:50001/CRE_TBP:currentSchema=BND
 		

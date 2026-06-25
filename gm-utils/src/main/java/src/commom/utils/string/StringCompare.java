@@ -1,6 +1,5 @@
 package src.commom.utils.string;
 
-import js.Js;
 import src.commom.utils.object.Equals;
 
 public class StringCompare {
@@ -33,15 +32,7 @@ public class StringCompare {
 			return false;
 		}
 
-		if (Js.inJava) {
-			return a.contentEquals(b);
-		}
-
-		/* garante que a comparacao seja por conteudo e não por referencia */
-		a += "";
-		b += "";
-
-		return Equals.is(a, b);
+		return a.contentEquals(b);
 
 	}
 	
