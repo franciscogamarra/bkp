@@ -13,19 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sicoob-proxy</name>
 	<description>sicoob-proxy</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
 	<properties>
 		<java.version>21</java.version>
     </properties>	
@@ -35,7 +22,7 @@
 		<dependency>
 		    <groupId>io.github.franciscogamarra</groupId>
 		    <artifactId>gm-support</artifactId>
-		    <version>2026-04-18-03-15</version>		
+		    <version>2026-06-18-15-37</version>		
 		</dependency>
 	
 		<dependency>
@@ -66,17 +53,17 @@
 	        <version>1.0.61.9</version>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.ibm.db2.jcc</groupId>-->
-<!--			<artifactId>db2jcc4</artifactId>-->
-<!--			<version>11.5.8.0</version>-->
-<!--		</dependency>-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.ibm.db2.jcc</groupId>-->
+		<!--			<artifactId>db2jcc4</artifactId>-->
+		<!--			<version>11.5.8.0</version>-->
+		<!--		</dependency>-->
 
-<!--		<dependency>-->
-<!--			<groupId>com.ibm.db2.jcc</groupId>-->
-<!--			<artifactId>db2jcc4</artifactId>-->
-<!--			<version>10.1</version>-->
-<!--		</dependency>	-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.ibm.db2.jcc</groupId>-->
+		<!--			<artifactId>db2jcc4</artifactId>-->
+		<!--			<version>10.1</version>-->
+		<!--		</dependency>	-->
 
 <dependency>
   <groupId>com.ibm.db2</groupId>

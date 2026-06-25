@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import br.support.comum.Print;
@@ -24,9 +23,9 @@ import br.utils.SSLUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
 
-@RestController
-@RequestMapping("/**")
-public class Api {
+//@RestController
+//@RequestMapping("/**")
+public class ApiConcessao {
 
 	private final RestTemplate restTemplate;
 
@@ -54,7 +53,7 @@ public class Api {
 
 //	cre-concessao-bndes-api-web/api
 
-	public Api() {
+	public ApiConcessao() {
 		SSLUtil.disableSSL();
 		this.restTemplate = new RestTemplate();
 	}

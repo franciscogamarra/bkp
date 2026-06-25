@@ -14,9 +14,8 @@ public class WasDeploy {
 		exec("c:/dev/projs/cre-concessao-bndes-api/processamento-ear/target", "processamento");
 		exec("c:/dev/projs/cre-concessao-bndes/ear/cre-concessao-bndes-integracao-ear/target", "integracao");
 		exec("C:/dev/projs/cre-concessao-bndes/EAR/cre-concessao-bndes-backoffice-ear/target", "backoffice");
-		
+		exec("C:/dev/rural/cre-concessao-rural/cre-concessao-rural-was-ear/target", "rural");
 		Sleep.minutos(5);
-		
 		destinos.forEach(i -> i.delete());
 		
 	}
