@@ -1,6 +1,7 @@
 package br.gerar;
 
 public enum CampoTipo {
-	select, number, text, cpfCnpj, cnpj, data, checkList, percentual, 
+	select, number, text, cpfOuCnpj, cnpj, data, checkList, percentual,
+	bool, pessoa, filhos
 //	boolSelect, boolCheck 
 }

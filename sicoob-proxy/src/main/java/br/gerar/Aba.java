@@ -48,7 +48,7 @@ public class Aba {
 	}
 	
 	public Campo newCpfCnpj(String nome) {
-		return newCampo(nome, CampoTipo.cpfCnpj);
+		return newCampo(nome, CampoTipo.cpfOuCnpj);
 	}
 
 	public Campo newCnpj(String nome) {

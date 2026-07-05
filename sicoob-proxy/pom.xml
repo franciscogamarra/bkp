@@ -20,9 +20,9 @@
 	<dependencies>
 	
 		<dependency>
-		    <groupId>io.github.franciscogamarra</groupId>
-		    <artifactId>gm-support</artifactId>
-		    <version>2026-06-18-15-37</version>		
+			<groupId>wag</groupId>
+			<artifactId>gerador</artifactId>
+			<version>1.0.0-SNAPSHOT</version>		
 		</dependency>
 	
 		<dependency>

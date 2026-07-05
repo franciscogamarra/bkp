@@ -5,6 +5,8 @@ public class ImovelEdit {
 	public static void exec() {
 		
 		Aba aba = new Aba("imovel-edit");
+		
+		aba.newString("nome", 100);		
 
 		aba.newSelect("imovel").cols(4)
 		.dto("ImovelOptionDto").nullValue("ImovelOption.NULL");

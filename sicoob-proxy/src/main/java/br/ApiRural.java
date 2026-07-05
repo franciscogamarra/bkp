@@ -18,7 +18,7 @@ public class ApiRural {
 //    http://localhost:4200/cre-concessao-bndes-api-web/api/parametro/indicador-ativo/9102
 
 //    GET http://127.0.0.1:9080/cre-concessao-bndes-api-web/api/parametro/indicador-ativo/9102
-
+	                
 	@PostMapping("/auth/realms/sisbr/protocol/openid-connect/token")
 	public String token() {
 		return """
@@ -39,7 +39,7 @@ public class ApiRural {
 		
 //		https://idp-sisbr-ti.homologacao.com.br/auth/realms/sisbr/protocol/openid-connect/certs
 		return """
-		[
+		"keys" : [
 		  {
 		    "kid": "L-6t-j26-0C7zU85JmgrP3Tgj1cUQIdQkB3rdT5ZJEg",
 		    "kty": "RSA",
